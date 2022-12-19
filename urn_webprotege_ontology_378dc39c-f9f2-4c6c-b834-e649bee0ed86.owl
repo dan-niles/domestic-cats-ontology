@@ -1,0 +1,1075 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="urn:webprotege:ontology:378dc39c-f9f2-4c6c-b834-e649bee0ed86#"
+     xml:base="urn:webprotege:ontology:378dc39c-f9f2-4c6c-b834-e649bee0ed86"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="urn:webprotege:ontology:378dc39c-f9f2-4c6c-b834-e649bee0ed86"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R3RkRp3FeBJqRho4W2nihY -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R3RkRp3FeBJqRho4W2nihY">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RugLVB2fY80DDW8Tw9J3dh"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/R9detm7hMYgMXyc71KvW8S"/>
+        <rdfs:label>has-coat-type</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RugLVB2fY80DDW8Tw9J3dh"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/RDI9zuFH0jwc2u2QsTNXC96"/>
+        <rdfs:label>has-personality</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB0A6fH0XxSKtysmnlUrZny -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RB0A6fH0XxSKtysmnlUrZny">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RugLVB2fY80DDW8Tw9J3dh"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/RB0hZtDoGwZt1elxw1cj7ob"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has-body-part</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RugLVB2fY80DDW8Tw9J3dh"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/RECkKgTWwIP6MlBWgOGape"/>
+        <rdfs:label>originates-from</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB8Kl94IHYVLstZPtSfcbIw -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RB8Kl94IHYVLstZPtSfcbIw">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RugLVB2fY80DDW8Tw9J3dh"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>genetic-type</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R0o3ka8KtnMlgcdP9QcjBp -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R0o3ka8KtnMlgcdP9QcjBp">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7SMNOUTyH5lZmqTASSvC2V"/>
+        <rdfs:label>Selkirk Rex</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R5v5WmM9epBXdxtc19THh -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R5v5WmM9epBXdxtc19THh">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RECkKgTWwIP6MlBWgOGape"/>
+        <rdfs:label>Egypt</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R6PLqsCk4GbK1vt3ShhsGD -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R6PLqsCk4GbK1vt3ShhsGD">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9TiuPQhkMCGJBm0imkBu5q"/>
+        <rdfs:label>Crossbreed Short-Haired</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R74tGbDUEBf6nc1jiadU0rD -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R74tGbDUEBf6nc1jiadU0rD">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCtKI95ZTt6WnTyNqKq7Eyq"/>
+        <rdfs:label>Turkish Angora</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R78n3gIdpEnhYFe0rmrRpWX -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R78n3gIdpEnhYFe0rmrRpWX">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8RkQOCnvUUJT4Q7jvXrgs2"/>
+        <rdfs:label>American Shorthair Cat</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7LUN6c9MPyvRSY53RSn1Qc -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7LUN6c9MPyvRSY53RSn1Qc">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R6PLqsCk4GbK1vt3ShhsGD"/>
+        <rdfs:label>Singapura</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7SBFFtoqFKP356GjkivHrn -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7SBFFtoqFKP356GjkivHrn">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9detm7hMYgMXyc71KvW8S"/>
+        <rdfs:label>Hairless</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7SMNOUTyH5lZmqTASSvC2V -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7SMNOUTyH5lZmqTASSvC2V">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9TiuPQhkMCGJBm0imkBu5q"/>
+        <rdfs:label>Crossbreed Semi-Long-Haired</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7aRUuHxoQEPkuNVRhuwQhy -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7aRUuHxoQEPkuNVRhuwQhy">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDI9zuFH0jwc2u2QsTNXC96"/>
+        <rdfs:label>Active</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7bMvBlVnqMwjvkIkvRAQz5 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7bMvBlVnqMwjvkIkvRAQz5">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RECkKgTWwIP6MlBWgOGape"/>
+        <rdfs:label>Germany</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7dzF9m4lqFV0OrP7dPYyPv -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7dzF9m4lqFV0OrP7dPYyPv">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9H8NrmJcvPQJ8JqoVNRvYL"/>
+        <rdfs:label>Birman</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7hJTb8Lj3UWRzwtW3U7EQS -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7hJTb8Lj3UWRzwtW3U7EQS">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDI9zuFH0jwc2u2QsTNXC96"/>
+        <rdfs:label>Playful</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R80cfWP1G95crRfJeDyrYIU -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R80cfWP1G95crRfJeDyrYIU">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7SMNOUTyH5lZmqTASSvC2V"/>
+        <rdfs:label>Exotic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8CeNQYy8YTBCn0VBnE47jJ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8CeNQYy8YTBCn0VBnE47jJ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RECkKgTWwIP6MlBWgOGape"/>
+        <rdfs:label>Canada</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8FyfagQ4tzWlbUIARyaoBX -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8FyfagQ4tzWlbUIARyaoBX">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDI9zuFH0jwc2u2QsTNXC96"/>
+        <rdfs:label>Even Tempered</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8H0kuTKZ31PoHJgzxEaP81 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8H0kuTKZ31PoHJgzxEaP81">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8j08k7iK9OkJC6YrOhVHIT"/>
+        <rdfs:label>American Bobtail</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8HhF1fCW3OZO6zC8NVxpQn -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8HhF1fCW3OZO6zC8NVxpQn">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8j08k7iK9OkJC6YrOhVHIT"/>
+        <rdfs:label>Japanese Bobtail</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8KQ4AZpyCcrSDDucxoY9tt -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8KQ4AZpyCcrSDDucxoY9tt">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9egnZb3YCP13fNbMOH1F6F"/>
+        <rdfs:label>American Wirehair</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8Mwg5CekiyuQhFp7FHPpSp -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8Mwg5CekiyuQhFp7FHPpSp">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDI9zuFH0jwc2u2QsTNXC96"/>
+        <rdfs:label>Loving</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8RkQOCnvUUJT4Q7jvXrgs2 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8RkQOCnvUUJT4Q7jvXrgs2">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RezwdXkf6rn8EA3wRYLQ4f"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R3RkRp3FeBJqRho4W2nihY"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RCW6G3Q3b0IiqkjhX0P06n3"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Natural Short-Haired</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8XOwsNSmW1hoNeO6sNUtbE -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8XOwsNSmW1hoNeO6sNUtbE">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDI9zuFH0jwc2u2QsTNXC96"/>
+        <rdfs:label>Calm</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8ZlZyrKK5xqwfbZdBrKvxZ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8ZlZyrKK5xqwfbZdBrKvxZ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9egnZb3YCP13fNbMOH1F6F"/>
+        <rdfs:label>Devon Rex</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8iFgx5tbplYj9KQmyDU1LF -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8iFgx5tbplYj9KQmyDU1LF">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R6PLqsCk4GbK1vt3ShhsGD"/>
+        <rdfs:label>Tonkinese</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8j08k7iK9OkJC6YrOhVHIT -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8j08k7iK9OkJC6YrOhVHIT">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBzcBz6p5T2wuoVBD5EYhJ7"/>
+        <rdfs:label>Mutated Semi-Long-Haired</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9A8NJb17VJH8lPbiEDAUD8 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9A8NJb17VJH8lPbiEDAUD8">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDI9zuFH0jwc2u2QsTNXC96"/>
+        <rdfs:label>Intelligent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9H8NrmJcvPQJ8JqoVNRvYL -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9H8NrmJcvPQJ8JqoVNRvYL">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9TiuPQhkMCGJBm0imkBu5q"/>
+        <rdfs:label>Crossbreed Long-Haired</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9KGv7vPVsv19VZXBwOmpd2 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9KGv7vPVsv19VZXBwOmpd2">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDI9zuFH0jwc2u2QsTNXC96"/>
+        <rdfs:label>Busy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9LfQWrVuILGSK783ALg6N -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9LfQWrVuILGSK783ALg6N">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBzcBz6p5T2wuoVBD5EYhJ7"/>
+        <rdfs:label>Mutated Long-Haired</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9Pwxbo6ZZ04E77yOh2SRs0 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9Pwxbo6ZZ04E77yOh2SRs0">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RECkKgTWwIP6MlBWgOGape"/>
+        <rdfs:label>Brazil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9TiuPQhkMCGJBm0imkBu5q -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9TiuPQhkMCGJBm0imkBu5q">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RugLVB2fY80DDW8Tw9J3dh"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crossbreed</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9X2hBrg8QsSyDpeMQOMEIU -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9X2hBrg8QsSyDpeMQOMEIU">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8j08k7iK9OkJC6YrOhVHIT"/>
+        <rdfs:label>LaPerm</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9dS0u9BQon6TCPEwEsOCxj -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9dS0u9BQon6TCPEwEsOCxj">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RECkKgTWwIP6MlBWgOGape"/>
+        <rdfs:label>United Kingdom</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9detm7hMYgMXyc71KvW8S -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9detm7hMYgMXyc71KvW8S">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RB0hZtDoGwZt1elxw1cj7ob"/>
+        <rdfs:label>Fur</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9egnZb3YCP13fNbMOH1F6F -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9egnZb3YCP13fNbMOH1F6F">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBzcBz6p5T2wuoVBD5EYhJ7"/>
+        <rdfs:label>Mutated Short-Haired</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9gExwAiYggxHJHah6JPOjo -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9gExwAiYggxHJHah6JPOjo">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9egnZb3YCP13fNbMOH1F6F"/>
+        <rdfs:label>Cornish Rex</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9iEknLxda6LGnyGPbWkorQ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9iEknLxda6LGnyGPbWkorQ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RbyBgpx010noGl9UDArBGB"/>
+        <rdfs:label>Short tail</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9lgbr15OoSVavEmAYg3iJW -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9lgbr15OoSVavEmAYg3iJW">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RECkKgTWwIP6MlBWgOGape"/>
+        <rdfs:label>France</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9vHzMmZwFarHsV0G9KJYb1 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9vHzMmZwFarHsV0G9KJYb1">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDI9zuFH0jwc2u2QsTNXC96"/>
+        <rdfs:label>Athletic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9xcQt4KBCmuhI77fg3WP1 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9xcQt4KBCmuhI77fg3WP1">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9LfQWrVuILGSK783ALg6N"/>
+        <rdfs:label>Somali</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB0hZtDoGwZt1elxw1cj7ob -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RB0hZtDoGwZt1elxw1cj7ob">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label>Body Part</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB1fAs1s2kJ0lnUypg8rdCW -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RB1fAs1s2kJ0lnUypg8rdCW">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCtKI95ZTt6WnTyNqKq7Eyq"/>
+        <rdfs:label>Turkish Van</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB3MKNDAhO1nvcG9gIbuAOr -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RB3MKNDAhO1nvcG9gIbuAOr">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCo9eWwbqVccz1d7QEhfOYd"/>
+        <rdfs:label>Mammal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB7WZt6BA7Tidyc8hxEsCnD -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RB7WZt6BA7Tidyc8hxEsCnD">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RECkKgTWwIP6MlBWgOGape"/>
+        <rdfs:label>Ethiopia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB7Yh88jtg2h7h78zG1Wzq1 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RB7Yh88jtg2h7h78zG1Wzq1">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9detm7hMYgMXyc71KvW8S"/>
+        <rdfs:label>Long Hair</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBIsrRd91B9HzXpGDNjDHsc -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBIsrRd91B9HzXpGDNjDHsc">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDI9zuFH0jwc2u2QsTNXC96"/>
+        <rdfs:label>Affectionate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBLnXABJusxz8Ec0BTPYZYk -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBLnXABJusxz8Ec0BTPYZYk">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8RkQOCnvUUJT4Q7jvXrgs2"/>
+        <rdfs:label>British Shorthair</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBNv3Xa6YZcMAeHoERjsZYB -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBNv3Xa6YZcMAeHoERjsZYB">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RB3MKNDAhO1nvcG9gIbuAOr"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RB0A6fH0XxSKtysmnlUrZny"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RCNGdu7L8SiO5HDfQB2gRg1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RB0A6fH0XxSKtysmnlUrZny"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDCJgR3zkgJsMdUvo3cIWXC"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RB0A6fH0XxSKtysmnlUrZny"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RGitLuwuoNFSy2jo7MlFzy"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RB0A6fH0XxSKtysmnlUrZny"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RbyBgpx010noGl9UDArBGB"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Cat</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBTmjzWyhBbHyXCHj80G84O -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBTmjzWyhBbHyXCHj80G84O">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RECkKgTWwIP6MlBWgOGape"/>
+        <rdfs:label>Burma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBTq9A65CW50Tfx5mcJoBaF -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBTq9A65CW50Tfx5mcJoBaF">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCtKI95ZTt6WnTyNqKq7Eyq"/>
+        <rdfs:label>Siberian</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBcugU2TJFGU2H7D8jAhxTq -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBcugU2TJFGU2H7D8jAhxTq">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RECkKgTWwIP6MlBWgOGape"/>
+        <rdfs:label>Australia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBkQsBLdKvddD0dbPJZqKdz -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBkQsBLdKvddD0dbPJZqKdz">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCtKI95ZTt6WnTyNqKq7Eyq"/>
+        <rdfs:label>Maine Coon Cat</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBlULJgSjlbw7YqXUzHEX5b -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBlULJgSjlbw7YqXUzHEX5b">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RECkKgTWwIP6MlBWgOGape"/>
+        <rdfs:label>Cyprus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBmKxLkdBYaBkWdSvST0c5V -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBmKxLkdBYaBkWdSvST0c5V">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8RkQOCnvUUJT4Q7jvXrgs2"/>
+        <rdfs:label>Egyptian Mau</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBu6tNWJSQ3NurPDQ8sIyDo -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBu6tNWJSQ3NurPDQ8sIyDo">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R6PLqsCk4GbK1vt3ShhsGD"/>
+        <rdfs:label>Ocicat</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBzcBz6p5T2wuoVBD5EYhJ7 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBzcBz6p5T2wuoVBD5EYhJ7">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RugLVB2fY80DDW8Tw9J3dh"/>
+        <rdfs:label>Mutation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC0a8jcbEM9A6OVNeUJ08rj -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RC0a8jcbEM9A6OVNeUJ08rj">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCNGdu7L8SiO5HDfQB2gRg1"/>
+        <rdfs:label>Normal ears</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC7CxJQEjHju3nGIxdXKu4s -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RC7CxJQEjHju3nGIxdXKu4s">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9egnZb3YCP13fNbMOH1F6F"/>
+        <rdfs:label>Siamese</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCC3tIa9vDvXsWCabi5re84 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCC3tIa9vDvXsWCabi5re84">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8RkQOCnvUUJT4Q7jvXrgs2"/>
+        <rdfs:label>Korat</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCI52dsnBrddDxEXHh8HvL3 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCI52dsnBrddDxEXHh8HvL3">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RezwdXkf6rn8EA3wRYLQ4f"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R3RkRp3FeBJqRho4W2nihY"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/Rsfba2LlBqRm473tkX9OTJ"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Natural Semi-Long-Haired</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCKoWDOUTlrxZWi38LZeqdL -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCKoWDOUTlrxZWi38LZeqdL">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RECkKgTWwIP6MlBWgOGape"/>
+        <rdfs:label>United States</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCNGdu7L8SiO5HDfQB2gRg1 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCNGdu7L8SiO5HDfQB2gRg1">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RB0hZtDoGwZt1elxw1cj7ob"/>
+        <rdfs:label>Ear</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCP9qLibYNpN01F00XVfOyx -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCP9qLibYNpN01F00XVfOyx">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R6PLqsCk4GbK1vt3ShhsGD"/>
+        <rdfs:label>Bombay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCQEQm4mF0RhASppUe0Nr9o -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCQEQm4mF0RhASppUe0Nr9o">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9detm7hMYgMXyc71KvW8S"/>
+        <rdfs:label>Rex</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCW6G3Q3b0IiqkjhX0P06n3 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCW6G3Q3b0IiqkjhX0P06n3">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9detm7hMYgMXyc71KvW8S"/>
+        <rdfs:label>Short Hair</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCXJEQePnG2lgqc6U33kyiG -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCXJEQePnG2lgqc6U33kyiG">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8j08k7iK9OkJC6YrOhVHIT"/>
+        <rdfs:label>Toybob</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCkzgvU7WWg6bcLHiyEnB90 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCkzgvU7WWg6bcLHiyEnB90">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8RkQOCnvUUJT4Q7jvXrgs2"/>
+        <rdfs:label>Chartreux</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCo9eWwbqVccz1d7QEhfOYd -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCo9eWwbqVccz1d7QEhfOYd">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RdE7TYCet2p6kPVa8nDATH"/>
+        <rdfs:label>Animal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCtKI95ZTt6WnTyNqKq7Eyq -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCtKI95ZTt6WnTyNqKq7Eyq">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RezwdXkf6rn8EA3wRYLQ4f"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R3RkRp3FeBJqRho4W2nihY"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RB7Yh88jtg2h7h78zG1Wzq1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Natural Long-Haired</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCujr9ySNGzufhH2YKTrUSO -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCujr9ySNGzufhH2YKTrUSO">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R6PLqsCk4GbK1vt3ShhsGD"/>
+        <rdfs:label>Bengal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDAxkWffeiLrvLnYzc81FL -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDAxkWffeiLrvLnYzc81FL">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8j08k7iK9OkJC6YrOhVHIT"/>
+        <rdfs:label>Manx</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDBYWZRW8DnpWBtsZ49SBKl -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDBYWZRW8DnpWBtsZ49SBKl">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDI9zuFH0jwc2u2QsTNXC96"/>
+        <rdfs:label>Curious</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDCJgR3zkgJsMdUvo3cIWXC -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDCJgR3zkgJsMdUvo3cIWXC">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RB0hZtDoGwZt1elxw1cj7ob"/>
+        <rdfs:label>Paw</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDFY9zx2HSXM2XcRKHaOI3Q -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDFY9zx2HSXM2XcRKHaOI3Q">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8j08k7iK9OkJC6YrOhVHIT"/>
+        <rdfs:label>Scottish Fold</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDI9zuFH0jwc2u2QsTNXC96 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDI9zuFH0jwc2u2QsTNXC96">
+        <rdfs:label>Personality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDMTW24zh0A19SI1foCUa5S -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDMTW24zh0A19SI1foCUa5S">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9egnZb3YCP13fNbMOH1F6F"/>
+        <rdfs:label>Lykoi</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDOOdCUIo7BBz17KvbpyZmr -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDOOdCUIo7BBz17KvbpyZmr">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8RkQOCnvUUJT4Q7jvXrgs2"/>
+        <rdfs:label>Abyssinian Cat</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDRPLytAYUn2A4Nw46sMxoW -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDRPLytAYUn2A4Nw46sMxoW">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9H8NrmJcvPQJ8JqoVNRvYL"/>
+        <rdfs:label>Ragdoll</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDTImJkJER5DK3JixhzMRvW -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDTImJkJER5DK3JixhzMRvW">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9H8NrmJcvPQJ8JqoVNRvYL"/>
+        <rdfs:label>Modern Persian</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDThoBbdkIyicN500nY18pp -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDThoBbdkIyicN500nY18pp">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9LfQWrVuILGSK783ALg6N"/>
+        <rdfs:label>Balinese</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDZTmjOcKW54xDO99vtVipU -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDZTmjOcKW54xDO99vtVipU">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8RkQOCnvUUJT4Q7jvXrgs2"/>
+        <rdfs:label>Burmese</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDfZ9WynjrX11jo80YG3X9V -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDfZ9WynjrX11jo80YG3X9V">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R6PLqsCk4GbK1vt3ShhsGD"/>
+        <rdfs:label>Havana Brown</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDlf3Ui74qgUetAWcmm2c3C -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDlf3Ui74qgUetAWcmm2c3C">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9egnZb3YCP13fNbMOH1F6F"/>
+        <rdfs:label>Sphynx</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDn9fgczi0NmU8ZKL6vRREM -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDn9fgczi0NmU8ZKL6vRREM">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RbyBgpx010noGl9UDArBGB"/>
+        <rdfs:label>Long tail</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDnUhpziTtMi2uiw6wwcAWe -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDnUhpziTtMi2uiw6wwcAWe">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDI9zuFH0jwc2u2QsTNXC96"/>
+        <rdfs:label>Quiet</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RECkKgTWwIP6MlBWgOGape -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RECkKgTWwIP6MlBWgOGape">
+        <rdfs:label>Country</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RGitLuwuoNFSy2jo7MlFzy -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RGitLuwuoNFSy2jo7MlFzy">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RB0hZtDoGwZt1elxw1cj7ob"/>
+        <rdfs:label>Whisker</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RLEOX4NzaXvk7swvaWuayo -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RLEOX4NzaXvk7swvaWuayo">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R6PLqsCk4GbK1vt3ShhsGD"/>
+        <rdfs:label>European Burmese</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RNEbak8cWP4TJyd5Ln3yTN -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RNEbak8cWP4TJyd5Ln3yTN">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDI9zuFH0jwc2u2QsTNXC96"/>
+        <rdfs:label>Energetic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RTLofqX3Sp0vZye6YSVgG7 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RTLofqX3Sp0vZye6YSVgG7">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCNGdu7L8SiO5HDfQB2gRg1"/>
+        <rdfs:label>Folded ears</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RWvwFPT7GuiA1rWZDpU83W -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RWvwFPT7GuiA1rWZDpU83W">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8RkQOCnvUUJT4Q7jvXrgs2"/>
+        <rdfs:label>Khao Manee</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RY2KRYsug31PcKQzeB9oUj -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RY2KRYsug31PcKQzeB9oUj">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8RkQOCnvUUJT4Q7jvXrgs2"/>
+        <rdfs:label>Russian Blue</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rbbm3Wh2cCUcyKwWRPw2a8 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Rbbm3Wh2cCUcyKwWRPw2a8">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R6PLqsCk4GbK1vt3ShhsGD"/>
+        <rdfs:label>Colorpoint Shorthair</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RbyBgpx010noGl9UDArBGB -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RbyBgpx010noGl9UDArBGB">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RB0hZtDoGwZt1elxw1cj7ob"/>
+        <rdfs:label>Tail</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RbyIFc0PzWtrF8sZwZdrQ6 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RbyIFc0PzWtrF8sZwZdrQ6">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9H8NrmJcvPQJ8JqoVNRvYL"/>
+        <rdfs:label>Ragamuffin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RdE7TYCet2p6kPVa8nDATH -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RdE7TYCet2p6kPVa8nDATH">
+        <rdfs:label>Living Thing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/ReemWR6dAFGwiwanQQxHn6 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/ReemWR6dAFGwiwanQQxHn6">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8j08k7iK9OkJC6YrOhVHIT"/>
+        <rdfs:label>American Curl</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RezwdXkf6rn8EA3wRYLQ4f -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RezwdXkf6rn8EA3wRYLQ4f">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RugLVB2fY80DDW8Tw9J3dh"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RB8Kl94IHYVLstZPtSfcbIw"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Natural</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Natural</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RlkHlCsjFHavMZcuSbqctc -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RlkHlCsjFHavMZcuSbqctc">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCtKI95ZTt6WnTyNqKq7Eyq"/>
+        <rdfs:label>Norwegian Forest Cat</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rsfba2LlBqRm473tkX9OTJ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Rsfba2LlBqRm473tkX9OTJ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9detm7hMYgMXyc71KvW8S"/>
+        <rdfs:label>Semi-Long Hair</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RsyBsNdAuxRsoY1LjbQD7N -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RsyBsNdAuxRsoY1LjbQD7N">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RECkKgTWwIP6MlBWgOGape"/>
+        <rdfs:label>China</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rt6r2ZW4kbgEJSS6uVIQH8 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Rt6r2ZW4kbgEJSS6uVIQH8">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7SMNOUTyH5lZmqTASSvC2V"/>
+        <rdfs:label>Burmilla</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RugLVB2fY80DDW8Tw9J3dh -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RugLVB2fY80DDW8Tw9J3dh">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBNv3Xa6YZcMAeHoERjsZYB"/>
+        <rdfs:label>Domestic Cat</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rx4hmffAXjdlEVkPNMTFxb -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Rx4hmffAXjdlEVkPNMTFxb">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RECkKgTWwIP6MlBWgOGape"/>
+        <rdfs:label>Japan</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi -->
+
