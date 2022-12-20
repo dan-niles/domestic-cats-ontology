@@ -24,4 +24,4 @@ In cases where both the natural and crossbreed versions of the cat breed are pre
 - List of cat breeds recognized by the Cat Fanciers’ Association: https://cfa.org/breeds/
 - List of cat breeds listed in Wikipedia: https://en.wikipedia.org/wiki/List_of_cat_breeds
 - Other referred sources: https://www.petfinder.com/cat-breeds/ https://www.purina.com/cats/cat-breeds
-- Referred Animal Ontologies: An ontology on animals https://webprotege.stanford.edu/#projects/fa8b25f1-b379-45bb-8ed4-9bf43cc74d31/edit/Classes?selection=Class(%3Chttp://www.owl-ontologies.com/unnamed.owl%23Domain_entity%3E)
+- Referred Animal Ontologies: An ontology on animals https://www.cs.man.ac.uk/~rector/tutorials/Biomedical-Tutorial/Tutorial-Ontologies/Animals/Animals-tutorial-complete.owl
