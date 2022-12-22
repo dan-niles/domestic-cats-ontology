@@ -5,8 +5,36 @@
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:webprotege="http://webprotege.stanford.edu/">
     <owl:Ontology rdf:about="urn:webprotege:ontology:378dc39c-f9f2-4c6c-b834-e649bee0ed86"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBUnz6lGkyubOw0UOSTe43z -->
+
+    <owl:AnnotationProperty rdf:about="http://webprotege.stanford.edu/RBUnz6lGkyubOw0UOSTe43z">
+        <rdfs:label>breedStandardURL</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDeAGymGUOtCPbN8QA4KBJP -->
+
+    <owl:AnnotationProperty rdf:about="http://webprotege.stanford.edu/RDeAGymGUOtCPbN8QA4KBJP">
+        <rdfs:label>imageURL</rdfs:label>
+    </owl:AnnotationProperty>
     
 
 
@@ -110,6 +138,72 @@
     
 
 
+    <!-- http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RugLVB2fY80DDW8Tw9J3dh"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>height</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCDwB8H49cfxj2bO6dRNlLN -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RCDwB8H49cfxj2bO6dRNlLN">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RugLVB2fY80DDW8Tw9J3dh"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>name</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70 -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RugLVB2fY80DDW8Tw9J3dh"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:label>age</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RugLVB2fY80DDW8Tw9J3dh"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>weight</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RugLVB2fY80DDW8Tw9J3dh"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">colour</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RlbsgKOberIEPaV6Ds5KVb -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RlbsgKOberIEPaV6Ds5KVb">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RugLVB2fY80DDW8Tw9J3dh"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>gender</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -158,6 +252,7 @@
                 <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBLnXABJusxz8Ec0BTPYZYk"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <webprotege:RDeAGymGUOtCPbN8QA4KBJP rdf:resource="https://cfa.org/wp-content/uploads/2019/11/srexProfile.jpg"/>
         <rdfs:label>Selkirk Rex</rdfs:label>
     </owl:Class>
     
@@ -209,6 +304,7 @@
                 <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RC6rrPG0cOhL6wxdkxQTmeu"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <webprotege:RDeAGymGUOtCPbN8QA4KBJP rdf:resource="https://cfa.org/wp-content/uploads/2019/11/taProfile.jpg"/>
         <rdfs:label>Turkish Angora</rdfs:label>
     </owl:Class>
     
@@ -236,6 +332,7 @@
                 <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RCKoWDOUTlrxZWi38LZeqdL"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <webprotege:RDeAGymGUOtCPbN8QA4KBJP rdf:resource="https://cfa.org/wp-content/uploads/2019/11/ashProfile.jpg"/>
         <rdfs:label>American Shorthair Cat</rdfs:label>
     </owl:Class>
     
@@ -269,6 +366,13 @@
                 <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RCKoWDOUTlrxZWi38LZeqdL"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RYoYZIsvryvuMidroJdQJ5"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <webprotege:RDeAGymGUOtCPbN8QA4KBJP rdf:resource="https://cfa.org/wp-content/uploads/2019/11/singProfile.jpg"/>
         <rdfs:label>Singapura</rdfs:label>
     </owl:Class>
     
@@ -359,6 +463,7 @@
                 <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDTImJkJER5DK3JixhzMRvW"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <webprotege:RDeAGymGUOtCPbN8QA4KBJP rdf:resource="https://cfa.org/wp-content/uploads/2019/11/birProfile.jpg"/>
         <rdfs:label>Birman</rdfs:label>
     </owl:Class>
     
@@ -413,6 +518,7 @@
                 <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDTImJkJER5DK3JixhzMRvW"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <webprotege:RDeAGymGUOtCPbN8QA4KBJP rdf:resource="https://cfa.org/wp-content/uploads/2019/11/exProfile.jpg"/>
         <rdfs:label>Exotic</rdfs:label>
     </owl:Class>
     
@@ -442,10 +548,29 @@
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8j08k7iK9OkJC6YrOhVHIT"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8Mwg5CekiyuQhFp7FHPpSp"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9A8NJb17VJH8lPbiEDAUD8"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8QPtvLqGoT1kqaqqtlkIIN"/>
                 <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9iEknLxda6LGnyGPbWkorQ"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RCKoWDOUTlrxZWi38LZeqdL"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <webprotege:RDeAGymGUOtCPbN8QA4KBJP rdf:resource="https://cfa.org/wp-content/uploads/2019/11/abtProfile.jpg"/>
         <rdfs:label>American Bobtail</rdfs:label>
     </owl:Class>
     
@@ -455,6 +580,31 @@
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/R8HhF1fCW3OZO6zC8NVxpQn">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8j08k7iK9OkJC6YrOhVHIT"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7aRUuHxoQEPkuNVRhuwQhy"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9A8NJb17VJH8lPbiEDAUD8"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBIsrRd91B9HzXpGDNjDHsc"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/Rx4hmffAXjdlEVkPNMTFxb"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <webprotege:RDeAGymGUOtCPbN8QA4KBJP rdf:resource="https://cfa.org/wp-content/uploads/2019/11/jbtProfile.jpg"/>
         <rdfs:label>Japanese Bobtail</rdfs:label>
     </owl:Class>
     
@@ -464,6 +614,19 @@
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/R8KQ4AZpyCcrSDDucxoY9tt">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9egnZb3YCP13fNbMOH1F6F"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8FyfagQ4tzWlbUIARyaoBX"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RCKoWDOUTlrxZWi38LZeqdL"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <webprotege:RDeAGymGUOtCPbN8QA4KBJP rdf:resource="https://cfa.org/wp-content/uploads/2019/11/awhProfile.jpg"/>
         <rdfs:label>American Wirehair</rdfs:label>
     </owl:Class>
     
@@ -506,6 +669,25 @@
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/R8ZlZyrKK5xqwfbZdBrKvxZ">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9egnZb3YCP13fNbMOH1F6F"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7aRUuHxoQEPkuNVRhuwQhy"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RNEbak8cWP4TJyd5Ln3yTN"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9dS0u9BQon6TCPEwEsOCxj"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <webprotege:RDeAGymGUOtCPbN8QA4KBJP rdf:resource="https://cfa.org/wp-content/uploads/2019/11/drexProfile.jpg"/>
         <rdfs:label>Devon Rex</rdfs:label>
     </owl:Class>
     
@@ -545,6 +727,7 @@
                 <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDZTmjOcKW54xDO99vtVipU"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <webprotege:RDeAGymGUOtCPbN8QA4KBJP rdf:resource="https://cfa.org/wp-content/uploads/2019/11/tonkProfile.jpg"/>
         <rdfs:label>Tonkinese</rdfs:label>
     </owl:Class>
     
@@ -668,6 +851,31 @@
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/R9X2hBrg8QsSyDpeMQOMEIU">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8j08k7iK9OkJC6YrOhVHIT"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7aRUuHxoQEPkuNVRhuwQhy"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBIsrRd91B9HzXpGDNjDHsc"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RNZQVqLmhaXV3B9TN4LjuW"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RCKoWDOUTlrxZWi38LZeqdL"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <webprotege:RDeAGymGUOtCPbN8QA4KBJP rdf:resource="https://cfa.org/wp-content/uploads/2019/11/lpProfile.jpg"/>
         <rdfs:label>LaPerm</rdfs:label>
     </owl:Class>
     
@@ -710,6 +918,25 @@
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/R9gExwAiYggxHJHah6JPOjo">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9egnZb3YCP13fNbMOH1F6F"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7aRUuHxoQEPkuNVRhuwQhy"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBIsrRd91B9HzXpGDNjDHsc"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9dS0u9BQon6TCPEwEsOCxj"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <webprotege:RDeAGymGUOtCPbN8QA4KBJP rdf:resource="https://cfa.org/wp-content/uploads/2019/11/crexProfile.jpg"/>
         <rdfs:label>Cornish Rex</rdfs:label>
     </owl:Class>
     
@@ -755,6 +982,37 @@
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/R9xcQt4KBCmuhI77fg3WP1">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9LfQWrVuILGSK783ALg6N"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7aRUuHxoQEPkuNVRhuwQhy"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9KGv7vPVsv19VZXBwOmpd2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBIsrRd91B9HzXpGDNjDHsc"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8CeNQYy8YTBCn0VBnE47jJ"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RCKoWDOUTlrxZWi38LZeqdL"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <webprotege:RDeAGymGUOtCPbN8QA4KBJP rdf:resource="https://cfa.org/wp-content/uploads/2019/11/somProfile.jpg"/>
         <rdfs:label>Somali</rdfs:label>
     </owl:Class>
     
@@ -785,6 +1043,7 @@
                 <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RC6rrPG0cOhL6wxdkxQTmeu"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <webprotege:RDeAGymGUOtCPbN8QA4KBJP rdf:resource="https://cfa.org/wp-content/uploads/2019/11/tvProfile.jpg"/>
         <rdfs:label>Turkish Van</rdfs:label>
     </owl:Class>
     
@@ -794,6 +1053,12 @@
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/RB3MKNDAhO1nvcG9gIbuAOr">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCo9eWwbqVccz1d7QEhfOYd"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RB0A6fH0XxSKtysmnlUrZny"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9detm7hMYgMXyc71KvW8S"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label>Mammal</rdfs:label>
     </owl:Class>
     
@@ -848,6 +1113,7 @@
                 <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9dS0u9BQon6TCPEwEsOCxj"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <webprotege:RDeAGymGUOtCPbN8QA4KBJP rdf:resource="https://cfa.org/wp-content/uploads/2019/11/bshProfile.jpg"/>
         <rdfs:label>British Shorthair</rdfs:label>
     </owl:Class>
     
@@ -920,6 +1186,7 @@
                 <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDvsDl2E32yibANJF0XPz8f"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <webprotege:RDeAGymGUOtCPbN8QA4KBJP rdf:resource="https://cfa.org/wp-content/uploads/2019/11/sibProfile.jpg"/>
         <rdfs:label>Siberian</rdfs:label>
     </owl:Class>
     
@@ -965,6 +1232,8 @@
                 <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RCKoWDOUTlrxZWi38LZeqdL"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <webprotege:RBUnz6lGkyubOw0UOSTe43z rdf:resource="https://cfa.org/maine-coon-cat/maine-coon-cat-breed-standard/"/>
+        <webprotege:RDeAGymGUOtCPbN8QA4KBJP rdf:resource="https://cfa.org/wp-content/uploads/2019/11/mcProfile.jpg"/>
         <rdfs:label>Maine Coon Cat</rdfs:label>
     </owl:Class>
     
@@ -1001,6 +1270,7 @@
                 <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R5v5WmM9epBXdxtc19THh"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <webprotege:RDeAGymGUOtCPbN8QA4KBJP rdf:resource="https://cfa.org/wp-content/uploads/2019/11/emauProfile.jpg"/>
         <rdfs:label>Egyptian Mau</rdfs:label>
     </owl:Class>
     
@@ -1034,6 +1304,7 @@
                 <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDOOdCUIo7BBz17KvbpyZmr"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <webprotege:RDeAGymGUOtCPbN8QA4KBJP rdf:resource="https://cfa.org/wp-content/uploads/2019/11/ociProfile.jpg"/>
         <rdfs:label>Ocicat</rdfs:label>
     </owl:Class>
     
@@ -1076,6 +1347,43 @@
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/RC7CxJQEjHju3nGIxdXKu4s">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9egnZb3YCP13fNbMOH1F6F"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7aRUuHxoQEPkuNVRhuwQhy"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9FiNP4w5kul19WjBUfP076"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBIsrRd91B9HzXpGDNjDHsc"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RtFJSPmHDJ6nqTYcg6e1hB"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RC7jMqbCgSOel996WwDKSw8"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RCKoWDOUTlrxZWi38LZeqdL"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <webprotege:RDeAGymGUOtCPbN8QA4KBJP rdf:resource="https://cfa.org/wp-content/uploads/2019/11/siaProfile.jpg"/>
         <rdfs:label>Siamese</rdfs:label>
     </owl:Class>
     
@@ -1112,6 +1420,7 @@
                 <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RC7jMqbCgSOel996WwDKSw8"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <webprotege:RDeAGymGUOtCPbN8QA4KBJP rdf:resource="https://cfa.org/wp-content/uploads/2019/11/korProfile.jpg"/>
         <rdfs:label>Korat</rdfs:label>
     </owl:Class>
     
@@ -1175,6 +1484,7 @@
                 <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDZTmjOcKW54xDO99vtVipU"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <webprotege:RDeAGymGUOtCPbN8QA4KBJP rdf:resource="https://cfa.org/wp-content/uploads/2019/11/bomProfile.jpg"/>
         <rdfs:label>Bombay</rdfs:label>
     </owl:Class>
     
@@ -1202,6 +1512,37 @@
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/RCXJEQePnG2lgqc6U33kyiG">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8j08k7iK9OkJC6YrOhVHIT"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7aRUuHxoQEPkuNVRhuwQhy"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7hJTb8Lj3UWRzwtW3U7EQS"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBIsrRd91B9HzXpGDNjDHsc"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RpsO8b3GZsuPX4eijVsnNy"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDvsDl2E32yibANJF0XPz8f"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <webprotege:RDeAGymGUOtCPbN8QA4KBJP rdf:resource="https://cfa.org/wp-content/uploads/2019/11/tbProfile.jpg"/>
         <rdfs:label>Toybob</rdfs:label>
     </owl:Class>
     
@@ -1235,6 +1576,7 @@
                 <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9lgbr15OoSVavEmAYg3iJW"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <webprotege:RDeAGymGUOtCPbN8QA4KBJP rdf:resource="https://cfa.org/wp-content/uploads/2019/11/charProfile.jpg"/>
         <rdfs:label>Chartreux</rdfs:label>
     </owl:Class>
     
@@ -1307,6 +1649,7 @@
                 <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDOOdCUIo7BBz17KvbpyZmr"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <webprotege:RDeAGymGUOtCPbN8QA4KBJP rdf:resource="https://cfa.org/wp-content/uploads/2019/11/benProfile.jpg"/>
         <rdfs:label>Bengal</rdfs:label>
     </owl:Class>
     
@@ -1325,6 +1668,25 @@
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/RDAxkWffeiLrvLnYzc81FL">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8j08k7iK9OkJC6YrOhVHIT"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDnUhpziTtMi2uiw6wwcAWe"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RNZQVqLmhaXV3B9TN4LjuW"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9dS0u9BQon6TCPEwEsOCxj"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <webprotege:RDeAGymGUOtCPbN8QA4KBJP rdf:resource="https://cfa.org/wp-content/uploads/2019/11/mxProfile.jpg"/>
         <rdfs:label>Manx</rdfs:label>
     </owl:Class>
     
@@ -1352,6 +1714,25 @@
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/RDFY9zx2HSXM2XcRKHaOI3Q">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8j08k7iK9OkJC6YrOhVHIT"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R92WxhSD31d3gWdTgkDj5Vp"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBIsrRd91B9HzXpGDNjDHsc"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9dS0u9BQon6TCPEwEsOCxj"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <webprotege:RDeAGymGUOtCPbN8QA4KBJP rdf:resource="https://cfa.org/wp-content/uploads/2019/11/sfProfile.jpg"/>
         <rdfs:label>Scottish Fold</rdfs:label>
     </owl:Class>
     
@@ -1369,6 +1750,19 @@
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/RDMTW24zh0A19SI1foCUa5S">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9egnZb3YCP13fNbMOH1F6F"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9A8NJb17VJH8lPbiEDAUD8"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RCKoWDOUTlrxZWi38LZeqdL"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <webprotege:RDeAGymGUOtCPbN8QA4KBJP rdf:resource="https://cfa.org/wp-content/uploads/2019/11/lyProfile.jpg"/>
         <rdfs:label>Lykoi</rdfs:label>
     </owl:Class>
     
@@ -1402,6 +1796,7 @@
                 <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RB7WZt6BA7Tidyc8hxEsCnD"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <webprotege:RDeAGymGUOtCPbN8QA4KBJP rdf:resource="https://cfa.org/wp-content/uploads/2019/11/abyProfile.jpg"/>
         <rdfs:label>Abyssinian Cat</rdfs:label>
     </owl:Class>
     
@@ -1447,6 +1842,7 @@
                 <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7dzF9m4lqFV0OrP7dPYyPv"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <webprotege:RDeAGymGUOtCPbN8QA4KBJP rdf:resource="https://cfa.org/wp-content/uploads/2019/11/rdProfile.jpg"/>
         <rdfs:label>Ragdoll</rdfs:label>
     </owl:Class>
     
@@ -1486,6 +1882,7 @@
                 <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R74tGbDUEBf6nc1jiadU0rD"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <webprotege:RDeAGymGUOtCPbN8QA4KBJP rdf:resource="https://cfa.org/wp-content/uploads/2019/11/perProfile.jpg"/>
         <rdfs:label>Modern Persian</rdfs:label>
     </owl:Class>
     
@@ -1495,6 +1892,37 @@
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/RDThoBbdkIyicN500nY18pp">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9LfQWrVuILGSK783ALg6N"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7aRUuHxoQEPkuNVRhuwQhy"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9FiNP4w5kul19WjBUfP076"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBIsrRd91B9HzXpGDNjDHsc"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RC7jMqbCgSOel996WwDKSw8"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RCKoWDOUTlrxZWi38LZeqdL"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <webprotege:RDeAGymGUOtCPbN8QA4KBJP rdf:resource="https://cfa.org/wp-content/uploads/2019/11/balProfile.jpg"/>
         <rdfs:label>Balinese</rdfs:label>
     </owl:Class>
     
@@ -1522,6 +1950,7 @@
                 <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBTmjzWyhBbHyXCHj80G84O"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <webprotege:RDeAGymGUOtCPbN8QA4KBJP rdf:resource="https://cfa.org/wp-content/uploads/2019/11/burmProfile.jpg"/>
         <rdfs:label>Burmese</rdfs:label>
     </owl:Class>
     
@@ -1555,6 +1984,7 @@
                 <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RC7CxJQEjHju3nGIxdXKu4s"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <webprotege:RDeAGymGUOtCPbN8QA4KBJP rdf:resource="https://cfa.org/wp-content/uploads/2019/11/hbProfile.jpg"/>
         <rdfs:label>Havana Brown</rdfs:label>
     </owl:Class>
     
@@ -1564,6 +1994,31 @@
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/RDlf3Ui74qgUetAWcmm2c3C">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9egnZb3YCP13fNbMOH1F6F"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7aRUuHxoQEPkuNVRhuwQhy"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBIsrRd91B9HzXpGDNjDHsc"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R5v5WmM9epBXdxtc19THh"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8CeNQYy8YTBCn0VBnE47jJ"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <webprotege:RDeAGymGUOtCPbN8QA4KBJP rdf:resource="https://cfa.org/wp-content/uploads/2019/11/sphProfile.jpg"/>
         <rdfs:label>Sphynx</rdfs:label>
     </owl:Class>
     
@@ -1653,6 +2108,7 @@
                 <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDZTmjOcKW54xDO99vtVipU"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <webprotege:RDeAGymGUOtCPbN8QA4KBJP rdf:resource="https://cfa.org/wp-content/uploads/2019/11/ebProfile.jpg"/>
         <rdfs:label>European Burmese</rdfs:label>
     </owl:Class>
     
@@ -1707,6 +2163,7 @@
                 <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RC7jMqbCgSOel996WwDKSw8"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <webprotege:RDeAGymGUOtCPbN8QA4KBJP rdf:resource="https://cfa.org/wp-content/uploads/2019/11/kmProfile.jpg"/>
         <rdfs:label>Khao Manee</rdfs:label>
     </owl:Class>
     
@@ -1740,7 +2197,17 @@
                 <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDvsDl2E32yibANJF0XPz8f"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <webprotege:RDeAGymGUOtCPbN8QA4KBJP rdf:resource="https://cfa.org/wp-content/uploads/2019/11/rbProfile.jpg"/>
         <rdfs:label>Russian Blue</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RYoYZIsvryvuMidroJdQJ5 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RYoYZIsvryvuMidroJdQJ5">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RECkKgTWwIP6MlBWgOGape"/>
+        <rdfs:label>Singapore</rdfs:label>
     </owl:Class>
     
 
@@ -1785,6 +2252,7 @@
                 <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDOOdCUIo7BBz17KvbpyZmr"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <webprotege:RDeAGymGUOtCPbN8QA4KBJP rdf:resource="https://cfa.org/wp-content/uploads/2019/11/cpshProfile.jpg"/>
         <rdfs:label>Colorpoint Shorthair</rdfs:label>
     </owl:Class>
     
@@ -1839,6 +2307,7 @@
                 <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDTImJkJER5DK3JixhzMRvW"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <webprotege:RDeAGymGUOtCPbN8QA4KBJP rdf:resource="https://cfa.org/wp-content/uploads/2019/11/rmProfile.jpg"/>
         <rdfs:label>Ragamuffin</rdfs:label>
     </owl:Class>
     
@@ -1856,6 +2325,25 @@
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/ReemWR6dAFGwiwanQQxHn6">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8j08k7iK9OkJC6YrOhVHIT"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBIsrRd91B9HzXpGDNjDHsc"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RNEbak8cWP4TJyd5Ln3yTN"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RCKoWDOUTlrxZWi38LZeqdL"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <webprotege:RDeAGymGUOtCPbN8QA4KBJP rdf:resource="https://cfa.org/wp-content/uploads/2019/11/acProfile.jpg"/>
         <rdfs:label>American Curl</rdfs:label>
     </owl:Class>
     
@@ -1898,6 +2386,7 @@
                 <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7ay7rP5s6BHNmhbeRObT0z"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <webprotege:RDeAGymGUOtCPbN8QA4KBJP rdf:resource="https://cfa.org/wp-content/uploads/2019/11/nfcProfile.jpg"/>
         <rdfs:label>Norwegian Forest Cat</rdfs:label>
     </owl:Class>
     
@@ -1908,6 +2397,15 @@
     <owl:Class rdf:about="http://webprotege.stanford.edu/Rnc1Sr9gezPHoR7zP6inKw">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDI9zuFH0jwc2u2QsTNXC96"/>
         <rdfs:label>Easy Going</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RpsO8b3GZsuPX4eijVsnNy -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RpsO8b3GZsuPX4eijVsnNy">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDI9zuFH0jwc2u2QsTNXC96"/>
+        <rdfs:label>Agile</rdfs:label>
     </owl:Class>
     
 
@@ -1964,7 +2462,17 @@
                 <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDZTmjOcKW54xDO99vtVipU"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <webprotege:RDeAGymGUOtCPbN8QA4KBJP rdf:resource="https://cfa.org/wp-content/uploads/2019/11/bmlProfile.jpg"/>
         <rdfs:label>Burmilla</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RtFJSPmHDJ6nqTYcg6e1hB -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RtFJSPmHDJ6nqTYcg6e1hB">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDI9zuFH0jwc2u2QsTNXC96"/>
+        <rdfs:label>Insistent</rdfs:label>
     </owl:Class>
     
 
@@ -1998,11 +2506,16 @@
     
 
 
-    <!-- http://webprotege.stanford.edu/RD2bUF4v2xPwfcYExuqObVW -->
+    <!-- http://webprotege.stanford.edu/R8gX9I7zoQd10mSM11SmMtb -->
 
-    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RD2bUF4v2xPwfcYExuqObVW">
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8gX9I7zoQd10mSM11SmMtb">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/RBkQsBLdKvddD0dbPJZqKdz"/>
-        <rdfs:label>White Maine Coon</rdfs:label>
+        <webprotege:RBxu12As84trKAAlPNMH8WG rdf:datatype="http://www.w3.org/2001/XMLSchema#string">27.94 cm</webprotege:RBxu12As84trKAAlPNMH8WG>
+        <webprotege:RCDwB8H49cfxj2bO6dRNlLN rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Luna</webprotege:RCDwB8H49cfxj2bO6dRNlLN>
+        <webprotege:RDXeeg4yAd91e603fcnBk6c rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3.7 kg</webprotege:RDXeeg4yAd91e603fcnBk6c>
+        <webprotege:RDsXhJmXHoM0ab4L5Y6UHJW rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Silver Tabby</webprotege:RDsXhJmXHoM0ab4L5Y6UHJW>
+        <webprotege:RlbsgKOberIEPaV6Ds5KVb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Female</webprotege:RlbsgKOberIEPaV6Ds5KVb>
+        <rdfs:label>MaineCoonCat1</rdfs:label>
     </owl:NamedIndividual>
 </rdf:RDF>
 
