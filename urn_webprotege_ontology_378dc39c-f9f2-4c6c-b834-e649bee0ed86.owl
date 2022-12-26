@@ -93,16 +93,6 @@
     
 
 
-    <!-- http://webprotege.stanford.edu/RB0QYvhUPrtR9s5RJgx2Tp6 -->
-
-    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RB0QYvhUPrtR9s5RJgx2Tp6">
-        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RugLVB2fY80DDW8Tw9J3dh"/>
-        <rdfs:range rdf:resource="http://webprotege.stanford.edu/RDI9zuFH0jwc2u2QsTNXC96"/>
-        <rdfs:label>has-characteristic</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
     <!-- http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO -->
 
     <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO">
@@ -164,17 +154,6 @@
         <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RugLVB2fY80DDW8Tw9J3dh"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label>height</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RCDwB8H49cfxj2bO6dRNlLN -->
-
-    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RCDwB8H49cfxj2bO6dRNlLN">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RugLVB2fY80DDW8Tw9J3dh"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <rdfs:label>name</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2892,12 +2871,6 @@
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/RugLVB2fY80DDW8Tw9J3dh">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBNv3Xa6YZcMAeHoERjsZYB"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RB0QYvhUPrtR9s5RJgx2Tp6"/>
-                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDI9zuFH0jwc2u2QsTNXC96"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO"/>
