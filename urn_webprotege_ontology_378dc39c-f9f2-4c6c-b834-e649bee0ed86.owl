@@ -22,6 +22,14 @@
     
 
 
+    <!-- http://webprotege.stanford.edu/R7WF5Tu4rEl7drNvOC5lKbL -->
+
+    <owl:AnnotationProperty rdf:about="http://webprotege.stanford.edu/R7WF5Tu4rEl7drNvOC5lKbL">
+        <rdfs:label>quantityUnit</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- http://webprotege.stanford.edu/RBUnz6lGkyubOw0UOSTe43z -->
 
     <owl:AnnotationProperty rdf:about="http://webprotege.stanford.edu/RBUnz6lGkyubOw0UOSTe43z">
@@ -53,7 +61,7 @@
 
     <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R3RkRp3FeBJqRho4W2nihY">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RugLVB2fY80DDW8Tw9J3dh"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RBNv3Xa6YZcMAeHoERjsZYB"/>
         <rdfs:range rdf:resource="http://webprotege.stanford.edu/R9detm7hMYgMXyc71KvW8S"/>
         <rdfs:label>has-coat-type</rdfs:label>
     </owl:ObjectProperty>
@@ -71,22 +79,11 @@
     
 
 
-    <!-- http://webprotege.stanford.edu/R8QPtvLqGoT1kqaqqtlkIIN -->
-
-    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R8QPtvLqGoT1kqaqqtlkIIN">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RugLVB2fY80DDW8Tw9J3dh"/>
-        <rdfs:range rdf:resource="http://webprotege.stanford.edu/RbyBgpx010noGl9UDArBGB"/>
-        <rdfs:label>has-tail</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
     <!-- http://webprotege.stanford.edu/RB0A6fH0XxSKtysmnlUrZny -->
 
     <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RB0A6fH0XxSKtysmnlUrZny">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RugLVB2fY80DDW8Tw9J3dh"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RCo9eWwbqVccz1d7QEhfOYd"/>
         <rdfs:range rdf:resource="http://webprotege.stanford.edu/RB0hZtDoGwZt1elxw1cj7ob"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has-body-part</rdfs:label>
     </owl:ObjectProperty>
@@ -119,7 +116,7 @@
 
     <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RhGIrcBXuiEthAcOUaFNhG">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RugLVB2fY80DDW8Tw9J3dh"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RCo9eWwbqVccz1d7QEhfOYd"/>
         <rdfs:range rdf:resource="http://webprotege.stanford.edu/R9sP0kiNHtp8TYvgaBT0ZIt"/>
         <rdfs:label>has-body-type</rdfs:label>
     </owl:ObjectProperty>
@@ -152,7 +149,8 @@
     <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RugLVB2fY80DDW8Tw9J3dh"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+        <webprotege:R7WF5Tu4rEl7drNvOC5lKbL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Centimeters</webprotege:R7WF5Tu4rEl7drNvOC5lKbL>
         <rdfs:label>height</rdfs:label>
     </owl:DatatypeProperty>
     
@@ -163,7 +161,7 @@
     <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RugLVB2fY80DDW8Tw9J3dh"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
         <rdfs:label>age</rdfs:label>
     </owl:DatatypeProperty>
     
@@ -174,7 +172,8 @@
     <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RugLVB2fY80DDW8Tw9J3dh"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+        <webprotege:R7WF5Tu4rEl7drNvOC5lKbL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kilograms</webprotege:R7WF5Tu4rEl7drNvOC5lKbL>
         <rdfs:label>weight</rdfs:label>
     </owl:DatatypeProperty>
     
@@ -400,15 +399,6 @@
     
 
 
-    <!-- http://webprotege.stanford.edu/R7SBFFtoqFKP356GjkivHrn -->
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/R7SBFFtoqFKP356GjkivHrn">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9detm7hMYgMXyc71KvW8S"/>
-        <rdfs:label>Hairless</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://webprotege.stanford.edu/R7SMNOUTyH5lZmqTASSvC2V -->
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/R7SMNOUTyH5lZmqTASSvC2V">
@@ -626,12 +616,6 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW"/>
                 <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9A8NJb17VJH8lPbiEDAUD8"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8QPtvLqGoT1kqaqqtlkIIN"/>
-                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9iEknLxda6LGnyGPbWkorQ"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1679,15 +1663,6 @@
         </rdfs:subClassOf>
         <webprotege:RDeAGymGUOtCPbN8QA4KBJP rdf:resource="https://cfa.org/wp-content/uploads/2019/11/bomProfile.jpg"/>
         <rdfs:label>Bombay</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RCQEQm4mF0RhASppUe0Nr9o -->
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/RCQEQm4mF0RhASppUe0Nr9o">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9detm7hMYgMXyc71KvW8S"/>
-        <rdfs:label>Rex</rdfs:label>
     </owl:Class>
     
 
@@ -2871,12 +2846,6 @@
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/RugLVB2fY80DDW8Tw9J3dh">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBNv3Xa6YZcMAeHoERjsZYB"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO"/>
-                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RECkKgTWwIP6MlBWgOGape"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label>Domestic Cat</rdfs:label>
     </owl:Class>
     
@@ -2924,9 +2893,9 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7A3KO4n7ABycQX2Mqt2jHI">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/R7dzF9m4lqFV0OrP7dPYyPv"/>
-        <webprotege:RBxu12As84trKAAlPNMH8WG rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20 cm</webprotege:RBxu12As84trKAAlPNMH8WG>
-        <webprotege:RDTogLYCnK2xbcLIheRCZ70 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</webprotege:RDTogLYCnK2xbcLIheRCZ70>
-        <webprotege:RDXeeg4yAd91e603fcnBk6c rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3.2 kg</webprotege:RDXeeg4yAd91e603fcnBk6c>
+        <webprotege:RBxu12As84trKAAlPNMH8WG rdf:datatype="http://www.w3.org/2001/XMLSchema#double">20.0</webprotege:RBxu12As84trKAAlPNMH8WG>
+        <webprotege:RDTogLYCnK2xbcLIheRCZ70 rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</webprotege:RDTogLYCnK2xbcLIheRCZ70>
+        <webprotege:RDXeeg4yAd91e603fcnBk6c rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.2</webprotege:RDXeeg4yAd91e603fcnBk6c>
         <webprotege:RDsXhJmXHoM0ab4L5Y6UHJW rdf:datatype="http://www.w3.org/2001/XMLSchema#string">white body with dark face</webprotege:RDsXhJmXHoM0ab4L5Y6UHJW>
         <webprotege:RlbsgKOberIEPaV6Ds5KVb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male</webprotege:RlbsgKOberIEPaV6Ds5KVb>
         <rdfs:label>Male Birman Cat</rdfs:label>
@@ -2938,9 +2907,9 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7wpmuDVAzoHaoNErvGVbx6">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/RbyIFc0PzWtrF8sZwZdrQ6"/>
-        <webprotege:RBxu12As84trKAAlPNMH8WG rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13 cm</webprotege:RBxu12As84trKAAlPNMH8WG>
-        <webprotege:RDTogLYCnK2xbcLIheRCZ70 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.5</webprotege:RDTogLYCnK2xbcLIheRCZ70>
-        <webprotege:RDXeeg4yAd91e603fcnBk6c rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1 kg</webprotege:RDXeeg4yAd91e603fcnBk6c>
+        <webprotege:RBxu12As84trKAAlPNMH8WG rdf:datatype="http://www.w3.org/2001/XMLSchema#double">13.0</webprotege:RBxu12As84trKAAlPNMH8WG>
+        <webprotege:RDTogLYCnK2xbcLIheRCZ70 rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.5</webprotege:RDTogLYCnK2xbcLIheRCZ70>
+        <webprotege:RDXeeg4yAd91e603fcnBk6c rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</webprotege:RDXeeg4yAd91e603fcnBk6c>
         <webprotege:RDsXhJmXHoM0ab4L5Y6UHJW rdf:datatype="http://www.w3.org/2001/XMLSchema#string">White</webprotege:RDsXhJmXHoM0ab4L5Y6UHJW>
         <webprotege:RlbsgKOberIEPaV6Ds5KVb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male</webprotege:RlbsgKOberIEPaV6Ds5KVb>
         <rdfs:label>Male Ragamuffin Kitten</rdfs:label>
@@ -2952,9 +2921,9 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7ySmQE9Zxzk8TnSD1RQDnF">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/RDTImJkJER5DK3JixhzMRvW"/>
-        <webprotege:RBxu12As84trKAAlPNMH8WG rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25 cm</webprotege:RBxu12As84trKAAlPNMH8WG>
-        <webprotege:RDTogLYCnK2xbcLIheRCZ70 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</webprotege:RDTogLYCnK2xbcLIheRCZ70>
-        <webprotege:RDXeeg4yAd91e603fcnBk6c rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4.5 kg</webprotege:RDXeeg4yAd91e603fcnBk6c>
+        <webprotege:RBxu12As84trKAAlPNMH8WG rdf:datatype="http://www.w3.org/2001/XMLSchema#double">25.0</webprotege:RBxu12As84trKAAlPNMH8WG>
+        <webprotege:RDTogLYCnK2xbcLIheRCZ70 rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6.0</webprotege:RDTogLYCnK2xbcLIheRCZ70>
+        <webprotege:RDXeeg4yAd91e603fcnBk6c rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.5</webprotege:RDXeeg4yAd91e603fcnBk6c>
         <webprotege:RDsXhJmXHoM0ab4L5Y6UHJW rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Light cream colour</webprotege:RDsXhJmXHoM0ab4L5Y6UHJW>
         <webprotege:RlbsgKOberIEPaV6Ds5KVb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male</webprotege:RlbsgKOberIEPaV6Ds5KVb>
         <rdfs:label>Male Himalayan Persian Cat</rdfs:label>
@@ -2966,9 +2935,9 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8FerpZXiLHlrLaVrqMvrV7">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/RLEOX4NzaXvk7swvaWuayo"/>
-        <webprotege:RBxu12As84trKAAlPNMH8WG rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25 cm</webprotege:RBxu12As84trKAAlPNMH8WG>
-        <webprotege:RDTogLYCnK2xbcLIheRCZ70 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</webprotege:RDTogLYCnK2xbcLIheRCZ70>
-        <webprotege:RDXeeg4yAd91e603fcnBk6c rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6 kg</webprotege:RDXeeg4yAd91e603fcnBk6c>
+        <webprotege:RBxu12As84trKAAlPNMH8WG rdf:datatype="http://www.w3.org/2001/XMLSchema#double">25.0</webprotege:RBxu12As84trKAAlPNMH8WG>
+        <webprotege:RDTogLYCnK2xbcLIheRCZ70 rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6.0</webprotege:RDTogLYCnK2xbcLIheRCZ70>
+        <webprotege:RDXeeg4yAd91e603fcnBk6c rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6.0</webprotege:RDXeeg4yAd91e603fcnBk6c>
         <webprotege:RDsXhJmXHoM0ab4L5Y6UHJW rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rich Cream Colour</webprotege:RDsXhJmXHoM0ab4L5Y6UHJW>
         <webprotege:RlbsgKOberIEPaV6Ds5KVb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male</webprotege:RlbsgKOberIEPaV6Ds5KVb>
         <rdfs:label>Male European Burmese Cat</rdfs:label>
@@ -2980,9 +2949,9 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8OXVzYJ0uQV2CxblgTopwQ">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/RDZTmjOcKW54xDO99vtVipU"/>
-        <webprotege:RBxu12As84trKAAlPNMH8WG rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17.7 cm</webprotege:RBxu12As84trKAAlPNMH8WG>
-        <webprotege:RDTogLYCnK2xbcLIheRCZ70 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</webprotege:RDTogLYCnK2xbcLIheRCZ70>
-        <webprotege:RDXeeg4yAd91e603fcnBk6c rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.4 kg</webprotege:RDXeeg4yAd91e603fcnBk6c>
+        <webprotege:RBxu12As84trKAAlPNMH8WG rdf:datatype="http://www.w3.org/2001/XMLSchema#double">17.7</webprotege:RBxu12As84trKAAlPNMH8WG>
+        <webprotege:RDTogLYCnK2xbcLIheRCZ70 rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</webprotege:RDTogLYCnK2xbcLIheRCZ70>
+        <webprotege:RDXeeg4yAd91e603fcnBk6c rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.4</webprotege:RDXeeg4yAd91e603fcnBk6c>
         <webprotege:RDsXhJmXHoM0ab4L5Y6UHJW rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chocolate Tortoiseshell</webprotege:RDsXhJmXHoM0ab4L5Y6UHJW>
         <webprotege:RlbsgKOberIEPaV6Ds5KVb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Female</webprotege:RlbsgKOberIEPaV6Ds5KVb>
         <rdfs:label>Female Burmese Kitten</rdfs:label>
@@ -2994,9 +2963,9 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8WS7KwWioyc0aq0UqB0gF7">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/R0o3ka8KtnMlgcdP9QcjBp"/>
-        <webprotege:RBxu12As84trKAAlPNMH8WG rdf:datatype="http://www.w3.org/2001/XMLSchema#string">14 cm</webprotege:RBxu12As84trKAAlPNMH8WG>
-        <webprotege:RDTogLYCnK2xbcLIheRCZ70 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.5</webprotege:RDTogLYCnK2xbcLIheRCZ70>
-        <webprotege:RDXeeg4yAd91e603fcnBk6c rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2 kg</webprotege:RDXeeg4yAd91e603fcnBk6c>
+        <webprotege:RBxu12As84trKAAlPNMH8WG rdf:datatype="http://www.w3.org/2001/XMLSchema#double">14.0</webprotege:RBxu12As84trKAAlPNMH8WG>
+        <webprotege:RDTogLYCnK2xbcLIheRCZ70 rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.5</webprotege:RDTogLYCnK2xbcLIheRCZ70>
+        <webprotege:RDXeeg4yAd91e603fcnBk6c rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.0</webprotege:RDXeeg4yAd91e603fcnBk6c>
         <webprotege:RDsXhJmXHoM0ab4L5Y6UHJW rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orange and White</webprotege:RDsXhJmXHoM0ab4L5Y6UHJW>
         <webprotege:RlbsgKOberIEPaV6Ds5KVb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Female</webprotege:RlbsgKOberIEPaV6Ds5KVb>
         <rdfs:label>Female Selkirk Rex Kitten</rdfs:label>
@@ -3008,9 +2977,9 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8ag1oXWlh3aiJOZbaA2tcx">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/RBkQsBLdKvddD0dbPJZqKdz"/>
-        <webprotege:RBxu12As84trKAAlPNMH8WG rdf:datatype="http://www.w3.org/2001/XMLSchema#string">33.02 cm</webprotege:RBxu12As84trKAAlPNMH8WG>
-        <webprotege:RDTogLYCnK2xbcLIheRCZ70 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</webprotege:RDTogLYCnK2xbcLIheRCZ70>
-        <webprotege:RDXeeg4yAd91e603fcnBk6c rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6.3 kg</webprotege:RDXeeg4yAd91e603fcnBk6c>
+        <webprotege:RBxu12As84trKAAlPNMH8WG rdf:datatype="http://www.w3.org/2001/XMLSchema#double">33.02</webprotege:RBxu12As84trKAAlPNMH8WG>
+        <webprotege:RDTogLYCnK2xbcLIheRCZ70 rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.0</webprotege:RDTogLYCnK2xbcLIheRCZ70>
+        <webprotege:RDXeeg4yAd91e603fcnBk6c rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6.3</webprotege:RDXeeg4yAd91e603fcnBk6c>
         <webprotege:RDsXhJmXHoM0ab4L5Y6UHJW rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cream</webprotege:RDsXhJmXHoM0ab4L5Y6UHJW>
         <webprotege:RlbsgKOberIEPaV6Ds5KVb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male</webprotege:RlbsgKOberIEPaV6Ds5KVb>
         <rdfs:label>Male Maine Coon Cat</rdfs:label>
@@ -3022,9 +2991,9 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8gF6ldjFeGEjBHACXjA5lp">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/RBmKxLkdBYaBkWdSvST0c5V"/>
-        <webprotege:RBxu12As84trKAAlPNMH8WG rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24 cm</webprotege:RBxu12As84trKAAlPNMH8WG>
-        <webprotege:RDTogLYCnK2xbcLIheRCZ70 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</webprotege:RDTogLYCnK2xbcLIheRCZ70>
-        <webprotege:RDXeeg4yAd91e603fcnBk6c rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.7 kg</webprotege:RDXeeg4yAd91e603fcnBk6c>
+        <webprotege:RBxu12As84trKAAlPNMH8WG rdf:datatype="http://www.w3.org/2001/XMLSchema#double">24.0</webprotege:RBxu12As84trKAAlPNMH8WG>
+        <webprotege:RDTogLYCnK2xbcLIheRCZ70 rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</webprotege:RDTogLYCnK2xbcLIheRCZ70>
+        <webprotege:RDXeeg4yAd91e603fcnBk6c rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.7</webprotege:RDXeeg4yAd91e603fcnBk6c>
         <webprotege:RDsXhJmXHoM0ab4L5Y6UHJW rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bronze</webprotege:RDsXhJmXHoM0ab4L5Y6UHJW>
         <webprotege:RlbsgKOberIEPaV6Ds5KVb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Female</webprotege:RlbsgKOberIEPaV6Ds5KVb>
         <rdfs:label>Female Egyptian Mau Cat</rdfs:label>
@@ -3036,9 +3005,9 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8ojl8zN94KhfLqlBBelp6A">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/RCP9qLibYNpN01F00XVfOyx"/>
-        <webprotege:RBxu12As84trKAAlPNMH8WG rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12 cm</webprotege:RBxu12As84trKAAlPNMH8WG>
-        <webprotege:RDTogLYCnK2xbcLIheRCZ70 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.75</webprotege:RDTogLYCnK2xbcLIheRCZ70>
-        <webprotege:RDXeeg4yAd91e603fcnBk6c rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.5 kg</webprotege:RDXeeg4yAd91e603fcnBk6c>
+        <webprotege:RBxu12As84trKAAlPNMH8WG rdf:datatype="http://www.w3.org/2001/XMLSchema#double">12.0</webprotege:RBxu12As84trKAAlPNMH8WG>
+        <webprotege:RDTogLYCnK2xbcLIheRCZ70 rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.75</webprotege:RDTogLYCnK2xbcLIheRCZ70>
+        <webprotege:RDXeeg4yAd91e603fcnBk6c rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.5</webprotege:RDXeeg4yAd91e603fcnBk6c>
         <webprotege:RDsXhJmXHoM0ab4L5Y6UHJW rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glossy Black</webprotege:RDsXhJmXHoM0ab4L5Y6UHJW>
         <webprotege:RlbsgKOberIEPaV6Ds5KVb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male</webprotege:RlbsgKOberIEPaV6Ds5KVb>
         <rdfs:label>Male Bombay Kitten</rdfs:label>
@@ -3050,9 +3019,9 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8qlcTO2upa5MPwDdJ5iiqR">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/R9gExwAiYggxHJHah6JPOjo"/>
-        <webprotege:RBxu12As84trKAAlPNMH8WG rdf:datatype="http://www.w3.org/2001/XMLSchema#string">28 cm</webprotege:RBxu12As84trKAAlPNMH8WG>
-        <webprotege:RDTogLYCnK2xbcLIheRCZ70 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</webprotege:RDTogLYCnK2xbcLIheRCZ70>
-        <webprotege:RDXeeg4yAd91e603fcnBk6c rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.5 kg</webprotege:RDXeeg4yAd91e603fcnBk6c>
+        <webprotege:RBxu12As84trKAAlPNMH8WG rdf:datatype="http://www.w3.org/2001/XMLSchema#double">28.0</webprotege:RBxu12As84trKAAlPNMH8WG>
+        <webprotege:RDTogLYCnK2xbcLIheRCZ70 rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</webprotege:RDTogLYCnK2xbcLIheRCZ70>
+        <webprotege:RDXeeg4yAd91e603fcnBk6c rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.5</webprotege:RDXeeg4yAd91e603fcnBk6c>
         <webprotege:RDsXhJmXHoM0ab4L5Y6UHJW rdf:datatype="http://www.w3.org/2001/XMLSchema#string">white and balck</webprotege:RDsXhJmXHoM0ab4L5Y6UHJW>
         <webprotege:RlbsgKOberIEPaV6Ds5KVb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Female</webprotege:RlbsgKOberIEPaV6Ds5KVb>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Female Cornish Rex Cat</rdfs:label>
@@ -3064,9 +3033,9 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8rRTZC4BoLdqrrGoslnhUe">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/R8ZlZyrKK5xqwfbZdBrKvxZ"/>
-        <webprotege:RBxu12As84trKAAlPNMH8WG rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12 cm</webprotege:RBxu12As84trKAAlPNMH8WG>
-        <webprotege:RDTogLYCnK2xbcLIheRCZ70 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.4</webprotege:RDTogLYCnK2xbcLIheRCZ70>
-        <webprotege:RDXeeg4yAd91e603fcnBk6c rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.4 kg</webprotege:RDXeeg4yAd91e603fcnBk6c>
+        <webprotege:RBxu12As84trKAAlPNMH8WG rdf:datatype="http://www.w3.org/2001/XMLSchema#double">12.0</webprotege:RBxu12As84trKAAlPNMH8WG>
+        <webprotege:RDTogLYCnK2xbcLIheRCZ70 rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.4</webprotege:RDTogLYCnK2xbcLIheRCZ70>
+        <webprotege:RDXeeg4yAd91e603fcnBk6c rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.4</webprotege:RDXeeg4yAd91e603fcnBk6c>
         <webprotege:RDsXhJmXHoM0ab4L5Y6UHJW rdf:datatype="http://www.w3.org/2001/XMLSchema#string">black</webprotege:RDsXhJmXHoM0ab4L5Y6UHJW>
         <webprotege:RlbsgKOberIEPaV6Ds5KVb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male</webprotege:RlbsgKOberIEPaV6Ds5KVb>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male Devon Rex Kitten</rdfs:label>
@@ -3078,9 +3047,9 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R95Ol1VPbKictrYaeqw1L9j">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/RDfZ9WynjrX11jo80YG3X9V"/>
-        <webprotege:RBxu12As84trKAAlPNMH8WG rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20 cm</webprotege:RBxu12As84trKAAlPNMH8WG>
-        <webprotege:RDTogLYCnK2xbcLIheRCZ70 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</webprotege:RDTogLYCnK2xbcLIheRCZ70>
-        <webprotege:RDXeeg4yAd91e603fcnBk6c rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.9 kg</webprotege:RDXeeg4yAd91e603fcnBk6c>
+        <webprotege:RBxu12As84trKAAlPNMH8WG rdf:datatype="http://www.w3.org/2001/XMLSchema#double">20.0</webprotege:RBxu12As84trKAAlPNMH8WG>
+        <webprotege:RDTogLYCnK2xbcLIheRCZ70 rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.0</webprotege:RDTogLYCnK2xbcLIheRCZ70>
+        <webprotege:RDXeeg4yAd91e603fcnBk6c rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.9</webprotege:RDXeeg4yAd91e603fcnBk6c>
         <webprotege:RDsXhJmXHoM0ab4L5Y6UHJW rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chocolate Brown</webprotege:RDsXhJmXHoM0ab4L5Y6UHJW>
         <webprotege:RlbsgKOberIEPaV6Ds5KVb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Female</webprotege:RlbsgKOberIEPaV6Ds5KVb>
         <rdfs:label>Female Havana Brown Cat</rdfs:label>
@@ -3092,9 +3061,9 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9789MSZqWFlV4rGwM7BQFr">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/RlkHlCsjFHavMZcuSbqctc"/>
-        <webprotege:RBxu12As84trKAAlPNMH8WG rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15.4 cm</webprotege:RBxu12As84trKAAlPNMH8WG>
-        <webprotege:RDTogLYCnK2xbcLIheRCZ70 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</webprotege:RDTogLYCnK2xbcLIheRCZ70>
-        <webprotege:RDXeeg4yAd91e603fcnBk6c rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.53 kg</webprotege:RDXeeg4yAd91e603fcnBk6c>
+        <webprotege:RBxu12As84trKAAlPNMH8WG rdf:datatype="http://www.w3.org/2001/XMLSchema#double">15.4</webprotege:RBxu12As84trKAAlPNMH8WG>
+        <webprotege:RDTogLYCnK2xbcLIheRCZ70 rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.0</webprotege:RDTogLYCnK2xbcLIheRCZ70>
+        <webprotege:RDXeeg4yAd91e603fcnBk6c rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.53</webprotege:RDXeeg4yAd91e603fcnBk6c>
         <webprotege:RDsXhJmXHoM0ab4L5Y6UHJW rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Golden</webprotege:RDsXhJmXHoM0ab4L5Y6UHJW>
         <webprotege:RlbsgKOberIEPaV6Ds5KVb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Female</webprotege:RlbsgKOberIEPaV6Ds5KVb>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Female Norwegian Forest Kitten</rdfs:label>
@@ -3106,9 +3075,9 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9GMit3H5kIZw9WtJ0E9Na5">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/Rt6r2ZW4kbgEJSS6uVIQH8"/>
-        <webprotege:RBxu12As84trKAAlPNMH8WG rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19 cm</webprotege:RBxu12As84trKAAlPNMH8WG>
-        <webprotege:RDTogLYCnK2xbcLIheRCZ70 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</webprotege:RDTogLYCnK2xbcLIheRCZ70>
-        <webprotege:RDXeeg4yAd91e603fcnBk6c rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3.0 kg</webprotege:RDXeeg4yAd91e603fcnBk6c>
+        <webprotege:RBxu12As84trKAAlPNMH8WG rdf:datatype="http://www.w3.org/2001/XMLSchema#double">19.0</webprotege:RBxu12As84trKAAlPNMH8WG>
+        <webprotege:RDTogLYCnK2xbcLIheRCZ70 rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</webprotege:RDTogLYCnK2xbcLIheRCZ70>
+        <webprotege:RDXeeg4yAd91e603fcnBk6c rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</webprotege:RDXeeg4yAd91e603fcnBk6c>
         <webprotege:RDsXhJmXHoM0ab4L5Y6UHJW rdf:datatype="http://www.w3.org/2001/XMLSchema#string">White</webprotege:RDsXhJmXHoM0ab4L5Y6UHJW>
         <webprotege:RlbsgKOberIEPaV6Ds5KVb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Female</webprotege:RlbsgKOberIEPaV6Ds5KVb>
         <rdfs:label>Female Burmilla Cat</rdfs:label>
@@ -3120,9 +3089,9 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9dNLA3NmoFPqDGQFv6ckTV">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/R8HhF1fCW3OZO6zC8NVxpQn"/>
-        <webprotege:RBxu12As84trKAAlPNMH8WG rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17 cm</webprotege:RBxu12As84trKAAlPNMH8WG>
-        <webprotege:RDTogLYCnK2xbcLIheRCZ70 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.4</webprotege:RDTogLYCnK2xbcLIheRCZ70>
-        <webprotege:RDXeeg4yAd91e603fcnBk6c rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.2 kg</webprotege:RDXeeg4yAd91e603fcnBk6c>
+        <webprotege:RBxu12As84trKAAlPNMH8WG rdf:datatype="http://www.w3.org/2001/XMLSchema#double">17.0</webprotege:RBxu12As84trKAAlPNMH8WG>
+        <webprotege:RDTogLYCnK2xbcLIheRCZ70 rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.4</webprotege:RDTogLYCnK2xbcLIheRCZ70>
+        <webprotege:RDXeeg4yAd91e603fcnBk6c rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.2</webprotege:RDXeeg4yAd91e603fcnBk6c>
         <webprotege:RlbsgKOberIEPaV6Ds5KVb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Female</webprotege:RlbsgKOberIEPaV6Ds5KVb>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Female Japanese Bobtail Kitten</rdfs:label>
     </owl:NamedIndividual>
@@ -3133,9 +3102,9 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9dqURNZ6ecUd3THHyJToSB">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/R78n3gIdpEnhYFe0rmrRpWX"/>
-        <webprotege:RBxu12As84trKAAlPNMH8WG rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25 cm</webprotege:RBxu12As84trKAAlPNMH8WG>
-        <webprotege:RDTogLYCnK2xbcLIheRCZ70 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</webprotege:RDTogLYCnK2xbcLIheRCZ70>
-        <webprotege:RDXeeg4yAd91e603fcnBk6c rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3.7 kg</webprotege:RDXeeg4yAd91e603fcnBk6c>
+        <webprotege:RBxu12As84trKAAlPNMH8WG rdf:datatype="http://www.w3.org/2001/XMLSchema#double">25.0</webprotege:RBxu12As84trKAAlPNMH8WG>
+        <webprotege:RDTogLYCnK2xbcLIheRCZ70 rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</webprotege:RDTogLYCnK2xbcLIheRCZ70>
+        <webprotege:RDXeeg4yAd91e603fcnBk6c rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.7</webprotege:RDXeeg4yAd91e603fcnBk6c>
         <webprotege:RDsXhJmXHoM0ab4L5Y6UHJW rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tabby Grey</webprotege:RDsXhJmXHoM0ab4L5Y6UHJW>
         <webprotege:RlbsgKOberIEPaV6Ds5KVb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Female</webprotege:RlbsgKOberIEPaV6Ds5KVb>
         <rdfs:label>Female American Shorthair Cat</rdfs:label>
@@ -3147,9 +3116,9 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9oFCXfDXFjFiMsuBGiatCx">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/R74tGbDUEBf6nc1jiadU0rD"/>
-        <webprotege:RBxu12As84trKAAlPNMH8WG rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22 cm</webprotege:RBxu12As84trKAAlPNMH8WG>
-        <webprotege:RDTogLYCnK2xbcLIheRCZ70 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</webprotege:RDTogLYCnK2xbcLIheRCZ70>
-        <webprotege:RDXeeg4yAd91e603fcnBk6c rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4.1 kg</webprotege:RDXeeg4yAd91e603fcnBk6c>
+        <webprotege:RBxu12As84trKAAlPNMH8WG rdf:datatype="http://www.w3.org/2001/XMLSchema#double">22.0</webprotege:RBxu12As84trKAAlPNMH8WG>
+        <webprotege:RDTogLYCnK2xbcLIheRCZ70 rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6.0</webprotege:RDTogLYCnK2xbcLIheRCZ70>
+        <webprotege:RDXeeg4yAd91e603fcnBk6c rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.1</webprotege:RDXeeg4yAd91e603fcnBk6c>
         <webprotege:RDsXhJmXHoM0ab4L5Y6UHJW rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tabby White</webprotege:RDsXhJmXHoM0ab4L5Y6UHJW>
         <webprotege:RlbsgKOberIEPaV6Ds5KVb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male</webprotege:RlbsgKOberIEPaV6Ds5KVb>
         <rdfs:label>Male Turkish Angora Cat</rdfs:label>
@@ -3161,9 +3130,9 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RB7lilf1bV2zEZjIBRIve3x">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/R7LUN6c9MPyvRSY53RSn1Qc"/>
-        <webprotege:RBxu12As84trKAAlPNMH8WG rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15 cm</webprotege:RBxu12As84trKAAlPNMH8WG>
-        <webprotege:RDTogLYCnK2xbcLIheRCZ70 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.8</webprotege:RDTogLYCnK2xbcLIheRCZ70>
-        <webprotege:RDXeeg4yAd91e603fcnBk6c rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1 kg</webprotege:RDXeeg4yAd91e603fcnBk6c>
+        <webprotege:RBxu12As84trKAAlPNMH8WG rdf:datatype="http://www.w3.org/2001/XMLSchema#double">15.0</webprotege:RBxu12As84trKAAlPNMH8WG>
+        <webprotege:RDTogLYCnK2xbcLIheRCZ70 rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.8</webprotege:RDTogLYCnK2xbcLIheRCZ70>
+        <webprotege:RDXeeg4yAd91e603fcnBk6c rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</webprotege:RDXeeg4yAd91e603fcnBk6c>
         <webprotege:RDsXhJmXHoM0ab4L5Y6UHJW rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ivory</webprotege:RDsXhJmXHoM0ab4L5Y6UHJW>
         <webprotege:RlbsgKOberIEPaV6Ds5KVb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Female</webprotege:RlbsgKOberIEPaV6Ds5KVb>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Female Singapura Kitten</rdfs:label>
@@ -3175,9 +3144,9 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBVBWpWTiXllH9RVx1FeYyT">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/R9X2hBrg8QsSyDpeMQOMEIU"/>
-        <webprotege:RBxu12As84trKAAlPNMH8WG rdf:datatype="http://www.w3.org/2001/XMLSchema#string">28 cm</webprotege:RBxu12As84trKAAlPNMH8WG>
-        <webprotege:RDTogLYCnK2xbcLIheRCZ70 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</webprotege:RDTogLYCnK2xbcLIheRCZ70>
-        <webprotege:RDXeeg4yAd91e603fcnBk6c rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4.6 kg</webprotege:RDXeeg4yAd91e603fcnBk6c>
+        <webprotege:RBxu12As84trKAAlPNMH8WG rdf:datatype="http://www.w3.org/2001/XMLSchema#double">28.0</webprotege:RBxu12As84trKAAlPNMH8WG>
+        <webprotege:RDTogLYCnK2xbcLIheRCZ70 rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</webprotege:RDTogLYCnK2xbcLIheRCZ70>
+        <webprotege:RDXeeg4yAd91e603fcnBk6c rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.6</webprotege:RDXeeg4yAd91e603fcnBk6c>
         <webprotege:RDsXhJmXHoM0ab4L5Y6UHJW rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orange and white</webprotege:RDsXhJmXHoM0ab4L5Y6UHJW>
         <webprotege:RlbsgKOberIEPaV6Ds5KVb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Female</webprotege:RlbsgKOberIEPaV6Ds5KVb>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Female LaPerm Cat</rdfs:label>
@@ -3189,9 +3158,9 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBlzSGKVupRcel9QBqjhU2u">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/RDMTW24zh0A19SI1foCUa5S"/>
-        <webprotege:RBxu12As84trKAAlPNMH8WG rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20 cm</webprotege:RBxu12As84trKAAlPNMH8WG>
-        <webprotege:RDTogLYCnK2xbcLIheRCZ70 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.6</webprotege:RDTogLYCnK2xbcLIheRCZ70>
-        <webprotege:RDXeeg4yAd91e603fcnBk6c rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.8 kg</webprotege:RDXeeg4yAd91e603fcnBk6c>
+        <webprotege:RBxu12As84trKAAlPNMH8WG rdf:datatype="http://www.w3.org/2001/XMLSchema#double">20.0</webprotege:RBxu12As84trKAAlPNMH8WG>
+        <webprotege:RDTogLYCnK2xbcLIheRCZ70 rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.6</webprotege:RDTogLYCnK2xbcLIheRCZ70>
+        <webprotege:RDXeeg4yAd91e603fcnBk6c rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.8</webprotege:RDXeeg4yAd91e603fcnBk6c>
         <webprotege:RDsXhJmXHoM0ab4L5Y6UHJW rdf:datatype="http://www.w3.org/2001/XMLSchema#string">black</webprotege:RDsXhJmXHoM0ab4L5Y6UHJW>
         <webprotege:RlbsgKOberIEPaV6Ds5KVb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male</webprotege:RlbsgKOberIEPaV6Ds5KVb>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male Lykoi Kitten</rdfs:label>
@@ -3203,9 +3172,9 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBoPayDjhqEYWQgIUnbCrug">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/RDFY9zx2HSXM2XcRKHaOI3Q"/>
-        <webprotege:RBxu12As84trKAAlPNMH8WG rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23 cm</webprotege:RBxu12As84trKAAlPNMH8WG>
-        <webprotege:RDTogLYCnK2xbcLIheRCZ70 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</webprotege:RDTogLYCnK2xbcLIheRCZ70>
-        <webprotege:RDXeeg4yAd91e603fcnBk6c rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4.6 kg</webprotege:RDXeeg4yAd91e603fcnBk6c>
+        <webprotege:RBxu12As84trKAAlPNMH8WG rdf:datatype="http://www.w3.org/2001/XMLSchema#double">23.0</webprotege:RBxu12As84trKAAlPNMH8WG>
+        <webprotege:RDTogLYCnK2xbcLIheRCZ70 rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.0</webprotege:RDTogLYCnK2xbcLIheRCZ70>
+        <webprotege:RDXeeg4yAd91e603fcnBk6c rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.6</webprotege:RDXeeg4yAd91e603fcnBk6c>
         <webprotege:RDsXhJmXHoM0ab4L5Y6UHJW rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lilac</webprotege:RDsXhJmXHoM0ab4L5Y6UHJW>
         <webprotege:RlbsgKOberIEPaV6Ds5KVb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Female</webprotege:RlbsgKOberIEPaV6Ds5KVb>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Female Scottish Fold Cat</rdfs:label>
@@ -3217,9 +3186,9 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBr6ptz55aOcO2iGgwUG7HO">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/RDRPLytAYUn2A4Nw46sMxoW"/>
-        <webprotege:RBxu12As84trKAAlPNMH8WG rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25 cm</webprotege:RBxu12As84trKAAlPNMH8WG>
-        <webprotege:RDTogLYCnK2xbcLIheRCZ70 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</webprotege:RDTogLYCnK2xbcLIheRCZ70>
-        <webprotege:RDXeeg4yAd91e603fcnBk6c rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4 kg</webprotege:RDXeeg4yAd91e603fcnBk6c>
+        <webprotege:RBxu12As84trKAAlPNMH8WG rdf:datatype="http://www.w3.org/2001/XMLSchema#double">25.0</webprotege:RBxu12As84trKAAlPNMH8WG>
+        <webprotege:RDTogLYCnK2xbcLIheRCZ70 rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.0</webprotege:RDTogLYCnK2xbcLIheRCZ70>
+        <webprotege:RDXeeg4yAd91e603fcnBk6c rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</webprotege:RDXeeg4yAd91e603fcnBk6c>
         <webprotege:RDsXhJmXHoM0ab4L5Y6UHJW rdf:datatype="http://www.w3.org/2001/XMLSchema#string">White</webprotege:RDsXhJmXHoM0ab4L5Y6UHJW>
         <webprotege:RlbsgKOberIEPaV6Ds5KVb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Female</webprotege:RlbsgKOberIEPaV6Ds5KVb>
         <rdfs:label>Female Ragdoll Cat</rdfs:label>
@@ -3231,9 +3200,9 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBtGdjTYKmFyfE0VtZX1bpp">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/RBu6tNWJSQ3NurPDQ8sIyDo"/>
-        <webprotege:RBxu12As84trKAAlPNMH8WG rdf:datatype="http://www.w3.org/2001/XMLSchema#string">28 cm</webprotege:RBxu12As84trKAAlPNMH8WG>
-        <webprotege:RDTogLYCnK2xbcLIheRCZ70 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</webprotege:RDTogLYCnK2xbcLIheRCZ70>
-        <webprotege:RDXeeg4yAd91e603fcnBk6c rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6.5 kg</webprotege:RDXeeg4yAd91e603fcnBk6c>
+        <webprotege:RBxu12As84trKAAlPNMH8WG rdf:datatype="http://www.w3.org/2001/XMLSchema#double">28.0</webprotege:RBxu12As84trKAAlPNMH8WG>
+        <webprotege:RDTogLYCnK2xbcLIheRCZ70 rdf:datatype="http://www.w3.org/2001/XMLSchema#double">7.0</webprotege:RDTogLYCnK2xbcLIheRCZ70>
+        <webprotege:RDXeeg4yAd91e603fcnBk6c rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6.5</webprotege:RDXeeg4yAd91e603fcnBk6c>
         <webprotege:RDsXhJmXHoM0ab4L5Y6UHJW rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Light Brown with Dark Brown spots</webprotege:RDsXhJmXHoM0ab4L5Y6UHJW>
         <webprotege:RlbsgKOberIEPaV6Ds5KVb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male</webprotege:RlbsgKOberIEPaV6Ds5KVb>
         <rdfs:label>Male Ocicat Cat</rdfs:label>
@@ -3245,9 +3214,9 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCTdm9x46Y9R2iXjftI81yK">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/RBTq9A65CW50Tfx5mcJoBaF"/>
-        <webprotege:RBxu12As84trKAAlPNMH8WG rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10 cm</webprotege:RBxu12As84trKAAlPNMH8WG>
-        <webprotege:RDTogLYCnK2xbcLIheRCZ70 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</webprotege:RDTogLYCnK2xbcLIheRCZ70>
-        <webprotege:RDXeeg4yAd91e603fcnBk6c rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.2 kg</webprotege:RDXeeg4yAd91e603fcnBk6c>
+        <webprotege:RBxu12As84trKAAlPNMH8WG rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.0</webprotege:RBxu12As84trKAAlPNMH8WG>
+        <webprotege:RDTogLYCnK2xbcLIheRCZ70 rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</webprotege:RDTogLYCnK2xbcLIheRCZ70>
+        <webprotege:RDXeeg4yAd91e603fcnBk6c rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.2</webprotege:RDXeeg4yAd91e603fcnBk6c>
         <webprotege:RDsXhJmXHoM0ab4L5Y6UHJW rdf:datatype="http://www.w3.org/2001/XMLSchema#string">White</webprotege:RDsXhJmXHoM0ab4L5Y6UHJW>
         <webprotege:RlbsgKOberIEPaV6Ds5KVb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male</webprotege:RlbsgKOberIEPaV6Ds5KVb>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male Siberian Kitten</rdfs:label>
@@ -3259,9 +3228,9 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCXUhragdGmOSebohVTnCld">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/RB1fAs1s2kJ0lnUypg8rdCW"/>
-        <webprotege:RBxu12As84trKAAlPNMH8WG rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25 cm</webprotege:RBxu12As84trKAAlPNMH8WG>
-        <webprotege:RDTogLYCnK2xbcLIheRCZ70 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</webprotege:RDTogLYCnK2xbcLIheRCZ70>
-        <webprotege:RDXeeg4yAd91e603fcnBk6c rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4.4 kg</webprotege:RDXeeg4yAd91e603fcnBk6c>
+        <webprotege:RBxu12As84trKAAlPNMH8WG rdf:datatype="http://www.w3.org/2001/XMLSchema#double">25.0</webprotege:RBxu12As84trKAAlPNMH8WG>
+        <webprotege:RDTogLYCnK2xbcLIheRCZ70 rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</webprotege:RDTogLYCnK2xbcLIheRCZ70>
+        <webprotege:RDXeeg4yAd91e603fcnBk6c rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.4</webprotege:RDXeeg4yAd91e603fcnBk6c>
         <webprotege:RDsXhJmXHoM0ab4L5Y6UHJW rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black with White Spots</webprotege:RDsXhJmXHoM0ab4L5Y6UHJW>
         <webprotege:RlbsgKOberIEPaV6Ds5KVb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Female</webprotege:RlbsgKOberIEPaV6Ds5KVb>
         <rdfs:label>Female Turkish Van Cat</rdfs:label>
@@ -3273,9 +3242,9 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCduiysSLR13QFDVvbM7ybJ">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/RCC3tIa9vDvXsWCabi5re84"/>
-        <webprotege:RBxu12As84trKAAlPNMH8WG rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26.7 cm</webprotege:RBxu12As84trKAAlPNMH8WG>
-        <webprotege:RDTogLYCnK2xbcLIheRCZ70 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</webprotege:RDTogLYCnK2xbcLIheRCZ70>
-        <webprotege:RDXeeg4yAd91e603fcnBk6c rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3.7 kg</webprotege:RDXeeg4yAd91e603fcnBk6c>
+        <webprotege:RBxu12As84trKAAlPNMH8WG rdf:datatype="http://www.w3.org/2001/XMLSchema#double">26.7</webprotege:RBxu12As84trKAAlPNMH8WG>
+        <webprotege:RDTogLYCnK2xbcLIheRCZ70 rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</webprotege:RDTogLYCnK2xbcLIheRCZ70>
+        <webprotege:RDXeeg4yAd91e603fcnBk6c rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.7</webprotege:RDXeeg4yAd91e603fcnBk6c>
         <webprotege:RDsXhJmXHoM0ab4L5Y6UHJW rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bluish Silver</webprotege:RDsXhJmXHoM0ab4L5Y6UHJW>
         <webprotege:RlbsgKOberIEPaV6Ds5KVb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Female</webprotege:RlbsgKOberIEPaV6Ds5KVb>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Female Korat Cat</rdfs:label>
@@ -3287,9 +3256,9 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCn13vYf8iRbZoNbbp3In4">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/R8KQ4AZpyCcrSDDucxoY9tt"/>
-        <webprotege:RBxu12As84trKAAlPNMH8WG rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12 cm</webprotege:RBxu12As84trKAAlPNMH8WG>
-        <webprotege:RDTogLYCnK2xbcLIheRCZ70 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.5</webprotege:RDTogLYCnK2xbcLIheRCZ70>
-        <webprotege:RDXeeg4yAd91e603fcnBk6c rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.6 kg</webprotege:RDXeeg4yAd91e603fcnBk6c>
+        <webprotege:RBxu12As84trKAAlPNMH8WG rdf:datatype="http://www.w3.org/2001/XMLSchema#double">12.0</webprotege:RBxu12As84trKAAlPNMH8WG>
+        <webprotege:RDTogLYCnK2xbcLIheRCZ70 rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.5</webprotege:RDTogLYCnK2xbcLIheRCZ70>
+        <webprotege:RDXeeg4yAd91e603fcnBk6c rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.6</webprotege:RDXeeg4yAd91e603fcnBk6c>
         <webprotege:RDsXhJmXHoM0ab4L5Y6UHJW rdf:datatype="http://www.w3.org/2001/XMLSchema#string">white and grey</webprotege:RDsXhJmXHoM0ab4L5Y6UHJW>
         <webprotege:RlbsgKOberIEPaV6Ds5KVb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Female</webprotege:RlbsgKOberIEPaV6Ds5KVb>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Female American Wirehair Kitten</rdfs:label>
@@ -3301,9 +3270,9 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCnrsd0jm7bLBDMAH5yEjZU">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/RBLnXABJusxz8Ec0BTPYZYk"/>
-        <webprotege:RBxu12As84trKAAlPNMH8WG rdf:datatype="http://www.w3.org/2001/XMLSchema#string">34.5 cm</webprotege:RBxu12As84trKAAlPNMH8WG>
-        <webprotege:RDTogLYCnK2xbcLIheRCZ70 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</webprotege:RDTogLYCnK2xbcLIheRCZ70>
-        <webprotege:RDXeeg4yAd91e603fcnBk6c rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4.7 kg</webprotege:RDXeeg4yAd91e603fcnBk6c>
+        <webprotege:RBxu12As84trKAAlPNMH8WG rdf:datatype="http://www.w3.org/2001/XMLSchema#double">34.5</webprotege:RBxu12As84trKAAlPNMH8WG>
+        <webprotege:RDTogLYCnK2xbcLIheRCZ70 rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.0</webprotege:RDTogLYCnK2xbcLIheRCZ70>
+        <webprotege:RDXeeg4yAd91e603fcnBk6c rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7</webprotege:RDXeeg4yAd91e603fcnBk6c>
         <webprotege:RDsXhJmXHoM0ab4L5Y6UHJW rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cinnamon Fawn Lilac</webprotege:RDsXhJmXHoM0ab4L5Y6UHJW>
         <webprotege:RlbsgKOberIEPaV6Ds5KVb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male</webprotege:RlbsgKOberIEPaV6Ds5KVb>
         <rdfs:label>Male British Shorthair Cat</rdfs:label>
@@ -3315,9 +3284,9 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCrY2aKKr0DOqrakqNcKI4D">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/ReemWR6dAFGwiwanQQxHn6"/>
-        <webprotege:RBxu12As84trKAAlPNMH8WG rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24 cm</webprotege:RBxu12As84trKAAlPNMH8WG>
-        <webprotege:RDTogLYCnK2xbcLIheRCZ70 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.4</webprotege:RDTogLYCnK2xbcLIheRCZ70>
-        <webprotege:RDXeeg4yAd91e603fcnBk6c rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.3 kg</webprotege:RDXeeg4yAd91e603fcnBk6c>
+        <webprotege:RBxu12As84trKAAlPNMH8WG rdf:datatype="http://www.w3.org/2001/XMLSchema#double">24.0</webprotege:RBxu12As84trKAAlPNMH8WG>
+        <webprotege:RDTogLYCnK2xbcLIheRCZ70 rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.4</webprotege:RDTogLYCnK2xbcLIheRCZ70>
+        <webprotege:RDXeeg4yAd91e603fcnBk6c rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.3</webprotege:RDXeeg4yAd91e603fcnBk6c>
         <webprotege:RDsXhJmXHoM0ab4L5Y6UHJW rdf:datatype="http://www.w3.org/2001/XMLSchema#string">white and grey</webprotege:RDsXhJmXHoM0ab4L5Y6UHJW>
         <webprotege:RlbsgKOberIEPaV6Ds5KVb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male</webprotege:RlbsgKOberIEPaV6Ds5KVb>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male American Curl Cat</rdfs:label>
@@ -3329,9 +3298,9 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RD2VZ7zo8dxTt0jVji1BuGc">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/R8H0kuTKZ31PoHJgzxEaP81"/>
-        <webprotege:RBxu12As84trKAAlPNMH8WG rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21 cm</webprotege:RBxu12As84trKAAlPNMH8WG>
-        <webprotege:RDTogLYCnK2xbcLIheRCZ70 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</webprotege:RDTogLYCnK2xbcLIheRCZ70>
-        <webprotege:RDXeeg4yAd91e603fcnBk6c rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3 kg</webprotege:RDXeeg4yAd91e603fcnBk6c>
+        <webprotege:RBxu12As84trKAAlPNMH8WG rdf:datatype="http://www.w3.org/2001/XMLSchema#double">21.0</webprotege:RBxu12As84trKAAlPNMH8WG>
+        <webprotege:RDTogLYCnK2xbcLIheRCZ70 rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</webprotege:RDTogLYCnK2xbcLIheRCZ70>
+        <webprotege:RDXeeg4yAd91e603fcnBk6c rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</webprotege:RDXeeg4yAd91e603fcnBk6c>
         <webprotege:RDsXhJmXHoM0ab4L5Y6UHJW rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grey</webprotege:RDsXhJmXHoM0ab4L5Y6UHJW>
         <webprotege:RlbsgKOberIEPaV6Ds5KVb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male</webprotege:RlbsgKOberIEPaV6Ds5KVb>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male American Bobtail Cat</rdfs:label>
@@ -3343,9 +3312,9 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDcG4w5Y0i8Sji4Iv9NdAn7">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/RY2KRYsug31PcKQzeB9oUj"/>
-        <webprotege:RBxu12As84trKAAlPNMH8WG rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22.9 cm</webprotege:RBxu12As84trKAAlPNMH8WG>
-        <webprotege:RDTogLYCnK2xbcLIheRCZ70 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</webprotege:RDTogLYCnK2xbcLIheRCZ70>
-        <webprotege:RDXeeg4yAd91e603fcnBk6c rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5.2 kg</webprotege:RDXeeg4yAd91e603fcnBk6c>
+        <webprotege:RBxu12As84trKAAlPNMH8WG rdf:datatype="http://www.w3.org/2001/XMLSchema#double">22.9</webprotege:RBxu12As84trKAAlPNMH8WG>
+        <webprotege:RDTogLYCnK2xbcLIheRCZ70 rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.0</webprotege:RDTogLYCnK2xbcLIheRCZ70>
+        <webprotege:RDXeeg4yAd91e603fcnBk6c rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.2</webprotege:RDXeeg4yAd91e603fcnBk6c>
         <webprotege:RDsXhJmXHoM0ab4L5Y6UHJW rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bluish Gray</webprotege:RDsXhJmXHoM0ab4L5Y6UHJW>
         <webprotege:RlbsgKOberIEPaV6Ds5KVb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male</webprotege:RlbsgKOberIEPaV6Ds5KVb>
         <rdfs:label>Male Russian Blue Cat</rdfs:label>
@@ -3357,9 +3326,9 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDqfZM3lwyj8NBbH9Fyz71A">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/R8iFgx5tbplYj9KQmyDU1LF"/>
-        <webprotege:RBxu12As84trKAAlPNMH8WG rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11 cm</webprotege:RBxu12As84trKAAlPNMH8WG>
-        <webprotege:RDTogLYCnK2xbcLIheRCZ70 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.25</webprotege:RDTogLYCnK2xbcLIheRCZ70>
-        <webprotege:RDXeeg4yAd91e603fcnBk6c rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.1 kg</webprotege:RDXeeg4yAd91e603fcnBk6c>
+        <webprotege:RBxu12As84trKAAlPNMH8WG rdf:datatype="http://www.w3.org/2001/XMLSchema#double">11.0</webprotege:RBxu12As84trKAAlPNMH8WG>
+        <webprotege:RDTogLYCnK2xbcLIheRCZ70 rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.25</webprotege:RDTogLYCnK2xbcLIheRCZ70>
+        <webprotege:RDXeeg4yAd91e603fcnBk6c rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.1</webprotege:RDXeeg4yAd91e603fcnBk6c>
         <webprotege:RDsXhJmXHoM0ab4L5Y6UHJW rdf:datatype="http://www.w3.org/2001/XMLSchema#string">White with Grey shading at limbs</webprotege:RDsXhJmXHoM0ab4L5Y6UHJW>
         <webprotege:RlbsgKOberIEPaV6Ds5KVb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male</webprotege:RlbsgKOberIEPaV6Ds5KVb>
         <rdfs:label>Male Tonkinese Kitten</rdfs:label>
@@ -3371,9 +3340,9 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RHHL0nxUXdLzmELUsadNxw">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/RDAxkWffeiLrvLnYzc81FL"/>
-        <webprotege:RBxu12As84trKAAlPNMH8WG rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20 cm</webprotege:RBxu12As84trKAAlPNMH8WG>
-        <webprotege:RDTogLYCnK2xbcLIheRCZ70 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.9</webprotege:RDTogLYCnK2xbcLIheRCZ70>
-        <webprotege:RDXeeg4yAd91e603fcnBk6c rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.4 kg</webprotege:RDXeeg4yAd91e603fcnBk6c>
+        <webprotege:RBxu12As84trKAAlPNMH8WG rdf:datatype="http://www.w3.org/2001/XMLSchema#double">20.0</webprotege:RBxu12As84trKAAlPNMH8WG>
+        <webprotege:RDTogLYCnK2xbcLIheRCZ70 rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.9</webprotege:RDTogLYCnK2xbcLIheRCZ70>
+        <webprotege:RDXeeg4yAd91e603fcnBk6c rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.4</webprotege:RDXeeg4yAd91e603fcnBk6c>
         <webprotege:RDsXhJmXHoM0ab4L5Y6UHJW rdf:datatype="http://www.w3.org/2001/XMLSchema#string">white, black and orange</webprotege:RDsXhJmXHoM0ab4L5Y6UHJW>
         <webprotege:RlbsgKOberIEPaV6Ds5KVb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Female</webprotege:RlbsgKOberIEPaV6Ds5KVb>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Female Manx Kitten</rdfs:label>
@@ -3385,9 +3354,9 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RHNc05vXZlQGkRgBoVX4hS">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/RCujr9ySNGzufhH2YKTrUSO"/>
-        <webprotege:RBxu12As84trKAAlPNMH8WG rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10 cm</webprotege:RBxu12As84trKAAlPNMH8WG>
-        <webprotege:RDTogLYCnK2xbcLIheRCZ70 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.25</webprotege:RDTogLYCnK2xbcLIheRCZ70>
-        <webprotege:RDXeeg4yAd91e603fcnBk6c rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.5 kg</webprotege:RDXeeg4yAd91e603fcnBk6c>
+        <webprotege:RBxu12As84trKAAlPNMH8WG rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.0</webprotege:RBxu12As84trKAAlPNMH8WG>
+        <webprotege:RDTogLYCnK2xbcLIheRCZ70 rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.25</webprotege:RDTogLYCnK2xbcLIheRCZ70>
+        <webprotege:RDXeeg4yAd91e603fcnBk6c rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.5</webprotege:RDXeeg4yAd91e603fcnBk6c>
         <webprotege:RDsXhJmXHoM0ab4L5Y6UHJW rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Light Brown with Brown spots</webprotege:RDsXhJmXHoM0ab4L5Y6UHJW>
         <webprotege:RlbsgKOberIEPaV6Ds5KVb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male</webprotege:RlbsgKOberIEPaV6Ds5KVb>
         <rdfs:label>Male Bengal Kitten</rdfs:label>
@@ -3399,9 +3368,9 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RLD0Nu1XupwGgTy0MzTEZ8">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/RDOOdCUIo7BBz17KvbpyZmr"/>
-        <webprotege:RBxu12As84trKAAlPNMH8WG rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13 cm</webprotege:RBxu12As84trKAAlPNMH8WG>
-        <webprotege:RDTogLYCnK2xbcLIheRCZ70 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</webprotege:RDTogLYCnK2xbcLIheRCZ70>
-        <webprotege:RDXeeg4yAd91e603fcnBk6c rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.2 kg</webprotege:RDXeeg4yAd91e603fcnBk6c>
+        <webprotege:RBxu12As84trKAAlPNMH8WG rdf:datatype="http://www.w3.org/2001/XMLSchema#double">13.0</webprotege:RBxu12As84trKAAlPNMH8WG>
+        <webprotege:RDTogLYCnK2xbcLIheRCZ70 rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</webprotege:RDTogLYCnK2xbcLIheRCZ70>
+        <webprotege:RDXeeg4yAd91e603fcnBk6c rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.2</webprotege:RDXeeg4yAd91e603fcnBk6c>
         <webprotege:RDsXhJmXHoM0ab4L5Y6UHJW rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ruddy</webprotege:RDsXhJmXHoM0ab4L5Y6UHJW>
         <webprotege:RlbsgKOberIEPaV6Ds5KVb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male</webprotege:RlbsgKOberIEPaV6Ds5KVb>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male Abyssinian Kitten</rdfs:label>
@@ -3413,9 +3382,9 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RLJ1x5Ry1sIFKh7PmV69Ho">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/RWvwFPT7GuiA1rWZDpU83W"/>
-        <webprotege:RBxu12As84trKAAlPNMH8WG rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.5 cm</webprotege:RBxu12As84trKAAlPNMH8WG>
-        <webprotege:RDTogLYCnK2xbcLIheRCZ70 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</webprotege:RDTogLYCnK2xbcLIheRCZ70>
-        <webprotege:RDXeeg4yAd91e603fcnBk6c rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.8 kg</webprotege:RDXeeg4yAd91e603fcnBk6c>
+        <webprotege:RBxu12As84trKAAlPNMH8WG rdf:datatype="http://www.w3.org/2001/XMLSchema#double">16.5</webprotege:RBxu12As84trKAAlPNMH8WG>
+        <webprotege:RDTogLYCnK2xbcLIheRCZ70 rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</webprotege:RDTogLYCnK2xbcLIheRCZ70>
+        <webprotege:RDXeeg4yAd91e603fcnBk6c rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.8</webprotege:RDXeeg4yAd91e603fcnBk6c>
         <webprotege:RDsXhJmXHoM0ab4L5Y6UHJW rdf:datatype="http://www.w3.org/2001/XMLSchema#string">White</webprotege:RDsXhJmXHoM0ab4L5Y6UHJW>
         <webprotege:RlbsgKOberIEPaV6Ds5KVb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male</webprotege:RlbsgKOberIEPaV6Ds5KVb>
         <rdfs:label>Male Khao Manee Kitten</rdfs:label>
@@ -3427,9 +3396,9 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RM0oXrURETdh3D6XJApFZq">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/RCXJEQePnG2lgqc6U33kyiG"/>
-        <webprotege:RBxu12As84trKAAlPNMH8WG rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15 cm</webprotege:RBxu12As84trKAAlPNMH8WG>
-        <webprotege:RDTogLYCnK2xbcLIheRCZ70 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.4</webprotege:RDTogLYCnK2xbcLIheRCZ70>
-        <webprotege:RDXeeg4yAd91e603fcnBk6c rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.1 kg</webprotege:RDXeeg4yAd91e603fcnBk6c>
+        <webprotege:RBxu12As84trKAAlPNMH8WG rdf:datatype="http://www.w3.org/2001/XMLSchema#double">15.0</webprotege:RBxu12As84trKAAlPNMH8WG>
+        <webprotege:RDTogLYCnK2xbcLIheRCZ70 rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.4</webprotege:RDTogLYCnK2xbcLIheRCZ70>
+        <webprotege:RDXeeg4yAd91e603fcnBk6c rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.1</webprotege:RDXeeg4yAd91e603fcnBk6c>
         <webprotege:RDsXhJmXHoM0ab4L5Y6UHJW rdf:datatype="http://www.w3.org/2001/XMLSchema#string">brown and grey</webprotege:RDsXhJmXHoM0ab4L5Y6UHJW>
         <webprotege:RlbsgKOberIEPaV6Ds5KVb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male</webprotege:RlbsgKOberIEPaV6Ds5KVb>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male Toybob Cat</rdfs:label>
@@ -3441,9 +3410,9 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RT1cLPJzAeYEyJk9zqbypP">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/RCkzgvU7WWg6bcLHiyEnB90"/>
-        <webprotege:RBxu12As84trKAAlPNMH8WG rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26 cm</webprotege:RBxu12As84trKAAlPNMH8WG>
-        <webprotege:RDTogLYCnK2xbcLIheRCZ70 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</webprotege:RDTogLYCnK2xbcLIheRCZ70>
-        <webprotege:RDXeeg4yAd91e603fcnBk6c rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5.5 kg</webprotege:RDXeeg4yAd91e603fcnBk6c>
+        <webprotege:RBxu12As84trKAAlPNMH8WG rdf:datatype="http://www.w3.org/2001/XMLSchema#double">26.0</webprotege:RBxu12As84trKAAlPNMH8WG>
+        <webprotege:RDTogLYCnK2xbcLIheRCZ70 rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</webprotege:RDTogLYCnK2xbcLIheRCZ70>
+        <webprotege:RDXeeg4yAd91e603fcnBk6c rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.5</webprotege:RDXeeg4yAd91e603fcnBk6c>
         <webprotege:RDsXhJmXHoM0ab4L5Y6UHJW rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bluish Gray</webprotege:RDsXhJmXHoM0ab4L5Y6UHJW>
         <webprotege:RlbsgKOberIEPaV6Ds5KVb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male</webprotege:RlbsgKOberIEPaV6Ds5KVb>
         <rdfs:label>Male Chartreux Cat</rdfs:label>
@@ -3455,9 +3424,9 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RTq2Pp888qYPTYwJHxJ5VL">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/R9xcQt4KBCmuhI77fg3WP1"/>
-        <webprotege:RBxu12As84trKAAlPNMH8WG rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13 cm</webprotege:RBxu12As84trKAAlPNMH8WG>
-        <webprotege:RDTogLYCnK2xbcLIheRCZ70 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.3</webprotege:RDTogLYCnK2xbcLIheRCZ70>
-        <webprotege:RDXeeg4yAd91e603fcnBk6c rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.3 kg</webprotege:RDXeeg4yAd91e603fcnBk6c>
+        <webprotege:RBxu12As84trKAAlPNMH8WG rdf:datatype="http://www.w3.org/2001/XMLSchema#double">13.0</webprotege:RBxu12As84trKAAlPNMH8WG>
+        <webprotege:RDTogLYCnK2xbcLIheRCZ70 rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.3</webprotege:RDTogLYCnK2xbcLIheRCZ70>
+        <webprotege:RDXeeg4yAd91e603fcnBk6c rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.3</webprotege:RDXeeg4yAd91e603fcnBk6c>
         <webprotege:RDsXhJmXHoM0ab4L5Y6UHJW rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sorrel (red)</webprotege:RDsXhJmXHoM0ab4L5Y6UHJW>
         <webprotege:RlbsgKOberIEPaV6Ds5KVb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Female</webprotege:RlbsgKOberIEPaV6Ds5KVb>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Female Somali Kitten</rdfs:label>
@@ -3469,9 +3438,9 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RfnPMFzAenZNtd3qF0skoI">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/R80cfWP1G95crRfJeDyrYIU"/>
-        <webprotege:RBxu12As84trKAAlPNMH8WG rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26 cm</webprotege:RBxu12As84trKAAlPNMH8WG>
-        <webprotege:RDTogLYCnK2xbcLIheRCZ70 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</webprotege:RDTogLYCnK2xbcLIheRCZ70>
-        <webprotege:RDXeeg4yAd91e603fcnBk6c rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5.2 kg</webprotege:RDXeeg4yAd91e603fcnBk6c>
+        <webprotege:RBxu12As84trKAAlPNMH8WG rdf:datatype="http://www.w3.org/2001/XMLSchema#double">26.0</webprotege:RBxu12As84trKAAlPNMH8WG>
+        <webprotege:RDTogLYCnK2xbcLIheRCZ70 rdf:datatype="http://www.w3.org/2001/XMLSchema#double">7.0</webprotege:RDTogLYCnK2xbcLIheRCZ70>
+        <webprotege:RDXeeg4yAd91e603fcnBk6c rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.2</webprotege:RDXeeg4yAd91e603fcnBk6c>
         <webprotege:RDsXhJmXHoM0ab4L5Y6UHJW rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orange with stripes</webprotege:RDsXhJmXHoM0ab4L5Y6UHJW>
         <webprotege:RlbsgKOberIEPaV6Ds5KVb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male</webprotege:RlbsgKOberIEPaV6Ds5KVb>
         <rdfs:label>Male Exotic Cat</rdfs:label>
@@ -3483,9 +3452,9 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RgQco90XMIdMptDAXAHb8b">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/RC7CxJQEjHju3nGIxdXKu4s"/>
-        <webprotege:RBxu12As84trKAAlPNMH8WG rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30 cm</webprotege:RBxu12As84trKAAlPNMH8WG>
-        <webprotege:RDTogLYCnK2xbcLIheRCZ70 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</webprotege:RDTogLYCnK2xbcLIheRCZ70>
-        <webprotege:RDXeeg4yAd91e603fcnBk6c rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.3 kg</webprotege:RDXeeg4yAd91e603fcnBk6c>
+        <webprotege:RBxu12As84trKAAlPNMH8WG rdf:datatype="http://www.w3.org/2001/XMLSchema#double">30.0</webprotege:RBxu12As84trKAAlPNMH8WG>
+        <webprotege:RDTogLYCnK2xbcLIheRCZ70 rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</webprotege:RDTogLYCnK2xbcLIheRCZ70>
+        <webprotege:RDXeeg4yAd91e603fcnBk6c rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.3</webprotege:RDXeeg4yAd91e603fcnBk6c>
         <webprotege:RDsXhJmXHoM0ab4L5Y6UHJW rdf:datatype="http://www.w3.org/2001/XMLSchema#string">white and black</webprotege:RDsXhJmXHoM0ab4L5Y6UHJW>
         <webprotege:RlbsgKOberIEPaV6Ds5KVb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Female</webprotege:RlbsgKOberIEPaV6Ds5KVb>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Female Siamese Cat</rdfs:label>
@@ -3497,9 +3466,9 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/Rptau8MHivP1Wr2JDTovoe">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/RDlf3Ui74qgUetAWcmm2c3C"/>
-        <webprotege:RBxu12As84trKAAlPNMH8WG rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20 cm</webprotege:RBxu12As84trKAAlPNMH8WG>
-        <webprotege:RDTogLYCnK2xbcLIheRCZ70 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.9</webprotege:RDTogLYCnK2xbcLIheRCZ70>
-        <webprotege:RDXeeg4yAd91e603fcnBk6c rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.2 kg</webprotege:RDXeeg4yAd91e603fcnBk6c>
+        <webprotege:RBxu12As84trKAAlPNMH8WG rdf:datatype="http://www.w3.org/2001/XMLSchema#double">20.0</webprotege:RBxu12As84trKAAlPNMH8WG>
+        <webprotege:RDTogLYCnK2xbcLIheRCZ70 rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.9</webprotege:RDTogLYCnK2xbcLIheRCZ70>
+        <webprotege:RDXeeg4yAd91e603fcnBk6c rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.2</webprotege:RDXeeg4yAd91e603fcnBk6c>
         <webprotege:RDsXhJmXHoM0ab4L5Y6UHJW rdf:datatype="http://www.w3.org/2001/XMLSchema#string">creamy brown</webprotege:RDsXhJmXHoM0ab4L5Y6UHJW>
         <webprotege:RlbsgKOberIEPaV6Ds5KVb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Female</webprotege:RlbsgKOberIEPaV6Ds5KVb>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Female Sphynx Kitten</rdfs:label>
@@ -3511,9 +3480,9 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/Rvrj9o2sFMy9SNTMyVVXBD">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/RDThoBbdkIyicN500nY18pp"/>
-        <webprotege:RBxu12As84trKAAlPNMH8WG rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23 cm</webprotege:RBxu12As84trKAAlPNMH8WG>
-        <webprotege:RDTogLYCnK2xbcLIheRCZ70 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</webprotege:RDTogLYCnK2xbcLIheRCZ70>
-        <webprotege:RDXeeg4yAd91e603fcnBk6c rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.4 kg</webprotege:RDXeeg4yAd91e603fcnBk6c>
+        <webprotege:RBxu12As84trKAAlPNMH8WG rdf:datatype="http://www.w3.org/2001/XMLSchema#double">23.0</webprotege:RBxu12As84trKAAlPNMH8WG>
+        <webprotege:RDTogLYCnK2xbcLIheRCZ70 rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</webprotege:RDTogLYCnK2xbcLIheRCZ70>
+        <webprotege:RDXeeg4yAd91e603fcnBk6c rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.4</webprotege:RDXeeg4yAd91e603fcnBk6c>
         <webprotege:RDsXhJmXHoM0ab4L5Y6UHJW rdf:datatype="http://www.w3.org/2001/XMLSchema#string">white</webprotege:RDsXhJmXHoM0ab4L5Y6UHJW>
         <webprotege:RlbsgKOberIEPaV6Ds5KVb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male</webprotege:RlbsgKOberIEPaV6Ds5KVb>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male Balinese Cat</rdfs:label>
@@ -3525,9 +3494,9 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RwafP7XIVbdDDwSYXSoY17">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/Rbbm3Wh2cCUcyKwWRPw2a8"/>
-        <webprotege:RBxu12As84trKAAlPNMH8WG rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15 cm</webprotege:RBxu12As84trKAAlPNMH8WG>
-        <webprotege:RDTogLYCnK2xbcLIheRCZ70 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.5</webprotege:RDTogLYCnK2xbcLIheRCZ70>
-        <webprotege:RDXeeg4yAd91e603fcnBk6c rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.5 kg</webprotege:RDXeeg4yAd91e603fcnBk6c>
+        <webprotege:RBxu12As84trKAAlPNMH8WG rdf:datatype="http://www.w3.org/2001/XMLSchema#double">15.0</webprotege:RBxu12As84trKAAlPNMH8WG>
+        <webprotege:RDTogLYCnK2xbcLIheRCZ70 rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.5</webprotege:RDTogLYCnK2xbcLIheRCZ70>
+        <webprotege:RDXeeg4yAd91e603fcnBk6c rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.5</webprotege:RDXeeg4yAd91e603fcnBk6c>
         <webprotege:RDsXhJmXHoM0ab4L5Y6UHJW rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Off-White</webprotege:RDsXhJmXHoM0ab4L5Y6UHJW>
         <webprotege:RlbsgKOberIEPaV6Ds5KVb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male</webprotege:RlbsgKOberIEPaV6Ds5KVb>
         <rdfs:label>Female Colorpoint Shorthair Kitten</rdfs:label>

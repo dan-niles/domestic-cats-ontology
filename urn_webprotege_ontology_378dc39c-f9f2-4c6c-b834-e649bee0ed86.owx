@@ -33,9 +33,6 @@
         <Class IRI="http://webprotege.stanford.edu/R7LUN6c9MPyvRSY53RSn1Qc"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://webprotege.stanford.edu/R7SBFFtoqFKP356GjkivHrn"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="http://webprotege.stanford.edu/R7SMNOUTyH5lZmqTASSvC2V"/>
     </Declaration>
     <Declaration>
@@ -240,9 +237,6 @@
         <Class IRI="http://webprotege.stanford.edu/RCP9qLibYNpN01F00XVfOyx"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://webprotege.stanford.edu/RCQEQm4mF0RhASppUe0Nr9o"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="http://webprotege.stanford.edu/RCQN3b7H7HtG1JrH2xgxfru"/>
     </Declaration>
     <Declaration>
@@ -417,9 +411,6 @@
         <ObjectProperty IRI="http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://webprotege.stanford.edu/R8QPtvLqGoT1kqaqqtlkIIN"/>
-    </Declaration>
-    <Declaration>
         <ObjectProperty IRI="http://webprotege.stanford.edu/RB0A6fH0XxSKtysmnlUrZny"/>
     </Declaration>
     <Declaration>
@@ -580,6 +571,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="http://webprotege.stanford.edu/RwafP7XIVbdDDwSYXSoY17"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/R7WF5Tu4rEl7drNvOC5lKbL"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty IRI="http://webprotege.stanford.edu/RBUnz6lGkyubOw0UOSTe43z"/>
@@ -756,10 +750,6 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://webprotege.stanford.edu/R7SBFFtoqFKP356GjkivHrn"/>
-        <Class IRI="http://webprotege.stanford.edu/R9detm7hMYgMXyc71KvW8S"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="http://webprotege.stanford.edu/R7SMNOUTyH5lZmqTASSvC2V"/>
         <Class IRI="http://webprotege.stanford.edu/R9TiuPQhkMCGJBm0imkBu5q"/>
     </SubClassOf>
@@ -925,13 +915,6 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW"/>
             <Class IRI="http://webprotege.stanford.edu/R9A8NJb17VJH8lPbiEDAUD8"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://webprotege.stanford.edu/R8H0kuTKZ31PoHJgzxEaP81"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://webprotege.stanford.edu/R8QPtvLqGoT1kqaqqtlkIIN"/>
-            <Class IRI="http://webprotege.stanford.edu/R9iEknLxda6LGnyGPbWkorQ"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -1779,10 +1762,6 @@
             <ObjectProperty IRI="http://webprotege.stanford.edu/RhGIrcBXuiEthAcOUaFNhG"/>
             <Class IRI="http://webprotege.stanford.edu/RcMeCwHPahQ6yjHT7waXUr"/>
         </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://webprotege.stanford.edu/RCQEQm4mF0RhASppUe0Nr9o"/>
-        <Class IRI="http://webprotege.stanford.edu/R9detm7hMYgMXyc71KvW8S"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://webprotege.stanford.edu/RCQN3b7H7HtG1JrH2xgxfru"/>
@@ -2786,13 +2765,6 @@
         <Class IRI="http://webprotege.stanford.edu/RBNv3Xa6YZcMAeHoERjsZYB"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://webprotege.stanford.edu/RugLVB2fY80DDW8Tw9J3dh"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO"/>
-            <Class IRI="http://webprotege.stanford.edu/RECkKgTWwIP6MlBWgOGape"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="http://webprotege.stanford.edu/RvhjLyoDSWYIn7wYFVg0Hz"/>
         <Class IRI="http://webprotege.stanford.edu/R9sP0kiNHtp8TYvgaBT0ZIt"/>
     </SubClassOf>
@@ -2983,17 +2955,17 @@
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/R7A3KO4n7ABycQX2Mqt2jHI"/>
-        <Literal>20 cm</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">20.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/R7A3KO4n7ABycQX2Mqt2jHI"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/R7A3KO4n7ABycQX2Mqt2jHI"/>
-        <Literal>3.2 kg</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">3.2</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW"/>
@@ -3008,17 +2980,17 @@
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/R7wpmuDVAzoHaoNErvGVbx6"/>
-        <Literal>13 cm</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">13.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/R7wpmuDVAzoHaoNErvGVbx6"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0.5</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">0.5</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/R7wpmuDVAzoHaoNErvGVbx6"/>
-        <Literal>1 kg</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">1.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW"/>
@@ -3033,17 +3005,17 @@
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/R7ySmQE9Zxzk8TnSD1RQDnF"/>
-        <Literal>25 cm</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">25.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/R7ySmQE9Zxzk8TnSD1RQDnF"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">6</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">6.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/R7ySmQE9Zxzk8TnSD1RQDnF"/>
-        <Literal>4.5 kg</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.5</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW"/>
@@ -3058,17 +3030,17 @@
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/R8FerpZXiLHlrLaVrqMvrV7"/>
-        <Literal>25 cm</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">25.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/R8FerpZXiLHlrLaVrqMvrV7"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">6</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">6.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/R8FerpZXiLHlrLaVrqMvrV7"/>
-        <Literal>6 kg</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">6.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW"/>
@@ -3083,17 +3055,17 @@
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/R8OXVzYJ0uQV2CxblgTopwQ"/>
-        <Literal>17.7 cm</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">17.7</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/R8OXVzYJ0uQV2CxblgTopwQ"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">1.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/R8OXVzYJ0uQV2CxblgTopwQ"/>
-        <Literal>1.4 kg</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">1.4</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW"/>
@@ -3108,17 +3080,17 @@
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/R8WS7KwWioyc0aq0UqB0gF7"/>
-        <Literal>14 cm</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">14.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/R8WS7KwWioyc0aq0UqB0gF7"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0.5</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">0.5</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/R8WS7KwWioyc0aq0UqB0gF7"/>
-        <Literal>2 kg</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">2.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW"/>
@@ -3133,17 +3105,17 @@
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/R8ag1oXWlh3aiJOZbaA2tcx"/>
-        <Literal>33.02 cm</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">33.02</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/R8ag1oXWlh3aiJOZbaA2tcx"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">5.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/R8ag1oXWlh3aiJOZbaA2tcx"/>
-        <Literal>6.3 kg</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">6.3</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW"/>
@@ -3158,17 +3130,17 @@
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/R8gF6ldjFeGEjBHACXjA5lp"/>
-        <Literal>24 cm</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">24.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/R8gF6ldjFeGEjBHACXjA5lp"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">3.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/R8gF6ldjFeGEjBHACXjA5lp"/>
-        <Literal>2.7 kg</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">2.7</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW"/>
@@ -3183,17 +3155,17 @@
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/R8ojl8zN94KhfLqlBBelp6A"/>
-        <Literal>12 cm</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">12.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/R8ojl8zN94KhfLqlBBelp6A"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0.75</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">0.75</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/R8ojl8zN94KhfLqlBBelp6A"/>
-        <Literal>1.5 kg</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">1.5</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW"/>
@@ -3208,17 +3180,17 @@
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/R8qlcTO2upa5MPwDdJ5iiqR"/>
-        <Literal>28 cm</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">28.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/R8qlcTO2upa5MPwDdJ5iiqR"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">3.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/R8qlcTO2upa5MPwDdJ5iiqR"/>
-        <Literal>2.5 kg</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">2.5</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW"/>
@@ -3233,17 +3205,17 @@
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/R8rRTZC4BoLdqrrGoslnhUe"/>
-        <Literal>12 cm</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">12.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/R8rRTZC4BoLdqrrGoslnhUe"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0.4</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">0.4</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/R8rRTZC4BoLdqrrGoslnhUe"/>
-        <Literal>0.4 kg</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">0.4</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW"/>
@@ -3258,17 +3230,17 @@
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/R95Ol1VPbKictrYaeqw1L9j"/>
-        <Literal>20 cm</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">20.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/R95Ol1VPbKictrYaeqw1L9j"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">5.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/R95Ol1VPbKictrYaeqw1L9j"/>
-        <Literal>2.9 kg</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">2.9</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW"/>
@@ -3283,17 +3255,17 @@
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/R9789MSZqWFlV4rGwM7BQFr"/>
-        <Literal>15.4 cm</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">15.4</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/R9789MSZqWFlV4rGwM7BQFr"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">2.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/R9789MSZqWFlV4rGwM7BQFr"/>
-        <Literal>1.53 kg</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">1.53</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW"/>
@@ -3308,17 +3280,17 @@
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/R9GMit3H5kIZw9WtJ0E9Na5"/>
-        <Literal>19 cm</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">19.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/R9GMit3H5kIZw9WtJ0E9Na5"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/R9GMit3H5kIZw9WtJ0E9Na5"/>
-        <Literal>3.0 kg</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">3.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW"/>
@@ -3333,17 +3305,17 @@
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/R9dNLA3NmoFPqDGQFv6ckTV"/>
-        <Literal>17 cm</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">17.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/R9dNLA3NmoFPqDGQFv6ckTV"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0.4</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">0.4</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/R9dNLA3NmoFPqDGQFv6ckTV"/>
-        <Literal>1.2 kg</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">1.2</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RlbsgKOberIEPaV6Ds5KVb"/>
@@ -3353,17 +3325,17 @@
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/R9dqURNZ6ecUd3THHyJToSB"/>
-        <Literal>25 cm</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">25.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/R9dqURNZ6ecUd3THHyJToSB"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/R9dqURNZ6ecUd3THHyJToSB"/>
-        <Literal>3.7 kg</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">3.7</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW"/>
@@ -3378,17 +3350,17 @@
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/R9oFCXfDXFjFiMsuBGiatCx"/>
-        <Literal>22 cm</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">22.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/R9oFCXfDXFjFiMsuBGiatCx"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">6</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">6.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/R9oFCXfDXFjFiMsuBGiatCx"/>
-        <Literal>4.1 kg</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.1</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW"/>
@@ -3403,17 +3375,17 @@
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/RB7lilf1bV2zEZjIBRIve3x"/>
-        <Literal>15 cm</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">15.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/RB7lilf1bV2zEZjIBRIve3x"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0.8</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">0.8</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/RB7lilf1bV2zEZjIBRIve3x"/>
-        <Literal>1 kg</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">1.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW"/>
@@ -3428,17 +3400,17 @@
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/RBVBWpWTiXllH9RVx1FeYyT"/>
-        <Literal>28 cm</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">28.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/RBVBWpWTiXllH9RVx1FeYyT"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/RBVBWpWTiXllH9RVx1FeYyT"/>
-        <Literal>4.6 kg</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.6</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW"/>
@@ -3453,17 +3425,17 @@
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/RBlzSGKVupRcel9QBqjhU2u"/>
-        <Literal>20 cm</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">20.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/RBlzSGKVupRcel9QBqjhU2u"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0.6</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">0.6</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/RBlzSGKVupRcel9QBqjhU2u"/>
-        <Literal>0.8 kg</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">0.8</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW"/>
@@ -3478,17 +3450,17 @@
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/RBoPayDjhqEYWQgIUnbCrug"/>
-        <Literal>23 cm</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">23.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/RBoPayDjhqEYWQgIUnbCrug"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">5.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/RBoPayDjhqEYWQgIUnbCrug"/>
-        <Literal>4.6 kg</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.6</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW"/>
@@ -3503,17 +3475,17 @@
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/RBr6ptz55aOcO2iGgwUG7HO"/>
-        <Literal>25 cm</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">25.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/RBr6ptz55aOcO2iGgwUG7HO"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">5.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/RBr6ptz55aOcO2iGgwUG7HO"/>
-        <Literal>4 kg</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW"/>
@@ -3528,17 +3500,17 @@
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/RBtGdjTYKmFyfE0VtZX1bpp"/>
-        <Literal>28 cm</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">28.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/RBtGdjTYKmFyfE0VtZX1bpp"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">7</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">7.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/RBtGdjTYKmFyfE0VtZX1bpp"/>
-        <Literal>6.5 kg</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">6.5</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW"/>
@@ -3553,17 +3525,17 @@
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/RCTdm9x46Y9R2iXjftI81yK"/>
-        <Literal>10 cm</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">10.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/RCTdm9x46Y9R2iXjftI81yK"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">1.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/RCTdm9x46Y9R2iXjftI81yK"/>
-        <Literal>1.2 kg</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">1.2</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW"/>
@@ -3578,17 +3550,17 @@
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/RCXUhragdGmOSebohVTnCld"/>
-        <Literal>25 cm</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">25.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/RCXUhragdGmOSebohVTnCld"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/RCXUhragdGmOSebohVTnCld"/>
-        <Literal>4.4 kg</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.4</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW"/>
@@ -3603,17 +3575,17 @@
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/RCduiysSLR13QFDVvbM7ybJ"/>
-        <Literal>26.7 cm</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">26.7</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/RCduiysSLR13QFDVvbM7ybJ"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/RCduiysSLR13QFDVvbM7ybJ"/>
-        <Literal>3.7 kg</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">3.7</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW"/>
@@ -3628,17 +3600,17 @@
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/RCn13vYf8iRbZoNbbp3In4"/>
-        <Literal>12 cm</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">12.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/RCn13vYf8iRbZoNbbp3In4"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0.5</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">0.5</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/RCn13vYf8iRbZoNbbp3In4"/>
-        <Literal>0.6 kg</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">0.6</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW"/>
@@ -3653,17 +3625,17 @@
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/RCnrsd0jm7bLBDMAH5yEjZU"/>
-        <Literal>34.5 cm</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">34.5</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/RCnrsd0jm7bLBDMAH5yEjZU"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">5.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/RCnrsd0jm7bLBDMAH5yEjZU"/>
-        <Literal>4.7 kg</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.7</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW"/>
@@ -3678,17 +3650,17 @@
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/RCrY2aKKr0DOqrakqNcKI4D"/>
-        <Literal>24 cm</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">24.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/RCrY2aKKr0DOqrakqNcKI4D"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2.4</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">2.4</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/RCrY2aKKr0DOqrakqNcKI4D"/>
-        <Literal>2.3 kg</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">2.3</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW"/>
@@ -3703,17 +3675,17 @@
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/RD2VZ7zo8dxTt0jVji1BuGc"/>
-        <Literal>21 cm</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">21.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/RD2VZ7zo8dxTt0jVji1BuGc"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">3.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/RD2VZ7zo8dxTt0jVji1BuGc"/>
-        <Literal>3 kg</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">3.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW"/>
@@ -3728,17 +3700,17 @@
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/RDcG4w5Y0i8Sji4Iv9NdAn7"/>
-        <Literal>22.9 cm</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">22.9</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/RDcG4w5Y0i8Sji4Iv9NdAn7"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">5.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/RDcG4w5Y0i8Sji4Iv9NdAn7"/>
-        <Literal>5.2 kg</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">5.2</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW"/>
@@ -3753,17 +3725,17 @@
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/RDqfZM3lwyj8NBbH9Fyz71A"/>
-        <Literal>11 cm</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">11.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/RDqfZM3lwyj8NBbH9Fyz71A"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0.25</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">0.25</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/RDqfZM3lwyj8NBbH9Fyz71A"/>
-        <Literal>1.1 kg</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">1.1</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW"/>
@@ -3778,17 +3750,17 @@
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/RHHL0nxUXdLzmELUsadNxw"/>
-        <Literal>20 cm</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">20.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/RHHL0nxUXdLzmELUsadNxw"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0.9</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">0.9</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/RHHL0nxUXdLzmELUsadNxw"/>
-        <Literal>1.4 kg</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">1.4</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW"/>
@@ -3803,17 +3775,17 @@
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/RHNc05vXZlQGkRgBoVX4hS"/>
-        <Literal>10 cm</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">10.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/RHNc05vXZlQGkRgBoVX4hS"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0.25</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">0.25</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/RHNc05vXZlQGkRgBoVX4hS"/>
-        <Literal>1.5 kg</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">1.5</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW"/>
@@ -3828,17 +3800,17 @@
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/RLD0Nu1XupwGgTy0MzTEZ8"/>
-        <Literal>13 cm</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">13.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/RLD0Nu1XupwGgTy0MzTEZ8"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">1.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/RLD0Nu1XupwGgTy0MzTEZ8"/>
-        <Literal>1.2 kg</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">1.2</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW"/>
@@ -3853,17 +3825,17 @@
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/RLJ1x5Ry1sIFKh7PmV69Ho"/>
-        <Literal>16.5 cm</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">16.5</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/RLJ1x5Ry1sIFKh7PmV69Ho"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">1.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/RLJ1x5Ry1sIFKh7PmV69Ho"/>
-        <Literal>1.8 kg</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">1.8</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW"/>
@@ -3878,17 +3850,17 @@
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/RM0oXrURETdh3D6XJApFZq"/>
-        <Literal>15 cm</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">15.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/RM0oXrURETdh3D6XJApFZq"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5.4</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">5.4</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/RM0oXrURETdh3D6XJApFZq"/>
-        <Literal>1.1 kg</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">1.1</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW"/>
@@ -3903,17 +3875,17 @@
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/RT1cLPJzAeYEyJk9zqbypP"/>
-        <Literal>26 cm</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">26.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/RT1cLPJzAeYEyJk9zqbypP"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/RT1cLPJzAeYEyJk9zqbypP"/>
-        <Literal>5.5 kg</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">5.5</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW"/>
@@ -3928,17 +3900,17 @@
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/RTq2Pp888qYPTYwJHxJ5VL"/>
-        <Literal>13 cm</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">13.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/RTq2Pp888qYPTYwJHxJ5VL"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0.3</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">0.3</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/RTq2Pp888qYPTYwJHxJ5VL"/>
-        <Literal>0.3 kg</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">0.3</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW"/>
@@ -3953,17 +3925,17 @@
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/RfnPMFzAenZNtd3qF0skoI"/>
-        <Literal>26 cm</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">26.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/RfnPMFzAenZNtd3qF0skoI"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">7</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">7.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/RfnPMFzAenZNtd3qF0skoI"/>
-        <Literal>5.2 kg</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">5.2</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW"/>
@@ -3978,17 +3950,17 @@
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/RgQco90XMIdMptDAXAHb8b"/>
-        <Literal>30 cm</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">30.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/RgQco90XMIdMptDAXAHb8b"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/RgQco90XMIdMptDAXAHb8b"/>
-        <Literal>2.3 kg</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">2.3</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW"/>
@@ -4003,17 +3975,17 @@
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/Rptau8MHivP1Wr2JDTovoe"/>
-        <Literal>20 cm</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">20.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/Rptau8MHivP1Wr2JDTovoe"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0.9</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">0.9</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/Rptau8MHivP1Wr2JDTovoe"/>
-        <Literal>1.2 kg</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">1.2</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW"/>
@@ -4028,17 +4000,17 @@
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/Rvrj9o2sFMy9SNTMyVVXBD"/>
-        <Literal>23 cm</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">23.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/Rvrj9o2sFMy9SNTMyVVXBD"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">3.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/Rvrj9o2sFMy9SNTMyVVXBD"/>
-        <Literal>2.4 kg</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">2.4</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW"/>
@@ -4053,17 +4025,17 @@
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/RwafP7XIVbdDDwSYXSoY17"/>
-        <Literal>15 cm</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">15.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/RwafP7XIVbdDDwSYXSoY17"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0.5</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">0.5</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c"/>
         <NamedIndividual IRI="http://webprotege.stanford.edu/RwafP7XIVbdDDwSYXSoY17"/>
-        <Literal>1.5 kg</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">1.5</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW"/>
@@ -4084,10 +4056,6 @@
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="http://webprotege.stanford.edu/R8QPtvLqGoT1kqaqqtlkIIN"/>
-        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
         <ObjectProperty IRI="http://webprotege.stanford.edu/RB0A6fH0XxSKtysmnlUrZny"/>
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
@@ -4105,19 +4073,15 @@
     </SubObjectPropertyOf>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="http://webprotege.stanford.edu/R3RkRp3FeBJqRho4W2nihY"/>
-        <Class IRI="http://webprotege.stanford.edu/RugLVB2fY80DDW8Tw9J3dh"/>
+        <Class IRI="http://webprotege.stanford.edu/RBNv3Xa6YZcMAeHoERjsZYB"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW"/>
         <Class IRI="http://webprotege.stanford.edu/RugLVB2fY80DDW8Tw9J3dh"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="http://webprotege.stanford.edu/R8QPtvLqGoT1kqaqqtlkIIN"/>
-        <Class IRI="http://webprotege.stanford.edu/RugLVB2fY80DDW8Tw9J3dh"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
         <ObjectProperty IRI="http://webprotege.stanford.edu/RB0A6fH0XxSKtysmnlUrZny"/>
-        <Class IRI="http://webprotege.stanford.edu/RugLVB2fY80DDW8Tw9J3dh"/>
+        <Class IRI="http://webprotege.stanford.edu/RCo9eWwbqVccz1d7QEhfOYd"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO"/>
@@ -4129,7 +4093,7 @@
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="http://webprotege.stanford.edu/RhGIrcBXuiEthAcOUaFNhG"/>
-        <Class IRI="http://webprotege.stanford.edu/RugLVB2fY80DDW8Tw9J3dh"/>
+        <Class IRI="http://webprotege.stanford.edu/RCo9eWwbqVccz1d7QEhfOYd"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="http://webprotege.stanford.edu/RuiH9YIxFP6aumQcZpnIPO"/>
@@ -4142,10 +4106,6 @@
     <ObjectPropertyRange>
         <ObjectProperty IRI="http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW"/>
         <Class IRI="http://webprotege.stanford.edu/RDI9zuFH0jwc2u2QsTNXC96"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="http://webprotege.stanford.edu/R8QPtvLqGoT1kqaqqtlkIIN"/>
-        <Class IRI="http://webprotege.stanford.edu/RbyBgpx010noGl9UDArBGB"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="http://webprotege.stanford.edu/RB0A6fH0XxSKtysmnlUrZny"/>
@@ -4209,15 +4169,15 @@
     </DataPropertyDomain>
     <DataPropertyRange>
         <DataProperty IRI="http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG"/>
-        <Datatype abbreviatedIRI="xsd:string"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70"/>
-        <Datatype abbreviatedIRI="xsd:int"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c"/>
-        <Datatype abbreviatedIRI="xsd:string"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW"/>
@@ -4299,13 +4259,13 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://webprotege.stanford.edu/R7SBFFtoqFKP356GjkivHrn</IRI>
-        <Literal>Hairless</Literal>
+        <IRI>http://webprotege.stanford.edu/R7SMNOUTyH5lZmqTASSvC2V</IRI>
+        <Literal>Crossbreed Semi-Long-Haired</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://webprotege.stanford.edu/R7SMNOUTyH5lZmqTASSvC2V</IRI>
-        <Literal>Crossbreed Semi-Long-Haired</Literal>
+        <IRI>http://webprotege.stanford.edu/R7WF5Tu4rEl7drNvOC5lKbL</IRI>
+        <Literal>quantityUnit</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4431,11 +4391,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://webprotege.stanford.edu/R8OXVzYJ0uQV2CxblgTopwQ</IRI>
         <Literal>Female Burmese Kitten</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://webprotege.stanford.edu/R8QPtvLqGoT1kqaqqtlkIIN</IRI>
-        <Literal>has-tail</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4813,6 +4768,11 @@
         <Literal>Ocicat</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/R7WF5Tu4rEl7drNvOC5lKbL"/>
+        <IRI>http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG</IRI>
+        <Literal>Centimeters</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG</IRI>
         <Literal>height</Literal>
@@ -4871,11 +4831,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://webprotege.stanford.edu/RCP9qLibYNpN01F00XVfOyx</IRI>
         <Literal>Bombay</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://webprotege.stanford.edu/RCQEQm4mF0RhASppUe0Nr9o</IRI>
-        <Literal>Rex</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -5076,6 +5031,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70</IRI>
         <Literal>age</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/R7WF5Tu4rEl7drNvOC5lKbL"/>
+        <IRI>http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c</IRI>
+        <Literal>Kilograms</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
