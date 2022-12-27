@@ -1,0 +1,2382 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <urn:webprotege:ontology:378dc39c-f9f2-4c6c-b834-e649bee0ed86>
+
+
+AnnotationProperty: <http://webprotege.stanford.edu/R7WF5Tu4rEl7drNvOC5lKbL>
+
+    Annotations: 
+        rdfs:label "quantityUnit"
+    
+    
+AnnotationProperty: <http://webprotege.stanford.edu/RBUnz6lGkyubOw0UOSTe43z>
+
+    Annotations: 
+        rdfs:label "breedStandardURL"
+    
+    
+AnnotationProperty: <http://webprotege.stanford.edu/RDeAGymGUOtCPbN8QA4KBJP>
+
+    Annotations: 
+        rdfs:label "imageURL"
+    
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: rdf:PlainLiteral
+
+    
+Datatype: xsd:double
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://webprotege.stanford.edu/R3RkRp3FeBJqRho4W2nihY>
+
+    Annotations: 
+        rdfs:label "has-coat-type"
+    
+    SubPropertyOf: 
+        owl:topObjectProperty
+    
+    Domain: 
+        <http://webprotege.stanford.edu/RBNv3Xa6YZcMAeHoERjsZYB>
+    
+    Range: 
+        <http://webprotege.stanford.edu/R9detm7hMYgMXyc71KvW8S>
+    
+    
+ObjectProperty: <http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW>
+
+    Annotations: 
+        rdfs:label "has-personality"
+    
+    SubPropertyOf: 
+        owl:topObjectProperty
+    
+    Domain: 
+        <http://webprotege.stanford.edu/RugLVB2fY80DDW8Tw9J3dh>
+    
+    Range: 
+        <http://webprotege.stanford.edu/RDI9zuFH0jwc2u2QsTNXC96>
+    
+    
+ObjectProperty: <http://webprotege.stanford.edu/RB0A6fH0XxSKtysmnlUrZny>
+
+    Annotations: 
+        rdfs:label "has-body-part"^^xsd:string
+    
+    SubPropertyOf: 
+        owl:topObjectProperty
+    
+    Domain: 
+        <http://webprotege.stanford.edu/RCo9eWwbqVccz1d7QEhfOYd>
+    
+    Range: 
+        <http://webprotege.stanford.edu/RB0hZtDoGwZt1elxw1cj7ob>
+    
+    
+ObjectProperty: <http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO>
+
+    Annotations: 
+        rdfs:label "originates-from"
+    
+    SubPropertyOf: 
+        owl:topObjectProperty
+    
+    Domain: 
+        <http://webprotege.stanford.edu/RugLVB2fY80DDW8Tw9J3dh>
+    
+    Range: 
+        <http://webprotege.stanford.edu/RECkKgTWwIP6MlBWgOGape>
+    
+    
+ObjectProperty: <http://webprotege.stanford.edu/RDzCQJvC0ncfLdDGpXK2eGT>
+
+    Annotations: 
+        rdfs:label "cross-bred-from"^^xsd:string
+    
+    SubPropertyOf: 
+        owl:topObjectProperty
+    
+    Domain: 
+        <http://webprotege.stanford.edu/R9TiuPQhkMCGJBm0imkBu5q>
+    
+    Range: 
+        <http://webprotege.stanford.edu/RugLVB2fY80DDW8Tw9J3dh>
+    
+    
+ObjectProperty: <http://webprotege.stanford.edu/RhGIrcBXuiEthAcOUaFNhG>
+
+    Annotations: 
+        rdfs:label "has-body-type"
+    
+    SubPropertyOf: 
+        owl:topObjectProperty
+    
+    Domain: 
+        <http://webprotege.stanford.edu/RCo9eWwbqVccz1d7QEhfOYd>
+    
+    Range: 
+        <http://webprotege.stanford.edu/R9sP0kiNHtp8TYvgaBT0ZIt>
+    
+    
+ObjectProperty: <http://webprotege.stanford.edu/RuiH9YIxFP6aumQcZpnIPO>
+
+    Annotations: 
+        rdfs:label "has-structure"
+    
+    Domain: 
+        <http://webprotege.stanford.edu/RCo9eWwbqVccz1d7QEhfOYd>
+    
+    Range: 
+        <http://webprotege.stanford.edu/RCyG0M8NDslpcZm37lr2NRO>
+    
+    
+ObjectProperty: owl:topObjectProperty
+
+    
+DataProperty: <http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG>
+
+    Annotations: 
+        <http://webprotege.stanford.edu/R7WF5Tu4rEl7drNvOC5lKbL> "Centimeters"^^xsd:string,
+        rdfs:label "height"
+    
+    Domain: 
+        <http://webprotege.stanford.edu/RugLVB2fY80DDW8Tw9J3dh>
+    
+    Range: 
+        xsd:double
+    
+    SubPropertyOf: 
+        owl:topDataProperty
+    
+    
+DataProperty: <http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70>
+
+    Annotations: 
+        rdfs:label "age"
+    
+    Domain: 
+        <http://webprotege.stanford.edu/RugLVB2fY80DDW8Tw9J3dh>
+    
+    Range: 
+        xsd:double
+    
+    SubPropertyOf: 
+        owl:topDataProperty
+    
+    
+DataProperty: <http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c>
+
+    Annotations: 
+        <http://webprotege.stanford.edu/R7WF5Tu4rEl7drNvOC5lKbL> "Kilograms"^^xsd:string,
+        rdfs:label "weight"
+    
+    Domain: 
+        <http://webprotege.stanford.edu/RugLVB2fY80DDW8Tw9J3dh>
+    
+    Range: 
+        xsd:double
+    
+    SubPropertyOf: 
+        owl:topDataProperty
+    
+    
+DataProperty: <http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW>
+
+    Annotations: 
+        rdfs:label "colour"^^xsd:string
+    
+    Domain: 
+        <http://webprotege.stanford.edu/RugLVB2fY80DDW8Tw9J3dh>
+    
+    Range: 
+        xsd:string
+    
+    SubPropertyOf: 
+        owl:topDataProperty
+    
+    
+DataProperty: <http://webprotege.stanford.edu/RlbsgKOberIEPaV6Ds5KVb>
+
+    Annotations: 
+        rdfs:label "gender"
+    
+    Domain: 
+        <http://webprotege.stanford.edu/RugLVB2fY80DDW8Tw9J3dh>
+    
+    Range: 
+        xsd:string
+    
+    SubPropertyOf: 
+        owl:topDataProperty
+    
+    
+DataProperty: owl:topDataProperty
+
+    
+Class: <http://webprotege.stanford.edu/R0ApgSThV5QxYvrcKtWe60>
+
+    Annotations: 
+        rdfs:label "Powerful"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RDI9zuFH0jwc2u2QsTNXC96>
+    
+    
+Class: <http://webprotege.stanford.edu/R0o3ka8KtnMlgcdP9QcjBp>
+
+    Annotations: 
+        <http://webprotege.stanford.edu/RDeAGymGUOtCPbN8QA4KBJP> <https://cfa.org/wp-content/uploads/2019/11/srexProfile.jpg>,
+        rdfs:label "Selkirk Rex"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R7SMNOUTyH5lZmqTASSvC2V>,
+        <http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> some <http://webprotege.stanford.edu/RDnUhpziTtMi2uiw6wwcAWe>,
+        <http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> some <http://webprotege.stanford.edu/RCKoWDOUTlrxZWi38LZeqdL>,
+        <http://webprotege.stanford.edu/RDzCQJvC0ncfLdDGpXK2eGT> some <http://webprotege.stanford.edu/R78n3gIdpEnhYFe0rmrRpWX>,
+        <http://webprotege.stanford.edu/RDzCQJvC0ncfLdDGpXK2eGT> some <http://webprotege.stanford.edu/RBLnXABJusxz8Ec0BTPYZYk>,
+        <http://webprotege.stanford.edu/RhGIrcBXuiEthAcOUaFNhG> some <http://webprotege.stanford.edu/RCQN3b7H7HtG1JrH2xgxfru>
+    
+    
+Class: <http://webprotege.stanford.edu/R5v5WmM9epBXdxtc19THh>
+
+    Annotations: 
+        rdfs:label "Egypt"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RECkKgTWwIP6MlBWgOGape>
+    
+    
+Class: <http://webprotege.stanford.edu/R6PLqsCk4GbK1vt3ShhsGD>
+
+    Annotations: 
+        rdfs:label "Crossbreed Short-Haired"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R9TiuPQhkMCGJBm0imkBu5q>,
+        <http://webprotege.stanford.edu/R3RkRp3FeBJqRho4W2nihY> some <http://webprotege.stanford.edu/RCW6G3Q3b0IiqkjhX0P06n3>
+    
+    
+Class: <http://webprotege.stanford.edu/R74tGbDUEBf6nc1jiadU0rD>
+
+    Annotations: 
+        <http://webprotege.stanford.edu/RDeAGymGUOtCPbN8QA4KBJP> <https://cfa.org/wp-content/uploads/2019/11/taProfile.jpg>,
+        rdfs:label "Turkish Angora"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RCtKI95ZTt6WnTyNqKq7Eyq>,
+        <http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> some <http://webprotege.stanford.edu/R9KGv7vPVsv19VZXBwOmpd2>,
+        <http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> some <http://webprotege.stanford.edu/RDBYWZRW8DnpWBtsZ49SBKl>,
+        <http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> some <http://webprotege.stanford.edu/RC6rrPG0cOhL6wxdkxQTmeu>,
+        <http://webprotege.stanford.edu/RhGIrcBXuiEthAcOUaFNhG> some <http://webprotege.stanford.edu/RcMeCwHPahQ6yjHT7waXUr>
+    
+    
+Class: <http://webprotege.stanford.edu/R78n3gIdpEnhYFe0rmrRpWX>
+
+    Annotations: 
+        <http://webprotege.stanford.edu/RDeAGymGUOtCPbN8QA4KBJP> <https://cfa.org/wp-content/uploads/2019/11/ashProfile.jpg>,
+        rdfs:label "American Shorthair Cat"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R8RkQOCnvUUJT4Q7jvXrgs2>,
+        <http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> some <http://webprotege.stanford.edu/R8FyfagQ4tzWlbUIARyaoBX>,
+        <http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> some <http://webprotege.stanford.edu/RDnUhpziTtMi2uiw6wwcAWe>,
+        <http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> some <http://webprotege.stanford.edu/RCKoWDOUTlrxZWi38LZeqdL>,
+        <http://webprotege.stanford.edu/RhGIrcBXuiEthAcOUaFNhG> some <http://webprotege.stanford.edu/RcMeCwHPahQ6yjHT7waXUr>
+    
+    
+Class: <http://webprotege.stanford.edu/R7LUN6c9MPyvRSY53RSn1Qc>
+
+    Annotations: 
+        <http://webprotege.stanford.edu/RDeAGymGUOtCPbN8QA4KBJP> <https://cfa.org/wp-content/uploads/2019/11/singProfile.jpg>,
+        rdfs:label "Singapura"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R9egnZb3YCP13fNbMOH1F6F>,
+        <http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> some <http://webprotege.stanford.edu/R92WxhSD31d3gWdTgkDj5Vp>,
+        <http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> some <http://webprotege.stanford.edu/R9uF9V2qtyYpZID7PPdiVm5>,
+        <http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> some <http://webprotege.stanford.edu/RBIsrRd91B9HzXpGDNjDHsc>,
+        <http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> some <http://webprotege.stanford.edu/RCKoWDOUTlrxZWi38LZeqdL>,
+        <http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> some <http://webprotege.stanford.edu/RYoYZIsvryvuMidroJdQJ5>,
+        <http://webprotege.stanford.edu/RhGIrcBXuiEthAcOUaFNhG> some <http://webprotege.stanford.edu/R7b4eNNfafla32phwKD0BxJ>
+    
+    
+Class: <http://webprotege.stanford.edu/R7SMNOUTyH5lZmqTASSvC2V>
+
+    Annotations: 
+        rdfs:label "Crossbreed Semi-Long-Haired"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R9TiuPQhkMCGJBm0imkBu5q>,
+        <http://webprotege.stanford.edu/R3RkRp3FeBJqRho4W2nihY> some <http://webprotege.stanford.edu/Rsfba2LlBqRm473tkX9OTJ>
+    
+    
+Class: <http://webprotege.stanford.edu/R7aRUuHxoQEPkuNVRhuwQhy>
+
+    Annotations: 
+        rdfs:label "Active"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RDI9zuFH0jwc2u2QsTNXC96>
+    
+    
+Class: <http://webprotege.stanford.edu/R7ay7rP5s6BHNmhbeRObT0z>
+
+    Annotations: 
+        rdfs:label "Norway"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RECkKgTWwIP6MlBWgOGape>
+    
+    
+Class: <http://webprotege.stanford.edu/R7b4eNNfafla32phwKD0BxJ>
+
+    Annotations: 
+        rdfs:label "Small"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R9sP0kiNHtp8TYvgaBT0ZIt>
+    
+    
+Class: <http://webprotege.stanford.edu/R7bMvBlVnqMwjvkIkvRAQz5>
+
+    Annotations: 
+        rdfs:label "Germany"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RECkKgTWwIP6MlBWgOGape>
+    
+    
+Class: <http://webprotege.stanford.edu/R7dzF9m4lqFV0OrP7dPYyPv>
+
+    Annotations: 
+        <http://webprotege.stanford.edu/RDeAGymGUOtCPbN8QA4KBJP> <https://cfa.org/wp-content/uploads/2019/11/birProfile.jpg>,
+        rdfs:label "Birman"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R9H8NrmJcvPQJ8JqoVNRvYL>,
+        <http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> some <http://webprotege.stanford.edu/R92WxhSD31d3gWdTgkDj5Vp>,
+        <http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> some <http://webprotege.stanford.edu/RBIsrRd91B9HzXpGDNjDHsc>,
+        <http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> some <http://webprotege.stanford.edu/R9lgbr15OoSVavEmAYg3iJW>,
+        <http://webprotege.stanford.edu/RDzCQJvC0ncfLdDGpXK2eGT> some <http://webprotege.stanford.edu/RC7CxJQEjHju3nGIxdXKu4s>,
+        <http://webprotege.stanford.edu/RDzCQJvC0ncfLdDGpXK2eGT> some <http://webprotege.stanford.edu/RDTImJkJER5DK3JixhzMRvW>,
+        <http://webprotege.stanford.edu/RhGIrcBXuiEthAcOUaFNhG> some <http://webprotege.stanford.edu/RcMeCwHPahQ6yjHT7waXUr>
+    
+    
+Class: <http://webprotege.stanford.edu/R7hJTb8Lj3UWRzwtW3U7EQS>
+
+    Annotations: 
+        rdfs:label "Playful"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RDI9zuFH0jwc2u2QsTNXC96>
+    
+    
+Class: <http://webprotege.stanford.edu/R7lNjbwkyqx62tWVlGBaeFP>
+
+    Annotations: 
+        rdfs:label "Claw"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RB0hZtDoGwZt1elxw1cj7ob>
+    
+    
+Class: <http://webprotege.stanford.edu/R7n17e0nV5dNZgRtHIDUmHq>
+
+    Annotations: 
+        rdfs:label "Foreign"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R9sP0kiNHtp8TYvgaBT0ZIt>
+    
+    
+Class: <http://webprotege.stanford.edu/R7tvKfwR8vO5Rt3agKr4dAw>
+
+    Annotations: 
+        rdfs:label "Normal"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R9sP0kiNHtp8TYvgaBT0ZIt>
+    
+    
+Class: <http://webprotege.stanford.edu/R80cfWP1G95crRfJeDyrYIU>
+
+    Annotations: 
+        <http://webprotege.stanford.edu/RDeAGymGUOtCPbN8QA4KBJP> <https://cfa.org/wp-content/uploads/2019/11/exProfile.jpg>,
+        rdfs:label "Exotic"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R7SMNOUTyH5lZmqTASSvC2V>,
+        <http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> some <http://webprotege.stanford.edu/R92WxhSD31d3gWdTgkDj5Vp>,
+        <http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> some <http://webprotege.stanford.edu/RBIsrRd91B9HzXpGDNjDHsc>,
+        <http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> some <http://webprotege.stanford.edu/RDnUhpziTtMi2uiw6wwcAWe>,
+        <http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> some <http://webprotege.stanford.edu/RCKoWDOUTlrxZWi38LZeqdL>,
+        <http://webprotege.stanford.edu/RDzCQJvC0ncfLdDGpXK2eGT> some <http://webprotege.stanford.edu/R78n3gIdpEnhYFe0rmrRpWX>,
+        <http://webprotege.stanford.edu/RDzCQJvC0ncfLdDGpXK2eGT> some <http://webprotege.stanford.edu/RDTImJkJER5DK3JixhzMRvW>,
+        <http://webprotege.stanford.edu/RhGIrcBXuiEthAcOUaFNhG> some <http://webprotege.stanford.edu/RcMeCwHPahQ6yjHT7waXUr>
+    
+    
+Class: <http://webprotege.stanford.edu/R8CeNQYy8YTBCn0VBnE47jJ>
+
+    Annotations: 
+        rdfs:label "Canada"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RECkKgTWwIP6MlBWgOGape>
+    
+    
+Class: <http://webprotege.stanford.edu/R8FyfagQ4tzWlbUIARyaoBX>
+
+    Annotations: 
+        rdfs:label "Even Tempered"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RDI9zuFH0jwc2u2QsTNXC96>
+    
+    
+Class: <http://webprotege.stanford.edu/R8H0kuTKZ31PoHJgzxEaP81>
+
+    Annotations: 
+        <http://webprotege.stanford.edu/RDeAGymGUOtCPbN8QA4KBJP> <https://cfa.org/wp-content/uploads/2019/11/abtProfile.jpg>,
+        rdfs:label "American Bobtail"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R8j08k7iK9OkJC6YrOhVHIT>,
+        <http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> some <http://webprotege.stanford.edu/R8Mwg5CekiyuQhFp7FHPpSp>,
+        <http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> some <http://webprotege.stanford.edu/R9A8NJb17VJH8lPbiEDAUD8>,
+        <http://webprotege.stanford.edu/RB0A6fH0XxSKtysmnlUrZny> some <http://webprotege.stanford.edu/R9iEknLxda6LGnyGPbWkorQ>,
+        <http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> some <http://webprotege.stanford.edu/RCKoWDOUTlrxZWi38LZeqdL>,
+        <http://webprotege.stanford.edu/RhGIrcBXuiEthAcOUaFNhG> some <http://webprotege.stanford.edu/RcMeCwHPahQ6yjHT7waXUr>
+    
+    
+Class: <http://webprotege.stanford.edu/R8HhF1fCW3OZO6zC8NVxpQn>
+
+    Annotations: 
+        <http://webprotege.stanford.edu/RDeAGymGUOtCPbN8QA4KBJP> <https://cfa.org/wp-content/uploads/2019/11/jbtProfile.jpg>,
+        rdfs:label "Japanese Bobtail"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R8j08k7iK9OkJC6YrOhVHIT>,
+        <http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> some <http://webprotege.stanford.edu/R7aRUuHxoQEPkuNVRhuwQhy>,
+        <http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> some <http://webprotege.stanford.edu/R9A8NJb17VJH8lPbiEDAUD8>,
+        <http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> some <http://webprotege.stanford.edu/RBIsrRd91B9HzXpGDNjDHsc>,
+        <http://webprotege.stanford.edu/RB0A6fH0XxSKtysmnlUrZny> some <http://webprotege.stanford.edu/R9iEknLxda6LGnyGPbWkorQ>,
+        <http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> some <http://webprotege.stanford.edu/Rx4hmffAXjdlEVkPNMTFxb>,
+        <http://webprotege.stanford.edu/RhGIrcBXuiEthAcOUaFNhG> some <http://webprotege.stanford.edu/RDq8P17eSoisXKu6ZcRYT4c>
+    
+    
+Class: <http://webprotege.stanford.edu/R8KQ4AZpyCcrSDDucxoY9tt>
+
+    Annotations: 
+        <http://webprotege.stanford.edu/RDeAGymGUOtCPbN8QA4KBJP> <https://cfa.org/wp-content/uploads/2019/11/awhProfile.jpg>,
+        rdfs:label "American Wirehair"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R9egnZb3YCP13fNbMOH1F6F>,
+        <http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> some <http://webprotege.stanford.edu/R8FyfagQ4tzWlbUIARyaoBX>,
+        <http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> some <http://webprotege.stanford.edu/RCKoWDOUTlrxZWi38LZeqdL>,
+        <http://webprotege.stanford.edu/RhGIrcBXuiEthAcOUaFNhG> some <http://webprotege.stanford.edu/R7tvKfwR8vO5Rt3agKr4dAw>
+    
+    
+Class: <http://webprotege.stanford.edu/R8Mwg5CekiyuQhFp7FHPpSp>
+
+    Annotations: 
+        rdfs:label "Loving"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RDI9zuFH0jwc2u2QsTNXC96>
+    
+    
+Class: <http://webprotege.stanford.edu/R8RkQOCnvUUJT4Q7jvXrgs2>
+
+    Annotations: 
+        rdfs:label "Natural Short-Haired"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RezwdXkf6rn8EA3wRYLQ4f>,
+        <http://webprotege.stanford.edu/R3RkRp3FeBJqRho4W2nihY> some <http://webprotege.stanford.edu/RCW6G3Q3b0IiqkjhX0P06n3>
+    
+    
+Class: <http://webprotege.stanford.edu/R8XOwsNSmW1hoNeO6sNUtbE>
+
+    Annotations: 
+        rdfs:label "Calm"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RDI9zuFH0jwc2u2QsTNXC96>
+    
+    
+Class: <http://webprotege.stanford.edu/R8ZlZyrKK5xqwfbZdBrKvxZ>
+
+    Annotations: 
+        <http://webprotege.stanford.edu/RDeAGymGUOtCPbN8QA4KBJP> <https://cfa.org/wp-content/uploads/2019/11/drexProfile.jpg>,
+        rdfs:label "Devon Rex"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R9egnZb3YCP13fNbMOH1F6F>,
+        <http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> some <http://webprotege.stanford.edu/R7aRUuHxoQEPkuNVRhuwQhy>,
+        <http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> some <http://webprotege.stanford.edu/RNEbak8cWP4TJyd5Ln3yTN>,
+        <http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> some <http://webprotege.stanford.edu/R9dS0u9BQon6TCPEwEsOCxj>,
+        <http://webprotege.stanford.edu/RhGIrcBXuiEthAcOUaFNhG> some <http://webprotege.stanford.edu/R7n17e0nV5dNZgRtHIDUmHq>
+    
+    
+Class: <http://webprotege.stanford.edu/R8iFgx5tbplYj9KQmyDU1LF>
+
+    Annotations: 
+        <http://webprotege.stanford.edu/RDeAGymGUOtCPbN8QA4KBJP> <https://cfa.org/wp-content/uploads/2019/11/tonkProfile.jpg>,
+        rdfs:label "Tonkinese"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R6PLqsCk4GbK1vt3ShhsGD>,
+        <http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> some <http://webprotege.stanford.edu/R9FiNP4w5kul19WjBUfP076>,
+        <http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> some <http://webprotege.stanford.edu/R8CeNQYy8YTBCn0VBnE47jJ>,
+        <http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> some <http://webprotege.stanford.edu/RCKoWDOUTlrxZWi38LZeqdL>,
+        <http://webprotege.stanford.edu/RDzCQJvC0ncfLdDGpXK2eGT> some <http://webprotege.stanford.edu/RC7CxJQEjHju3nGIxdXKu4s>,
+        <http://webprotege.stanford.edu/RDzCQJvC0ncfLdDGpXK2eGT> some <http://webprotege.stanford.edu/RDZTmjOcKW54xDO99vtVipU>,
+        <http://webprotege.stanford.edu/RhGIrcBXuiEthAcOUaFNhG> some <http://webprotege.stanford.edu/RCyBFcBYu5PaHAgdmfkSq2V>
+    
+    
+Class: <http://webprotege.stanford.edu/R8j08k7iK9OkJC6YrOhVHIT>
+
+    Annotations: 
+        rdfs:label "Mutated Semi-Long-Haired"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RBzcBz6p5T2wuoVBD5EYhJ7>,
+        <http://webprotege.stanford.edu/R3RkRp3FeBJqRho4W2nihY> some <http://webprotege.stanford.edu/Rsfba2LlBqRm473tkX9OTJ>
+    
+    
+Class: <http://webprotege.stanford.edu/R92WxhSD31d3gWdTgkDj5Vp>
+
+    Annotations: 
+        rdfs:label "Sweet"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RDI9zuFH0jwc2u2QsTNXC96>
+    
+    
+Class: <http://webprotege.stanford.edu/R9A8NJb17VJH8lPbiEDAUD8>
+
+    Annotations: 
+        rdfs:label "Intelligent"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RDI9zuFH0jwc2u2QsTNXC96>
+    
+    
+Class: <http://webprotege.stanford.edu/R9FiNP4w5kul19WjBUfP076>
+
+    Annotations: 
+        rdfs:label "Vocal"^^xsd:string
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RDI9zuFH0jwc2u2QsTNXC96>
+    
+    
+Class: <http://webprotege.stanford.edu/R9H8NrmJcvPQJ8JqoVNRvYL>
+
+    Annotations: 
+        rdfs:label "Crossbreed Long-Haired"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R9TiuPQhkMCGJBm0imkBu5q>,
+        <http://webprotege.stanford.edu/R3RkRp3FeBJqRho4W2nihY> some <http://webprotege.stanford.edu/RB7Yh88jtg2h7h78zG1Wzq1>
+    
+    
+Class: <http://webprotege.stanford.edu/R9KGv7vPVsv19VZXBwOmpd2>
+
+    Annotations: 
+        rdfs:label "Busy"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RDI9zuFH0jwc2u2QsTNXC96>
+    
+    
+Class: <http://webprotege.stanford.edu/R9LfQWrVuILGSK783ALg6N>
+
+    Annotations: 
+        rdfs:label "Mutated Long-Haired"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RBzcBz6p5T2wuoVBD5EYhJ7>,
+        <http://webprotege.stanford.edu/R3RkRp3FeBJqRho4W2nihY> some <http://webprotege.stanford.edu/RB7Yh88jtg2h7h78zG1Wzq1>
+    
+    
+Class: <http://webprotege.stanford.edu/R9OSX9VyoPN9kWYaCjNuQif>
+
+    Annotations: 
+        rdfs:label "Friendly"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RDI9zuFH0jwc2u2QsTNXC96>
+    
+    
+Class: <http://webprotege.stanford.edu/R9Pwxbo6ZZ04E77yOh2SRs0>
+
+    Annotations: 
+        rdfs:label "Brazil"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RECkKgTWwIP6MlBWgOGape>
+    
+    
+Class: <http://webprotege.stanford.edu/R9R5Cy8m7imjZk87mVLL1gn>
+
+    Annotations: 
+        rdfs:label "Muscular"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R9sP0kiNHtp8TYvgaBT0ZIt>
+    
+    
+Class: <http://webprotege.stanford.edu/R9TiuPQhkMCGJBm0imkBu5q>
+
+    Annotations: 
+        rdfs:label "Crossbreed"^^xsd:string
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RugLVB2fY80DDW8Tw9J3dh>
+    
+    
+Class: <http://webprotege.stanford.edu/R9X2hBrg8QsSyDpeMQOMEIU>
+
+    Annotations: 
+        <http://webprotege.stanford.edu/RDeAGymGUOtCPbN8QA4KBJP> <https://cfa.org/wp-content/uploads/2019/11/lpProfile.jpg>,
+        rdfs:label "LaPerm"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R8j08k7iK9OkJC6YrOhVHIT>,
+        <http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> some <http://webprotege.stanford.edu/R7aRUuHxoQEPkuNVRhuwQhy>,
+        <http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> some <http://webprotege.stanford.edu/RBIsrRd91B9HzXpGDNjDHsc>,
+        <http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> some <http://webprotege.stanford.edu/RNZQVqLmhaXV3B9TN4LjuW>,
+        <http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> some <http://webprotege.stanford.edu/RCKoWDOUTlrxZWi38LZeqdL>,
+        <http://webprotege.stanford.edu/RhGIrcBXuiEthAcOUaFNhG> some <http://webprotege.stanford.edu/RDq8P17eSoisXKu6ZcRYT4c>
+    
+    
+Class: <http://webprotege.stanford.edu/R9dS0u9BQon6TCPEwEsOCxj>
+
+    Annotations: 
+        rdfs:label "United Kingdom"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RECkKgTWwIP6MlBWgOGape>
+    
+    
+Class: <http://webprotege.stanford.edu/R9detm7hMYgMXyc71KvW8S>
+
+    Annotations: 
+        rdfs:label "Fur"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RB0hZtDoGwZt1elxw1cj7ob>
+    
+    
+Class: <http://webprotege.stanford.edu/R9egnZb3YCP13fNbMOH1F6F>
+
+    Annotations: 
+        rdfs:label "Mutated Short-Haired"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RBzcBz6p5T2wuoVBD5EYhJ7>,
+        <http://webprotege.stanford.edu/R3RkRp3FeBJqRho4W2nihY> some <http://webprotege.stanford.edu/RCW6G3Q3b0IiqkjhX0P06n3>
+    
+    
+Class: <http://webprotege.stanford.edu/R9gExwAiYggxHJHah6JPOjo>
+
+    Annotations: 
+        <http://webprotege.stanford.edu/RDeAGymGUOtCPbN8QA4KBJP> <https://cfa.org/wp-content/uploads/2019/11/crexProfile.jpg>,
+        rdfs:label "Cornish Rex"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R9egnZb3YCP13fNbMOH1F6F>,
+        <http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> some <http://webprotege.stanford.edu/R7aRUuHxoQEPkuNVRhuwQhy>,
+        <http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> some <http://webprotege.stanford.edu/RBIsrRd91B9HzXpGDNjDHsc>,
+        <http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> some <http://webprotege.stanford.edu/R9dS0u9BQon6TCPEwEsOCxj>,
+        <http://webprotege.stanford.edu/RhGIrcBXuiEthAcOUaFNhG> some <http://webprotege.stanford.edu/R7n17e0nV5dNZgRtHIDUmHq>
+    
+    
+Class: <http://webprotege.stanford.edu/R9iEknLxda6LGnyGPbWkorQ>
+
+    Annotations: 
+        rdfs:label "Short tail"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RbyBgpx010noGl9UDArBGB>
+    
+    
+Class: <http://webprotege.stanford.edu/R9lgbr15OoSVavEmAYg3iJW>
+
+    Annotations: 
+        rdfs:label "France"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RECkKgTWwIP6MlBWgOGape>
+    
+    
+Class: <http://webprotege.stanford.edu/R9sP0kiNHtp8TYvgaBT0ZIt>
+
+    Annotations: 
+        rdfs:label "Body Type"^^xsd:string
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RCyG0M8NDslpcZm37lr2NRO>
+    
+    
+Class: <http://webprotege.stanford.edu/R9uF9V2qtyYpZID7PPdiVm5>
+
+    Annotations: 
+        rdfs:label "Demanding"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RDI9zuFH0jwc2u2QsTNXC96>
+    
+    
+Class: <http://webprotege.stanford.edu/R9vHzMmZwFarHsV0G9KJYb1>
+
+    Annotations: 
+        rdfs:label "Athletic"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RDI9zuFH0jwc2u2QsTNXC96>
+    
+    
+Class: <http://webprotege.stanford.edu/R9xcQt4KBCmuhI77fg3WP1>
+
+    Annotations: 
+        <http://webprotege.stanford.edu/RDeAGymGUOtCPbN8QA4KBJP> <https://cfa.org/wp-content/uploads/2019/11/somProfile.jpg>,
+        rdfs:label "Somali"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R9LfQWrVuILGSK783ALg6N>,
+        <http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> some <http://webprotege.stanford.edu/R7aRUuHxoQEPkuNVRhuwQhy>,
+        <http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> some <http://webprotege.stanford.edu/R9KGv7vPVsv19VZXBwOmpd2>,
+        <http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> some <http://webprotege.stanford.edu/RBIsrRd91B9HzXpGDNjDHsc>,
+        <http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> some <http://webprotege.stanford.edu/R8CeNQYy8YTBCn0VBnE47jJ>,
+        <http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> some <http://webprotege.stanford.edu/RCKoWDOUTlrxZWi38LZeqdL>,
+        <http://webprotege.stanford.edu/RhGIrcBXuiEthAcOUaFNhG> some <http://webprotege.stanford.edu/RcMeCwHPahQ6yjHT7waXUr>
+    
+    
+Class: <http://webprotege.stanford.edu/RB0hZtDoGwZt1elxw1cj7ob>
+
+    Annotations: 
+        rdfs:label "Body Part"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RCyG0M8NDslpcZm37lr2NRO>
+    
+    
+Class: <http://webprotege.stanford.edu/RB1fAs1s2kJ0lnUypg8rdCW>
+
+    Annotations: 
+        <http://webprotege.stanford.edu/RDeAGymGUOtCPbN8QA4KBJP> <https://cfa.org/wp-content/uploads/2019/11/tvProfile.jpg>,
+        rdfs:label "Turkish Van"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RCtKI95ZTt6WnTyNqKq7Eyq>,
+        <http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> some <http://webprotege.stanford.edu/R92WxhSD31d3gWdTgkDj5Vp>,
+        <http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> some <http://webprotege.stanford.edu/RC6rrPG0cOhL6wxdkxQTmeu>,
+        <http://webprotege.stanford.edu/RhGIrcBXuiEthAcOUaFNhG> some <http://webprotege.stanford.edu/RcMeCwHPahQ6yjHT7waXUr>
+    
+    
+Class: <http://webprotege.stanford.edu/RB3MKNDAhO1nvcG9gIbuAOr>
+
+    Annotations: 
+        rdfs:label "Mammal"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RCo9eWwbqVccz1d7QEhfOYd>,
+        <http://webprotege.stanford.edu/RB0A6fH0XxSKtysmnlUrZny> some <http://webprotege.stanford.edu/R9detm7hMYgMXyc71KvW8S>
+    
+    
+Class: <http://webprotege.stanford.edu/RB7WZt6BA7Tidyc8hxEsCnD>
+
+    Annotations: 
+        rdfs:label "Ethiopia"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RECkKgTWwIP6MlBWgOGape>
+    
+    
+Class: <http://webprotege.stanford.edu/RB7Yh88jtg2h7h78zG1Wzq1>
+
+    Annotations: 
+        rdfs:label "Long Hair"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R9detm7hMYgMXyc71KvW8S>
+    
+    
+Class: <http://webprotege.stanford.edu/RBIsrRd91B9HzXpGDNjDHsc>
+
+    Annotations: 
+        rdfs:label "Affectionate"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RDI9zuFH0jwc2u2QsTNXC96>
+    
+    
+Class: <http://webprotege.stanford.edu/RBLnXABJusxz8Ec0BTPYZYk>
+
+    Annotations: 
+        <http://webprotege.stanford.edu/RDeAGymGUOtCPbN8QA4KBJP> <https://cfa.org/wp-content/uploads/2019/11/bshProfile.jpg>,
+        rdfs:label "British Shorthair"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R8RkQOCnvUUJT4Q7jvXrgs2>,
+        <http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> some <http://webprotege.stanford.edu/R8XOwsNSmW1hoNeO6sNUtbE>,
+        <http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> some <http://webprotege.stanford.edu/RDnUhpziTtMi2uiw6wwcAWe>,
+        <http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> some <http://webprotege.stanford.edu/R9dS0u9BQon6TCPEwEsOCxj>,
+        <http://webprotege.stanford.edu/RhGIrcBXuiEthAcOUaFNhG> some <http://webprotege.stanford.edu/RcMeCwHPahQ6yjHT7waXUr>
+    
+    
+Class: <http://webprotege.stanford.edu/RBNv3Xa6YZcMAeHoERjsZYB>
+
+    Annotations: 
+        rdfs:label "Cat"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RB3MKNDAhO1nvcG9gIbuAOr>,
+        <http://webprotege.stanford.edu/RB0A6fH0XxSKtysmnlUrZny> some <http://webprotege.stanford.edu/R7lNjbwkyqx62tWVlGBaeFP>,
+        <http://webprotege.stanford.edu/RB0A6fH0XxSKtysmnlUrZny> some <http://webprotege.stanford.edu/RCNGdu7L8SiO5HDfQB2gRg1>,
+        <http://webprotege.stanford.edu/RB0A6fH0XxSKtysmnlUrZny> some <http://webprotege.stanford.edu/RDCJgR3zkgJsMdUvo3cIWXC>,
+        <http://webprotege.stanford.edu/RB0A6fH0XxSKtysmnlUrZny> some <http://webprotege.stanford.edu/RGitLuwuoNFSy2jo7MlFzy>,
+        <http://webprotege.stanford.edu/RB0A6fH0XxSKtysmnlUrZny> some <http://webprotege.stanford.edu/RbyBgpx010noGl9UDArBGB>,
+        <http://webprotege.stanford.edu/RhGIrcBXuiEthAcOUaFNhG> some <http://webprotege.stanford.edu/R9sP0kiNHtp8TYvgaBT0ZIt>
+    
+    
+Class: <http://webprotege.stanford.edu/RBQGaRrBwlTwjyzKqsbCHds>
+
+    Annotations: 
+        rdfs:label "Graceful"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RDI9zuFH0jwc2u2QsTNXC96>
+    
+    
+Class: <http://webprotege.stanford.edu/RBTmjzWyhBbHyXCHj80G84O>
+
+    Annotations: 
+        rdfs:label "Burma"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RECkKgTWwIP6MlBWgOGape>
+    
+    
+Class: <http://webprotege.stanford.edu/RBTq9A65CW50Tfx5mcJoBaF>
+
+    Annotations: 
+        <http://webprotege.stanford.edu/RDeAGymGUOtCPbN8QA4KBJP> <https://cfa.org/wp-content/uploads/2019/11/sibProfile.jpg>,
+        rdfs:label "Siberian"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RCtKI95ZTt6WnTyNqKq7Eyq>,
+        <http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> some <http://webprotege.stanford.edu/R0ApgSThV5QxYvrcKtWe60>,
+        <http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> some <http://webprotege.stanford.edu/RDvsDl2E32yibANJF0XPz8f>,
+        <http://webprotege.stanford.edu/RhGIrcBXuiEthAcOUaFNhG> some <http://webprotege.stanford.edu/RcMeCwHPahQ6yjHT7waXUr>
+    
+    
+Class: <http://webprotege.stanford.edu/RBcugU2TJFGU2H7D8jAhxTq>
+
+    Annotations: 
+        rdfs:label "Australia"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RECkKgTWwIP6MlBWgOGape>
+    
+    
+Class: <http://webprotege.stanford.edu/RBeDepgVgtLPbi8rC6Hi9NJ>
+
+    Annotations: 
+        rdfs:label "Docile"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RDI9zuFH0jwc2u2QsTNXC96>
+    
+    
+Class: <http://webprotege.stanford.edu/RBkQsBLdKvddD0dbPJZqKdz>
+
+    Annotations: 
+        <http://webprotege.stanford.edu/RBUnz6lGkyubOw0UOSTe43z> <https://cfa.org/maine-coon-cat/maine-coon-cat-breed-standard/>,
+        <http://webprotege.stanford.edu/RDeAGymGUOtCPbN8QA4KBJP> <https://cfa.org/wp-content/uploads/2019/11/mcProfile.jpg>,
+        rdfs:label "Maine Coon Cat"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RCtKI95ZTt6WnTyNqKq7Eyq>,
+        <http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> some <http://webprotege.stanford.edu/RNZQVqLmhaXV3B9TN4LjuW>,
+        <http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> some <http://webprotege.stanford.edu/Rnc1Sr9gezPHoR7zP6inKw>,
+        <http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> some <http://webprotege.stanford.edu/RCKoWDOUTlrxZWi38LZeqdL>,
+        <http://webprotege.stanford.edu/RhGIrcBXuiEthAcOUaFNhG> some <http://webprotege.stanford.edu/RCQN3b7H7HtG1JrH2xgxfru>
+    
+    
+Class: <http://webprotege.stanford.edu/RBlULJgSjlbw7YqXUzHEX5b>
+
+    Annotations: 
+        rdfs:label "Cyprus"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RECkKgTWwIP6MlBWgOGape>
+    
+    
+Class: <http://webprotege.stanford.edu/RBmKxLkdBYaBkWdSvST0c5V>
+
+    Annotations: 
+        <http://webprotege.stanford.edu/RDeAGymGUOtCPbN8QA4KBJP> <https://cfa.org/wp-content/uploads/2019/11/emauProfile.jpg>,
+        rdfs:label "Egyptian Mau"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R8RkQOCnvUUJT4Q7jvXrgs2>,
+        <http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> some <http://webprotege.stanford.edu/R7aRUuHxoQEPkuNVRhuwQhy>,
+        <http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> some <http://webprotege.stanford.edu/R9vHzMmZwFarHsV0G9KJYb1>,
+        <http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> some <http://webprotege.stanford.edu/R5v5WmM9epBXdxtc19THh>,
+        <http://webprotege.stanford.edu/RhGIrcBXuiEthAcOUaFNhG> some <http://webprotege.stanford.edu/RDq8P17eSoisXKu6ZcRYT4c>
+    
+    
+Class: <http://webprotege.stanford.edu/RBu6tNWJSQ3NurPDQ8sIyDo>
+
+    Annotations: 
+        <http://webprotege.stanford.edu/RDeAGymGUOtCPbN8QA4KBJP> <https://cfa.org/wp-content/uploads/2019/11/ociProfile.jpg>,
+        rdfs:label "Ocicat"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R6PLqsCk4GbK1vt3ShhsGD>,
+        <http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> some <http://webprotege.stanford.edu/R7aRUuHxoQEPkuNVRhuwQhy>,
+        <http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> some <http://webprotege.stanford.edu/RCKoWDOUTlrxZWi38LZeqdL>,
+        <http://webprotege.stanford.edu/RDzCQJvC0ncfLdDGpXK2eGT> some <http://webprotege.stanford.edu/RC7CxJQEjHju3nGIxdXKu4s>,
+        <http://webprotege.stanford.edu/RDzCQJvC0ncfLdDGpXK2eGT> some <http://webprotege.stanford.edu/RDOOdCUIo7BBz17KvbpyZmr>,
+        <http://webprotege.stanford.edu/RhGIrcBXuiEthAcOUaFNhG> some <http://webprotege.stanford.edu/RCQN3b7H7HtG1JrH2xgxfru>
+    
+    
+Class: <http://webprotege.stanford.edu/RBzcBz6p5T2wuoVBD5EYhJ7>
+
+    Annotations: 
+        rdfs:label "Mutation"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RugLVB2fY80DDW8Tw9J3dh>
+    
+    
+Class: <http://webprotege.stanford.edu/RC6rrPG0cOhL6wxdkxQTmeu>
+
+    Annotations: 
+        rdfs:label "Turkey"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RECkKgTWwIP6MlBWgOGape>
+    
+    
+Class: <http://webprotege.stanford.edu/RC7CxJQEjHju3nGIxdXKu4s>
+
+    Annotations: 
+        <http://webprotege.stanford.edu/RDeAGymGUOtCPbN8QA4KBJP> <https://cfa.org/wp-content/uploads/2019/11/siaProfile.jpg>,
+        rdfs:label "Siamese"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R9egnZb3YCP13fNbMOH1F6F>,
+        <http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> some <http://webprotege.stanford.edu/R7aRUuHxoQEPkuNVRhuwQhy>,
+        <http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> some <http://webprotege.stanford.edu/R9FiNP4w5kul19WjBUfP076>,
+        <http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> some <http://webprotege.stanford.edu/RBIsrRd91B9HzXpGDNjDHsc>,
+        <http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> some <http://webprotege.stanford.edu/RtFJSPmHDJ6nqTYcg6e1hB>,
+        <http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> some <http://webprotege.stanford.edu/RC7jMqbCgSOel996WwDKSw8>,
+        <http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> some <http://webprotege.stanford.edu/RCKoWDOUTlrxZWi38LZeqdL>,
+        <http://webprotege.stanford.edu/RhGIrcBXuiEthAcOUaFNhG> some <http://webprotege.stanford.edu/RCyBFcBYu5PaHAgdmfkSq2V>
+    
+    
+Class: <http://webprotege.stanford.edu/RC7jMqbCgSOel996WwDKSw8>
+
+    Annotations: 
+        rdfs:label "Thailand"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RECkKgTWwIP6MlBWgOGape>
+    
+    
+Class: <http://webprotege.stanford.edu/RCC3tIa9vDvXsWCabi5re84>
+
+    Annotations: 
+        <http://webprotege.stanford.edu/RDeAGymGUOtCPbN8QA4KBJP> <https://cfa.org/wp-content/uploads/2019/11/korProfile.jpg>,
+        rdfs:label "Korat"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R8RkQOCnvUUJT4Q7jvXrgs2>,
+        <http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> some <http://webprotege.stanford.edu/RBIsrRd91B9HzXpGDNjDHsc>,
+        <http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> some <http://webprotege.stanford.edu/RNEbak8cWP4TJyd5Ln3yTN>,
+        <http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> some <http://webprotege.stanford.edu/RC7jMqbCgSOel996WwDKSw8>,
+        <http://webprotege.stanford.edu/RhGIrcBXuiEthAcOUaFNhG> some <http://webprotege.stanford.edu/R9R5Cy8m7imjZk87mVLL1gn>
+    
+    
+Class: <http://webprotege.stanford.edu/RCKoWDOUTlrxZWi38LZeqdL>
+
+    Annotations: 
+        rdfs:label "United States"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RECkKgTWwIP6MlBWgOGape>
+    
+    
+Class: <http://webprotege.stanford.edu/RCNGdu7L8SiO5HDfQB2gRg1>
+
+    Annotations: 
+        rdfs:label "Ear"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RB0hZtDoGwZt1elxw1cj7ob>
+    
+    
+Class: <http://webprotege.stanford.edu/RCP9qLibYNpN01F00XVfOyx>
+
+    Annotations: 
+        <http://webprotege.stanford.edu/RDeAGymGUOtCPbN8QA4KBJP> <https://cfa.org/wp-content/uploads/2019/11/bomProfile.jpg>,
+        rdfs:label "Bombay"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R6PLqsCk4GbK1vt3ShhsGD>,
+        <http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> some <http://webprotege.stanford.edu/R7hJTb8Lj3UWRzwtW3U7EQS>,
+        <http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> some <http://webprotege.stanford.edu/RBIsrRd91B9HzXpGDNjDHsc>,
+        <http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> some <http://webprotege.stanford.edu/RBTmjzWyhBbHyXCHj80G84O>,
+        <http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> some <http://webprotege.stanford.edu/RCKoWDOUTlrxZWi38LZeqdL>,
+        <http://webprotege.stanford.edu/RDzCQJvC0ncfLdDGpXK2eGT> some <http://webprotege.stanford.edu/R78n3gIdpEnhYFe0rmrRpWX>,
+        <http://webprotege.stanford.edu/RDzCQJvC0ncfLdDGpXK2eGT> some <http://webprotege.stanford.edu/RDZTmjOcKW54xDO99vtVipU>,
+        <http://webprotege.stanford.edu/RhGIrcBXuiEthAcOUaFNhG> some <http://webprotege.stanford.edu/RcMeCwHPahQ6yjHT7waXUr>
+    
+    
+Class: <http://webprotege.stanford.edu/RCQN3b7H7HtG1JrH2xgxfru>
+
+    Annotations: 
+        rdfs:label "Large"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R9sP0kiNHtp8TYvgaBT0ZIt>
+    
+    
+Class: <http://webprotege.stanford.edu/RCW6G3Q3b0IiqkjhX0P06n3>
+
+    Annotations: 
+        rdfs:label "Short Hair"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R9detm7hMYgMXyc71KvW8S>
+    
+    
+Class: <http://webprotege.stanford.edu/RCXJEQePnG2lgqc6U33kyiG>
+
+    Annotations: 
+        <http://webprotege.stanford.edu/RDeAGymGUOtCPbN8QA4KBJP> <https://cfa.org/wp-content/uploads/2019/11/tbProfile.jpg>,
+        rdfs:label "Toybob"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R8j08k7iK9OkJC6YrOhVHIT>,
+        <http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> some <http://webprotege.stanford.edu/R7aRUuHxoQEPkuNVRhuwQhy>,
+        <http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> some <http://webprotege.stanford.edu/R7hJTb8Lj3UWRzwtW3U7EQS>,
+        <http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> some <http://webprotege.stanford.edu/RBIsrRd91B9HzXpGDNjDHsc>,
+        <http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> some <http://webprotege.stanford.edu/RpsO8b3GZsuPX4eijVsnNy>,
+        <http://webprotege.stanford.edu/RB0A6fH0XxSKtysmnlUrZny> some <http://webprotege.stanford.edu/R9iEknLxda6LGnyGPbWkorQ>,
+        <http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> some <http://webprotege.stanford.edu/RDvsDl2E32yibANJF0XPz8f>,
+        <http://webprotege.stanford.edu/RhGIrcBXuiEthAcOUaFNhG> some <http://webprotege.stanford.edu/Rfhu8Bp6YKXTqB1CmozglO>
+    
+    
+Class: <http://webprotege.stanford.edu/RCkzgvU7WWg6bcLHiyEnB90>
+
+    Annotations: 
+        <http://webprotege.stanford.edu/RDeAGymGUOtCPbN8QA4KBJP> <https://cfa.org/wp-content/uploads/2019/11/charProfile.jpg>,
+        rdfs:label "Chartreux"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R8RkQOCnvUUJT4Q7jvXrgs2>,
+        <http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> some <http://webprotege.stanford.edu/R8XOwsNSmW1hoNeO6sNUtbE>,
+        <http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> some <http://webprotege.stanford.edu/R9OSX9VyoPN9kWYaCjNuQif>,
+        <http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> some <http://webprotege.stanford.edu/RDnUhpziTtMi2uiw6wwcAWe>,
+        <http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> some <http://webprotege.stanford.edu/R9lgbr15OoSVavEmAYg3iJW>,
+        <http://webprotege.stanford.edu/RhGIrcBXuiEthAcOUaFNhG> some <http://webprotege.stanford.edu/R9R5Cy8m7imjZk87mVLL1gn>
+    
+    
+Class: <http://webprotege.stanford.edu/RCnjdwXmz8zDj3KizRNSzLY>
+
+    Annotations: 
+        rdfs:label "Loyal"^^xsd:string
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RDI9zuFH0jwc2u2QsTNXC96>
+    
+    
+Class: <http://webprotege.stanford.edu/RCo9eWwbqVccz1d7QEhfOYd>
+
+    Annotations: 
+        rdfs:label "Animal"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RdE7TYCet2p6kPVa8nDATH>,
+        <http://webprotege.stanford.edu/RuiH9YIxFP6aumQcZpnIPO> some <http://webprotege.stanford.edu/RCyG0M8NDslpcZm37lr2NRO>
+    
+    
+Class: <http://webprotege.stanford.edu/RCtKI95ZTt6WnTyNqKq7Eyq>
+
+    Annotations: 
+        rdfs:label "Natural Long-Haired"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RezwdXkf6rn8EA3wRYLQ4f>,
+        <http://webprotege.stanford.edu/R3RkRp3FeBJqRho4W2nihY> some <http://webprotege.stanford.edu/RB7Yh88jtg2h7h78zG1Wzq1>
+    
+    
+Class: <http://webprotege.stanford.edu/RCujr9ySNGzufhH2YKTrUSO>
+
+    Annotations: 
+        <http://webprotege.stanford.edu/RDeAGymGUOtCPbN8QA4KBJP> <https://cfa.org/wp-content/uploads/2019/11/benProfile.jpg>,
+        rdfs:label "Bengal"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R6PLqsCk4GbK1vt3ShhsGD>,
+        <http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> some <http://webprotege.stanford.edu/R9vHzMmZwFarHsV0G9KJYb1>,
+        <http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> some <http://webprotege.stanford.edu/RDBYWZRW8DnpWBtsZ49SBKl>,
+        <http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> some <http://webprotege.stanford.edu/RCKoWDOUTlrxZWi38LZeqdL>,
+        <http://webprotege.stanford.edu/RDzCQJvC0ncfLdDGpXK2eGT> some <http://webprotege.stanford.edu/RBmKxLkdBYaBkWdSvST0c5V>,
+        <http://webprotege.stanford.edu/RDzCQJvC0ncfLdDGpXK2eGT> some <http://webprotege.stanford.edu/RDOOdCUIo7BBz17KvbpyZmr>,
+        <http://webprotege.stanford.edu/RhGIrcBXuiEthAcOUaFNhG> some <http://webprotege.stanford.edu/RCQN3b7H7HtG1JrH2xgxfru>
+    
+    
+Class: <http://webprotege.stanford.edu/RCyBFcBYu5PaHAgdmfkSq2V>
+
+    Annotations: 
+        rdfs:label "Oriental"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R9sP0kiNHtp8TYvgaBT0ZIt>
+    
+    
+Class: <http://webprotege.stanford.edu/RCyG0M8NDslpcZm37lr2NRO>
+
+    Annotations: 
+        rdfs:label "Anatomy"
+    
+    
+Class: <http://webprotege.stanford.edu/RD20oIMf5DKDSPC6ZNXphYJ>
+
+    Annotations: 
+        rdfs:label "People Oriented"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RDI9zuFH0jwc2u2QsTNXC96>
+    
+    
+Class: <http://webprotege.stanford.edu/RDAxkWffeiLrvLnYzc81FL>
+
+    Annotations: 
+        <http://webprotege.stanford.edu/RDeAGymGUOtCPbN8QA4KBJP> <https://cfa.org/wp-content/uploads/2019/11/mxProfile.jpg>,
+        rdfs:label "Manx"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R8j08k7iK9OkJC6YrOhVHIT>,
+        <http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> some <http://webprotege.stanford.edu/RDnUhpziTtMi2uiw6wwcAWe>,
+        <http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> some <http://webprotege.stanford.edu/RNZQVqLmhaXV3B9TN4LjuW>,
+        <http://webprotege.stanford.edu/RB0A6fH0XxSKtysmnlUrZny> some <http://webprotege.stanford.edu/R9iEknLxda6LGnyGPbWkorQ>,
+        <http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> some <http://webprotege.stanford.edu/R9dS0u9BQon6TCPEwEsOCxj>,
+        <http://webprotege.stanford.edu/RhGIrcBXuiEthAcOUaFNhG> some <http://webprotege.stanford.edu/RDq8P17eSoisXKu6ZcRYT4c>
+    
+    
+Class: <http://webprotege.stanford.edu/RDBYWZRW8DnpWBtsZ49SBKl>
+
+    Annotations: 
+        rdfs:label "Curious"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RDI9zuFH0jwc2u2QsTNXC96>
+    
+    
+Class: <http://webprotege.stanford.edu/RDCJgR3zkgJsMdUvo3cIWXC>
+
+    Annotations: 
+        rdfs:label "Paw"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RB0hZtDoGwZt1elxw1cj7ob>
+    
+    
+Class: <http://webprotege.stanford.edu/RDFY9zx2HSXM2XcRKHaOI3Q>
+
+    Annotations: 
+        <http://webprotege.stanford.edu/RDeAGymGUOtCPbN8QA4KBJP> <https://cfa.org/wp-content/uploads/2019/11/sfProfile.jpg>,
+        rdfs:label "Scottish Fold"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R8j08k7iK9OkJC6YrOhVHIT>,
+        <http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> some <http://webprotege.stanford.edu/R92WxhSD31d3gWdTgkDj5Vp>,
+        <http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> some <http://webprotege.stanford.edu/RBIsrRd91B9HzXpGDNjDHsc>,
+        <http://webprotege.stanford.edu/RB0A6fH0XxSKtysmnlUrZny> some <http://webprotege.stanford.edu/RTLofqX3Sp0vZye6YSVgG7>,
+        <http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> some <http://webprotege.stanford.edu/R9dS0u9BQon6TCPEwEsOCxj>,
+        <http://webprotege.stanford.edu/RhGIrcBXuiEthAcOUaFNhG> some <http://webprotege.stanford.edu/RcMeCwHPahQ6yjHT7waXUr>
+    
+    
+Class: <http://webprotege.stanford.edu/RDI9zuFH0jwc2u2QsTNXC96>
+
+    Annotations: 
+        rdfs:label "Personality"
+    
+    
+Class: <http://webprotege.stanford.edu/RDMTW24zh0A19SI1foCUa5S>
+
+    Annotations: 
+        <http://webprotege.stanford.edu/RDeAGymGUOtCPbN8QA4KBJP> <https://cfa.org/wp-content/uploads/2019/11/lyProfile.jpg>,
+        rdfs:label "Lykoi"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R9egnZb3YCP13fNbMOH1F6F>,
+        <http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> some <http://webprotege.stanford.edu/R9A8NJb17VJH8lPbiEDAUD8>,
+        <http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> some <http://webprotege.stanford.edu/RCKoWDOUTlrxZWi38LZeqdL>,
+        <http://webprotege.stanford.edu/RhGIrcBXuiEthAcOUaFNhG> some <http://webprotege.stanford.edu/RDq8P17eSoisXKu6ZcRYT4c>
+    
+    
+Class: <http://webprotege.stanford.edu/RDOOdCUIo7BBz17KvbpyZmr>
+
+    Annotations: 
+        <http://webprotege.stanford.edu/RDeAGymGUOtCPbN8QA4KBJP> <https://cfa.org/wp-content/uploads/2019/11/abyProfile.jpg>,
+        rdfs:label "Abyssinian Cat"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R8RkQOCnvUUJT4Q7jvXrgs2>,
+        <http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> some <http://webprotege.stanford.edu/R7aRUuHxoQEPkuNVRhuwQhy>,
+        <http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> some <http://webprotege.stanford.edu/R9KGv7vPVsv19VZXBwOmpd2>,
+        <http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> some <http://webprotege.stanford.edu/RBIsrRd91B9HzXpGDNjDHsc>,
+        <http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> some <http://webprotege.stanford.edu/RB7WZt6BA7Tidyc8hxEsCnD>,
+        <http://webprotege.stanford.edu/RhGIrcBXuiEthAcOUaFNhG> some <http://webprotege.stanford.edu/R7n17e0nV5dNZgRtHIDUmHq>
+    
+    
+Class: <http://webprotege.stanford.edu/RDRPLytAYUn2A4Nw46sMxoW>
+
+    Annotations: 
+        <http://webprotege.stanford.edu/RDeAGymGUOtCPbN8QA4KBJP> <https://cfa.org/wp-content/uploads/2019/11/rdProfile.jpg>,
+        rdfs:label "Ragdoll"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R9H8NrmJcvPQJ8JqoVNRvYL>,
+        <http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> some <http://webprotege.stanford.edu/R8XOwsNSmW1hoNeO6sNUtbE>,
+        <http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> some <http://webprotege.stanford.edu/RBIsrRd91B9HzXpGDNjDHsc>,
+        <http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> some <http://webprotege.stanford.edu/RBeDepgVgtLPbi8rC6Hi9NJ>,
+        <http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> some <http://webprotege.stanford.edu/RCKoWDOUTlrxZWi38LZeqdL>,
+        <http://webprotege.stanford.edu/RDzCQJvC0ncfLdDGpXK2eGT> some <http://webprotege.stanford.edu/R74tGbDUEBf6nc1jiadU0rD>,
+        <http://webprotege.stanford.edu/RDzCQJvC0ncfLdDGpXK2eGT> some <http://webprotege.stanford.edu/R7dzF9m4lqFV0OrP7dPYyPv>,
+        <http://webprotege.stanford.edu/RhGIrcBXuiEthAcOUaFNhG> some <http://webprotege.stanford.edu/RcMeCwHPahQ6yjHT7waXUr>
+    
+    
+Class: <http://webprotege.stanford.edu/RDTImJkJER5DK3JixhzMRvW>
+
+    Annotations: 
+        <http://webprotege.stanford.edu/RDeAGymGUOtCPbN8QA4KBJP> <https://cfa.org/wp-content/uploads/2019/11/perProfile.jpg>,
+        rdfs:label "Modern Persian"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R9H8NrmJcvPQJ8JqoVNRvYL>,
+        <http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> some <http://webprotege.stanford.edu/R92WxhSD31d3gWdTgkDj5Vp>,
+        <http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> some <http://webprotege.stanford.edu/RBIsrRd91B9HzXpGDNjDHsc>,
+        <http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> some <http://webprotege.stanford.edu/RDnUhpziTtMi2uiw6wwcAWe>,
+        <http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> some <http://webprotege.stanford.edu/RCKoWDOUTlrxZWi38LZeqdL>,
+        <http://webprotege.stanford.edu/RDzCQJvC0ncfLdDGpXK2eGT> some <http://webprotege.stanford.edu/R74tGbDUEBf6nc1jiadU0rD>,
+        <http://webprotege.stanford.edu/RhGIrcBXuiEthAcOUaFNhG> some <http://webprotege.stanford.edu/RcMeCwHPahQ6yjHT7waXUr>
+    
+    
+Class: <http://webprotege.stanford.edu/RDThoBbdkIyicN500nY18pp>
+
+    Annotations: 
+        <http://webprotege.stanford.edu/RDeAGymGUOtCPbN8QA4KBJP> <https://cfa.org/wp-content/uploads/2019/11/balProfile.jpg>,
+        rdfs:label "Balinese"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R9LfQWrVuILGSK783ALg6N>,
+        <http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> some <http://webprotege.stanford.edu/R7aRUuHxoQEPkuNVRhuwQhy>,
+        <http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> some <http://webprotege.stanford.edu/R9FiNP4w5kul19WjBUfP076>,
+        <http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> some <http://webprotege.stanford.edu/RBIsrRd91B9HzXpGDNjDHsc>,
+        <http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> some <http://webprotege.stanford.edu/RC7jMqbCgSOel996WwDKSw8>,
+        <http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> some <http://webprotege.stanford.edu/RCKoWDOUTlrxZWi38LZeqdL>,
+        <http://webprotege.stanford.edu/RhGIrcBXuiEthAcOUaFNhG> some <http://webprotege.stanford.edu/R7n17e0nV5dNZgRtHIDUmHq>
+    
+    
+Class: <http://webprotege.stanford.edu/RDZTmjOcKW54xDO99vtVipU>
+
+    Annotations: 
+        <http://webprotege.stanford.edu/RDeAGymGUOtCPbN8QA4KBJP> <https://cfa.org/wp-content/uploads/2019/11/burmProfile.jpg>,
+        rdfs:label "Burmese"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R8RkQOCnvUUJT4Q7jvXrgs2>,
+        <http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> some <http://webprotege.stanford.edu/RBIsrRd91B9HzXpGDNjDHsc>,
+        <http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> some <http://webprotege.stanford.edu/RD20oIMf5DKDSPC6ZNXphYJ>,
+        <http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> some <http://webprotege.stanford.edu/RBTmjzWyhBbHyXCHj80G84O>,
+        <http://webprotege.stanford.edu/RhGIrcBXuiEthAcOUaFNhG> some <http://webprotege.stanford.edu/R7n17e0nV5dNZgRtHIDUmHq>
+    
+    
+Class: <http://webprotege.stanford.edu/RDfZ9WynjrX11jo80YG3X9V>
+
+    Annotations: 
+        <http://webprotege.stanford.edu/RDeAGymGUOtCPbN8QA4KBJP> <https://cfa.org/wp-content/uploads/2019/11/hbProfile.jpg>,
+        rdfs:label "Havana Brown"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R6PLqsCk4GbK1vt3ShhsGD>,
+        <http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> some <http://webprotege.stanford.edu/R9KGv7vPVsv19VZXBwOmpd2>,
+        <http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> some <http://webprotege.stanford.edu/RBIsrRd91B9HzXpGDNjDHsc>,
+        <http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> some <http://webprotege.stanford.edu/R9dS0u9BQon6TCPEwEsOCxj>,
+        <http://webprotege.stanford.edu/RDzCQJvC0ncfLdDGpXK2eGT> some <http://webprotege.stanford.edu/RC7CxJQEjHju3nGIxdXKu4s>,
+        <http://webprotege.stanford.edu/RhGIrcBXuiEthAcOUaFNhG> some <http://webprotege.stanford.edu/R7n17e0nV5dNZgRtHIDUmHq>
+    
+    
+Class: <http://webprotege.stanford.edu/RDlf3Ui74qgUetAWcmm2c3C>
+
+    Annotations: 
+        <http://webprotege.stanford.edu/RDeAGymGUOtCPbN8QA4KBJP> <https://cfa.org/wp-content/uploads/2019/11/sphProfile.jpg>,
+        rdfs:label "Sphynx"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R9egnZb3YCP13fNbMOH1F6F>,
+        <http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> some <http://webprotege.stanford.edu/R7aRUuHxoQEPkuNVRhuwQhy>,
+        <http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> some <http://webprotege.stanford.edu/RBIsrRd91B9HzXpGDNjDHsc>,
+        <http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> some <http://webprotege.stanford.edu/R5v5WmM9epBXdxtc19THh>,
+        <http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> some <http://webprotege.stanford.edu/R8CeNQYy8YTBCn0VBnE47jJ>,
+        <http://webprotege.stanford.edu/RhGIrcBXuiEthAcOUaFNhG> some <http://webprotege.stanford.edu/RCyBFcBYu5PaHAgdmfkSq2V>
+    
+    
+Class: <http://webprotege.stanford.edu/RDnUhpziTtMi2uiw6wwcAWe>
+
+    Annotations: 
+        rdfs:label "Quiet"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RDI9zuFH0jwc2u2QsTNXC96>
+    
+    
+Class: <http://webprotege.stanford.edu/RDq8P17eSoisXKu6ZcRYT4c>
+
+    Annotations: 
+        rdfs:label "Moderate"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R9sP0kiNHtp8TYvgaBT0ZIt>
+    
+    
+Class: <http://webprotege.stanford.edu/RDvsDl2E32yibANJF0XPz8f>
+
+    Annotations: 
+        rdfs:label "Russia"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RECkKgTWwIP6MlBWgOGape>
+    
+    
+Class: <http://webprotege.stanford.edu/RECkKgTWwIP6MlBWgOGape>
+
+    Annotations: 
+        rdfs:label "Country"
+    
+    
+Class: <http://webprotege.stanford.edu/RGitLuwuoNFSy2jo7MlFzy>
+
+    Annotations: 
+        rdfs:label "Whisker"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RB0hZtDoGwZt1elxw1cj7ob>
+    
+    
+Class: <http://webprotege.stanford.edu/RLEOX4NzaXvk7swvaWuayo>
+
+    Annotations: 
+        <http://webprotege.stanford.edu/RDeAGymGUOtCPbN8QA4KBJP> <https://cfa.org/wp-content/uploads/2019/11/ebProfile.jpg>,
+        rdfs:label "European Burmese"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R6PLqsCk4GbK1vt3ShhsGD>,
+        <http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> some <http://webprotege.stanford.edu/R9A8NJb17VJH8lPbiEDAUD8>,
+        <http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> some <http://webprotege.stanford.edu/RBIsrRd91B9HzXpGDNjDHsc>,
+        <http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> some <http://webprotege.stanford.edu/RCnjdwXmz8zDj3KizRNSzLY>,
+        <http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> some <http://webprotege.stanford.edu/RCKoWDOUTlrxZWi38LZeqdL>,
+        <http://webprotege.stanford.edu/RDzCQJvC0ncfLdDGpXK2eGT> some <http://webprotege.stanford.edu/RC7CxJQEjHju3nGIxdXKu4s>,
+        <http://webprotege.stanford.edu/RDzCQJvC0ncfLdDGpXK2eGT> some <http://webprotege.stanford.edu/RDZTmjOcKW54xDO99vtVipU>,
+        <http://webprotege.stanford.edu/RhGIrcBXuiEthAcOUaFNhG> some <http://webprotege.stanford.edu/RcMeCwHPahQ6yjHT7waXUr>
+    
+    
+Class: <http://webprotege.stanford.edu/RNEbak8cWP4TJyd5Ln3yTN>
+
+    Annotations: 
+        rdfs:label "Energetic"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RDI9zuFH0jwc2u2QsTNXC96>
+    
+    
+Class: <http://webprotege.stanford.edu/RNZQVqLmhaXV3B9TN4LjuW>
+
+    Annotations: 
+        rdfs:label "Gentle"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RDI9zuFH0jwc2u2QsTNXC96>
+    
+    
+Class: <http://webprotege.stanford.edu/RTLofqX3Sp0vZye6YSVgG7>
+
+    Annotations: 
+        rdfs:label "Folded ears"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RCNGdu7L8SiO5HDfQB2gRg1>
+    
+    
+Class: <http://webprotege.stanford.edu/RWvwFPT7GuiA1rWZDpU83W>
+
+    Annotations: 
+        <http://webprotege.stanford.edu/RDeAGymGUOtCPbN8QA4KBJP> <https://cfa.org/wp-content/uploads/2019/11/kmProfile.jpg>,
+        rdfs:label "Khao Manee"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R8RkQOCnvUUJT4Q7jvXrgs2>,
+        <http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> some <http://webprotege.stanford.edu/R9A8NJb17VJH8lPbiEDAUD8>,
+        <http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> some <http://webprotege.stanford.edu/RDBYWZRW8DnpWBtsZ49SBKl>,
+        <http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> some <http://webprotege.stanford.edu/RC7jMqbCgSOel996WwDKSw8>,
+        <http://webprotege.stanford.edu/RhGIrcBXuiEthAcOUaFNhG> some <http://webprotege.stanford.edu/RDq8P17eSoisXKu6ZcRYT4c>
+    
+    
+Class: <http://webprotege.stanford.edu/RY2KRYsug31PcKQzeB9oUj>
+
+    Annotations: 
+        <http://webprotege.stanford.edu/RDeAGymGUOtCPbN8QA4KBJP> <https://cfa.org/wp-content/uploads/2019/11/rbProfile.jpg>,
+        rdfs:label "Russian Blue"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R8RkQOCnvUUJT4Q7jvXrgs2>,
+        <http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> some <http://webprotege.stanford.edu/R7hJTb8Lj3UWRzwtW3U7EQS>,
+        <http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> some <http://webprotege.stanford.edu/RBQGaRrBwlTwjyzKqsbCHds>,
+        <http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> some <http://webprotege.stanford.edu/RDnUhpziTtMi2uiw6wwcAWe>,
+        <http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> some <http://webprotege.stanford.edu/RDvsDl2E32yibANJF0XPz8f>,
+        <http://webprotege.stanford.edu/RhGIrcBXuiEthAcOUaFNhG> some <http://webprotege.stanford.edu/RDq8P17eSoisXKu6ZcRYT4c>
+    
+    
+Class: <http://webprotege.stanford.edu/RYoYZIsvryvuMidroJdQJ5>
+
+    Annotations: 
+        rdfs:label "Singapore"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RECkKgTWwIP6MlBWgOGape>
+    
+    
+Class: <http://webprotege.stanford.edu/Rbbm3Wh2cCUcyKwWRPw2a8>
+
+    Annotations: 
+        <http://webprotege.stanford.edu/RDeAGymGUOtCPbN8QA4KBJP> <https://cfa.org/wp-content/uploads/2019/11/cpshProfile.jpg>,
+        rdfs:label "Colorpoint Shorthair"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R6PLqsCk4GbK1vt3ShhsGD>,
+        <http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> some <http://webprotege.stanford.edu/R7aRUuHxoQEPkuNVRhuwQhy>,
+        <http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> some <http://webprotege.stanford.edu/R9FiNP4w5kul19WjBUfP076>,
+        <http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> some <http://webprotege.stanford.edu/RBIsrRd91B9HzXpGDNjDHsc>,
+        <http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> some <http://webprotege.stanford.edu/R9dS0u9BQon6TCPEwEsOCxj>,
+        <http://webprotege.stanford.edu/RDzCQJvC0ncfLdDGpXK2eGT> some <http://webprotege.stanford.edu/RC7CxJQEjHju3nGIxdXKu4s>,
+        <http://webprotege.stanford.edu/RDzCQJvC0ncfLdDGpXK2eGT> some <http://webprotege.stanford.edu/RDOOdCUIo7BBz17KvbpyZmr>,
+        <http://webprotege.stanford.edu/RhGIrcBXuiEthAcOUaFNhG> some <http://webprotege.stanford.edu/R7n17e0nV5dNZgRtHIDUmHq>
+    
+    
+Class: <http://webprotege.stanford.edu/RbyBgpx010noGl9UDArBGB>
+
+    Annotations: 
+        rdfs:label "Tail"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RB0hZtDoGwZt1elxw1cj7ob>
+    
+    
+Class: <http://webprotege.stanford.edu/RbyIFc0PzWtrF8sZwZdrQ6>
+
+    Annotations: 
+        <http://webprotege.stanford.edu/RDeAGymGUOtCPbN8QA4KBJP> <https://cfa.org/wp-content/uploads/2019/11/rmProfile.jpg>,
+        rdfs:label "Ragamuffin"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R9H8NrmJcvPQJ8JqoVNRvYL>,
+        <http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> some <http://webprotege.stanford.edu/R8Mwg5CekiyuQhFp7FHPpSp>,
+        <http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> some <http://webprotege.stanford.edu/RBIsrRd91B9HzXpGDNjDHsc>,
+        <http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> some <http://webprotege.stanford.edu/RBeDepgVgtLPbi8rC6Hi9NJ>,
+        <http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> some <http://webprotege.stanford.edu/RCKoWDOUTlrxZWi38LZeqdL>,
+        <http://webprotege.stanford.edu/RDzCQJvC0ncfLdDGpXK2eGT> some <http://webprotege.stanford.edu/RDRPLytAYUn2A4Nw46sMxoW>,
+        <http://webprotege.stanford.edu/RDzCQJvC0ncfLdDGpXK2eGT> some <http://webprotege.stanford.edu/RDTImJkJER5DK3JixhzMRvW>,
+        <http://webprotege.stanford.edu/RhGIrcBXuiEthAcOUaFNhG> some <http://webprotege.stanford.edu/RcMeCwHPahQ6yjHT7waXUr>
+    
+    
+Class: <http://webprotege.stanford.edu/RcMeCwHPahQ6yjHT7waXUr>
+
+    Annotations: 
+        rdfs:label "Cobby"^^xsd:string
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R9sP0kiNHtp8TYvgaBT0ZIt>
+    
+    
+Class: <http://webprotege.stanford.edu/RdE7TYCet2p6kPVa8nDATH>
+
+    Annotations: 
+        rdfs:label "Living Thing"
+    
+    
+Class: <http://webprotege.stanford.edu/ReemWR6dAFGwiwanQQxHn6>
+
+    Annotations: 
+        <http://webprotege.stanford.edu/RDeAGymGUOtCPbN8QA4KBJP> <https://cfa.org/wp-content/uploads/2019/11/acProfile.jpg>,
+        rdfs:label "American Curl"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R8j08k7iK9OkJC6YrOhVHIT>,
+        <http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> some <http://webprotege.stanford.edu/RBIsrRd91B9HzXpGDNjDHsc>,
+        <http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> some <http://webprotege.stanford.edu/RNEbak8cWP4TJyd5Ln3yTN>,
+        <http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> some <http://webprotege.stanford.edu/RCKoWDOUTlrxZWi38LZeqdL>,
+        <http://webprotege.stanford.edu/RhGIrcBXuiEthAcOUaFNhG> some <http://webprotege.stanford.edu/R7n17e0nV5dNZgRtHIDUmHq>
+    
+    
+Class: <http://webprotege.stanford.edu/RezwdXkf6rn8EA3wRYLQ4f>
+
+    Annotations: 
+        rdfs:label "Natural"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RugLVB2fY80DDW8Tw9J3dh>
+    
+    
+Class: <http://webprotege.stanford.edu/Rfhu8Bp6YKXTqB1CmozglO>
+
+    Annotations: 
+        rdfs:label "Dwarf"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R9sP0kiNHtp8TYvgaBT0ZIt>
+    
+    
+Class: <http://webprotege.stanford.edu/RiDuHGMCP0r4JZXmHHUH1T>
+
+    Annotations: 
+        rdfs:label "Swelte"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R9sP0kiNHtp8TYvgaBT0ZIt>
+    
+    
+Class: <http://webprotege.stanford.edu/RlkHlCsjFHavMZcuSbqctc>
+
+    Annotations: 
+        <http://webprotege.stanford.edu/RDeAGymGUOtCPbN8QA4KBJP> <https://cfa.org/wp-content/uploads/2019/11/nfcProfile.jpg>,
+        rdfs:label "Norwegian Forest Cat"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RCtKI95ZTt6WnTyNqKq7Eyq>,
+        <http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> some <http://webprotege.stanford.edu/R7aRUuHxoQEPkuNVRhuwQhy>,
+        <http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> some <http://webprotege.stanford.edu/R92WxhSD31d3gWdTgkDj5Vp>,
+        <http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> some <http://webprotege.stanford.edu/R7ay7rP5s6BHNmhbeRObT0z>,
+        <http://webprotege.stanford.edu/RhGIrcBXuiEthAcOUaFNhG> some <http://webprotege.stanford.edu/RcMeCwHPahQ6yjHT7waXUr>
+    
+    
+Class: <http://webprotege.stanford.edu/Rnc1Sr9gezPHoR7zP6inKw>
+
+    Annotations: 
+        rdfs:label "Easy Going"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RDI9zuFH0jwc2u2QsTNXC96>
+    
+    
+Class: <http://webprotege.stanford.edu/RpsO8b3GZsuPX4eijVsnNy>
+
+    Annotations: 
+        rdfs:label "Agile"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RDI9zuFH0jwc2u2QsTNXC96>
+    
+    
+Class: <http://webprotege.stanford.edu/Rsfba2LlBqRm473tkX9OTJ>
+
+    Annotations: 
+        rdfs:label "Semi-Long Hair"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R9detm7hMYgMXyc71KvW8S>
+    
+    
+Class: <http://webprotege.stanford.edu/RsyBsNdAuxRsoY1LjbQD7N>
+
+    Annotations: 
+        rdfs:label "China"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RECkKgTWwIP6MlBWgOGape>
+    
+    
+Class: <http://webprotege.stanford.edu/Rt6r2ZW4kbgEJSS6uVIQH8>
+
+    Annotations: 
+        <http://webprotege.stanford.edu/RDeAGymGUOtCPbN8QA4KBJP> <https://cfa.org/wp-content/uploads/2019/11/bmlProfile.jpg>,
+        rdfs:label "Burmilla"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R7SMNOUTyH5lZmqTASSvC2V>,
+        <http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> some <http://webprotege.stanford.edu/R7hJTb8Lj3UWRzwtW3U7EQS>,
+        <http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> some <http://webprotege.stanford.edu/RBIsrRd91B9HzXpGDNjDHsc>,
+        <http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> some <http://webprotege.stanford.edu/R9dS0u9BQon6TCPEwEsOCxj>,
+        <http://webprotege.stanford.edu/RDzCQJvC0ncfLdDGpXK2eGT> some <http://webprotege.stanford.edu/RDTImJkJER5DK3JixhzMRvW>,
+        <http://webprotege.stanford.edu/RDzCQJvC0ncfLdDGpXK2eGT> some <http://webprotege.stanford.edu/RDZTmjOcKW54xDO99vtVipU>,
+        <http://webprotege.stanford.edu/RhGIrcBXuiEthAcOUaFNhG> some <http://webprotege.stanford.edu/RcMeCwHPahQ6yjHT7waXUr>
+    
+    
+Class: <http://webprotege.stanford.edu/RtFJSPmHDJ6nqTYcg6e1hB>
+
+    Annotations: 
+        rdfs:label "Insistent"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RDI9zuFH0jwc2u2QsTNXC96>
+    
+    
+Class: <http://webprotege.stanford.edu/RugLVB2fY80DDW8Tw9J3dh>
+
+    Annotations: 
+        rdfs:label "Domestic Cat"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RBNv3Xa6YZcMAeHoERjsZYB>
+    
+    
+Class: <http://webprotege.stanford.edu/RvhjLyoDSWYIn7wYFVg0Hz>
+
+    Annotations: 
+        rdfs:label "Medium"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R9sP0kiNHtp8TYvgaBT0ZIt>
+    
+    
+Class: <http://webprotege.stanford.edu/RwWjRYmqnF2SnpyGfaB8B2>
+
+    Annotations: 
+        rdfs:label "Lean"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R9sP0kiNHtp8TYvgaBT0ZIt>
+    
+    
+Class: <http://webprotege.stanford.edu/Rx4hmffAXjdlEVkPNMTFxb>
+
+    Annotations: 
+        rdfs:label "Japan"
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RECkKgTWwIP6MlBWgOGape>
+    
+    
+Individual: <http://webprotege.stanford.edu/R7A3KO4n7ABycQX2Mqt2jHI>
+
+    Annotations: 
+        rdfs:label "Male Birman Cat"
+    
+    Types: 
+        <http://webprotege.stanford.edu/R7dzF9m4lqFV0OrP7dPYyPv>
+    
+    Facts:  
+     <http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG>  "20.0"^^xsd:double,
+     <http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70>  "4.0"^^xsd:double,
+     <http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c>  "3.2"^^xsd:double,
+     <http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW>  "white body with dark face"^^xsd:string,
+     <http://webprotege.stanford.edu/RlbsgKOberIEPaV6Ds5KVb>  "Male"^^xsd:string
+    
+    
+Individual: <http://webprotege.stanford.edu/R7wpmuDVAzoHaoNErvGVbx6>
+
+    Annotations: 
+        rdfs:label "Male Ragamuffin Kitten"
+    
+    Types: 
+        <http://webprotege.stanford.edu/RbyIFc0PzWtrF8sZwZdrQ6>
+    
+    Facts:  
+     <http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG>  "13.0"^^xsd:double,
+     <http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70>  "0.5"^^xsd:double,
+     <http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c>  "1.0"^^xsd:double,
+     <http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW>  "White"^^xsd:string,
+     <http://webprotege.stanford.edu/RlbsgKOberIEPaV6Ds5KVb>  "Male"^^xsd:string
+    
+    
+Individual: <http://webprotege.stanford.edu/R7ySmQE9Zxzk8TnSD1RQDnF>
+
+    Annotations: 
+        rdfs:label "Male Himalayan Persian Cat"
+    
+    Types: 
+        <http://webprotege.stanford.edu/RDTImJkJER5DK3JixhzMRvW>
+    
+    Facts:  
+     <http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG>  "25.0"^^xsd:double,
+     <http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70>  "6.0"^^xsd:double,
+     <http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c>  "4.5"^^xsd:double,
+     <http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW>  "Light cream colour"^^xsd:string,
+     <http://webprotege.stanford.edu/RlbsgKOberIEPaV6Ds5KVb>  "Male"^^xsd:string
+    
+    
+Individual: <http://webprotege.stanford.edu/R8FerpZXiLHlrLaVrqMvrV7>
+
+    Annotations: 
+        rdfs:label "Male European Burmese Cat"
+    
+    Types: 
+        <http://webprotege.stanford.edu/RLEOX4NzaXvk7swvaWuayo>
+    
+    Facts:  
+     <http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG>  "25.0"^^xsd:double,
+     <http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70>  "6.0"^^xsd:double,
+     <http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c>  "6.0"^^xsd:double,
+     <http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW>  "Rich Cream Colour"^^xsd:string,
+     <http://webprotege.stanford.edu/RlbsgKOberIEPaV6Ds5KVb>  "Male"^^xsd:string
+    
+    
+Individual: <http://webprotege.stanford.edu/R8OXVzYJ0uQV2CxblgTopwQ>
+
+    Annotations: 
+        rdfs:label "Female Burmese Kitten"
+    
+    Types: 
+        <http://webprotege.stanford.edu/RDZTmjOcKW54xDO99vtVipU>
+    
+    Facts:  
+     <http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG>  "17.7"^^xsd:double,
+     <http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70>  "1.0"^^xsd:double,
+     <http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c>  "1.4"^^xsd:double,
+     <http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW>  "Chocolate Tortoiseshell"^^xsd:string,
+     <http://webprotege.stanford.edu/RlbsgKOberIEPaV6Ds5KVb>  "Female"^^xsd:string
+    
+    
+Individual: <http://webprotege.stanford.edu/R8WS7KwWioyc0aq0UqB0gF7>
+
+    Annotations: 
+        rdfs:label "Female Selkirk Rex Kitten"
+    
+    Types: 
+        <http://webprotege.stanford.edu/R0o3ka8KtnMlgcdP9QcjBp>
+    
+    Facts:  
+     <http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG>  "14.0"^^xsd:double,
+     <http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70>  "0.5"^^xsd:double,
+     <http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c>  "2.0"^^xsd:double,
+     <http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW>  "Orange and White"^^xsd:string,
+     <http://webprotege.stanford.edu/RlbsgKOberIEPaV6Ds5KVb>  "Female"^^xsd:string
+    
+    
+Individual: <http://webprotege.stanford.edu/R8ag1oXWlh3aiJOZbaA2tcx>
+
+    Annotations: 
+        rdfs:label "Male Maine Coon Cat"
+    
+    Types: 
+        <http://webprotege.stanford.edu/RBkQsBLdKvddD0dbPJZqKdz>
+    
+    Facts:  
+     <http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG>  "33.02"^^xsd:double,
+     <http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70>  "5.0"^^xsd:double,
+     <http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c>  "6.3"^^xsd:double,
+     <http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW>  "Cream"^^xsd:string,
+     <http://webprotege.stanford.edu/RlbsgKOberIEPaV6Ds5KVb>  "Male"^^xsd:string
+    
+    
+Individual: <http://webprotege.stanford.edu/R8gF6ldjFeGEjBHACXjA5lp>
+
+    Annotations: 
+        rdfs:label "Female Egyptian Mau Cat"
+    
+    Types: 
+        <http://webprotege.stanford.edu/RBmKxLkdBYaBkWdSvST0c5V>
+    
+    Facts:  
+     <http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG>  "24.0"^^xsd:double,
+     <http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70>  "3.0"^^xsd:double,
+     <http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c>  "2.7"^^xsd:double,
+     <http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW>  "Bronze"^^xsd:string,
+     <http://webprotege.stanford.edu/RlbsgKOberIEPaV6Ds5KVb>  "Female"^^xsd:string
+    
+    
+Individual: <http://webprotege.stanford.edu/R8ojl8zN94KhfLqlBBelp6A>
+
+    Annotations: 
+        rdfs:label "Male Bombay Kitten"
+    
+    Types: 
+        <http://webprotege.stanford.edu/RCP9qLibYNpN01F00XVfOyx>
+    
+    Facts:  
+     <http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG>  "12.0"^^xsd:double,
+     <http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70>  "0.75"^^xsd:double,
+     <http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c>  "1.5"^^xsd:double,
+     <http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW>  "Glossy Black"^^xsd:string,
+     <http://webprotege.stanford.edu/RlbsgKOberIEPaV6Ds5KVb>  "Male"^^xsd:string
+    
+    
+Individual: <http://webprotege.stanford.edu/R8qlcTO2upa5MPwDdJ5iiqR>
+
+    Annotations: 
+        rdfs:label "Female Cornish Rex Cat"^^xsd:string
+    
+    Types: 
+        <http://webprotege.stanford.edu/R9gExwAiYggxHJHah6JPOjo>
+    
+    Facts:  
+     <http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG>  "28.0"^^xsd:double,
+     <http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70>  "3.0"^^xsd:double,
+     <http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c>  "2.5"^^xsd:double,
+     <http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW>  "white and balck"^^xsd:string,
+     <http://webprotege.stanford.edu/RlbsgKOberIEPaV6Ds5KVb>  "Female"^^xsd:string
+    
+    
+Individual: <http://webprotege.stanford.edu/R8rRTZC4BoLdqrrGoslnhUe>
+
+    Annotations: 
+        rdfs:label "Male Devon Rex Kitten"^^xsd:string
+    
+    Types: 
+        <http://webprotege.stanford.edu/R8ZlZyrKK5xqwfbZdBrKvxZ>
+    
+    Facts:  
+     <http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG>  "12.0"^^xsd:double,
+     <http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70>  "0.4"^^xsd:double,
+     <http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c>  "0.4"^^xsd:double,
+     <http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW>  "black"^^xsd:string,
+     <http://webprotege.stanford.edu/RlbsgKOberIEPaV6Ds5KVb>  "Male"^^xsd:string
+    
+    
+Individual: <http://webprotege.stanford.edu/R95Ol1VPbKictrYaeqw1L9j>
+
+    Annotations: 
+        rdfs:label "Female Havana Brown Cat"
+    
+    Types: 
+        <http://webprotege.stanford.edu/RDfZ9WynjrX11jo80YG3X9V>
+    
+    Facts:  
+     <http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG>  "20.0"^^xsd:double,
+     <http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70>  "5.0"^^xsd:double,
+     <http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c>  "2.9"^^xsd:double,
+     <http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW>  "Chocolate Brown"^^xsd:string,
+     <http://webprotege.stanford.edu/RlbsgKOberIEPaV6Ds5KVb>  "Female"^^xsd:string
+    
+    
+Individual: <http://webprotege.stanford.edu/R9789MSZqWFlV4rGwM7BQFr>
+
+    Annotations: 
+        rdfs:label "Female Norwegian Forest Kitten"^^xsd:string
+    
+    Types: 
+        <http://webprotege.stanford.edu/RlkHlCsjFHavMZcuSbqctc>
+    
+    Facts:  
+     <http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG>  "15.4"^^xsd:double,
+     <http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70>  "2.0"^^xsd:double,
+     <http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c>  "1.53"^^xsd:double,
+     <http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW>  "Golden"^^xsd:string,
+     <http://webprotege.stanford.edu/RlbsgKOberIEPaV6Ds5KVb>  "Female"^^xsd:string
+    
+    
+Individual: <http://webprotege.stanford.edu/R9GMit3H5kIZw9WtJ0E9Na5>
+
+    Annotations: 
+        rdfs:label "Female Burmilla Cat"
+    
+    Types: 
+        <http://webprotege.stanford.edu/Rt6r2ZW4kbgEJSS6uVIQH8>
+    
+    Facts:  
+     <http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG>  "19.0"^^xsd:double,
+     <http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70>  "4.0"^^xsd:double,
+     <http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c>  "3.0"^^xsd:double,
+     <http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW>  "White"^^xsd:string,
+     <http://webprotege.stanford.edu/RlbsgKOberIEPaV6Ds5KVb>  "Female"^^xsd:string
+    
+    
+Individual: <http://webprotege.stanford.edu/R9dNLA3NmoFPqDGQFv6ckTV>
+
+    Annotations: 
+        rdfs:label "Female Japanese Bobtail Kitten"^^xsd:string
+    
+    Types: 
+        <http://webprotege.stanford.edu/R8HhF1fCW3OZO6zC8NVxpQn>
+    
+    Facts:  
+     <http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG>  "17.0"^^xsd:double,
+     <http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70>  "0.4"^^xsd:double,
+     <http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c>  "1.2"^^xsd:double,
+     <http://webprotege.stanford.edu/RlbsgKOberIEPaV6Ds5KVb>  "Female"^^xsd:string
+    
+    
+Individual: <http://webprotege.stanford.edu/R9dqURNZ6ecUd3THHyJToSB>
+
+    Annotations: 
+        rdfs:label "Female American Shorthair Cat"
+    
+    Types: 
+        <http://webprotege.stanford.edu/R78n3gIdpEnhYFe0rmrRpWX>
+    
+    Facts:  
+     <http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG>  "25.0"^^xsd:double,
+     <http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70>  "4.0"^^xsd:double,
+     <http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c>  "3.7"^^xsd:double,
+     <http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW>  "Tabby Grey"^^xsd:string,
+     <http://webprotege.stanford.edu/RlbsgKOberIEPaV6Ds5KVb>  "Female"^^xsd:string
+    
+    
+Individual: <http://webprotege.stanford.edu/R9oFCXfDXFjFiMsuBGiatCx>
+
+    Annotations: 
+        rdfs:label "Male Turkish Angora Cat"
+    
+    Types: 
+        <http://webprotege.stanford.edu/R74tGbDUEBf6nc1jiadU0rD>
+    
+    Facts:  
+     <http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG>  "22.0"^^xsd:double,
+     <http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70>  "6.0"^^xsd:double,
+     <http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c>  "4.1"^^xsd:double,
+     <http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW>  "Tabby White"^^xsd:string,
+     <http://webprotege.stanford.edu/RlbsgKOberIEPaV6Ds5KVb>  "Male"^^xsd:string
+    
+    
+Individual: <http://webprotege.stanford.edu/RB7lilf1bV2zEZjIBRIve3x>
+
+    Annotations: 
+        rdfs:label "Female Singapura Kitten"^^xsd:string
+    
+    Types: 
+        <http://webprotege.stanford.edu/R7LUN6c9MPyvRSY53RSn1Qc>
+    
+    Facts:  
+     <http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG>  "15.0"^^xsd:double,
+     <http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70>  "0.8"^^xsd:double,
+     <http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c>  "1.0"^^xsd:double,
+     <http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW>  "ivory"^^xsd:string,
+     <http://webprotege.stanford.edu/RlbsgKOberIEPaV6Ds5KVb>  "Female"^^xsd:string
+    
+    
+Individual: <http://webprotege.stanford.edu/RBVBWpWTiXllH9RVx1FeYyT>
+
+    Annotations: 
+        rdfs:label "Female LaPerm Cat"^^xsd:string
+    
+    Types: 
+        <http://webprotege.stanford.edu/R9X2hBrg8QsSyDpeMQOMEIU>
+    
+    Facts:  
+     <http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG>  "28.0"^^xsd:double,
+     <http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70>  "4.0"^^xsd:double,
+     <http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c>  "4.6"^^xsd:double,
+     <http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW>  "orange and white"^^xsd:string,
+     <http://webprotege.stanford.edu/RlbsgKOberIEPaV6Ds5KVb>  "Female"^^xsd:string
+    
+    
+Individual: <http://webprotege.stanford.edu/RBlzSGKVupRcel9QBqjhU2u>
+
+    Annotations: 
+        rdfs:label "Male Lykoi Kitten"^^xsd:string
+    
+    Types: 
+        <http://webprotege.stanford.edu/RDMTW24zh0A19SI1foCUa5S>
+    
+    Facts:  
+     <http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG>  "20.0"^^xsd:double,
+     <http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70>  "0.6"^^xsd:double,
+     <http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c>  "0.8"^^xsd:double,
+     <http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW>  "black"^^xsd:string,
+     <http://webprotege.stanford.edu/RlbsgKOberIEPaV6Ds5KVb>  "Male"^^xsd:string
+    
+    
+Individual: <http://webprotege.stanford.edu/RBoPayDjhqEYWQgIUnbCrug>
+
+    Annotations: 
+        rdfs:label "Female Scottish Fold Cat"^^xsd:string
+    
+    Types: 
+        <http://webprotege.stanford.edu/RDFY9zx2HSXM2XcRKHaOI3Q>
+    
+    Facts:  
+     <http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG>  "23.0"^^xsd:double,
+     <http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70>  "5.0"^^xsd:double,
+     <http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c>  "4.6"^^xsd:double,
+     <http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW>  "lilac"^^xsd:string,
+     <http://webprotege.stanford.edu/RlbsgKOberIEPaV6Ds5KVb>  "Female"^^xsd:string
+    
+    
+Individual: <http://webprotege.stanford.edu/RBr6ptz55aOcO2iGgwUG7HO>
+
+    Annotations: 
+        rdfs:label "Female Ragdoll Cat"
+    
+    Types: 
+        <http://webprotege.stanford.edu/RDRPLytAYUn2A4Nw46sMxoW>
+    
+    Facts:  
+     <http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG>  "25.0"^^xsd:double,
+     <http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70>  "5.0"^^xsd:double,
+     <http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c>  "4.0"^^xsd:double,
+     <http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW>  "White"^^xsd:string,
+     <http://webprotege.stanford.edu/RlbsgKOberIEPaV6Ds5KVb>  "Female"^^xsd:string
+    
+    
+Individual: <http://webprotege.stanford.edu/RBtGdjTYKmFyfE0VtZX1bpp>
+
+    Annotations: 
+        rdfs:label "Male Ocicat Cat"
+    
+    Types: 
+        <http://webprotege.stanford.edu/RBu6tNWJSQ3NurPDQ8sIyDo>
+    
+    Facts:  
+     <http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG>  "28.0"^^xsd:double,
+     <http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70>  "7.0"^^xsd:double,
+     <http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c>  "6.5"^^xsd:double,
+     <http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW>  "Light Brown with Dark Brown spots"^^xsd:string,
+     <http://webprotege.stanford.edu/RlbsgKOberIEPaV6Ds5KVb>  "Male"^^xsd:string
+    
+    
+Individual: <http://webprotege.stanford.edu/RCTdm9x46Y9R2iXjftI81yK>
+
+    Annotations: 
+        rdfs:label "Male Siberian Kitten"^^xsd:string
+    
+    Types: 
+        <http://webprotege.stanford.edu/RBTq9A65CW50Tfx5mcJoBaF>
+    
+    Facts:  
+     <http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG>  "10.0"^^xsd:double,
+     <http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70>  "1.0"^^xsd:double,
+     <http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c>  "1.2"^^xsd:double,
+     <http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW>  "White"^^xsd:string,
+     <http://webprotege.stanford.edu/RlbsgKOberIEPaV6Ds5KVb>  "Male"^^xsd:string
+    
+    
+Individual: <http://webprotege.stanford.edu/RCXUhragdGmOSebohVTnCld>
+
+    Annotations: 
+        rdfs:label "Female Turkish Van Cat"
+    
+    Types: 
+        <http://webprotege.stanford.edu/RB1fAs1s2kJ0lnUypg8rdCW>
+    
+    Facts:  
+     <http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG>  "25.0"^^xsd:double,
+     <http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70>  "4.0"^^xsd:double,
+     <http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c>  "4.4"^^xsd:double,
+     <http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW>  "Black with White Spots"^^xsd:string,
+     <http://webprotege.stanford.edu/RlbsgKOberIEPaV6Ds5KVb>  "Female"^^xsd:string
+    
+    
+Individual: <http://webprotege.stanford.edu/RCduiysSLR13QFDVvbM7ybJ>
+
+    Annotations: 
+        rdfs:label "Female Korat Cat"^^xsd:string
+    
+    Types: 
+        <http://webprotege.stanford.edu/RCC3tIa9vDvXsWCabi5re84>
+    
+    Facts:  
+     <http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG>  "26.7"^^xsd:double,
+     <http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70>  "4.0"^^xsd:double,
+     <http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c>  "3.7"^^xsd:double,
+     <http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW>  "Bluish Silver"^^xsd:string,
+     <http://webprotege.stanford.edu/RlbsgKOberIEPaV6Ds5KVb>  "Female"^^xsd:string
+    
+    
+Individual: <http://webprotege.stanford.edu/RCn13vYf8iRbZoNbbp3In4>
+
+    Annotations: 
+        rdfs:label "Female American Wirehair Kitten"^^xsd:string
+    
+    Types: 
+        <http://webprotege.stanford.edu/R8KQ4AZpyCcrSDDucxoY9tt>
+    
+    Facts:  
+     <http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG>  "12.0"^^xsd:double,
+     <http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70>  "0.5"^^xsd:double,
+     <http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c>  "0.6"^^xsd:double,
+     <http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW>  "white and grey"^^xsd:string,
+     <http://webprotege.stanford.edu/RlbsgKOberIEPaV6Ds5KVb>  "Female"^^xsd:string
+    
+    
+Individual: <http://webprotege.stanford.edu/RCnrsd0jm7bLBDMAH5yEjZU>
+
+    Annotations: 
+        rdfs:label "Male British Shorthair Cat"
+    
+    Types: 
+        <http://webprotege.stanford.edu/RBLnXABJusxz8Ec0BTPYZYk>
+    
+    Facts:  
+     <http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG>  "34.5"^^xsd:double,
+     <http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70>  "5.0"^^xsd:double,
+     <http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c>  "4.7"^^xsd:double,
+     <http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW>  "Cinnamon Fawn Lilac"^^xsd:string,
+     <http://webprotege.stanford.edu/RlbsgKOberIEPaV6Ds5KVb>  "Male"^^xsd:string
+    
+    
+Individual: <http://webprotege.stanford.edu/RCrY2aKKr0DOqrakqNcKI4D>
+
+    Annotations: 
+        rdfs:label "Male American Curl Cat"^^xsd:string
+    
+    Types: 
+        <http://webprotege.stanford.edu/ReemWR6dAFGwiwanQQxHn6>
+    
+    Facts:  
+     <http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG>  "24.0"^^xsd:double,
+     <http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70>  "2.4"^^xsd:double,
+     <http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c>  "2.3"^^xsd:double,
+     <http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW>  "white and grey"^^xsd:string,
+     <http://webprotege.stanford.edu/RlbsgKOberIEPaV6Ds5KVb>  "Male"^^xsd:string
+    
+    
+Individual: <http://webprotege.stanford.edu/RD2VZ7zo8dxTt0jVji1BuGc>
+
+    Annotations: 
+        rdfs:label "Male American Bobtail Cat"^^xsd:string
+    
+    Types: 
+        <http://webprotege.stanford.edu/R8H0kuTKZ31PoHJgzxEaP81>
+    
+    Facts:  
+     <http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG>  "21.0"^^xsd:double,
+     <http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70>  "3.0"^^xsd:double,
+     <http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c>  "3.0"^^xsd:double,
+     <http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW>  "Grey"^^xsd:string,
+     <http://webprotege.stanford.edu/RlbsgKOberIEPaV6Ds5KVb>  "Male"^^xsd:string
+    
+    
+Individual: <http://webprotege.stanford.edu/RDcG4w5Y0i8Sji4Iv9NdAn7>
+
+    Annotations: 
+        rdfs:label "Male Russian Blue Cat"
+    
+    Types: 
+        <http://webprotege.stanford.edu/RY2KRYsug31PcKQzeB9oUj>
+    
+    Facts:  
+     <http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG>  "22.9"^^xsd:double,
+     <http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70>  "5.0"^^xsd:double,
+     <http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c>  "5.2"^^xsd:double,
+     <http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW>  "Bluish Gray"^^xsd:string,
+     <http://webprotege.stanford.edu/RlbsgKOberIEPaV6Ds5KVb>  "Male"^^xsd:string
+    
+    
+Individual: <http://webprotege.stanford.edu/RDqfZM3lwyj8NBbH9Fyz71A>
+
+    Annotations: 
+        rdfs:label "Male Tonkinese Kitten"
+    
+    Types: 
+        <http://webprotege.stanford.edu/R8iFgx5tbplYj9KQmyDU1LF>
+    
+    Facts:  
+     <http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG>  "11.0"^^xsd:double,
+     <http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70>  "0.25"^^xsd:double,
+     <http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c>  "1.1"^^xsd:double,
+     <http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW>  "White with Grey shading at limbs"^^xsd:string,
+     <http://webprotege.stanford.edu/RlbsgKOberIEPaV6Ds5KVb>  "Male"^^xsd:string
+    
+    
+Individual: <http://webprotege.stanford.edu/RHHL0nxUXdLzmELUsadNxw>
+
+    Annotations: 
+        rdfs:label "Female Manx Kitten"^^xsd:string
+    
+    Types: 
+        <http://webprotege.stanford.edu/RDAxkWffeiLrvLnYzc81FL>
+    
+    Facts:  
+     <http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG>  "20.0"^^xsd:double,
+     <http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70>  "0.9"^^xsd:double,
+     <http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c>  "1.4"^^xsd:double,
+     <http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW>  "white, black and orange"^^xsd:string,
+     <http://webprotege.stanford.edu/RlbsgKOberIEPaV6Ds5KVb>  "Female"^^xsd:string
+    
+    
+Individual: <http://webprotege.stanford.edu/RHNc05vXZlQGkRgBoVX4hS>
+
+    Annotations: 
+        rdfs:label "Male Bengal Kitten"
+    
+    Types: 
+        <http://webprotege.stanford.edu/RCujr9ySNGzufhH2YKTrUSO>
+    
+    Facts:  
+     <http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG>  "10.0"^^xsd:double,
+     <http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70>  "0.25"^^xsd:double,
+     <http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c>  "1.5"^^xsd:double,
+     <http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW>  "Light Brown with Brown spots"^^xsd:string,
+     <http://webprotege.stanford.edu/RlbsgKOberIEPaV6Ds5KVb>  "Male"^^xsd:string
+    
+    
+Individual: <http://webprotege.stanford.edu/RLD0Nu1XupwGgTy0MzTEZ8>
+
+    Annotations: 
+        rdfs:label "Male Abyssinian Kitten"^^xsd:string
+    
+    Types: 
+        <http://webprotege.stanford.edu/RDOOdCUIo7BBz17KvbpyZmr>
+    
+    Facts:  
+     <http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG>  "13.0"^^xsd:double,
+     <http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70>  "1.0"^^xsd:double,
+     <http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c>  "1.2"^^xsd:double,
+     <http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW>  "Ruddy"^^xsd:string,
+     <http://webprotege.stanford.edu/RlbsgKOberIEPaV6Ds5KVb>  "Male"^^xsd:string
+    
+    
+Individual: <http://webprotege.stanford.edu/RLJ1x5Ry1sIFKh7PmV69Ho>
+
+    Annotations: 
+        rdfs:label "Male Khao Manee Kitten"
+    
+    Types: 
+        <http://webprotege.stanford.edu/RWvwFPT7GuiA1rWZDpU83W>
+    
+    Facts:  
+     <http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG>  "16.5"^^xsd:double,
+     <http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70>  "1.0"^^xsd:double,
+     <http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c>  "1.8"^^xsd:double,
+     <http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW>  "White"^^xsd:string,
+     <http://webprotege.stanford.edu/RlbsgKOberIEPaV6Ds5KVb>  "Male"^^xsd:string
+    
+    
+Individual: <http://webprotege.stanford.edu/RM0oXrURETdh3D6XJApFZq>
+
+    Annotations: 
+        rdfs:label "Male Toybob Cat"^^xsd:string
+    
+    Types: 
+        <http://webprotege.stanford.edu/RCXJEQePnG2lgqc6U33kyiG>
+    
+    Facts:  
+     <http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG>  "15.0"^^xsd:double,
+     <http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70>  "5.4"^^xsd:double,
+     <http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c>  "1.1"^^xsd:double,
+     <http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW>  "brown and grey"^^xsd:string,
+     <http://webprotege.stanford.edu/RlbsgKOberIEPaV6Ds5KVb>  "Male"^^xsd:string
+    
+    
+Individual: <http://webprotege.stanford.edu/RT1cLPJzAeYEyJk9zqbypP>
+
+    Annotations: 
+        rdfs:label "Male Chartreux Cat"
+    
+    Types: 
+        <http://webprotege.stanford.edu/RCkzgvU7WWg6bcLHiyEnB90>
+    
+    Facts:  
+     <http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG>  "26.0"^^xsd:double,
+     <http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70>  "4.0"^^xsd:double,
+     <http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c>  "5.5"^^xsd:double,
+     <http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW>  "Bluish Gray"^^xsd:string,
+     <http://webprotege.stanford.edu/RlbsgKOberIEPaV6Ds5KVb>  "Male"^^xsd:string
+    
+    
+Individual: <http://webprotege.stanford.edu/RTq2Pp888qYPTYwJHxJ5VL>
+
+    Annotations: 
+        rdfs:label "Female Somali Kitten"^^xsd:string
+    
+    Types: 
+        <http://webprotege.stanford.edu/R9xcQt4KBCmuhI77fg3WP1>
+    
+    Facts:  
+     <http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG>  "13.0"^^xsd:double,
+     <http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70>  "0.3"^^xsd:double,
+     <http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c>  "0.3"^^xsd:double,
+     <http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW>  "sorrel (red)"^^xsd:string,
+     <http://webprotege.stanford.edu/RlbsgKOberIEPaV6Ds5KVb>  "Female"^^xsd:string
+    
+    
+Individual: <http://webprotege.stanford.edu/RfnPMFzAenZNtd3qF0skoI>
+
+    Annotations: 
+        rdfs:label "Male Exotic Cat"
+    
+    Types: 
+        <http://webprotege.stanford.edu/R80cfWP1G95crRfJeDyrYIU>
+    
+    Facts:  
+     <http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG>  "26.0"^^xsd:double,
+     <http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70>  "7.0"^^xsd:double,
+     <http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c>  "5.2"^^xsd:double,
+     <http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW>  "Orange with stripes"^^xsd:string,
+     <http://webprotege.stanford.edu/RlbsgKOberIEPaV6Ds5KVb>  "Male"^^xsd:string
+    
+    
+Individual: <http://webprotege.stanford.edu/RgQco90XMIdMptDAXAHb8b>
+
+    Annotations: 
+        rdfs:label "Female Siamese Cat"^^xsd:string
+    
+    Types: 
+        <http://webprotege.stanford.edu/RC7CxJQEjHju3nGIxdXKu4s>
+    
+    Facts:  
+     <http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG>  "30.0"^^xsd:double,
+     <http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70>  "4.0"^^xsd:double,
+     <http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c>  "2.3"^^xsd:double,
+     <http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW>  "white and black"^^xsd:string,
+     <http://webprotege.stanford.edu/RlbsgKOberIEPaV6Ds5KVb>  "Female"^^xsd:string
+    
+    
+Individual: <http://webprotege.stanford.edu/Rptau8MHivP1Wr2JDTovoe>
+
+    Annotations: 
+        rdfs:label "Female Sphynx Kitten"^^xsd:string
+    
+    Types: 
+        <http://webprotege.stanford.edu/RDlf3Ui74qgUetAWcmm2c3C>
+    
+    Facts:  
+     <http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG>  "20.0"^^xsd:double,
+     <http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70>  "0.9"^^xsd:double,
+     <http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c>  "1.2"^^xsd:double,
+     <http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW>  "creamy brown"^^xsd:string,
+     <http://webprotege.stanford.edu/RlbsgKOberIEPaV6Ds5KVb>  "Female"^^xsd:string
+    
+    
+Individual: <http://webprotege.stanford.edu/Rvrj9o2sFMy9SNTMyVVXBD>
+
+    Annotations: 
+        rdfs:label "Male Balinese Cat"^^xsd:string
+    
+    Types: 
+        <http://webprotege.stanford.edu/RDThoBbdkIyicN500nY18pp>
+    
+    Facts:  
+     <http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG>  "23.0"^^xsd:double,
+     <http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70>  "3.0"^^xsd:double,
+     <http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c>  "2.4"^^xsd:double,
+     <http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW>  "white"^^xsd:string,
+     <http://webprotege.stanford.edu/RlbsgKOberIEPaV6Ds5KVb>  "Male"^^xsd:string
+    
+    
+Individual: <http://webprotege.stanford.edu/RwafP7XIVbdDDwSYXSoY17>
+
+    Annotations: 
+        rdfs:label "Female Colorpoint Shorthair Kitten"
+    
+    Types: 
+        <http://webprotege.stanford.edu/Rbbm3Wh2cCUcyKwWRPw2a8>
+    
+    Facts:  
+     <http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG>  "15.0"^^xsd:double,
+     <http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70>  "0.5"^^xsd:double,
+     <http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c>  "1.5"^^xsd:double,
+     <http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW>  "Off-White"^^xsd:string,
+     <http://webprotege.stanford.edu/RlbsgKOberIEPaV6Ds5KVb>  "Male"^^xsd:string
+    
+    

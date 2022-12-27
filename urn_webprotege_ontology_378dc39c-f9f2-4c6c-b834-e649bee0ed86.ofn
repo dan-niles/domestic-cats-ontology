@@ -1,0 +1,1700 @@
+Prefix(:=<urn:webprotege:ontology:378dc39c-f9f2-4c6c-b834-e649bee0ed86#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<urn:webprotege:ontology:378dc39c-f9f2-4c6c-b834-e649bee0ed86>
+
+Declaration(Class(<http://webprotege.stanford.edu/R0ApgSThV5QxYvrcKtWe60>))
+Declaration(Class(<http://webprotege.stanford.edu/R0o3ka8KtnMlgcdP9QcjBp>))
+Declaration(Class(<http://webprotege.stanford.edu/R5v5WmM9epBXdxtc19THh>))
+Declaration(Class(<http://webprotege.stanford.edu/R6PLqsCk4GbK1vt3ShhsGD>))
+Declaration(Class(<http://webprotege.stanford.edu/R74tGbDUEBf6nc1jiadU0rD>))
+Declaration(Class(<http://webprotege.stanford.edu/R78n3gIdpEnhYFe0rmrRpWX>))
+Declaration(Class(<http://webprotege.stanford.edu/R7LUN6c9MPyvRSY53RSn1Qc>))
+Declaration(Class(<http://webprotege.stanford.edu/R7SMNOUTyH5lZmqTASSvC2V>))
+Declaration(Class(<http://webprotege.stanford.edu/R7aRUuHxoQEPkuNVRhuwQhy>))
+Declaration(Class(<http://webprotege.stanford.edu/R7ay7rP5s6BHNmhbeRObT0z>))
+Declaration(Class(<http://webprotege.stanford.edu/R7b4eNNfafla32phwKD0BxJ>))
+Declaration(Class(<http://webprotege.stanford.edu/R7bMvBlVnqMwjvkIkvRAQz5>))
+Declaration(Class(<http://webprotege.stanford.edu/R7dzF9m4lqFV0OrP7dPYyPv>))
+Declaration(Class(<http://webprotege.stanford.edu/R7hJTb8Lj3UWRzwtW3U7EQS>))
+Declaration(Class(<http://webprotege.stanford.edu/R7lNjbwkyqx62tWVlGBaeFP>))
+Declaration(Class(<http://webprotege.stanford.edu/R7n17e0nV5dNZgRtHIDUmHq>))
+Declaration(Class(<http://webprotege.stanford.edu/R7tvKfwR8vO5Rt3agKr4dAw>))
+Declaration(Class(<http://webprotege.stanford.edu/R80cfWP1G95crRfJeDyrYIU>))
+Declaration(Class(<http://webprotege.stanford.edu/R8CeNQYy8YTBCn0VBnE47jJ>))
+Declaration(Class(<http://webprotege.stanford.edu/R8FyfagQ4tzWlbUIARyaoBX>))
+Declaration(Class(<http://webprotege.stanford.edu/R8H0kuTKZ31PoHJgzxEaP81>))
+Declaration(Class(<http://webprotege.stanford.edu/R8HhF1fCW3OZO6zC8NVxpQn>))
+Declaration(Class(<http://webprotege.stanford.edu/R8KQ4AZpyCcrSDDucxoY9tt>))
+Declaration(Class(<http://webprotege.stanford.edu/R8Mwg5CekiyuQhFp7FHPpSp>))
+Declaration(Class(<http://webprotege.stanford.edu/R8RkQOCnvUUJT4Q7jvXrgs2>))
+Declaration(Class(<http://webprotege.stanford.edu/R8XOwsNSmW1hoNeO6sNUtbE>))
+Declaration(Class(<http://webprotege.stanford.edu/R8ZlZyrKK5xqwfbZdBrKvxZ>))
+Declaration(Class(<http://webprotege.stanford.edu/R8iFgx5tbplYj9KQmyDU1LF>))
+Declaration(Class(<http://webprotege.stanford.edu/R8j08k7iK9OkJC6YrOhVHIT>))
+Declaration(Class(<http://webprotege.stanford.edu/R92WxhSD31d3gWdTgkDj5Vp>))
+Declaration(Class(<http://webprotege.stanford.edu/R9A8NJb17VJH8lPbiEDAUD8>))
+Declaration(Class(<http://webprotege.stanford.edu/R9FiNP4w5kul19WjBUfP076>))
+Declaration(Class(<http://webprotege.stanford.edu/R9H8NrmJcvPQJ8JqoVNRvYL>))
+Declaration(Class(<http://webprotege.stanford.edu/R9KGv7vPVsv19VZXBwOmpd2>))
+Declaration(Class(<http://webprotege.stanford.edu/R9LfQWrVuILGSK783ALg6N>))
+Declaration(Class(<http://webprotege.stanford.edu/R9OSX9VyoPN9kWYaCjNuQif>))
+Declaration(Class(<http://webprotege.stanford.edu/R9Pwxbo6ZZ04E77yOh2SRs0>))
+Declaration(Class(<http://webprotege.stanford.edu/R9R5Cy8m7imjZk87mVLL1gn>))
+Declaration(Class(<http://webprotege.stanford.edu/R9TiuPQhkMCGJBm0imkBu5q>))
+Declaration(Class(<http://webprotege.stanford.edu/R9X2hBrg8QsSyDpeMQOMEIU>))
+Declaration(Class(<http://webprotege.stanford.edu/R9dS0u9BQon6TCPEwEsOCxj>))
+Declaration(Class(<http://webprotege.stanford.edu/R9detm7hMYgMXyc71KvW8S>))
+Declaration(Class(<http://webprotege.stanford.edu/R9egnZb3YCP13fNbMOH1F6F>))
+Declaration(Class(<http://webprotege.stanford.edu/R9gExwAiYggxHJHah6JPOjo>))
+Declaration(Class(<http://webprotege.stanford.edu/R9iEknLxda6LGnyGPbWkorQ>))
+Declaration(Class(<http://webprotege.stanford.edu/R9lgbr15OoSVavEmAYg3iJW>))
+Declaration(Class(<http://webprotege.stanford.edu/R9sP0kiNHtp8TYvgaBT0ZIt>))
+Declaration(Class(<http://webprotege.stanford.edu/R9uF9V2qtyYpZID7PPdiVm5>))
+Declaration(Class(<http://webprotege.stanford.edu/R9vHzMmZwFarHsV0G9KJYb1>))
+Declaration(Class(<http://webprotege.stanford.edu/R9xcQt4KBCmuhI77fg3WP1>))
+Declaration(Class(<http://webprotege.stanford.edu/RB0hZtDoGwZt1elxw1cj7ob>))
+Declaration(Class(<http://webprotege.stanford.edu/RB1fAs1s2kJ0lnUypg8rdCW>))
+Declaration(Class(<http://webprotege.stanford.edu/RB3MKNDAhO1nvcG9gIbuAOr>))
+Declaration(Class(<http://webprotege.stanford.edu/RB7WZt6BA7Tidyc8hxEsCnD>))
+Declaration(Class(<http://webprotege.stanford.edu/RB7Yh88jtg2h7h78zG1Wzq1>))
+Declaration(Class(<http://webprotege.stanford.edu/RBIsrRd91B9HzXpGDNjDHsc>))
+Declaration(Class(<http://webprotege.stanford.edu/RBLnXABJusxz8Ec0BTPYZYk>))
+Declaration(Class(<http://webprotege.stanford.edu/RBNv3Xa6YZcMAeHoERjsZYB>))
+Declaration(Class(<http://webprotege.stanford.edu/RBQGaRrBwlTwjyzKqsbCHds>))
+Declaration(Class(<http://webprotege.stanford.edu/RBTmjzWyhBbHyXCHj80G84O>))
+Declaration(Class(<http://webprotege.stanford.edu/RBTq9A65CW50Tfx5mcJoBaF>))
+Declaration(Class(<http://webprotege.stanford.edu/RBcugU2TJFGU2H7D8jAhxTq>))
+Declaration(Class(<http://webprotege.stanford.edu/RBeDepgVgtLPbi8rC6Hi9NJ>))
+Declaration(Class(<http://webprotege.stanford.edu/RBkQsBLdKvddD0dbPJZqKdz>))
+Declaration(Class(<http://webprotege.stanford.edu/RBlULJgSjlbw7YqXUzHEX5b>))
+Declaration(Class(<http://webprotege.stanford.edu/RBmKxLkdBYaBkWdSvST0c5V>))
+Declaration(Class(<http://webprotege.stanford.edu/RBu6tNWJSQ3NurPDQ8sIyDo>))
+Declaration(Class(<http://webprotege.stanford.edu/RBzcBz6p5T2wuoVBD5EYhJ7>))
+Declaration(Class(<http://webprotege.stanford.edu/RC6rrPG0cOhL6wxdkxQTmeu>))
+Declaration(Class(<http://webprotege.stanford.edu/RC7CxJQEjHju3nGIxdXKu4s>))
+Declaration(Class(<http://webprotege.stanford.edu/RC7jMqbCgSOel996WwDKSw8>))
+Declaration(Class(<http://webprotege.stanford.edu/RCC3tIa9vDvXsWCabi5re84>))
+Declaration(Class(<http://webprotege.stanford.edu/RCKoWDOUTlrxZWi38LZeqdL>))
+Declaration(Class(<http://webprotege.stanford.edu/RCNGdu7L8SiO5HDfQB2gRg1>))
+Declaration(Class(<http://webprotege.stanford.edu/RCP9qLibYNpN01F00XVfOyx>))
+Declaration(Class(<http://webprotege.stanford.edu/RCQN3b7H7HtG1JrH2xgxfru>))
+Declaration(Class(<http://webprotege.stanford.edu/RCW6G3Q3b0IiqkjhX0P06n3>))
+Declaration(Class(<http://webprotege.stanford.edu/RCXJEQePnG2lgqc6U33kyiG>))
+Declaration(Class(<http://webprotege.stanford.edu/RCkzgvU7WWg6bcLHiyEnB90>))
+Declaration(Class(<http://webprotege.stanford.edu/RCnjdwXmz8zDj3KizRNSzLY>))
+Declaration(Class(<http://webprotege.stanford.edu/RCo9eWwbqVccz1d7QEhfOYd>))
+Declaration(Class(<http://webprotege.stanford.edu/RCtKI95ZTt6WnTyNqKq7Eyq>))
+Declaration(Class(<http://webprotege.stanford.edu/RCujr9ySNGzufhH2YKTrUSO>))
+Declaration(Class(<http://webprotege.stanford.edu/RCyBFcBYu5PaHAgdmfkSq2V>))
+Declaration(Class(<http://webprotege.stanford.edu/RCyG0M8NDslpcZm37lr2NRO>))
+Declaration(Class(<http://webprotege.stanford.edu/RD20oIMf5DKDSPC6ZNXphYJ>))
+Declaration(Class(<http://webprotege.stanford.edu/RDAxkWffeiLrvLnYzc81FL>))
+Declaration(Class(<http://webprotege.stanford.edu/RDBYWZRW8DnpWBtsZ49SBKl>))
+Declaration(Class(<http://webprotege.stanford.edu/RDCJgR3zkgJsMdUvo3cIWXC>))
+Declaration(Class(<http://webprotege.stanford.edu/RDFY9zx2HSXM2XcRKHaOI3Q>))
+Declaration(Class(<http://webprotege.stanford.edu/RDI9zuFH0jwc2u2QsTNXC96>))
+Declaration(Class(<http://webprotege.stanford.edu/RDMTW24zh0A19SI1foCUa5S>))
+Declaration(Class(<http://webprotege.stanford.edu/RDOOdCUIo7BBz17KvbpyZmr>))
+Declaration(Class(<http://webprotege.stanford.edu/RDRPLytAYUn2A4Nw46sMxoW>))
+Declaration(Class(<http://webprotege.stanford.edu/RDTImJkJER5DK3JixhzMRvW>))
+Declaration(Class(<http://webprotege.stanford.edu/RDThoBbdkIyicN500nY18pp>))
+Declaration(Class(<http://webprotege.stanford.edu/RDZTmjOcKW54xDO99vtVipU>))
+Declaration(Class(<http://webprotege.stanford.edu/RDfZ9WynjrX11jo80YG3X9V>))
+Declaration(Class(<http://webprotege.stanford.edu/RDlf3Ui74qgUetAWcmm2c3C>))
+Declaration(Class(<http://webprotege.stanford.edu/RDnUhpziTtMi2uiw6wwcAWe>))
+Declaration(Class(<http://webprotege.stanford.edu/RDq8P17eSoisXKu6ZcRYT4c>))
+Declaration(Class(<http://webprotege.stanford.edu/RDvsDl2E32yibANJF0XPz8f>))
+Declaration(Class(<http://webprotege.stanford.edu/RECkKgTWwIP6MlBWgOGape>))
+Declaration(Class(<http://webprotege.stanford.edu/RGitLuwuoNFSy2jo7MlFzy>))
+Declaration(Class(<http://webprotege.stanford.edu/RLEOX4NzaXvk7swvaWuayo>))
+Declaration(Class(<http://webprotege.stanford.edu/RNEbak8cWP4TJyd5Ln3yTN>))
+Declaration(Class(<http://webprotege.stanford.edu/RNZQVqLmhaXV3B9TN4LjuW>))
+Declaration(Class(<http://webprotege.stanford.edu/RTLofqX3Sp0vZye6YSVgG7>))
+Declaration(Class(<http://webprotege.stanford.edu/RWvwFPT7GuiA1rWZDpU83W>))
+Declaration(Class(<http://webprotege.stanford.edu/RY2KRYsug31PcKQzeB9oUj>))
+Declaration(Class(<http://webprotege.stanford.edu/RYoYZIsvryvuMidroJdQJ5>))
+Declaration(Class(<http://webprotege.stanford.edu/Rbbm3Wh2cCUcyKwWRPw2a8>))
+Declaration(Class(<http://webprotege.stanford.edu/RbyBgpx010noGl9UDArBGB>))
+Declaration(Class(<http://webprotege.stanford.edu/RbyIFc0PzWtrF8sZwZdrQ6>))
+Declaration(Class(<http://webprotege.stanford.edu/RcMeCwHPahQ6yjHT7waXUr>))
+Declaration(Class(<http://webprotege.stanford.edu/RdE7TYCet2p6kPVa8nDATH>))
+Declaration(Class(<http://webprotege.stanford.edu/ReemWR6dAFGwiwanQQxHn6>))
+Declaration(Class(<http://webprotege.stanford.edu/RezwdXkf6rn8EA3wRYLQ4f>))
+Declaration(Class(<http://webprotege.stanford.edu/Rfhu8Bp6YKXTqB1CmozglO>))
+Declaration(Class(<http://webprotege.stanford.edu/RiDuHGMCP0r4JZXmHHUH1T>))
+Declaration(Class(<http://webprotege.stanford.edu/RlkHlCsjFHavMZcuSbqctc>))
+Declaration(Class(<http://webprotege.stanford.edu/Rnc1Sr9gezPHoR7zP6inKw>))
+Declaration(Class(<http://webprotege.stanford.edu/RpsO8b3GZsuPX4eijVsnNy>))
+Declaration(Class(<http://webprotege.stanford.edu/Rsfba2LlBqRm473tkX9OTJ>))
+Declaration(Class(<http://webprotege.stanford.edu/RsyBsNdAuxRsoY1LjbQD7N>))
+Declaration(Class(<http://webprotege.stanford.edu/Rt6r2ZW4kbgEJSS6uVIQH8>))
+Declaration(Class(<http://webprotege.stanford.edu/RtFJSPmHDJ6nqTYcg6e1hB>))
+Declaration(Class(<http://webprotege.stanford.edu/RugLVB2fY80DDW8Tw9J3dh>))
+Declaration(Class(<http://webprotege.stanford.edu/RvhjLyoDSWYIn7wYFVg0Hz>))
+Declaration(Class(<http://webprotege.stanford.edu/RwWjRYmqnF2SnpyGfaB8B2>))
+Declaration(Class(<http://webprotege.stanford.edu/Rx4hmffAXjdlEVkPNMTFxb>))
+Declaration(ObjectProperty(<http://webprotege.stanford.edu/R3RkRp3FeBJqRho4W2nihY>))
+Declaration(ObjectProperty(<http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW>))
+Declaration(ObjectProperty(<http://webprotege.stanford.edu/RB0A6fH0XxSKtysmnlUrZny>))
+Declaration(ObjectProperty(<http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO>))
+Declaration(ObjectProperty(<http://webprotege.stanford.edu/RDzCQJvC0ncfLdDGpXK2eGT>))
+Declaration(ObjectProperty(<http://webprotege.stanford.edu/RhGIrcBXuiEthAcOUaFNhG>))
+Declaration(ObjectProperty(<http://webprotege.stanford.edu/RuiH9YIxFP6aumQcZpnIPO>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/RlbsgKOberIEPaV6Ds5KVb>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/R7A3KO4n7ABycQX2Mqt2jHI>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/R7wpmuDVAzoHaoNErvGVbx6>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/R7ySmQE9Zxzk8TnSD1RQDnF>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/R8FerpZXiLHlrLaVrqMvrV7>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/R8OXVzYJ0uQV2CxblgTopwQ>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/R8WS7KwWioyc0aq0UqB0gF7>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/R8ag1oXWlh3aiJOZbaA2tcx>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/R8gF6ldjFeGEjBHACXjA5lp>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/R8ojl8zN94KhfLqlBBelp6A>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/R8qlcTO2upa5MPwDdJ5iiqR>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/R8rRTZC4BoLdqrrGoslnhUe>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/R95Ol1VPbKictrYaeqw1L9j>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/R9789MSZqWFlV4rGwM7BQFr>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/R9GMit3H5kIZw9WtJ0E9Na5>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/R9dNLA3NmoFPqDGQFv6ckTV>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/R9dqURNZ6ecUd3THHyJToSB>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/R9oFCXfDXFjFiMsuBGiatCx>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/RB7lilf1bV2zEZjIBRIve3x>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/RBVBWpWTiXllH9RVx1FeYyT>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/RBlzSGKVupRcel9QBqjhU2u>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/RBoPayDjhqEYWQgIUnbCrug>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/RBr6ptz55aOcO2iGgwUG7HO>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/RBtGdjTYKmFyfE0VtZX1bpp>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/RCTdm9x46Y9R2iXjftI81yK>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/RCXUhragdGmOSebohVTnCld>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/RCduiysSLR13QFDVvbM7ybJ>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/RCn13vYf8iRbZoNbbp3In4>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/RCnrsd0jm7bLBDMAH5yEjZU>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/RCrY2aKKr0DOqrakqNcKI4D>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/RD2VZ7zo8dxTt0jVji1BuGc>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/RDcG4w5Y0i8Sji4Iv9NdAn7>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/RDqfZM3lwyj8NBbH9Fyz71A>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/RHHL0nxUXdLzmELUsadNxw>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/RHNc05vXZlQGkRgBoVX4hS>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/RLD0Nu1XupwGgTy0MzTEZ8>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/RLJ1x5Ry1sIFKh7PmV69Ho>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/RM0oXrURETdh3D6XJApFZq>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/RT1cLPJzAeYEyJk9zqbypP>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/RTq2Pp888qYPTYwJHxJ5VL>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/RfnPMFzAenZNtd3qF0skoI>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/RgQco90XMIdMptDAXAHb8b>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/Rptau8MHivP1Wr2JDTovoe>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/Rvrj9o2sFMy9SNTMyVVXBD>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/RwafP7XIVbdDDwSYXSoY17>))
+Declaration(AnnotationProperty(<http://webprotege.stanford.edu/R7WF5Tu4rEl7drNvOC5lKbL>))
+Declaration(AnnotationProperty(<http://webprotege.stanford.edu/RBUnz6lGkyubOw0UOSTe43z>))
+Declaration(AnnotationProperty(<http://webprotege.stanford.edu/RDeAGymGUOtCPbN8QA4KBJP>))
+############################
+#   Annotation Properties
+############################
+
+# Annotation Property: <http://webprotege.stanford.edu/R7WF5Tu4rEl7drNvOC5lKbL> (quantityUnit)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R7WF5Tu4rEl7drNvOC5lKbL> "quantityUnit")
+
+# Annotation Property: <http://webprotege.stanford.edu/RBUnz6lGkyubOw0UOSTe43z> (breedStandardURL)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RBUnz6lGkyubOw0UOSTe43z> "breedStandardURL")
+
+# Annotation Property: <http://webprotege.stanford.edu/RDeAGymGUOtCPbN8QA4KBJP> (imageURL)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RDeAGymGUOtCPbN8QA4KBJP> "imageURL")
+
+
+############################
+#   Object Properties
+############################
+
+# Object Property: <http://webprotege.stanford.edu/R3RkRp3FeBJqRho4W2nihY> (has-coat-type)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R3RkRp3FeBJqRho4W2nihY> "has-coat-type")
+SubObjectPropertyOf(<http://webprotege.stanford.edu/R3RkRp3FeBJqRho4W2nihY> owl:topObjectProperty)
+ObjectPropertyDomain(<http://webprotege.stanford.edu/R3RkRp3FeBJqRho4W2nihY> <http://webprotege.stanford.edu/RBNv3Xa6YZcMAeHoERjsZYB>)
+ObjectPropertyRange(<http://webprotege.stanford.edu/R3RkRp3FeBJqRho4W2nihY> <http://webprotege.stanford.edu/R9detm7hMYgMXyc71KvW8S>)
+
+# Object Property: <http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> (has-personality)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> "has-personality")
+SubObjectPropertyOf(<http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> owl:topObjectProperty)
+ObjectPropertyDomain(<http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> <http://webprotege.stanford.edu/RugLVB2fY80DDW8Tw9J3dh>)
+ObjectPropertyRange(<http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> <http://webprotege.stanford.edu/RDI9zuFH0jwc2u2QsTNXC96>)
+
+# Object Property: <http://webprotege.stanford.edu/RB0A6fH0XxSKtysmnlUrZny> (has-body-part)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RB0A6fH0XxSKtysmnlUrZny> "has-body-part"^^xsd:string)
+SubObjectPropertyOf(<http://webprotege.stanford.edu/RB0A6fH0XxSKtysmnlUrZny> owl:topObjectProperty)
+ObjectPropertyDomain(<http://webprotege.stanford.edu/RB0A6fH0XxSKtysmnlUrZny> <http://webprotege.stanford.edu/RCo9eWwbqVccz1d7QEhfOYd>)
+ObjectPropertyRange(<http://webprotege.stanford.edu/RB0A6fH0XxSKtysmnlUrZny> <http://webprotege.stanford.edu/RB0hZtDoGwZt1elxw1cj7ob>)
+
+# Object Property: <http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> (originates-from)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> "originates-from")
+SubObjectPropertyOf(<http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> owl:topObjectProperty)
+ObjectPropertyDomain(<http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> <http://webprotege.stanford.edu/RugLVB2fY80DDW8Tw9J3dh>)
+ObjectPropertyRange(<http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> <http://webprotege.stanford.edu/RECkKgTWwIP6MlBWgOGape>)
+
+# Object Property: <http://webprotege.stanford.edu/RDzCQJvC0ncfLdDGpXK2eGT> (cross-bred-from)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RDzCQJvC0ncfLdDGpXK2eGT> "cross-bred-from"^^xsd:string)
+SubObjectPropertyOf(<http://webprotege.stanford.edu/RDzCQJvC0ncfLdDGpXK2eGT> owl:topObjectProperty)
+ObjectPropertyDomain(<http://webprotege.stanford.edu/RDzCQJvC0ncfLdDGpXK2eGT> <http://webprotege.stanford.edu/R9TiuPQhkMCGJBm0imkBu5q>)
+ObjectPropertyRange(<http://webprotege.stanford.edu/RDzCQJvC0ncfLdDGpXK2eGT> <http://webprotege.stanford.edu/RugLVB2fY80DDW8Tw9J3dh>)
+
+# Object Property: <http://webprotege.stanford.edu/RhGIrcBXuiEthAcOUaFNhG> (has-body-type)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RhGIrcBXuiEthAcOUaFNhG> "has-body-type")
+SubObjectPropertyOf(<http://webprotege.stanford.edu/RhGIrcBXuiEthAcOUaFNhG> owl:topObjectProperty)
+ObjectPropertyDomain(<http://webprotege.stanford.edu/RhGIrcBXuiEthAcOUaFNhG> <http://webprotege.stanford.edu/RCo9eWwbqVccz1d7QEhfOYd>)
+ObjectPropertyRange(<http://webprotege.stanford.edu/RhGIrcBXuiEthAcOUaFNhG> <http://webprotege.stanford.edu/R9sP0kiNHtp8TYvgaBT0ZIt>)
+
+# Object Property: <http://webprotege.stanford.edu/RuiH9YIxFP6aumQcZpnIPO> (has-structure)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RuiH9YIxFP6aumQcZpnIPO> "has-structure")
+ObjectPropertyDomain(<http://webprotege.stanford.edu/RuiH9YIxFP6aumQcZpnIPO> <http://webprotege.stanford.edu/RCo9eWwbqVccz1d7QEhfOYd>)
+ObjectPropertyRange(<http://webprotege.stanford.edu/RuiH9YIxFP6aumQcZpnIPO> <http://webprotege.stanford.edu/RCyG0M8NDslpcZm37lr2NRO>)
+
+
+############################
+#   Data Properties
+############################
+
+# Data Property: <http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG> (height)
+
+AnnotationAssertion(<http://webprotege.stanford.edu/R7WF5Tu4rEl7drNvOC5lKbL> <http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG> "Centimeters"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG> "height")
+SubDataPropertyOf(<http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG> owl:topDataProperty)
+DataPropertyDomain(<http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG> <http://webprotege.stanford.edu/RugLVB2fY80DDW8Tw9J3dh>)
+DataPropertyRange(<http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG> xsd:double)
+
+# Data Property: <http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70> (age)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70> "age")
+SubDataPropertyOf(<http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70> owl:topDataProperty)
+DataPropertyDomain(<http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70> <http://webprotege.stanford.edu/RugLVB2fY80DDW8Tw9J3dh>)
+DataPropertyRange(<http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70> xsd:double)
+
+# Data Property: <http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c> (weight)
+
+AnnotationAssertion(<http://webprotege.stanford.edu/R7WF5Tu4rEl7drNvOC5lKbL> <http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c> "Kilograms"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c> "weight")
+SubDataPropertyOf(<http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c> owl:topDataProperty)
+DataPropertyDomain(<http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c> <http://webprotege.stanford.edu/RugLVB2fY80DDW8Tw9J3dh>)
+DataPropertyRange(<http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c> xsd:double)
+
+# Data Property: <http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW> (colour)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW> "colour"^^xsd:string)
+SubDataPropertyOf(<http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW> owl:topDataProperty)
+DataPropertyDomain(<http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW> <http://webprotege.stanford.edu/RugLVB2fY80DDW8Tw9J3dh>)
+DataPropertyRange(<http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW> xsd:string)
+
+# Data Property: <http://webprotege.stanford.edu/RlbsgKOberIEPaV6Ds5KVb> (gender)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RlbsgKOberIEPaV6Ds5KVb> "gender")
+SubDataPropertyOf(<http://webprotege.stanford.edu/RlbsgKOberIEPaV6Ds5KVb> owl:topDataProperty)
+DataPropertyDomain(<http://webprotege.stanford.edu/RlbsgKOberIEPaV6Ds5KVb> <http://webprotege.stanford.edu/RugLVB2fY80DDW8Tw9J3dh>)
+DataPropertyRange(<http://webprotege.stanford.edu/RlbsgKOberIEPaV6Ds5KVb> xsd:string)
+
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://webprotege.stanford.edu/R0ApgSThV5QxYvrcKtWe60> (Powerful)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R0ApgSThV5QxYvrcKtWe60> "Powerful")
+SubClassOf(<http://webprotege.stanford.edu/R0ApgSThV5QxYvrcKtWe60> <http://webprotege.stanford.edu/RDI9zuFH0jwc2u2QsTNXC96>)
+
+# Class: <http://webprotege.stanford.edu/R0o3ka8KtnMlgcdP9QcjBp> (Selkirk Rex)
+
+AnnotationAssertion(<http://webprotege.stanford.edu/RDeAGymGUOtCPbN8QA4KBJP> <http://webprotege.stanford.edu/R0o3ka8KtnMlgcdP9QcjBp> <https://cfa.org/wp-content/uploads/2019/11/srexProfile.jpg>)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R0o3ka8KtnMlgcdP9QcjBp> "Selkirk Rex")
+SubClassOf(<http://webprotege.stanford.edu/R0o3ka8KtnMlgcdP9QcjBp> <http://webprotege.stanford.edu/R7SMNOUTyH5lZmqTASSvC2V>)
+SubClassOf(<http://webprotege.stanford.edu/R0o3ka8KtnMlgcdP9QcjBp> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> <http://webprotege.stanford.edu/RDnUhpziTtMi2uiw6wwcAWe>))
+SubClassOf(<http://webprotege.stanford.edu/R0o3ka8KtnMlgcdP9QcjBp> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> <http://webprotege.stanford.edu/RCKoWDOUTlrxZWi38LZeqdL>))
+SubClassOf(<http://webprotege.stanford.edu/R0o3ka8KtnMlgcdP9QcjBp> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RDzCQJvC0ncfLdDGpXK2eGT> <http://webprotege.stanford.edu/R78n3gIdpEnhYFe0rmrRpWX>))
+SubClassOf(<http://webprotege.stanford.edu/R0o3ka8KtnMlgcdP9QcjBp> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RDzCQJvC0ncfLdDGpXK2eGT> <http://webprotege.stanford.edu/RBLnXABJusxz8Ec0BTPYZYk>))
+SubClassOf(<http://webprotege.stanford.edu/R0o3ka8KtnMlgcdP9QcjBp> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RhGIrcBXuiEthAcOUaFNhG> <http://webprotege.stanford.edu/RCQN3b7H7HtG1JrH2xgxfru>))
+
+# Class: <http://webprotege.stanford.edu/R5v5WmM9epBXdxtc19THh> (Egypt)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R5v5WmM9epBXdxtc19THh> "Egypt")
+SubClassOf(<http://webprotege.stanford.edu/R5v5WmM9epBXdxtc19THh> <http://webprotege.stanford.edu/RECkKgTWwIP6MlBWgOGape>)
+
+# Class: <http://webprotege.stanford.edu/R6PLqsCk4GbK1vt3ShhsGD> (Crossbreed Short-Haired)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R6PLqsCk4GbK1vt3ShhsGD> "Crossbreed Short-Haired")
+SubClassOf(<http://webprotege.stanford.edu/R6PLqsCk4GbK1vt3ShhsGD> <http://webprotege.stanford.edu/R9TiuPQhkMCGJBm0imkBu5q>)
+SubClassOf(<http://webprotege.stanford.edu/R6PLqsCk4GbK1vt3ShhsGD> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R3RkRp3FeBJqRho4W2nihY> <http://webprotege.stanford.edu/RCW6G3Q3b0IiqkjhX0P06n3>))
+
+# Class: <http://webprotege.stanford.edu/R74tGbDUEBf6nc1jiadU0rD> (Turkish Angora)
+
+AnnotationAssertion(<http://webprotege.stanford.edu/RDeAGymGUOtCPbN8QA4KBJP> <http://webprotege.stanford.edu/R74tGbDUEBf6nc1jiadU0rD> <https://cfa.org/wp-content/uploads/2019/11/taProfile.jpg>)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R74tGbDUEBf6nc1jiadU0rD> "Turkish Angora")
+SubClassOf(<http://webprotege.stanford.edu/R74tGbDUEBf6nc1jiadU0rD> <http://webprotege.stanford.edu/RCtKI95ZTt6WnTyNqKq7Eyq>)
+SubClassOf(<http://webprotege.stanford.edu/R74tGbDUEBf6nc1jiadU0rD> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> <http://webprotege.stanford.edu/R9KGv7vPVsv19VZXBwOmpd2>))
+SubClassOf(<http://webprotege.stanford.edu/R74tGbDUEBf6nc1jiadU0rD> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> <http://webprotege.stanford.edu/RDBYWZRW8DnpWBtsZ49SBKl>))
+SubClassOf(<http://webprotege.stanford.edu/R74tGbDUEBf6nc1jiadU0rD> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> <http://webprotege.stanford.edu/RC6rrPG0cOhL6wxdkxQTmeu>))
+SubClassOf(<http://webprotege.stanford.edu/R74tGbDUEBf6nc1jiadU0rD> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RhGIrcBXuiEthAcOUaFNhG> <http://webprotege.stanford.edu/RcMeCwHPahQ6yjHT7waXUr>))
+
+# Class: <http://webprotege.stanford.edu/R78n3gIdpEnhYFe0rmrRpWX> (American Shorthair Cat)
+
+AnnotationAssertion(<http://webprotege.stanford.edu/RDeAGymGUOtCPbN8QA4KBJP> <http://webprotege.stanford.edu/R78n3gIdpEnhYFe0rmrRpWX> <https://cfa.org/wp-content/uploads/2019/11/ashProfile.jpg>)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R78n3gIdpEnhYFe0rmrRpWX> "American Shorthair Cat")
+SubClassOf(<http://webprotege.stanford.edu/R78n3gIdpEnhYFe0rmrRpWX> <http://webprotege.stanford.edu/R8RkQOCnvUUJT4Q7jvXrgs2>)
+SubClassOf(<http://webprotege.stanford.edu/R78n3gIdpEnhYFe0rmrRpWX> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> <http://webprotege.stanford.edu/R8FyfagQ4tzWlbUIARyaoBX>))
+SubClassOf(<http://webprotege.stanford.edu/R78n3gIdpEnhYFe0rmrRpWX> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> <http://webprotege.stanford.edu/RDnUhpziTtMi2uiw6wwcAWe>))
+SubClassOf(<http://webprotege.stanford.edu/R78n3gIdpEnhYFe0rmrRpWX> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> <http://webprotege.stanford.edu/RCKoWDOUTlrxZWi38LZeqdL>))
+SubClassOf(<http://webprotege.stanford.edu/R78n3gIdpEnhYFe0rmrRpWX> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RhGIrcBXuiEthAcOUaFNhG> <http://webprotege.stanford.edu/RcMeCwHPahQ6yjHT7waXUr>))
+
+# Class: <http://webprotege.stanford.edu/R7LUN6c9MPyvRSY53RSn1Qc> (Singapura)
+
+AnnotationAssertion(<http://webprotege.stanford.edu/RDeAGymGUOtCPbN8QA4KBJP> <http://webprotege.stanford.edu/R7LUN6c9MPyvRSY53RSn1Qc> <https://cfa.org/wp-content/uploads/2019/11/singProfile.jpg>)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R7LUN6c9MPyvRSY53RSn1Qc> "Singapura")
+SubClassOf(<http://webprotege.stanford.edu/R7LUN6c9MPyvRSY53RSn1Qc> <http://webprotege.stanford.edu/R9egnZb3YCP13fNbMOH1F6F>)
+SubClassOf(<http://webprotege.stanford.edu/R7LUN6c9MPyvRSY53RSn1Qc> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> <http://webprotege.stanford.edu/R92WxhSD31d3gWdTgkDj5Vp>))
+SubClassOf(<http://webprotege.stanford.edu/R7LUN6c9MPyvRSY53RSn1Qc> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> <http://webprotege.stanford.edu/R9uF9V2qtyYpZID7PPdiVm5>))
+SubClassOf(<http://webprotege.stanford.edu/R7LUN6c9MPyvRSY53RSn1Qc> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> <http://webprotege.stanford.edu/RBIsrRd91B9HzXpGDNjDHsc>))
+SubClassOf(<http://webprotege.stanford.edu/R7LUN6c9MPyvRSY53RSn1Qc> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> <http://webprotege.stanford.edu/RCKoWDOUTlrxZWi38LZeqdL>))
+SubClassOf(<http://webprotege.stanford.edu/R7LUN6c9MPyvRSY53RSn1Qc> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> <http://webprotege.stanford.edu/RYoYZIsvryvuMidroJdQJ5>))
+SubClassOf(<http://webprotege.stanford.edu/R7LUN6c9MPyvRSY53RSn1Qc> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RhGIrcBXuiEthAcOUaFNhG> <http://webprotege.stanford.edu/R7b4eNNfafla32phwKD0BxJ>))
+
+# Class: <http://webprotege.stanford.edu/R7SMNOUTyH5lZmqTASSvC2V> (Crossbreed Semi-Long-Haired)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R7SMNOUTyH5lZmqTASSvC2V> "Crossbreed Semi-Long-Haired")
+SubClassOf(<http://webprotege.stanford.edu/R7SMNOUTyH5lZmqTASSvC2V> <http://webprotege.stanford.edu/R9TiuPQhkMCGJBm0imkBu5q>)
+SubClassOf(<http://webprotege.stanford.edu/R7SMNOUTyH5lZmqTASSvC2V> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R3RkRp3FeBJqRho4W2nihY> <http://webprotege.stanford.edu/Rsfba2LlBqRm473tkX9OTJ>))
+
+# Class: <http://webprotege.stanford.edu/R7aRUuHxoQEPkuNVRhuwQhy> (Active)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R7aRUuHxoQEPkuNVRhuwQhy> "Active")
+SubClassOf(<http://webprotege.stanford.edu/R7aRUuHxoQEPkuNVRhuwQhy> <http://webprotege.stanford.edu/RDI9zuFH0jwc2u2QsTNXC96>)
+
+# Class: <http://webprotege.stanford.edu/R7ay7rP5s6BHNmhbeRObT0z> (Norway)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R7ay7rP5s6BHNmhbeRObT0z> "Norway")
+SubClassOf(<http://webprotege.stanford.edu/R7ay7rP5s6BHNmhbeRObT0z> <http://webprotege.stanford.edu/RECkKgTWwIP6MlBWgOGape>)
+
+# Class: <http://webprotege.stanford.edu/R7b4eNNfafla32phwKD0BxJ> (Small)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R7b4eNNfafla32phwKD0BxJ> "Small")
+SubClassOf(<http://webprotege.stanford.edu/R7b4eNNfafla32phwKD0BxJ> <http://webprotege.stanford.edu/R9sP0kiNHtp8TYvgaBT0ZIt>)
+
+# Class: <http://webprotege.stanford.edu/R7bMvBlVnqMwjvkIkvRAQz5> (Germany)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R7bMvBlVnqMwjvkIkvRAQz5> "Germany")
+SubClassOf(<http://webprotege.stanford.edu/R7bMvBlVnqMwjvkIkvRAQz5> <http://webprotege.stanford.edu/RECkKgTWwIP6MlBWgOGape>)
+
+# Class: <http://webprotege.stanford.edu/R7dzF9m4lqFV0OrP7dPYyPv> (Birman)
+
+AnnotationAssertion(<http://webprotege.stanford.edu/RDeAGymGUOtCPbN8QA4KBJP> <http://webprotege.stanford.edu/R7dzF9m4lqFV0OrP7dPYyPv> <https://cfa.org/wp-content/uploads/2019/11/birProfile.jpg>)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R7dzF9m4lqFV0OrP7dPYyPv> "Birman")
+SubClassOf(<http://webprotege.stanford.edu/R7dzF9m4lqFV0OrP7dPYyPv> <http://webprotege.stanford.edu/R9H8NrmJcvPQJ8JqoVNRvYL>)
+SubClassOf(<http://webprotege.stanford.edu/R7dzF9m4lqFV0OrP7dPYyPv> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> <http://webprotege.stanford.edu/R92WxhSD31d3gWdTgkDj5Vp>))
+SubClassOf(<http://webprotege.stanford.edu/R7dzF9m4lqFV0OrP7dPYyPv> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> <http://webprotege.stanford.edu/RBIsrRd91B9HzXpGDNjDHsc>))
+SubClassOf(<http://webprotege.stanford.edu/R7dzF9m4lqFV0OrP7dPYyPv> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> <http://webprotege.stanford.edu/R9lgbr15OoSVavEmAYg3iJW>))
+SubClassOf(<http://webprotege.stanford.edu/R7dzF9m4lqFV0OrP7dPYyPv> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RDzCQJvC0ncfLdDGpXK2eGT> <http://webprotege.stanford.edu/RC7CxJQEjHju3nGIxdXKu4s>))
+SubClassOf(<http://webprotege.stanford.edu/R7dzF9m4lqFV0OrP7dPYyPv> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RDzCQJvC0ncfLdDGpXK2eGT> <http://webprotege.stanford.edu/RDTImJkJER5DK3JixhzMRvW>))
+SubClassOf(<http://webprotege.stanford.edu/R7dzF9m4lqFV0OrP7dPYyPv> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RhGIrcBXuiEthAcOUaFNhG> <http://webprotege.stanford.edu/RcMeCwHPahQ6yjHT7waXUr>))
+
+# Class: <http://webprotege.stanford.edu/R7hJTb8Lj3UWRzwtW3U7EQS> (Playful)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R7hJTb8Lj3UWRzwtW3U7EQS> "Playful")
+SubClassOf(<http://webprotege.stanford.edu/R7hJTb8Lj3UWRzwtW3U7EQS> <http://webprotege.stanford.edu/RDI9zuFH0jwc2u2QsTNXC96>)
+
+# Class: <http://webprotege.stanford.edu/R7lNjbwkyqx62tWVlGBaeFP> (Claw)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R7lNjbwkyqx62tWVlGBaeFP> "Claw")
+SubClassOf(<http://webprotege.stanford.edu/R7lNjbwkyqx62tWVlGBaeFP> <http://webprotege.stanford.edu/RB0hZtDoGwZt1elxw1cj7ob>)
+
+# Class: <http://webprotege.stanford.edu/R7n17e0nV5dNZgRtHIDUmHq> (Foreign)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R7n17e0nV5dNZgRtHIDUmHq> "Foreign")
+SubClassOf(<http://webprotege.stanford.edu/R7n17e0nV5dNZgRtHIDUmHq> <http://webprotege.stanford.edu/R9sP0kiNHtp8TYvgaBT0ZIt>)
+
+# Class: <http://webprotege.stanford.edu/R7tvKfwR8vO5Rt3agKr4dAw> (Normal)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R7tvKfwR8vO5Rt3agKr4dAw> "Normal")
+SubClassOf(<http://webprotege.stanford.edu/R7tvKfwR8vO5Rt3agKr4dAw> <http://webprotege.stanford.edu/R9sP0kiNHtp8TYvgaBT0ZIt>)
+
+# Class: <http://webprotege.stanford.edu/R80cfWP1G95crRfJeDyrYIU> (Exotic)
+
+AnnotationAssertion(<http://webprotege.stanford.edu/RDeAGymGUOtCPbN8QA4KBJP> <http://webprotege.stanford.edu/R80cfWP1G95crRfJeDyrYIU> <https://cfa.org/wp-content/uploads/2019/11/exProfile.jpg>)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R80cfWP1G95crRfJeDyrYIU> "Exotic")
+SubClassOf(<http://webprotege.stanford.edu/R80cfWP1G95crRfJeDyrYIU> <http://webprotege.stanford.edu/R7SMNOUTyH5lZmqTASSvC2V>)
+SubClassOf(<http://webprotege.stanford.edu/R80cfWP1G95crRfJeDyrYIU> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> <http://webprotege.stanford.edu/R92WxhSD31d3gWdTgkDj5Vp>))
+SubClassOf(<http://webprotege.stanford.edu/R80cfWP1G95crRfJeDyrYIU> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> <http://webprotege.stanford.edu/RBIsrRd91B9HzXpGDNjDHsc>))
+SubClassOf(<http://webprotege.stanford.edu/R80cfWP1G95crRfJeDyrYIU> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> <http://webprotege.stanford.edu/RDnUhpziTtMi2uiw6wwcAWe>))
+SubClassOf(<http://webprotege.stanford.edu/R80cfWP1G95crRfJeDyrYIU> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> <http://webprotege.stanford.edu/RCKoWDOUTlrxZWi38LZeqdL>))
+SubClassOf(<http://webprotege.stanford.edu/R80cfWP1G95crRfJeDyrYIU> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RDzCQJvC0ncfLdDGpXK2eGT> <http://webprotege.stanford.edu/R78n3gIdpEnhYFe0rmrRpWX>))
+SubClassOf(<http://webprotege.stanford.edu/R80cfWP1G95crRfJeDyrYIU> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RDzCQJvC0ncfLdDGpXK2eGT> <http://webprotege.stanford.edu/RDTImJkJER5DK3JixhzMRvW>))
+SubClassOf(<http://webprotege.stanford.edu/R80cfWP1G95crRfJeDyrYIU> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RhGIrcBXuiEthAcOUaFNhG> <http://webprotege.stanford.edu/RcMeCwHPahQ6yjHT7waXUr>))
+
+# Class: <http://webprotege.stanford.edu/R8CeNQYy8YTBCn0VBnE47jJ> (Canada)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R8CeNQYy8YTBCn0VBnE47jJ> "Canada")
+SubClassOf(<http://webprotege.stanford.edu/R8CeNQYy8YTBCn0VBnE47jJ> <http://webprotege.stanford.edu/RECkKgTWwIP6MlBWgOGape>)
+
+# Class: <http://webprotege.stanford.edu/R8FyfagQ4tzWlbUIARyaoBX> (Even Tempered)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R8FyfagQ4tzWlbUIARyaoBX> "Even Tempered")
+SubClassOf(<http://webprotege.stanford.edu/R8FyfagQ4tzWlbUIARyaoBX> <http://webprotege.stanford.edu/RDI9zuFH0jwc2u2QsTNXC96>)
+
+# Class: <http://webprotege.stanford.edu/R8H0kuTKZ31PoHJgzxEaP81> (American Bobtail)
+
+AnnotationAssertion(<http://webprotege.stanford.edu/RDeAGymGUOtCPbN8QA4KBJP> <http://webprotege.stanford.edu/R8H0kuTKZ31PoHJgzxEaP81> <https://cfa.org/wp-content/uploads/2019/11/abtProfile.jpg>)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R8H0kuTKZ31PoHJgzxEaP81> "American Bobtail")
+SubClassOf(<http://webprotege.stanford.edu/R8H0kuTKZ31PoHJgzxEaP81> <http://webprotege.stanford.edu/R8j08k7iK9OkJC6YrOhVHIT>)
+SubClassOf(<http://webprotege.stanford.edu/R8H0kuTKZ31PoHJgzxEaP81> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> <http://webprotege.stanford.edu/R8Mwg5CekiyuQhFp7FHPpSp>))
+SubClassOf(<http://webprotege.stanford.edu/R8H0kuTKZ31PoHJgzxEaP81> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> <http://webprotege.stanford.edu/R9A8NJb17VJH8lPbiEDAUD8>))
+SubClassOf(<http://webprotege.stanford.edu/R8H0kuTKZ31PoHJgzxEaP81> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RB0A6fH0XxSKtysmnlUrZny> <http://webprotege.stanford.edu/R9iEknLxda6LGnyGPbWkorQ>))
+SubClassOf(<http://webprotege.stanford.edu/R8H0kuTKZ31PoHJgzxEaP81> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> <http://webprotege.stanford.edu/RCKoWDOUTlrxZWi38LZeqdL>))
+SubClassOf(<http://webprotege.stanford.edu/R8H0kuTKZ31PoHJgzxEaP81> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RhGIrcBXuiEthAcOUaFNhG> <http://webprotege.stanford.edu/RcMeCwHPahQ6yjHT7waXUr>))
+
+# Class: <http://webprotege.stanford.edu/R8HhF1fCW3OZO6zC8NVxpQn> (Japanese Bobtail)
+
+AnnotationAssertion(<http://webprotege.stanford.edu/RDeAGymGUOtCPbN8QA4KBJP> <http://webprotege.stanford.edu/R8HhF1fCW3OZO6zC8NVxpQn> <https://cfa.org/wp-content/uploads/2019/11/jbtProfile.jpg>)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R8HhF1fCW3OZO6zC8NVxpQn> "Japanese Bobtail")
+SubClassOf(<http://webprotege.stanford.edu/R8HhF1fCW3OZO6zC8NVxpQn> <http://webprotege.stanford.edu/R8j08k7iK9OkJC6YrOhVHIT>)
+SubClassOf(<http://webprotege.stanford.edu/R8HhF1fCW3OZO6zC8NVxpQn> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> <http://webprotege.stanford.edu/R7aRUuHxoQEPkuNVRhuwQhy>))
+SubClassOf(<http://webprotege.stanford.edu/R8HhF1fCW3OZO6zC8NVxpQn> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> <http://webprotege.stanford.edu/R9A8NJb17VJH8lPbiEDAUD8>))
+SubClassOf(<http://webprotege.stanford.edu/R8HhF1fCW3OZO6zC8NVxpQn> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> <http://webprotege.stanford.edu/RBIsrRd91B9HzXpGDNjDHsc>))
+SubClassOf(<http://webprotege.stanford.edu/R8HhF1fCW3OZO6zC8NVxpQn> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RB0A6fH0XxSKtysmnlUrZny> <http://webprotege.stanford.edu/R9iEknLxda6LGnyGPbWkorQ>))
+SubClassOf(<http://webprotege.stanford.edu/R8HhF1fCW3OZO6zC8NVxpQn> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> <http://webprotege.stanford.edu/Rx4hmffAXjdlEVkPNMTFxb>))
+SubClassOf(<http://webprotege.stanford.edu/R8HhF1fCW3OZO6zC8NVxpQn> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RhGIrcBXuiEthAcOUaFNhG> <http://webprotege.stanford.edu/RDq8P17eSoisXKu6ZcRYT4c>))
+
+# Class: <http://webprotege.stanford.edu/R8KQ4AZpyCcrSDDucxoY9tt> (American Wirehair)
+
+AnnotationAssertion(<http://webprotege.stanford.edu/RDeAGymGUOtCPbN8QA4KBJP> <http://webprotege.stanford.edu/R8KQ4AZpyCcrSDDucxoY9tt> <https://cfa.org/wp-content/uploads/2019/11/awhProfile.jpg>)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R8KQ4AZpyCcrSDDucxoY9tt> "American Wirehair")
+SubClassOf(<http://webprotege.stanford.edu/R8KQ4AZpyCcrSDDucxoY9tt> <http://webprotege.stanford.edu/R9egnZb3YCP13fNbMOH1F6F>)
+SubClassOf(<http://webprotege.stanford.edu/R8KQ4AZpyCcrSDDucxoY9tt> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> <http://webprotege.stanford.edu/R8FyfagQ4tzWlbUIARyaoBX>))
+SubClassOf(<http://webprotege.stanford.edu/R8KQ4AZpyCcrSDDucxoY9tt> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> <http://webprotege.stanford.edu/RCKoWDOUTlrxZWi38LZeqdL>))
+SubClassOf(<http://webprotege.stanford.edu/R8KQ4AZpyCcrSDDucxoY9tt> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RhGIrcBXuiEthAcOUaFNhG> <http://webprotege.stanford.edu/R7tvKfwR8vO5Rt3agKr4dAw>))
+
+# Class: <http://webprotege.stanford.edu/R8Mwg5CekiyuQhFp7FHPpSp> (Loving)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R8Mwg5CekiyuQhFp7FHPpSp> "Loving")
+SubClassOf(<http://webprotege.stanford.edu/R8Mwg5CekiyuQhFp7FHPpSp> <http://webprotege.stanford.edu/RDI9zuFH0jwc2u2QsTNXC96>)
+
+# Class: <http://webprotege.stanford.edu/R8RkQOCnvUUJT4Q7jvXrgs2> (Natural Short-Haired)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R8RkQOCnvUUJT4Q7jvXrgs2> "Natural Short-Haired")
+SubClassOf(<http://webprotege.stanford.edu/R8RkQOCnvUUJT4Q7jvXrgs2> <http://webprotege.stanford.edu/RezwdXkf6rn8EA3wRYLQ4f>)
+SubClassOf(<http://webprotege.stanford.edu/R8RkQOCnvUUJT4Q7jvXrgs2> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R3RkRp3FeBJqRho4W2nihY> <http://webprotege.stanford.edu/RCW6G3Q3b0IiqkjhX0P06n3>))
+
+# Class: <http://webprotege.stanford.edu/R8XOwsNSmW1hoNeO6sNUtbE> (Calm)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R8XOwsNSmW1hoNeO6sNUtbE> "Calm")
+SubClassOf(<http://webprotege.stanford.edu/R8XOwsNSmW1hoNeO6sNUtbE> <http://webprotege.stanford.edu/RDI9zuFH0jwc2u2QsTNXC96>)
+
+# Class: <http://webprotege.stanford.edu/R8ZlZyrKK5xqwfbZdBrKvxZ> (Devon Rex)
+
+AnnotationAssertion(<http://webprotege.stanford.edu/RDeAGymGUOtCPbN8QA4KBJP> <http://webprotege.stanford.edu/R8ZlZyrKK5xqwfbZdBrKvxZ> <https://cfa.org/wp-content/uploads/2019/11/drexProfile.jpg>)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R8ZlZyrKK5xqwfbZdBrKvxZ> "Devon Rex")
+SubClassOf(<http://webprotege.stanford.edu/R8ZlZyrKK5xqwfbZdBrKvxZ> <http://webprotege.stanford.edu/R9egnZb3YCP13fNbMOH1F6F>)
+SubClassOf(<http://webprotege.stanford.edu/R8ZlZyrKK5xqwfbZdBrKvxZ> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> <http://webprotege.stanford.edu/R7aRUuHxoQEPkuNVRhuwQhy>))
+SubClassOf(<http://webprotege.stanford.edu/R8ZlZyrKK5xqwfbZdBrKvxZ> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> <http://webprotege.stanford.edu/RNEbak8cWP4TJyd5Ln3yTN>))
+SubClassOf(<http://webprotege.stanford.edu/R8ZlZyrKK5xqwfbZdBrKvxZ> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> <http://webprotege.stanford.edu/R9dS0u9BQon6TCPEwEsOCxj>))
+SubClassOf(<http://webprotege.stanford.edu/R8ZlZyrKK5xqwfbZdBrKvxZ> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RhGIrcBXuiEthAcOUaFNhG> <http://webprotege.stanford.edu/R7n17e0nV5dNZgRtHIDUmHq>))
+
+# Class: <http://webprotege.stanford.edu/R8iFgx5tbplYj9KQmyDU1LF> (Tonkinese)
+
+AnnotationAssertion(<http://webprotege.stanford.edu/RDeAGymGUOtCPbN8QA4KBJP> <http://webprotege.stanford.edu/R8iFgx5tbplYj9KQmyDU1LF> <https://cfa.org/wp-content/uploads/2019/11/tonkProfile.jpg>)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R8iFgx5tbplYj9KQmyDU1LF> "Tonkinese")
+SubClassOf(<http://webprotege.stanford.edu/R8iFgx5tbplYj9KQmyDU1LF> <http://webprotege.stanford.edu/R6PLqsCk4GbK1vt3ShhsGD>)
+SubClassOf(<http://webprotege.stanford.edu/R8iFgx5tbplYj9KQmyDU1LF> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> <http://webprotege.stanford.edu/R9FiNP4w5kul19WjBUfP076>))
+SubClassOf(<http://webprotege.stanford.edu/R8iFgx5tbplYj9KQmyDU1LF> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> <http://webprotege.stanford.edu/R8CeNQYy8YTBCn0VBnE47jJ>))
+SubClassOf(<http://webprotege.stanford.edu/R8iFgx5tbplYj9KQmyDU1LF> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> <http://webprotege.stanford.edu/RCKoWDOUTlrxZWi38LZeqdL>))
+SubClassOf(<http://webprotege.stanford.edu/R8iFgx5tbplYj9KQmyDU1LF> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RDzCQJvC0ncfLdDGpXK2eGT> <http://webprotege.stanford.edu/RC7CxJQEjHju3nGIxdXKu4s>))
+SubClassOf(<http://webprotege.stanford.edu/R8iFgx5tbplYj9KQmyDU1LF> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RDzCQJvC0ncfLdDGpXK2eGT> <http://webprotege.stanford.edu/RDZTmjOcKW54xDO99vtVipU>))
+SubClassOf(<http://webprotege.stanford.edu/R8iFgx5tbplYj9KQmyDU1LF> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RhGIrcBXuiEthAcOUaFNhG> <http://webprotege.stanford.edu/RCyBFcBYu5PaHAgdmfkSq2V>))
+
+# Class: <http://webprotege.stanford.edu/R8j08k7iK9OkJC6YrOhVHIT> (Mutated Semi-Long-Haired)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R8j08k7iK9OkJC6YrOhVHIT> "Mutated Semi-Long-Haired")
+SubClassOf(<http://webprotege.stanford.edu/R8j08k7iK9OkJC6YrOhVHIT> <http://webprotege.stanford.edu/RBzcBz6p5T2wuoVBD5EYhJ7>)
+SubClassOf(<http://webprotege.stanford.edu/R8j08k7iK9OkJC6YrOhVHIT> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R3RkRp3FeBJqRho4W2nihY> <http://webprotege.stanford.edu/Rsfba2LlBqRm473tkX9OTJ>))
+
+# Class: <http://webprotege.stanford.edu/R92WxhSD31d3gWdTgkDj5Vp> (Sweet)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R92WxhSD31d3gWdTgkDj5Vp> "Sweet")
+SubClassOf(<http://webprotege.stanford.edu/R92WxhSD31d3gWdTgkDj5Vp> <http://webprotege.stanford.edu/RDI9zuFH0jwc2u2QsTNXC96>)
+
+# Class: <http://webprotege.stanford.edu/R9A8NJb17VJH8lPbiEDAUD8> (Intelligent)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R9A8NJb17VJH8lPbiEDAUD8> "Intelligent")
+SubClassOf(<http://webprotege.stanford.edu/R9A8NJb17VJH8lPbiEDAUD8> <http://webprotege.stanford.edu/RDI9zuFH0jwc2u2QsTNXC96>)
+
+# Class: <http://webprotege.stanford.edu/R9FiNP4w5kul19WjBUfP076> (Vocal)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R9FiNP4w5kul19WjBUfP076> "Vocal"^^xsd:string)
+SubClassOf(<http://webprotege.stanford.edu/R9FiNP4w5kul19WjBUfP076> <http://webprotege.stanford.edu/RDI9zuFH0jwc2u2QsTNXC96>)
+
+# Class: <http://webprotege.stanford.edu/R9H8NrmJcvPQJ8JqoVNRvYL> (Crossbreed Long-Haired)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R9H8NrmJcvPQJ8JqoVNRvYL> "Crossbreed Long-Haired")
+SubClassOf(<http://webprotege.stanford.edu/R9H8NrmJcvPQJ8JqoVNRvYL> <http://webprotege.stanford.edu/R9TiuPQhkMCGJBm0imkBu5q>)
+SubClassOf(<http://webprotege.stanford.edu/R9H8NrmJcvPQJ8JqoVNRvYL> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R3RkRp3FeBJqRho4W2nihY> <http://webprotege.stanford.edu/RB7Yh88jtg2h7h78zG1Wzq1>))
+
+# Class: <http://webprotege.stanford.edu/R9KGv7vPVsv19VZXBwOmpd2> (Busy)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R9KGv7vPVsv19VZXBwOmpd2> "Busy")
+SubClassOf(<http://webprotege.stanford.edu/R9KGv7vPVsv19VZXBwOmpd2> <http://webprotege.stanford.edu/RDI9zuFH0jwc2u2QsTNXC96>)
+
+# Class: <http://webprotege.stanford.edu/R9LfQWrVuILGSK783ALg6N> (Mutated Long-Haired)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R9LfQWrVuILGSK783ALg6N> "Mutated Long-Haired")
+SubClassOf(<http://webprotege.stanford.edu/R9LfQWrVuILGSK783ALg6N> <http://webprotege.stanford.edu/RBzcBz6p5T2wuoVBD5EYhJ7>)
+SubClassOf(<http://webprotege.stanford.edu/R9LfQWrVuILGSK783ALg6N> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R3RkRp3FeBJqRho4W2nihY> <http://webprotege.stanford.edu/RB7Yh88jtg2h7h78zG1Wzq1>))
+
+# Class: <http://webprotege.stanford.edu/R9OSX9VyoPN9kWYaCjNuQif> (Friendly)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R9OSX9VyoPN9kWYaCjNuQif> "Friendly")
+SubClassOf(<http://webprotege.stanford.edu/R9OSX9VyoPN9kWYaCjNuQif> <http://webprotege.stanford.edu/RDI9zuFH0jwc2u2QsTNXC96>)
+
+# Class: <http://webprotege.stanford.edu/R9Pwxbo6ZZ04E77yOh2SRs0> (Brazil)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R9Pwxbo6ZZ04E77yOh2SRs0> "Brazil")
+SubClassOf(<http://webprotege.stanford.edu/R9Pwxbo6ZZ04E77yOh2SRs0> <http://webprotege.stanford.edu/RECkKgTWwIP6MlBWgOGape>)
+
+# Class: <http://webprotege.stanford.edu/R9R5Cy8m7imjZk87mVLL1gn> (Muscular)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R9R5Cy8m7imjZk87mVLL1gn> "Muscular")
+SubClassOf(<http://webprotege.stanford.edu/R9R5Cy8m7imjZk87mVLL1gn> <http://webprotege.stanford.edu/R9sP0kiNHtp8TYvgaBT0ZIt>)
+
+# Class: <http://webprotege.stanford.edu/R9TiuPQhkMCGJBm0imkBu5q> (Crossbreed)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R9TiuPQhkMCGJBm0imkBu5q> "Crossbreed"^^xsd:string)
+SubClassOf(<http://webprotege.stanford.edu/R9TiuPQhkMCGJBm0imkBu5q> <http://webprotege.stanford.edu/RugLVB2fY80DDW8Tw9J3dh>)
+
+# Class: <http://webprotege.stanford.edu/R9X2hBrg8QsSyDpeMQOMEIU> (LaPerm)
+
+AnnotationAssertion(<http://webprotege.stanford.edu/RDeAGymGUOtCPbN8QA4KBJP> <http://webprotege.stanford.edu/R9X2hBrg8QsSyDpeMQOMEIU> <https://cfa.org/wp-content/uploads/2019/11/lpProfile.jpg>)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R9X2hBrg8QsSyDpeMQOMEIU> "LaPerm")
+SubClassOf(<http://webprotege.stanford.edu/R9X2hBrg8QsSyDpeMQOMEIU> <http://webprotege.stanford.edu/R8j08k7iK9OkJC6YrOhVHIT>)
+SubClassOf(<http://webprotege.stanford.edu/R9X2hBrg8QsSyDpeMQOMEIU> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> <http://webprotege.stanford.edu/R7aRUuHxoQEPkuNVRhuwQhy>))
+SubClassOf(<http://webprotege.stanford.edu/R9X2hBrg8QsSyDpeMQOMEIU> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> <http://webprotege.stanford.edu/RBIsrRd91B9HzXpGDNjDHsc>))
+SubClassOf(<http://webprotege.stanford.edu/R9X2hBrg8QsSyDpeMQOMEIU> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> <http://webprotege.stanford.edu/RNZQVqLmhaXV3B9TN4LjuW>))
+SubClassOf(<http://webprotege.stanford.edu/R9X2hBrg8QsSyDpeMQOMEIU> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> <http://webprotege.stanford.edu/RCKoWDOUTlrxZWi38LZeqdL>))
+SubClassOf(<http://webprotege.stanford.edu/R9X2hBrg8QsSyDpeMQOMEIU> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RhGIrcBXuiEthAcOUaFNhG> <http://webprotege.stanford.edu/RDq8P17eSoisXKu6ZcRYT4c>))
+
+# Class: <http://webprotege.stanford.edu/R9dS0u9BQon6TCPEwEsOCxj> (United Kingdom)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R9dS0u9BQon6TCPEwEsOCxj> "United Kingdom")
+SubClassOf(<http://webprotege.stanford.edu/R9dS0u9BQon6TCPEwEsOCxj> <http://webprotege.stanford.edu/RECkKgTWwIP6MlBWgOGape>)
+
+# Class: <http://webprotege.stanford.edu/R9detm7hMYgMXyc71KvW8S> (Fur)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R9detm7hMYgMXyc71KvW8S> "Fur")
+SubClassOf(<http://webprotege.stanford.edu/R9detm7hMYgMXyc71KvW8S> <http://webprotege.stanford.edu/RB0hZtDoGwZt1elxw1cj7ob>)
+
+# Class: <http://webprotege.stanford.edu/R9egnZb3YCP13fNbMOH1F6F> (Mutated Short-Haired)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R9egnZb3YCP13fNbMOH1F6F> "Mutated Short-Haired")
+SubClassOf(<http://webprotege.stanford.edu/R9egnZb3YCP13fNbMOH1F6F> <http://webprotege.stanford.edu/RBzcBz6p5T2wuoVBD5EYhJ7>)
+SubClassOf(<http://webprotege.stanford.edu/R9egnZb3YCP13fNbMOH1F6F> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R3RkRp3FeBJqRho4W2nihY> <http://webprotege.stanford.edu/RCW6G3Q3b0IiqkjhX0P06n3>))
+
+# Class: <http://webprotege.stanford.edu/R9gExwAiYggxHJHah6JPOjo> (Cornish Rex)
+
+AnnotationAssertion(<http://webprotege.stanford.edu/RDeAGymGUOtCPbN8QA4KBJP> <http://webprotege.stanford.edu/R9gExwAiYggxHJHah6JPOjo> <https://cfa.org/wp-content/uploads/2019/11/crexProfile.jpg>)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R9gExwAiYggxHJHah6JPOjo> "Cornish Rex")
+SubClassOf(<http://webprotege.stanford.edu/R9gExwAiYggxHJHah6JPOjo> <http://webprotege.stanford.edu/R9egnZb3YCP13fNbMOH1F6F>)
+SubClassOf(<http://webprotege.stanford.edu/R9gExwAiYggxHJHah6JPOjo> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> <http://webprotege.stanford.edu/R7aRUuHxoQEPkuNVRhuwQhy>))
+SubClassOf(<http://webprotege.stanford.edu/R9gExwAiYggxHJHah6JPOjo> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> <http://webprotege.stanford.edu/RBIsrRd91B9HzXpGDNjDHsc>))
+SubClassOf(<http://webprotege.stanford.edu/R9gExwAiYggxHJHah6JPOjo> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> <http://webprotege.stanford.edu/R9dS0u9BQon6TCPEwEsOCxj>))
+SubClassOf(<http://webprotege.stanford.edu/R9gExwAiYggxHJHah6JPOjo> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RhGIrcBXuiEthAcOUaFNhG> <http://webprotege.stanford.edu/R7n17e0nV5dNZgRtHIDUmHq>))
+
+# Class: <http://webprotege.stanford.edu/R9iEknLxda6LGnyGPbWkorQ> (Short tail)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R9iEknLxda6LGnyGPbWkorQ> "Short tail")
+SubClassOf(<http://webprotege.stanford.edu/R9iEknLxda6LGnyGPbWkorQ> <http://webprotege.stanford.edu/RbyBgpx010noGl9UDArBGB>)
+
+# Class: <http://webprotege.stanford.edu/R9lgbr15OoSVavEmAYg3iJW> (France)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R9lgbr15OoSVavEmAYg3iJW> "France")
+SubClassOf(<http://webprotege.stanford.edu/R9lgbr15OoSVavEmAYg3iJW> <http://webprotege.stanford.edu/RECkKgTWwIP6MlBWgOGape>)
+
+# Class: <http://webprotege.stanford.edu/R9sP0kiNHtp8TYvgaBT0ZIt> (Body Type)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R9sP0kiNHtp8TYvgaBT0ZIt> "Body Type"^^xsd:string)
+SubClassOf(<http://webprotege.stanford.edu/R9sP0kiNHtp8TYvgaBT0ZIt> <http://webprotege.stanford.edu/RCyG0M8NDslpcZm37lr2NRO>)
+
+# Class: <http://webprotege.stanford.edu/R9uF9V2qtyYpZID7PPdiVm5> (Demanding)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R9uF9V2qtyYpZID7PPdiVm5> "Demanding")
+SubClassOf(<http://webprotege.stanford.edu/R9uF9V2qtyYpZID7PPdiVm5> <http://webprotege.stanford.edu/RDI9zuFH0jwc2u2QsTNXC96>)
+
+# Class: <http://webprotege.stanford.edu/R9vHzMmZwFarHsV0G9KJYb1> (Athletic)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R9vHzMmZwFarHsV0G9KJYb1> "Athletic")
+SubClassOf(<http://webprotege.stanford.edu/R9vHzMmZwFarHsV0G9KJYb1> <http://webprotege.stanford.edu/RDI9zuFH0jwc2u2QsTNXC96>)
+
+# Class: <http://webprotege.stanford.edu/R9xcQt4KBCmuhI77fg3WP1> (Somali)
+
+AnnotationAssertion(<http://webprotege.stanford.edu/RDeAGymGUOtCPbN8QA4KBJP> <http://webprotege.stanford.edu/R9xcQt4KBCmuhI77fg3WP1> <https://cfa.org/wp-content/uploads/2019/11/somProfile.jpg>)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R9xcQt4KBCmuhI77fg3WP1> "Somali")
+SubClassOf(<http://webprotege.stanford.edu/R9xcQt4KBCmuhI77fg3WP1> <http://webprotege.stanford.edu/R9LfQWrVuILGSK783ALg6N>)
+SubClassOf(<http://webprotege.stanford.edu/R9xcQt4KBCmuhI77fg3WP1> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> <http://webprotege.stanford.edu/R7aRUuHxoQEPkuNVRhuwQhy>))
+SubClassOf(<http://webprotege.stanford.edu/R9xcQt4KBCmuhI77fg3WP1> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> <http://webprotege.stanford.edu/R9KGv7vPVsv19VZXBwOmpd2>))
+SubClassOf(<http://webprotege.stanford.edu/R9xcQt4KBCmuhI77fg3WP1> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> <http://webprotege.stanford.edu/RBIsrRd91B9HzXpGDNjDHsc>))
+SubClassOf(<http://webprotege.stanford.edu/R9xcQt4KBCmuhI77fg3WP1> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> <http://webprotege.stanford.edu/R8CeNQYy8YTBCn0VBnE47jJ>))
+SubClassOf(<http://webprotege.stanford.edu/R9xcQt4KBCmuhI77fg3WP1> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> <http://webprotege.stanford.edu/RCKoWDOUTlrxZWi38LZeqdL>))
+SubClassOf(<http://webprotege.stanford.edu/R9xcQt4KBCmuhI77fg3WP1> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RhGIrcBXuiEthAcOUaFNhG> <http://webprotege.stanford.edu/RcMeCwHPahQ6yjHT7waXUr>))
+
+# Class: <http://webprotege.stanford.edu/RB0hZtDoGwZt1elxw1cj7ob> (Body Part)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RB0hZtDoGwZt1elxw1cj7ob> "Body Part")
+SubClassOf(<http://webprotege.stanford.edu/RB0hZtDoGwZt1elxw1cj7ob> <http://webprotege.stanford.edu/RCyG0M8NDslpcZm37lr2NRO>)
+
+# Class: <http://webprotege.stanford.edu/RB1fAs1s2kJ0lnUypg8rdCW> (Turkish Van)
+
+AnnotationAssertion(<http://webprotege.stanford.edu/RDeAGymGUOtCPbN8QA4KBJP> <http://webprotege.stanford.edu/RB1fAs1s2kJ0lnUypg8rdCW> <https://cfa.org/wp-content/uploads/2019/11/tvProfile.jpg>)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RB1fAs1s2kJ0lnUypg8rdCW> "Turkish Van")
+SubClassOf(<http://webprotege.stanford.edu/RB1fAs1s2kJ0lnUypg8rdCW> <http://webprotege.stanford.edu/RCtKI95ZTt6WnTyNqKq7Eyq>)
+SubClassOf(<http://webprotege.stanford.edu/RB1fAs1s2kJ0lnUypg8rdCW> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> <http://webprotege.stanford.edu/R92WxhSD31d3gWdTgkDj5Vp>))
+SubClassOf(<http://webprotege.stanford.edu/RB1fAs1s2kJ0lnUypg8rdCW> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> <http://webprotege.stanford.edu/RC6rrPG0cOhL6wxdkxQTmeu>))
+SubClassOf(<http://webprotege.stanford.edu/RB1fAs1s2kJ0lnUypg8rdCW> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RhGIrcBXuiEthAcOUaFNhG> <http://webprotege.stanford.edu/RcMeCwHPahQ6yjHT7waXUr>))
+
+# Class: <http://webprotege.stanford.edu/RB3MKNDAhO1nvcG9gIbuAOr> (Mammal)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RB3MKNDAhO1nvcG9gIbuAOr> "Mammal")
+SubClassOf(<http://webprotege.stanford.edu/RB3MKNDAhO1nvcG9gIbuAOr> <http://webprotege.stanford.edu/RCo9eWwbqVccz1d7QEhfOYd>)
+SubClassOf(<http://webprotege.stanford.edu/RB3MKNDAhO1nvcG9gIbuAOr> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RB0A6fH0XxSKtysmnlUrZny> <http://webprotege.stanford.edu/R9detm7hMYgMXyc71KvW8S>))
+
+# Class: <http://webprotege.stanford.edu/RB7WZt6BA7Tidyc8hxEsCnD> (Ethiopia)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RB7WZt6BA7Tidyc8hxEsCnD> "Ethiopia")
+SubClassOf(<http://webprotege.stanford.edu/RB7WZt6BA7Tidyc8hxEsCnD> <http://webprotege.stanford.edu/RECkKgTWwIP6MlBWgOGape>)
+
+# Class: <http://webprotege.stanford.edu/RB7Yh88jtg2h7h78zG1Wzq1> (Long Hair)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RB7Yh88jtg2h7h78zG1Wzq1> "Long Hair")
+SubClassOf(<http://webprotege.stanford.edu/RB7Yh88jtg2h7h78zG1Wzq1> <http://webprotege.stanford.edu/R9detm7hMYgMXyc71KvW8S>)
+
+# Class: <http://webprotege.stanford.edu/RBIsrRd91B9HzXpGDNjDHsc> (Affectionate)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RBIsrRd91B9HzXpGDNjDHsc> "Affectionate")
+SubClassOf(<http://webprotege.stanford.edu/RBIsrRd91B9HzXpGDNjDHsc> <http://webprotege.stanford.edu/RDI9zuFH0jwc2u2QsTNXC96>)
+
+# Class: <http://webprotege.stanford.edu/RBLnXABJusxz8Ec0BTPYZYk> (British Shorthair)
+
+AnnotationAssertion(<http://webprotege.stanford.edu/RDeAGymGUOtCPbN8QA4KBJP> <http://webprotege.stanford.edu/RBLnXABJusxz8Ec0BTPYZYk> <https://cfa.org/wp-content/uploads/2019/11/bshProfile.jpg>)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RBLnXABJusxz8Ec0BTPYZYk> "British Shorthair")
+SubClassOf(<http://webprotege.stanford.edu/RBLnXABJusxz8Ec0BTPYZYk> <http://webprotege.stanford.edu/R8RkQOCnvUUJT4Q7jvXrgs2>)
+SubClassOf(<http://webprotege.stanford.edu/RBLnXABJusxz8Ec0BTPYZYk> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> <http://webprotege.stanford.edu/R8XOwsNSmW1hoNeO6sNUtbE>))
+SubClassOf(<http://webprotege.stanford.edu/RBLnXABJusxz8Ec0BTPYZYk> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> <http://webprotege.stanford.edu/RDnUhpziTtMi2uiw6wwcAWe>))
+SubClassOf(<http://webprotege.stanford.edu/RBLnXABJusxz8Ec0BTPYZYk> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> <http://webprotege.stanford.edu/R9dS0u9BQon6TCPEwEsOCxj>))
+SubClassOf(<http://webprotege.stanford.edu/RBLnXABJusxz8Ec0BTPYZYk> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RhGIrcBXuiEthAcOUaFNhG> <http://webprotege.stanford.edu/RcMeCwHPahQ6yjHT7waXUr>))
+
+# Class: <http://webprotege.stanford.edu/RBNv3Xa6YZcMAeHoERjsZYB> (Cat)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RBNv3Xa6YZcMAeHoERjsZYB> "Cat")
+SubClassOf(<http://webprotege.stanford.edu/RBNv3Xa6YZcMAeHoERjsZYB> <http://webprotege.stanford.edu/RB3MKNDAhO1nvcG9gIbuAOr>)
+SubClassOf(<http://webprotege.stanford.edu/RBNv3Xa6YZcMAeHoERjsZYB> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RB0A6fH0XxSKtysmnlUrZny> <http://webprotege.stanford.edu/R7lNjbwkyqx62tWVlGBaeFP>))
+SubClassOf(<http://webprotege.stanford.edu/RBNv3Xa6YZcMAeHoERjsZYB> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RB0A6fH0XxSKtysmnlUrZny> <http://webprotege.stanford.edu/RCNGdu7L8SiO5HDfQB2gRg1>))
+SubClassOf(<http://webprotege.stanford.edu/RBNv3Xa6YZcMAeHoERjsZYB> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RB0A6fH0XxSKtysmnlUrZny> <http://webprotege.stanford.edu/RDCJgR3zkgJsMdUvo3cIWXC>))
+SubClassOf(<http://webprotege.stanford.edu/RBNv3Xa6YZcMAeHoERjsZYB> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RB0A6fH0XxSKtysmnlUrZny> <http://webprotege.stanford.edu/RGitLuwuoNFSy2jo7MlFzy>))
+SubClassOf(<http://webprotege.stanford.edu/RBNv3Xa6YZcMAeHoERjsZYB> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RB0A6fH0XxSKtysmnlUrZny> <http://webprotege.stanford.edu/RbyBgpx010noGl9UDArBGB>))
+SubClassOf(<http://webprotege.stanford.edu/RBNv3Xa6YZcMAeHoERjsZYB> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RhGIrcBXuiEthAcOUaFNhG> <http://webprotege.stanford.edu/R9sP0kiNHtp8TYvgaBT0ZIt>))
+
+# Class: <http://webprotege.stanford.edu/RBQGaRrBwlTwjyzKqsbCHds> (Graceful)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RBQGaRrBwlTwjyzKqsbCHds> "Graceful")
+SubClassOf(<http://webprotege.stanford.edu/RBQGaRrBwlTwjyzKqsbCHds> <http://webprotege.stanford.edu/RDI9zuFH0jwc2u2QsTNXC96>)
+
+# Class: <http://webprotege.stanford.edu/RBTmjzWyhBbHyXCHj80G84O> (Burma)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RBTmjzWyhBbHyXCHj80G84O> "Burma")
+SubClassOf(<http://webprotege.stanford.edu/RBTmjzWyhBbHyXCHj80G84O> <http://webprotege.stanford.edu/RECkKgTWwIP6MlBWgOGape>)
+
+# Class: <http://webprotege.stanford.edu/RBTq9A65CW50Tfx5mcJoBaF> (Siberian)
+
+AnnotationAssertion(<http://webprotege.stanford.edu/RDeAGymGUOtCPbN8QA4KBJP> <http://webprotege.stanford.edu/RBTq9A65CW50Tfx5mcJoBaF> <https://cfa.org/wp-content/uploads/2019/11/sibProfile.jpg>)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RBTq9A65CW50Tfx5mcJoBaF> "Siberian")
+SubClassOf(<http://webprotege.stanford.edu/RBTq9A65CW50Tfx5mcJoBaF> <http://webprotege.stanford.edu/RCtKI95ZTt6WnTyNqKq7Eyq>)
+SubClassOf(<http://webprotege.stanford.edu/RBTq9A65CW50Tfx5mcJoBaF> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> <http://webprotege.stanford.edu/R0ApgSThV5QxYvrcKtWe60>))
+SubClassOf(<http://webprotege.stanford.edu/RBTq9A65CW50Tfx5mcJoBaF> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> <http://webprotege.stanford.edu/RDvsDl2E32yibANJF0XPz8f>))
+SubClassOf(<http://webprotege.stanford.edu/RBTq9A65CW50Tfx5mcJoBaF> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RhGIrcBXuiEthAcOUaFNhG> <http://webprotege.stanford.edu/RcMeCwHPahQ6yjHT7waXUr>))
+
+# Class: <http://webprotege.stanford.edu/RBcugU2TJFGU2H7D8jAhxTq> (Australia)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RBcugU2TJFGU2H7D8jAhxTq> "Australia")
+SubClassOf(<http://webprotege.stanford.edu/RBcugU2TJFGU2H7D8jAhxTq> <http://webprotege.stanford.edu/RECkKgTWwIP6MlBWgOGape>)
+
+# Class: <http://webprotege.stanford.edu/RBeDepgVgtLPbi8rC6Hi9NJ> (Docile)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RBeDepgVgtLPbi8rC6Hi9NJ> "Docile")
+SubClassOf(<http://webprotege.stanford.edu/RBeDepgVgtLPbi8rC6Hi9NJ> <http://webprotege.stanford.edu/RDI9zuFH0jwc2u2QsTNXC96>)
+
+# Class: <http://webprotege.stanford.edu/RBkQsBLdKvddD0dbPJZqKdz> (Maine Coon Cat)
+
+AnnotationAssertion(<http://webprotege.stanford.edu/RBUnz6lGkyubOw0UOSTe43z> <http://webprotege.stanford.edu/RBkQsBLdKvddD0dbPJZqKdz> <https://cfa.org/maine-coon-cat/maine-coon-cat-breed-standard/>)
+AnnotationAssertion(<http://webprotege.stanford.edu/RDeAGymGUOtCPbN8QA4KBJP> <http://webprotege.stanford.edu/RBkQsBLdKvddD0dbPJZqKdz> <https://cfa.org/wp-content/uploads/2019/11/mcProfile.jpg>)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RBkQsBLdKvddD0dbPJZqKdz> "Maine Coon Cat")
+SubClassOf(<http://webprotege.stanford.edu/RBkQsBLdKvddD0dbPJZqKdz> <http://webprotege.stanford.edu/RCtKI95ZTt6WnTyNqKq7Eyq>)
+SubClassOf(<http://webprotege.stanford.edu/RBkQsBLdKvddD0dbPJZqKdz> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> <http://webprotege.stanford.edu/RNZQVqLmhaXV3B9TN4LjuW>))
+SubClassOf(<http://webprotege.stanford.edu/RBkQsBLdKvddD0dbPJZqKdz> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> <http://webprotege.stanford.edu/Rnc1Sr9gezPHoR7zP6inKw>))
+SubClassOf(<http://webprotege.stanford.edu/RBkQsBLdKvddD0dbPJZqKdz> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> <http://webprotege.stanford.edu/RCKoWDOUTlrxZWi38LZeqdL>))
+SubClassOf(<http://webprotege.stanford.edu/RBkQsBLdKvddD0dbPJZqKdz> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RhGIrcBXuiEthAcOUaFNhG> <http://webprotege.stanford.edu/RCQN3b7H7HtG1JrH2xgxfru>))
+
+# Class: <http://webprotege.stanford.edu/RBlULJgSjlbw7YqXUzHEX5b> (Cyprus)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RBlULJgSjlbw7YqXUzHEX5b> "Cyprus")
+SubClassOf(<http://webprotege.stanford.edu/RBlULJgSjlbw7YqXUzHEX5b> <http://webprotege.stanford.edu/RECkKgTWwIP6MlBWgOGape>)
+
+# Class: <http://webprotege.stanford.edu/RBmKxLkdBYaBkWdSvST0c5V> (Egyptian Mau)
+
+AnnotationAssertion(<http://webprotege.stanford.edu/RDeAGymGUOtCPbN8QA4KBJP> <http://webprotege.stanford.edu/RBmKxLkdBYaBkWdSvST0c5V> <https://cfa.org/wp-content/uploads/2019/11/emauProfile.jpg>)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RBmKxLkdBYaBkWdSvST0c5V> "Egyptian Mau")
+SubClassOf(<http://webprotege.stanford.edu/RBmKxLkdBYaBkWdSvST0c5V> <http://webprotege.stanford.edu/R8RkQOCnvUUJT4Q7jvXrgs2>)
+SubClassOf(<http://webprotege.stanford.edu/RBmKxLkdBYaBkWdSvST0c5V> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> <http://webprotege.stanford.edu/R7aRUuHxoQEPkuNVRhuwQhy>))
+SubClassOf(<http://webprotege.stanford.edu/RBmKxLkdBYaBkWdSvST0c5V> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> <http://webprotege.stanford.edu/R9vHzMmZwFarHsV0G9KJYb1>))
+SubClassOf(<http://webprotege.stanford.edu/RBmKxLkdBYaBkWdSvST0c5V> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> <http://webprotege.stanford.edu/R5v5WmM9epBXdxtc19THh>))
+SubClassOf(<http://webprotege.stanford.edu/RBmKxLkdBYaBkWdSvST0c5V> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RhGIrcBXuiEthAcOUaFNhG> <http://webprotege.stanford.edu/RDq8P17eSoisXKu6ZcRYT4c>))
+
+# Class: <http://webprotege.stanford.edu/RBu6tNWJSQ3NurPDQ8sIyDo> (Ocicat)
+
+AnnotationAssertion(<http://webprotege.stanford.edu/RDeAGymGUOtCPbN8QA4KBJP> <http://webprotege.stanford.edu/RBu6tNWJSQ3NurPDQ8sIyDo> <https://cfa.org/wp-content/uploads/2019/11/ociProfile.jpg>)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RBu6tNWJSQ3NurPDQ8sIyDo> "Ocicat")
+SubClassOf(<http://webprotege.stanford.edu/RBu6tNWJSQ3NurPDQ8sIyDo> <http://webprotege.stanford.edu/R6PLqsCk4GbK1vt3ShhsGD>)
+SubClassOf(<http://webprotege.stanford.edu/RBu6tNWJSQ3NurPDQ8sIyDo> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> <http://webprotege.stanford.edu/R7aRUuHxoQEPkuNVRhuwQhy>))
+SubClassOf(<http://webprotege.stanford.edu/RBu6tNWJSQ3NurPDQ8sIyDo> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> <http://webprotege.stanford.edu/RCKoWDOUTlrxZWi38LZeqdL>))
+SubClassOf(<http://webprotege.stanford.edu/RBu6tNWJSQ3NurPDQ8sIyDo> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RDzCQJvC0ncfLdDGpXK2eGT> <http://webprotege.stanford.edu/RC7CxJQEjHju3nGIxdXKu4s>))
+SubClassOf(<http://webprotege.stanford.edu/RBu6tNWJSQ3NurPDQ8sIyDo> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RDzCQJvC0ncfLdDGpXK2eGT> <http://webprotege.stanford.edu/RDOOdCUIo7BBz17KvbpyZmr>))
+SubClassOf(<http://webprotege.stanford.edu/RBu6tNWJSQ3NurPDQ8sIyDo> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RhGIrcBXuiEthAcOUaFNhG> <http://webprotege.stanford.edu/RCQN3b7H7HtG1JrH2xgxfru>))
+
+# Class: <http://webprotege.stanford.edu/RBzcBz6p5T2wuoVBD5EYhJ7> (Mutation)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RBzcBz6p5T2wuoVBD5EYhJ7> "Mutation")
+SubClassOf(<http://webprotege.stanford.edu/RBzcBz6p5T2wuoVBD5EYhJ7> <http://webprotege.stanford.edu/RugLVB2fY80DDW8Tw9J3dh>)
+
+# Class: <http://webprotege.stanford.edu/RC6rrPG0cOhL6wxdkxQTmeu> (Turkey)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RC6rrPG0cOhL6wxdkxQTmeu> "Turkey")
+SubClassOf(<http://webprotege.stanford.edu/RC6rrPG0cOhL6wxdkxQTmeu> <http://webprotege.stanford.edu/RECkKgTWwIP6MlBWgOGape>)
+
+# Class: <http://webprotege.stanford.edu/RC7CxJQEjHju3nGIxdXKu4s> (Siamese)
+
+AnnotationAssertion(<http://webprotege.stanford.edu/RDeAGymGUOtCPbN8QA4KBJP> <http://webprotege.stanford.edu/RC7CxJQEjHju3nGIxdXKu4s> <https://cfa.org/wp-content/uploads/2019/11/siaProfile.jpg>)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RC7CxJQEjHju3nGIxdXKu4s> "Siamese")
+SubClassOf(<http://webprotege.stanford.edu/RC7CxJQEjHju3nGIxdXKu4s> <http://webprotege.stanford.edu/R9egnZb3YCP13fNbMOH1F6F>)
+SubClassOf(<http://webprotege.stanford.edu/RC7CxJQEjHju3nGIxdXKu4s> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> <http://webprotege.stanford.edu/R7aRUuHxoQEPkuNVRhuwQhy>))
+SubClassOf(<http://webprotege.stanford.edu/RC7CxJQEjHju3nGIxdXKu4s> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> <http://webprotege.stanford.edu/R9FiNP4w5kul19WjBUfP076>))
+SubClassOf(<http://webprotege.stanford.edu/RC7CxJQEjHju3nGIxdXKu4s> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> <http://webprotege.stanford.edu/RBIsrRd91B9HzXpGDNjDHsc>))
+SubClassOf(<http://webprotege.stanford.edu/RC7CxJQEjHju3nGIxdXKu4s> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> <http://webprotege.stanford.edu/RtFJSPmHDJ6nqTYcg6e1hB>))
+SubClassOf(<http://webprotege.stanford.edu/RC7CxJQEjHju3nGIxdXKu4s> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> <http://webprotege.stanford.edu/RC7jMqbCgSOel996WwDKSw8>))
+SubClassOf(<http://webprotege.stanford.edu/RC7CxJQEjHju3nGIxdXKu4s> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> <http://webprotege.stanford.edu/RCKoWDOUTlrxZWi38LZeqdL>))
+SubClassOf(<http://webprotege.stanford.edu/RC7CxJQEjHju3nGIxdXKu4s> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RhGIrcBXuiEthAcOUaFNhG> <http://webprotege.stanford.edu/RCyBFcBYu5PaHAgdmfkSq2V>))
+
+# Class: <http://webprotege.stanford.edu/RC7jMqbCgSOel996WwDKSw8> (Thailand)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RC7jMqbCgSOel996WwDKSw8> "Thailand")
+SubClassOf(<http://webprotege.stanford.edu/RC7jMqbCgSOel996WwDKSw8> <http://webprotege.stanford.edu/RECkKgTWwIP6MlBWgOGape>)
+
+# Class: <http://webprotege.stanford.edu/RCC3tIa9vDvXsWCabi5re84> (Korat)
+
+AnnotationAssertion(<http://webprotege.stanford.edu/RDeAGymGUOtCPbN8QA4KBJP> <http://webprotege.stanford.edu/RCC3tIa9vDvXsWCabi5re84> <https://cfa.org/wp-content/uploads/2019/11/korProfile.jpg>)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RCC3tIa9vDvXsWCabi5re84> "Korat")
+SubClassOf(<http://webprotege.stanford.edu/RCC3tIa9vDvXsWCabi5re84> <http://webprotege.stanford.edu/R8RkQOCnvUUJT4Q7jvXrgs2>)
+SubClassOf(<http://webprotege.stanford.edu/RCC3tIa9vDvXsWCabi5re84> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> <http://webprotege.stanford.edu/RBIsrRd91B9HzXpGDNjDHsc>))
+SubClassOf(<http://webprotege.stanford.edu/RCC3tIa9vDvXsWCabi5re84> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> <http://webprotege.stanford.edu/RNEbak8cWP4TJyd5Ln3yTN>))
+SubClassOf(<http://webprotege.stanford.edu/RCC3tIa9vDvXsWCabi5re84> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> <http://webprotege.stanford.edu/RC7jMqbCgSOel996WwDKSw8>))
+SubClassOf(<http://webprotege.stanford.edu/RCC3tIa9vDvXsWCabi5re84> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RhGIrcBXuiEthAcOUaFNhG> <http://webprotege.stanford.edu/R9R5Cy8m7imjZk87mVLL1gn>))
+
+# Class: <http://webprotege.stanford.edu/RCKoWDOUTlrxZWi38LZeqdL> (United States)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RCKoWDOUTlrxZWi38LZeqdL> "United States")
+SubClassOf(<http://webprotege.stanford.edu/RCKoWDOUTlrxZWi38LZeqdL> <http://webprotege.stanford.edu/RECkKgTWwIP6MlBWgOGape>)
+
+# Class: <http://webprotege.stanford.edu/RCNGdu7L8SiO5HDfQB2gRg1> (Ear)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RCNGdu7L8SiO5HDfQB2gRg1> "Ear")
+SubClassOf(<http://webprotege.stanford.edu/RCNGdu7L8SiO5HDfQB2gRg1> <http://webprotege.stanford.edu/RB0hZtDoGwZt1elxw1cj7ob>)
+
+# Class: <http://webprotege.stanford.edu/RCP9qLibYNpN01F00XVfOyx> (Bombay)
+
+AnnotationAssertion(<http://webprotege.stanford.edu/RDeAGymGUOtCPbN8QA4KBJP> <http://webprotege.stanford.edu/RCP9qLibYNpN01F00XVfOyx> <https://cfa.org/wp-content/uploads/2019/11/bomProfile.jpg>)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RCP9qLibYNpN01F00XVfOyx> "Bombay")
+SubClassOf(<http://webprotege.stanford.edu/RCP9qLibYNpN01F00XVfOyx> <http://webprotege.stanford.edu/R6PLqsCk4GbK1vt3ShhsGD>)
+SubClassOf(<http://webprotege.stanford.edu/RCP9qLibYNpN01F00XVfOyx> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> <http://webprotege.stanford.edu/R7hJTb8Lj3UWRzwtW3U7EQS>))
+SubClassOf(<http://webprotege.stanford.edu/RCP9qLibYNpN01F00XVfOyx> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> <http://webprotege.stanford.edu/RBIsrRd91B9HzXpGDNjDHsc>))
+SubClassOf(<http://webprotege.stanford.edu/RCP9qLibYNpN01F00XVfOyx> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> <http://webprotege.stanford.edu/RBTmjzWyhBbHyXCHj80G84O>))
+SubClassOf(<http://webprotege.stanford.edu/RCP9qLibYNpN01F00XVfOyx> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> <http://webprotege.stanford.edu/RCKoWDOUTlrxZWi38LZeqdL>))
+SubClassOf(<http://webprotege.stanford.edu/RCP9qLibYNpN01F00XVfOyx> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RDzCQJvC0ncfLdDGpXK2eGT> <http://webprotege.stanford.edu/R78n3gIdpEnhYFe0rmrRpWX>))
+SubClassOf(<http://webprotege.stanford.edu/RCP9qLibYNpN01F00XVfOyx> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RDzCQJvC0ncfLdDGpXK2eGT> <http://webprotege.stanford.edu/RDZTmjOcKW54xDO99vtVipU>))
+SubClassOf(<http://webprotege.stanford.edu/RCP9qLibYNpN01F00XVfOyx> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RhGIrcBXuiEthAcOUaFNhG> <http://webprotege.stanford.edu/RcMeCwHPahQ6yjHT7waXUr>))
+
+# Class: <http://webprotege.stanford.edu/RCQN3b7H7HtG1JrH2xgxfru> (Large)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RCQN3b7H7HtG1JrH2xgxfru> "Large")
+SubClassOf(<http://webprotege.stanford.edu/RCQN3b7H7HtG1JrH2xgxfru> <http://webprotege.stanford.edu/R9sP0kiNHtp8TYvgaBT0ZIt>)
+
+# Class: <http://webprotege.stanford.edu/RCW6G3Q3b0IiqkjhX0P06n3> (Short Hair)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RCW6G3Q3b0IiqkjhX0P06n3> "Short Hair")
+SubClassOf(<http://webprotege.stanford.edu/RCW6G3Q3b0IiqkjhX0P06n3> <http://webprotege.stanford.edu/R9detm7hMYgMXyc71KvW8S>)
+
+# Class: <http://webprotege.stanford.edu/RCXJEQePnG2lgqc6U33kyiG> (Toybob)
+
+AnnotationAssertion(<http://webprotege.stanford.edu/RDeAGymGUOtCPbN8QA4KBJP> <http://webprotege.stanford.edu/RCXJEQePnG2lgqc6U33kyiG> <https://cfa.org/wp-content/uploads/2019/11/tbProfile.jpg>)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RCXJEQePnG2lgqc6U33kyiG> "Toybob")
+SubClassOf(<http://webprotege.stanford.edu/RCXJEQePnG2lgqc6U33kyiG> <http://webprotege.stanford.edu/R8j08k7iK9OkJC6YrOhVHIT>)
+SubClassOf(<http://webprotege.stanford.edu/RCXJEQePnG2lgqc6U33kyiG> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> <http://webprotege.stanford.edu/R7aRUuHxoQEPkuNVRhuwQhy>))
+SubClassOf(<http://webprotege.stanford.edu/RCXJEQePnG2lgqc6U33kyiG> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> <http://webprotege.stanford.edu/R7hJTb8Lj3UWRzwtW3U7EQS>))
+SubClassOf(<http://webprotege.stanford.edu/RCXJEQePnG2lgqc6U33kyiG> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> <http://webprotege.stanford.edu/RBIsrRd91B9HzXpGDNjDHsc>))
+SubClassOf(<http://webprotege.stanford.edu/RCXJEQePnG2lgqc6U33kyiG> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> <http://webprotege.stanford.edu/RpsO8b3GZsuPX4eijVsnNy>))
+SubClassOf(<http://webprotege.stanford.edu/RCXJEQePnG2lgqc6U33kyiG> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RB0A6fH0XxSKtysmnlUrZny> <http://webprotege.stanford.edu/R9iEknLxda6LGnyGPbWkorQ>))
+SubClassOf(<http://webprotege.stanford.edu/RCXJEQePnG2lgqc6U33kyiG> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> <http://webprotege.stanford.edu/RDvsDl2E32yibANJF0XPz8f>))
+SubClassOf(<http://webprotege.stanford.edu/RCXJEQePnG2lgqc6U33kyiG> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RhGIrcBXuiEthAcOUaFNhG> <http://webprotege.stanford.edu/Rfhu8Bp6YKXTqB1CmozglO>))
+
+# Class: <http://webprotege.stanford.edu/RCkzgvU7WWg6bcLHiyEnB90> (Chartreux)
+
+AnnotationAssertion(<http://webprotege.stanford.edu/RDeAGymGUOtCPbN8QA4KBJP> <http://webprotege.stanford.edu/RCkzgvU7WWg6bcLHiyEnB90> <https://cfa.org/wp-content/uploads/2019/11/charProfile.jpg>)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RCkzgvU7WWg6bcLHiyEnB90> "Chartreux")
+SubClassOf(<http://webprotege.stanford.edu/RCkzgvU7WWg6bcLHiyEnB90> <http://webprotege.stanford.edu/R8RkQOCnvUUJT4Q7jvXrgs2>)
+SubClassOf(<http://webprotege.stanford.edu/RCkzgvU7WWg6bcLHiyEnB90> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> <http://webprotege.stanford.edu/R8XOwsNSmW1hoNeO6sNUtbE>))
+SubClassOf(<http://webprotege.stanford.edu/RCkzgvU7WWg6bcLHiyEnB90> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> <http://webprotege.stanford.edu/R9OSX9VyoPN9kWYaCjNuQif>))
+SubClassOf(<http://webprotege.stanford.edu/RCkzgvU7WWg6bcLHiyEnB90> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> <http://webprotege.stanford.edu/RDnUhpziTtMi2uiw6wwcAWe>))
+SubClassOf(<http://webprotege.stanford.edu/RCkzgvU7WWg6bcLHiyEnB90> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> <http://webprotege.stanford.edu/R9lgbr15OoSVavEmAYg3iJW>))
+SubClassOf(<http://webprotege.stanford.edu/RCkzgvU7WWg6bcLHiyEnB90> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RhGIrcBXuiEthAcOUaFNhG> <http://webprotege.stanford.edu/R9R5Cy8m7imjZk87mVLL1gn>))
+
+# Class: <http://webprotege.stanford.edu/RCnjdwXmz8zDj3KizRNSzLY> (Loyal)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RCnjdwXmz8zDj3KizRNSzLY> "Loyal"^^xsd:string)
+SubClassOf(<http://webprotege.stanford.edu/RCnjdwXmz8zDj3KizRNSzLY> <http://webprotege.stanford.edu/RDI9zuFH0jwc2u2QsTNXC96>)
+
+# Class: <http://webprotege.stanford.edu/RCo9eWwbqVccz1d7QEhfOYd> (Animal)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RCo9eWwbqVccz1d7QEhfOYd> "Animal")
+SubClassOf(<http://webprotege.stanford.edu/RCo9eWwbqVccz1d7QEhfOYd> <http://webprotege.stanford.edu/RdE7TYCet2p6kPVa8nDATH>)
+SubClassOf(<http://webprotege.stanford.edu/RCo9eWwbqVccz1d7QEhfOYd> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RuiH9YIxFP6aumQcZpnIPO> <http://webprotege.stanford.edu/RCyG0M8NDslpcZm37lr2NRO>))
+
+# Class: <http://webprotege.stanford.edu/RCtKI95ZTt6WnTyNqKq7Eyq> (Natural Long-Haired)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RCtKI95ZTt6WnTyNqKq7Eyq> "Natural Long-Haired")
+SubClassOf(<http://webprotege.stanford.edu/RCtKI95ZTt6WnTyNqKq7Eyq> <http://webprotege.stanford.edu/RezwdXkf6rn8EA3wRYLQ4f>)
+SubClassOf(<http://webprotege.stanford.edu/RCtKI95ZTt6WnTyNqKq7Eyq> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R3RkRp3FeBJqRho4W2nihY> <http://webprotege.stanford.edu/RB7Yh88jtg2h7h78zG1Wzq1>))
+
+# Class: <http://webprotege.stanford.edu/RCujr9ySNGzufhH2YKTrUSO> (Bengal)
+
+AnnotationAssertion(<http://webprotege.stanford.edu/RDeAGymGUOtCPbN8QA4KBJP> <http://webprotege.stanford.edu/RCujr9ySNGzufhH2YKTrUSO> <https://cfa.org/wp-content/uploads/2019/11/benProfile.jpg>)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RCujr9ySNGzufhH2YKTrUSO> "Bengal")
+SubClassOf(<http://webprotege.stanford.edu/RCujr9ySNGzufhH2YKTrUSO> <http://webprotege.stanford.edu/R6PLqsCk4GbK1vt3ShhsGD>)
+SubClassOf(<http://webprotege.stanford.edu/RCujr9ySNGzufhH2YKTrUSO> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> <http://webprotege.stanford.edu/R9vHzMmZwFarHsV0G9KJYb1>))
+SubClassOf(<http://webprotege.stanford.edu/RCujr9ySNGzufhH2YKTrUSO> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> <http://webprotege.stanford.edu/RDBYWZRW8DnpWBtsZ49SBKl>))
+SubClassOf(<http://webprotege.stanford.edu/RCujr9ySNGzufhH2YKTrUSO> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> <http://webprotege.stanford.edu/RCKoWDOUTlrxZWi38LZeqdL>))
+SubClassOf(<http://webprotege.stanford.edu/RCujr9ySNGzufhH2YKTrUSO> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RDzCQJvC0ncfLdDGpXK2eGT> <http://webprotege.stanford.edu/RBmKxLkdBYaBkWdSvST0c5V>))
+SubClassOf(<http://webprotege.stanford.edu/RCujr9ySNGzufhH2YKTrUSO> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RDzCQJvC0ncfLdDGpXK2eGT> <http://webprotege.stanford.edu/RDOOdCUIo7BBz17KvbpyZmr>))
+SubClassOf(<http://webprotege.stanford.edu/RCujr9ySNGzufhH2YKTrUSO> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RhGIrcBXuiEthAcOUaFNhG> <http://webprotege.stanford.edu/RCQN3b7H7HtG1JrH2xgxfru>))
+
+# Class: <http://webprotege.stanford.edu/RCyBFcBYu5PaHAgdmfkSq2V> (Oriental)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RCyBFcBYu5PaHAgdmfkSq2V> "Oriental")
+SubClassOf(<http://webprotege.stanford.edu/RCyBFcBYu5PaHAgdmfkSq2V> <http://webprotege.stanford.edu/R9sP0kiNHtp8TYvgaBT0ZIt>)
+
+# Class: <http://webprotege.stanford.edu/RCyG0M8NDslpcZm37lr2NRO> (Anatomy)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RCyG0M8NDslpcZm37lr2NRO> "Anatomy")
+
+# Class: <http://webprotege.stanford.edu/RD20oIMf5DKDSPC6ZNXphYJ> (People Oriented)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RD20oIMf5DKDSPC6ZNXphYJ> "People Oriented")
+SubClassOf(<http://webprotege.stanford.edu/RD20oIMf5DKDSPC6ZNXphYJ> <http://webprotege.stanford.edu/RDI9zuFH0jwc2u2QsTNXC96>)
+
+# Class: <http://webprotege.stanford.edu/RDAxkWffeiLrvLnYzc81FL> (Manx)
+
+AnnotationAssertion(<http://webprotege.stanford.edu/RDeAGymGUOtCPbN8QA4KBJP> <http://webprotege.stanford.edu/RDAxkWffeiLrvLnYzc81FL> <https://cfa.org/wp-content/uploads/2019/11/mxProfile.jpg>)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RDAxkWffeiLrvLnYzc81FL> "Manx")
+SubClassOf(<http://webprotege.stanford.edu/RDAxkWffeiLrvLnYzc81FL> <http://webprotege.stanford.edu/R8j08k7iK9OkJC6YrOhVHIT>)
+SubClassOf(<http://webprotege.stanford.edu/RDAxkWffeiLrvLnYzc81FL> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> <http://webprotege.stanford.edu/RDnUhpziTtMi2uiw6wwcAWe>))
+SubClassOf(<http://webprotege.stanford.edu/RDAxkWffeiLrvLnYzc81FL> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> <http://webprotege.stanford.edu/RNZQVqLmhaXV3B9TN4LjuW>))
+SubClassOf(<http://webprotege.stanford.edu/RDAxkWffeiLrvLnYzc81FL> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RB0A6fH0XxSKtysmnlUrZny> <http://webprotege.stanford.edu/R9iEknLxda6LGnyGPbWkorQ>))
+SubClassOf(<http://webprotege.stanford.edu/RDAxkWffeiLrvLnYzc81FL> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> <http://webprotege.stanford.edu/R9dS0u9BQon6TCPEwEsOCxj>))
+SubClassOf(<http://webprotege.stanford.edu/RDAxkWffeiLrvLnYzc81FL> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RhGIrcBXuiEthAcOUaFNhG> <http://webprotege.stanford.edu/RDq8P17eSoisXKu6ZcRYT4c>))
+
+# Class: <http://webprotege.stanford.edu/RDBYWZRW8DnpWBtsZ49SBKl> (Curious)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RDBYWZRW8DnpWBtsZ49SBKl> "Curious")
+SubClassOf(<http://webprotege.stanford.edu/RDBYWZRW8DnpWBtsZ49SBKl> <http://webprotege.stanford.edu/RDI9zuFH0jwc2u2QsTNXC96>)
+
+# Class: <http://webprotege.stanford.edu/RDCJgR3zkgJsMdUvo3cIWXC> (Paw)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RDCJgR3zkgJsMdUvo3cIWXC> "Paw")
+SubClassOf(<http://webprotege.stanford.edu/RDCJgR3zkgJsMdUvo3cIWXC> <http://webprotege.stanford.edu/RB0hZtDoGwZt1elxw1cj7ob>)
+
+# Class: <http://webprotege.stanford.edu/RDFY9zx2HSXM2XcRKHaOI3Q> (Scottish Fold)
+
+AnnotationAssertion(<http://webprotege.stanford.edu/RDeAGymGUOtCPbN8QA4KBJP> <http://webprotege.stanford.edu/RDFY9zx2HSXM2XcRKHaOI3Q> <https://cfa.org/wp-content/uploads/2019/11/sfProfile.jpg>)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RDFY9zx2HSXM2XcRKHaOI3Q> "Scottish Fold")
+SubClassOf(<http://webprotege.stanford.edu/RDFY9zx2HSXM2XcRKHaOI3Q> <http://webprotege.stanford.edu/R8j08k7iK9OkJC6YrOhVHIT>)
+SubClassOf(<http://webprotege.stanford.edu/RDFY9zx2HSXM2XcRKHaOI3Q> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> <http://webprotege.stanford.edu/R92WxhSD31d3gWdTgkDj5Vp>))
+SubClassOf(<http://webprotege.stanford.edu/RDFY9zx2HSXM2XcRKHaOI3Q> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> <http://webprotege.stanford.edu/RBIsrRd91B9HzXpGDNjDHsc>))
+SubClassOf(<http://webprotege.stanford.edu/RDFY9zx2HSXM2XcRKHaOI3Q> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RB0A6fH0XxSKtysmnlUrZny> <http://webprotege.stanford.edu/RTLofqX3Sp0vZye6YSVgG7>))
+SubClassOf(<http://webprotege.stanford.edu/RDFY9zx2HSXM2XcRKHaOI3Q> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> <http://webprotege.stanford.edu/R9dS0u9BQon6TCPEwEsOCxj>))
+SubClassOf(<http://webprotege.stanford.edu/RDFY9zx2HSXM2XcRKHaOI3Q> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RhGIrcBXuiEthAcOUaFNhG> <http://webprotege.stanford.edu/RcMeCwHPahQ6yjHT7waXUr>))
+
+# Class: <http://webprotege.stanford.edu/RDI9zuFH0jwc2u2QsTNXC96> (Personality)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RDI9zuFH0jwc2u2QsTNXC96> "Personality")
+
+# Class: <http://webprotege.stanford.edu/RDMTW24zh0A19SI1foCUa5S> (Lykoi)
+
+AnnotationAssertion(<http://webprotege.stanford.edu/RDeAGymGUOtCPbN8QA4KBJP> <http://webprotege.stanford.edu/RDMTW24zh0A19SI1foCUa5S> <https://cfa.org/wp-content/uploads/2019/11/lyProfile.jpg>)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RDMTW24zh0A19SI1foCUa5S> "Lykoi")
+SubClassOf(<http://webprotege.stanford.edu/RDMTW24zh0A19SI1foCUa5S> <http://webprotege.stanford.edu/R9egnZb3YCP13fNbMOH1F6F>)
+SubClassOf(<http://webprotege.stanford.edu/RDMTW24zh0A19SI1foCUa5S> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> <http://webprotege.stanford.edu/R9A8NJb17VJH8lPbiEDAUD8>))
+SubClassOf(<http://webprotege.stanford.edu/RDMTW24zh0A19SI1foCUa5S> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> <http://webprotege.stanford.edu/RCKoWDOUTlrxZWi38LZeqdL>))
+SubClassOf(<http://webprotege.stanford.edu/RDMTW24zh0A19SI1foCUa5S> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RhGIrcBXuiEthAcOUaFNhG> <http://webprotege.stanford.edu/RDq8P17eSoisXKu6ZcRYT4c>))
+
+# Class: <http://webprotege.stanford.edu/RDOOdCUIo7BBz17KvbpyZmr> (Abyssinian Cat)
+
+AnnotationAssertion(<http://webprotege.stanford.edu/RDeAGymGUOtCPbN8QA4KBJP> <http://webprotege.stanford.edu/RDOOdCUIo7BBz17KvbpyZmr> <https://cfa.org/wp-content/uploads/2019/11/abyProfile.jpg>)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RDOOdCUIo7BBz17KvbpyZmr> "Abyssinian Cat")
+SubClassOf(<http://webprotege.stanford.edu/RDOOdCUIo7BBz17KvbpyZmr> <http://webprotege.stanford.edu/R8RkQOCnvUUJT4Q7jvXrgs2>)
+SubClassOf(<http://webprotege.stanford.edu/RDOOdCUIo7BBz17KvbpyZmr> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> <http://webprotege.stanford.edu/R7aRUuHxoQEPkuNVRhuwQhy>))
+SubClassOf(<http://webprotege.stanford.edu/RDOOdCUIo7BBz17KvbpyZmr> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> <http://webprotege.stanford.edu/R9KGv7vPVsv19VZXBwOmpd2>))
+SubClassOf(<http://webprotege.stanford.edu/RDOOdCUIo7BBz17KvbpyZmr> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> <http://webprotege.stanford.edu/RBIsrRd91B9HzXpGDNjDHsc>))
+SubClassOf(<http://webprotege.stanford.edu/RDOOdCUIo7BBz17KvbpyZmr> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> <http://webprotege.stanford.edu/RB7WZt6BA7Tidyc8hxEsCnD>))
+SubClassOf(<http://webprotege.stanford.edu/RDOOdCUIo7BBz17KvbpyZmr> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RhGIrcBXuiEthAcOUaFNhG> <http://webprotege.stanford.edu/R7n17e0nV5dNZgRtHIDUmHq>))
+
+# Class: <http://webprotege.stanford.edu/RDRPLytAYUn2A4Nw46sMxoW> (Ragdoll)
+
+AnnotationAssertion(<http://webprotege.stanford.edu/RDeAGymGUOtCPbN8QA4KBJP> <http://webprotege.stanford.edu/RDRPLytAYUn2A4Nw46sMxoW> <https://cfa.org/wp-content/uploads/2019/11/rdProfile.jpg>)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RDRPLytAYUn2A4Nw46sMxoW> "Ragdoll")
+SubClassOf(<http://webprotege.stanford.edu/RDRPLytAYUn2A4Nw46sMxoW> <http://webprotege.stanford.edu/R9H8NrmJcvPQJ8JqoVNRvYL>)
+SubClassOf(<http://webprotege.stanford.edu/RDRPLytAYUn2A4Nw46sMxoW> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> <http://webprotege.stanford.edu/R8XOwsNSmW1hoNeO6sNUtbE>))
+SubClassOf(<http://webprotege.stanford.edu/RDRPLytAYUn2A4Nw46sMxoW> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> <http://webprotege.stanford.edu/RBIsrRd91B9HzXpGDNjDHsc>))
+SubClassOf(<http://webprotege.stanford.edu/RDRPLytAYUn2A4Nw46sMxoW> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> <http://webprotege.stanford.edu/RBeDepgVgtLPbi8rC6Hi9NJ>))
+SubClassOf(<http://webprotege.stanford.edu/RDRPLytAYUn2A4Nw46sMxoW> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> <http://webprotege.stanford.edu/RCKoWDOUTlrxZWi38LZeqdL>))
+SubClassOf(<http://webprotege.stanford.edu/RDRPLytAYUn2A4Nw46sMxoW> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RDzCQJvC0ncfLdDGpXK2eGT> <http://webprotege.stanford.edu/R74tGbDUEBf6nc1jiadU0rD>))
+SubClassOf(<http://webprotege.stanford.edu/RDRPLytAYUn2A4Nw46sMxoW> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RDzCQJvC0ncfLdDGpXK2eGT> <http://webprotege.stanford.edu/R7dzF9m4lqFV0OrP7dPYyPv>))
+SubClassOf(<http://webprotege.stanford.edu/RDRPLytAYUn2A4Nw46sMxoW> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RhGIrcBXuiEthAcOUaFNhG> <http://webprotege.stanford.edu/RcMeCwHPahQ6yjHT7waXUr>))
+
+# Class: <http://webprotege.stanford.edu/RDTImJkJER5DK3JixhzMRvW> (Modern Persian)
+
+AnnotationAssertion(<http://webprotege.stanford.edu/RDeAGymGUOtCPbN8QA4KBJP> <http://webprotege.stanford.edu/RDTImJkJER5DK3JixhzMRvW> <https://cfa.org/wp-content/uploads/2019/11/perProfile.jpg>)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RDTImJkJER5DK3JixhzMRvW> "Modern Persian")
+SubClassOf(<http://webprotege.stanford.edu/RDTImJkJER5DK3JixhzMRvW> <http://webprotege.stanford.edu/R9H8NrmJcvPQJ8JqoVNRvYL>)
+SubClassOf(<http://webprotege.stanford.edu/RDTImJkJER5DK3JixhzMRvW> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> <http://webprotege.stanford.edu/R92WxhSD31d3gWdTgkDj5Vp>))
+SubClassOf(<http://webprotege.stanford.edu/RDTImJkJER5DK3JixhzMRvW> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> <http://webprotege.stanford.edu/RBIsrRd91B9HzXpGDNjDHsc>))
+SubClassOf(<http://webprotege.stanford.edu/RDTImJkJER5DK3JixhzMRvW> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> <http://webprotege.stanford.edu/RDnUhpziTtMi2uiw6wwcAWe>))
+SubClassOf(<http://webprotege.stanford.edu/RDTImJkJER5DK3JixhzMRvW> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> <http://webprotege.stanford.edu/RCKoWDOUTlrxZWi38LZeqdL>))
+SubClassOf(<http://webprotege.stanford.edu/RDTImJkJER5DK3JixhzMRvW> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RDzCQJvC0ncfLdDGpXK2eGT> <http://webprotege.stanford.edu/R74tGbDUEBf6nc1jiadU0rD>))
+SubClassOf(<http://webprotege.stanford.edu/RDTImJkJER5DK3JixhzMRvW> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RhGIrcBXuiEthAcOUaFNhG> <http://webprotege.stanford.edu/RcMeCwHPahQ6yjHT7waXUr>))
+
+# Class: <http://webprotege.stanford.edu/RDThoBbdkIyicN500nY18pp> (Balinese)
+
+AnnotationAssertion(<http://webprotege.stanford.edu/RDeAGymGUOtCPbN8QA4KBJP> <http://webprotege.stanford.edu/RDThoBbdkIyicN500nY18pp> <https://cfa.org/wp-content/uploads/2019/11/balProfile.jpg>)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RDThoBbdkIyicN500nY18pp> "Balinese")
+SubClassOf(<http://webprotege.stanford.edu/RDThoBbdkIyicN500nY18pp> <http://webprotege.stanford.edu/R9LfQWrVuILGSK783ALg6N>)
+SubClassOf(<http://webprotege.stanford.edu/RDThoBbdkIyicN500nY18pp> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> <http://webprotege.stanford.edu/R7aRUuHxoQEPkuNVRhuwQhy>))
+SubClassOf(<http://webprotege.stanford.edu/RDThoBbdkIyicN500nY18pp> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> <http://webprotege.stanford.edu/R9FiNP4w5kul19WjBUfP076>))
+SubClassOf(<http://webprotege.stanford.edu/RDThoBbdkIyicN500nY18pp> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> <http://webprotege.stanford.edu/RBIsrRd91B9HzXpGDNjDHsc>))
+SubClassOf(<http://webprotege.stanford.edu/RDThoBbdkIyicN500nY18pp> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> <http://webprotege.stanford.edu/RC7jMqbCgSOel996WwDKSw8>))
+SubClassOf(<http://webprotege.stanford.edu/RDThoBbdkIyicN500nY18pp> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> <http://webprotege.stanford.edu/RCKoWDOUTlrxZWi38LZeqdL>))
+SubClassOf(<http://webprotege.stanford.edu/RDThoBbdkIyicN500nY18pp> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RhGIrcBXuiEthAcOUaFNhG> <http://webprotege.stanford.edu/R7n17e0nV5dNZgRtHIDUmHq>))
+
+# Class: <http://webprotege.stanford.edu/RDZTmjOcKW54xDO99vtVipU> (Burmese)
+
+AnnotationAssertion(<http://webprotege.stanford.edu/RDeAGymGUOtCPbN8QA4KBJP> <http://webprotege.stanford.edu/RDZTmjOcKW54xDO99vtVipU> <https://cfa.org/wp-content/uploads/2019/11/burmProfile.jpg>)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RDZTmjOcKW54xDO99vtVipU> "Burmese")
+SubClassOf(<http://webprotege.stanford.edu/RDZTmjOcKW54xDO99vtVipU> <http://webprotege.stanford.edu/R8RkQOCnvUUJT4Q7jvXrgs2>)
+SubClassOf(<http://webprotege.stanford.edu/RDZTmjOcKW54xDO99vtVipU> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> <http://webprotege.stanford.edu/RBIsrRd91B9HzXpGDNjDHsc>))
+SubClassOf(<http://webprotege.stanford.edu/RDZTmjOcKW54xDO99vtVipU> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> <http://webprotege.stanford.edu/RD20oIMf5DKDSPC6ZNXphYJ>))
+SubClassOf(<http://webprotege.stanford.edu/RDZTmjOcKW54xDO99vtVipU> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> <http://webprotege.stanford.edu/RBTmjzWyhBbHyXCHj80G84O>))
+SubClassOf(<http://webprotege.stanford.edu/RDZTmjOcKW54xDO99vtVipU> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RhGIrcBXuiEthAcOUaFNhG> <http://webprotege.stanford.edu/R7n17e0nV5dNZgRtHIDUmHq>))
+
+# Class: <http://webprotege.stanford.edu/RDfZ9WynjrX11jo80YG3X9V> (Havana Brown)
+
+AnnotationAssertion(<http://webprotege.stanford.edu/RDeAGymGUOtCPbN8QA4KBJP> <http://webprotege.stanford.edu/RDfZ9WynjrX11jo80YG3X9V> <https://cfa.org/wp-content/uploads/2019/11/hbProfile.jpg>)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RDfZ9WynjrX11jo80YG3X9V> "Havana Brown")
+SubClassOf(<http://webprotege.stanford.edu/RDfZ9WynjrX11jo80YG3X9V> <http://webprotege.stanford.edu/R6PLqsCk4GbK1vt3ShhsGD>)
+SubClassOf(<http://webprotege.stanford.edu/RDfZ9WynjrX11jo80YG3X9V> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> <http://webprotege.stanford.edu/R9KGv7vPVsv19VZXBwOmpd2>))
+SubClassOf(<http://webprotege.stanford.edu/RDfZ9WynjrX11jo80YG3X9V> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> <http://webprotege.stanford.edu/RBIsrRd91B9HzXpGDNjDHsc>))
+SubClassOf(<http://webprotege.stanford.edu/RDfZ9WynjrX11jo80YG3X9V> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> <http://webprotege.stanford.edu/R9dS0u9BQon6TCPEwEsOCxj>))
+SubClassOf(<http://webprotege.stanford.edu/RDfZ9WynjrX11jo80YG3X9V> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RDzCQJvC0ncfLdDGpXK2eGT> <http://webprotege.stanford.edu/RC7CxJQEjHju3nGIxdXKu4s>))
+SubClassOf(<http://webprotege.stanford.edu/RDfZ9WynjrX11jo80YG3X9V> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RhGIrcBXuiEthAcOUaFNhG> <http://webprotege.stanford.edu/R7n17e0nV5dNZgRtHIDUmHq>))
+
+# Class: <http://webprotege.stanford.edu/RDlf3Ui74qgUetAWcmm2c3C> (Sphynx)
+
+AnnotationAssertion(<http://webprotege.stanford.edu/RDeAGymGUOtCPbN8QA4KBJP> <http://webprotege.stanford.edu/RDlf3Ui74qgUetAWcmm2c3C> <https://cfa.org/wp-content/uploads/2019/11/sphProfile.jpg>)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RDlf3Ui74qgUetAWcmm2c3C> "Sphynx")
+SubClassOf(<http://webprotege.stanford.edu/RDlf3Ui74qgUetAWcmm2c3C> <http://webprotege.stanford.edu/R9egnZb3YCP13fNbMOH1F6F>)
+SubClassOf(<http://webprotege.stanford.edu/RDlf3Ui74qgUetAWcmm2c3C> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> <http://webprotege.stanford.edu/R7aRUuHxoQEPkuNVRhuwQhy>))
+SubClassOf(<http://webprotege.stanford.edu/RDlf3Ui74qgUetAWcmm2c3C> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> <http://webprotege.stanford.edu/RBIsrRd91B9HzXpGDNjDHsc>))
+SubClassOf(<http://webprotege.stanford.edu/RDlf3Ui74qgUetAWcmm2c3C> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> <http://webprotege.stanford.edu/R5v5WmM9epBXdxtc19THh>))
+SubClassOf(<http://webprotege.stanford.edu/RDlf3Ui74qgUetAWcmm2c3C> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> <http://webprotege.stanford.edu/R8CeNQYy8YTBCn0VBnE47jJ>))
+SubClassOf(<http://webprotege.stanford.edu/RDlf3Ui74qgUetAWcmm2c3C> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RhGIrcBXuiEthAcOUaFNhG> <http://webprotege.stanford.edu/RCyBFcBYu5PaHAgdmfkSq2V>))
+
+# Class: <http://webprotege.stanford.edu/RDnUhpziTtMi2uiw6wwcAWe> (Quiet)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RDnUhpziTtMi2uiw6wwcAWe> "Quiet")
+SubClassOf(<http://webprotege.stanford.edu/RDnUhpziTtMi2uiw6wwcAWe> <http://webprotege.stanford.edu/RDI9zuFH0jwc2u2QsTNXC96>)
+
+# Class: <http://webprotege.stanford.edu/RDq8P17eSoisXKu6ZcRYT4c> (Moderate)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RDq8P17eSoisXKu6ZcRYT4c> "Moderate")
+SubClassOf(<http://webprotege.stanford.edu/RDq8P17eSoisXKu6ZcRYT4c> <http://webprotege.stanford.edu/R9sP0kiNHtp8TYvgaBT0ZIt>)
+
+# Class: <http://webprotege.stanford.edu/RDvsDl2E32yibANJF0XPz8f> (Russia)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RDvsDl2E32yibANJF0XPz8f> "Russia")
+SubClassOf(<http://webprotege.stanford.edu/RDvsDl2E32yibANJF0XPz8f> <http://webprotege.stanford.edu/RECkKgTWwIP6MlBWgOGape>)
+
+# Class: <http://webprotege.stanford.edu/RECkKgTWwIP6MlBWgOGape> (Country)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RECkKgTWwIP6MlBWgOGape> "Country")
+
+# Class: <http://webprotege.stanford.edu/RGitLuwuoNFSy2jo7MlFzy> (Whisker)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RGitLuwuoNFSy2jo7MlFzy> "Whisker")
+SubClassOf(<http://webprotege.stanford.edu/RGitLuwuoNFSy2jo7MlFzy> <http://webprotege.stanford.edu/RB0hZtDoGwZt1elxw1cj7ob>)
+
+# Class: <http://webprotege.stanford.edu/RLEOX4NzaXvk7swvaWuayo> (European Burmese)
+
+AnnotationAssertion(<http://webprotege.stanford.edu/RDeAGymGUOtCPbN8QA4KBJP> <http://webprotege.stanford.edu/RLEOX4NzaXvk7swvaWuayo> <https://cfa.org/wp-content/uploads/2019/11/ebProfile.jpg>)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RLEOX4NzaXvk7swvaWuayo> "European Burmese")
+SubClassOf(<http://webprotege.stanford.edu/RLEOX4NzaXvk7swvaWuayo> <http://webprotege.stanford.edu/R6PLqsCk4GbK1vt3ShhsGD>)
+SubClassOf(<http://webprotege.stanford.edu/RLEOX4NzaXvk7swvaWuayo> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> <http://webprotege.stanford.edu/R9A8NJb17VJH8lPbiEDAUD8>))
+SubClassOf(<http://webprotege.stanford.edu/RLEOX4NzaXvk7swvaWuayo> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> <http://webprotege.stanford.edu/RBIsrRd91B9HzXpGDNjDHsc>))
+SubClassOf(<http://webprotege.stanford.edu/RLEOX4NzaXvk7swvaWuayo> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> <http://webprotege.stanford.edu/RCnjdwXmz8zDj3KizRNSzLY>))
+SubClassOf(<http://webprotege.stanford.edu/RLEOX4NzaXvk7swvaWuayo> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> <http://webprotege.stanford.edu/RCKoWDOUTlrxZWi38LZeqdL>))
+SubClassOf(<http://webprotege.stanford.edu/RLEOX4NzaXvk7swvaWuayo> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RDzCQJvC0ncfLdDGpXK2eGT> <http://webprotege.stanford.edu/RC7CxJQEjHju3nGIxdXKu4s>))
+SubClassOf(<http://webprotege.stanford.edu/RLEOX4NzaXvk7swvaWuayo> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RDzCQJvC0ncfLdDGpXK2eGT> <http://webprotege.stanford.edu/RDZTmjOcKW54xDO99vtVipU>))
+SubClassOf(<http://webprotege.stanford.edu/RLEOX4NzaXvk7swvaWuayo> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RhGIrcBXuiEthAcOUaFNhG> <http://webprotege.stanford.edu/RcMeCwHPahQ6yjHT7waXUr>))
+
+# Class: <http://webprotege.stanford.edu/RNEbak8cWP4TJyd5Ln3yTN> (Energetic)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RNEbak8cWP4TJyd5Ln3yTN> "Energetic")
+SubClassOf(<http://webprotege.stanford.edu/RNEbak8cWP4TJyd5Ln3yTN> <http://webprotege.stanford.edu/RDI9zuFH0jwc2u2QsTNXC96>)
+
+# Class: <http://webprotege.stanford.edu/RNZQVqLmhaXV3B9TN4LjuW> (Gentle)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RNZQVqLmhaXV3B9TN4LjuW> "Gentle")
+SubClassOf(<http://webprotege.stanford.edu/RNZQVqLmhaXV3B9TN4LjuW> <http://webprotege.stanford.edu/RDI9zuFH0jwc2u2QsTNXC96>)
+
+# Class: <http://webprotege.stanford.edu/RTLofqX3Sp0vZye6YSVgG7> (Folded ears)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RTLofqX3Sp0vZye6YSVgG7> "Folded ears")
+SubClassOf(<http://webprotege.stanford.edu/RTLofqX3Sp0vZye6YSVgG7> <http://webprotege.stanford.edu/RCNGdu7L8SiO5HDfQB2gRg1>)
+
+# Class: <http://webprotege.stanford.edu/RWvwFPT7GuiA1rWZDpU83W> (Khao Manee)
+
+AnnotationAssertion(<http://webprotege.stanford.edu/RDeAGymGUOtCPbN8QA4KBJP> <http://webprotege.stanford.edu/RWvwFPT7GuiA1rWZDpU83W> <https://cfa.org/wp-content/uploads/2019/11/kmProfile.jpg>)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RWvwFPT7GuiA1rWZDpU83W> "Khao Manee")
+SubClassOf(<http://webprotege.stanford.edu/RWvwFPT7GuiA1rWZDpU83W> <http://webprotege.stanford.edu/R8RkQOCnvUUJT4Q7jvXrgs2>)
+SubClassOf(<http://webprotege.stanford.edu/RWvwFPT7GuiA1rWZDpU83W> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> <http://webprotege.stanford.edu/R9A8NJb17VJH8lPbiEDAUD8>))
+SubClassOf(<http://webprotege.stanford.edu/RWvwFPT7GuiA1rWZDpU83W> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> <http://webprotege.stanford.edu/RDBYWZRW8DnpWBtsZ49SBKl>))
+SubClassOf(<http://webprotege.stanford.edu/RWvwFPT7GuiA1rWZDpU83W> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> <http://webprotege.stanford.edu/RC7jMqbCgSOel996WwDKSw8>))
+SubClassOf(<http://webprotege.stanford.edu/RWvwFPT7GuiA1rWZDpU83W> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RhGIrcBXuiEthAcOUaFNhG> <http://webprotege.stanford.edu/RDq8P17eSoisXKu6ZcRYT4c>))
+
+# Class: <http://webprotege.stanford.edu/RY2KRYsug31PcKQzeB9oUj> (Russian Blue)
+
+AnnotationAssertion(<http://webprotege.stanford.edu/RDeAGymGUOtCPbN8QA4KBJP> <http://webprotege.stanford.edu/RY2KRYsug31PcKQzeB9oUj> <https://cfa.org/wp-content/uploads/2019/11/rbProfile.jpg>)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RY2KRYsug31PcKQzeB9oUj> "Russian Blue")
+SubClassOf(<http://webprotege.stanford.edu/RY2KRYsug31PcKQzeB9oUj> <http://webprotege.stanford.edu/R8RkQOCnvUUJT4Q7jvXrgs2>)
+SubClassOf(<http://webprotege.stanford.edu/RY2KRYsug31PcKQzeB9oUj> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> <http://webprotege.stanford.edu/R7hJTb8Lj3UWRzwtW3U7EQS>))
+SubClassOf(<http://webprotege.stanford.edu/RY2KRYsug31PcKQzeB9oUj> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> <http://webprotege.stanford.edu/RBQGaRrBwlTwjyzKqsbCHds>))
+SubClassOf(<http://webprotege.stanford.edu/RY2KRYsug31PcKQzeB9oUj> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> <http://webprotege.stanford.edu/RDnUhpziTtMi2uiw6wwcAWe>))
+SubClassOf(<http://webprotege.stanford.edu/RY2KRYsug31PcKQzeB9oUj> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> <http://webprotege.stanford.edu/RDvsDl2E32yibANJF0XPz8f>))
+SubClassOf(<http://webprotege.stanford.edu/RY2KRYsug31PcKQzeB9oUj> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RhGIrcBXuiEthAcOUaFNhG> <http://webprotege.stanford.edu/RDq8P17eSoisXKu6ZcRYT4c>))
+
+# Class: <http://webprotege.stanford.edu/RYoYZIsvryvuMidroJdQJ5> (Singapore)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RYoYZIsvryvuMidroJdQJ5> "Singapore")
+SubClassOf(<http://webprotege.stanford.edu/RYoYZIsvryvuMidroJdQJ5> <http://webprotege.stanford.edu/RECkKgTWwIP6MlBWgOGape>)
+
+# Class: <http://webprotege.stanford.edu/Rbbm3Wh2cCUcyKwWRPw2a8> (Colorpoint Shorthair)
+
+AnnotationAssertion(<http://webprotege.stanford.edu/RDeAGymGUOtCPbN8QA4KBJP> <http://webprotege.stanford.edu/Rbbm3Wh2cCUcyKwWRPw2a8> <https://cfa.org/wp-content/uploads/2019/11/cpshProfile.jpg>)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/Rbbm3Wh2cCUcyKwWRPw2a8> "Colorpoint Shorthair")
+SubClassOf(<http://webprotege.stanford.edu/Rbbm3Wh2cCUcyKwWRPw2a8> <http://webprotege.stanford.edu/R6PLqsCk4GbK1vt3ShhsGD>)
+SubClassOf(<http://webprotege.stanford.edu/Rbbm3Wh2cCUcyKwWRPw2a8> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> <http://webprotege.stanford.edu/R7aRUuHxoQEPkuNVRhuwQhy>))
+SubClassOf(<http://webprotege.stanford.edu/Rbbm3Wh2cCUcyKwWRPw2a8> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> <http://webprotege.stanford.edu/R9FiNP4w5kul19WjBUfP076>))
+SubClassOf(<http://webprotege.stanford.edu/Rbbm3Wh2cCUcyKwWRPw2a8> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> <http://webprotege.stanford.edu/RBIsrRd91B9HzXpGDNjDHsc>))
+SubClassOf(<http://webprotege.stanford.edu/Rbbm3Wh2cCUcyKwWRPw2a8> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> <http://webprotege.stanford.edu/R9dS0u9BQon6TCPEwEsOCxj>))
+SubClassOf(<http://webprotege.stanford.edu/Rbbm3Wh2cCUcyKwWRPw2a8> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RDzCQJvC0ncfLdDGpXK2eGT> <http://webprotege.stanford.edu/RC7CxJQEjHju3nGIxdXKu4s>))
+SubClassOf(<http://webprotege.stanford.edu/Rbbm3Wh2cCUcyKwWRPw2a8> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RDzCQJvC0ncfLdDGpXK2eGT> <http://webprotege.stanford.edu/RDOOdCUIo7BBz17KvbpyZmr>))
+SubClassOf(<http://webprotege.stanford.edu/Rbbm3Wh2cCUcyKwWRPw2a8> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RhGIrcBXuiEthAcOUaFNhG> <http://webprotege.stanford.edu/R7n17e0nV5dNZgRtHIDUmHq>))
+
+# Class: <http://webprotege.stanford.edu/RbyBgpx010noGl9UDArBGB> (Tail)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RbyBgpx010noGl9UDArBGB> "Tail")
+SubClassOf(<http://webprotege.stanford.edu/RbyBgpx010noGl9UDArBGB> <http://webprotege.stanford.edu/RB0hZtDoGwZt1elxw1cj7ob>)
+
+# Class: <http://webprotege.stanford.edu/RbyIFc0PzWtrF8sZwZdrQ6> (Ragamuffin)
+
+AnnotationAssertion(<http://webprotege.stanford.edu/RDeAGymGUOtCPbN8QA4KBJP> <http://webprotege.stanford.edu/RbyIFc0PzWtrF8sZwZdrQ6> <https://cfa.org/wp-content/uploads/2019/11/rmProfile.jpg>)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RbyIFc0PzWtrF8sZwZdrQ6> "Ragamuffin")
+SubClassOf(<http://webprotege.stanford.edu/RbyIFc0PzWtrF8sZwZdrQ6> <http://webprotege.stanford.edu/R9H8NrmJcvPQJ8JqoVNRvYL>)
+SubClassOf(<http://webprotege.stanford.edu/RbyIFc0PzWtrF8sZwZdrQ6> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> <http://webprotege.stanford.edu/R8Mwg5CekiyuQhFp7FHPpSp>))
+SubClassOf(<http://webprotege.stanford.edu/RbyIFc0PzWtrF8sZwZdrQ6> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> <http://webprotege.stanford.edu/RBIsrRd91B9HzXpGDNjDHsc>))
+SubClassOf(<http://webprotege.stanford.edu/RbyIFc0PzWtrF8sZwZdrQ6> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> <http://webprotege.stanford.edu/RBeDepgVgtLPbi8rC6Hi9NJ>))
+SubClassOf(<http://webprotege.stanford.edu/RbyIFc0PzWtrF8sZwZdrQ6> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> <http://webprotege.stanford.edu/RCKoWDOUTlrxZWi38LZeqdL>))
+SubClassOf(<http://webprotege.stanford.edu/RbyIFc0PzWtrF8sZwZdrQ6> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RDzCQJvC0ncfLdDGpXK2eGT> <http://webprotege.stanford.edu/RDRPLytAYUn2A4Nw46sMxoW>))
+SubClassOf(<http://webprotege.stanford.edu/RbyIFc0PzWtrF8sZwZdrQ6> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RDzCQJvC0ncfLdDGpXK2eGT> <http://webprotege.stanford.edu/RDTImJkJER5DK3JixhzMRvW>))
+SubClassOf(<http://webprotege.stanford.edu/RbyIFc0PzWtrF8sZwZdrQ6> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RhGIrcBXuiEthAcOUaFNhG> <http://webprotege.stanford.edu/RcMeCwHPahQ6yjHT7waXUr>))
+
+# Class: <http://webprotege.stanford.edu/RcMeCwHPahQ6yjHT7waXUr> (Cobby)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RcMeCwHPahQ6yjHT7waXUr> "Cobby"^^xsd:string)
+SubClassOf(<http://webprotege.stanford.edu/RcMeCwHPahQ6yjHT7waXUr> <http://webprotege.stanford.edu/R9sP0kiNHtp8TYvgaBT0ZIt>)
+
+# Class: <http://webprotege.stanford.edu/RdE7TYCet2p6kPVa8nDATH> (Living Thing)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RdE7TYCet2p6kPVa8nDATH> "Living Thing")
+
+# Class: <http://webprotege.stanford.edu/ReemWR6dAFGwiwanQQxHn6> (American Curl)
+
+AnnotationAssertion(<http://webprotege.stanford.edu/RDeAGymGUOtCPbN8QA4KBJP> <http://webprotege.stanford.edu/ReemWR6dAFGwiwanQQxHn6> <https://cfa.org/wp-content/uploads/2019/11/acProfile.jpg>)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/ReemWR6dAFGwiwanQQxHn6> "American Curl")
+SubClassOf(<http://webprotege.stanford.edu/ReemWR6dAFGwiwanQQxHn6> <http://webprotege.stanford.edu/R8j08k7iK9OkJC6YrOhVHIT>)
+SubClassOf(<http://webprotege.stanford.edu/ReemWR6dAFGwiwanQQxHn6> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> <http://webprotege.stanford.edu/RBIsrRd91B9HzXpGDNjDHsc>))
+SubClassOf(<http://webprotege.stanford.edu/ReemWR6dAFGwiwanQQxHn6> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> <http://webprotege.stanford.edu/RNEbak8cWP4TJyd5Ln3yTN>))
+SubClassOf(<http://webprotege.stanford.edu/ReemWR6dAFGwiwanQQxHn6> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> <http://webprotege.stanford.edu/RCKoWDOUTlrxZWi38LZeqdL>))
+SubClassOf(<http://webprotege.stanford.edu/ReemWR6dAFGwiwanQQxHn6> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RhGIrcBXuiEthAcOUaFNhG> <http://webprotege.stanford.edu/R7n17e0nV5dNZgRtHIDUmHq>))
+
+# Class: <http://webprotege.stanford.edu/RezwdXkf6rn8EA3wRYLQ4f> (Natural)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RezwdXkf6rn8EA3wRYLQ4f> "Natural")
+SubClassOf(<http://webprotege.stanford.edu/RezwdXkf6rn8EA3wRYLQ4f> <http://webprotege.stanford.edu/RugLVB2fY80DDW8Tw9J3dh>)
+
+# Class: <http://webprotege.stanford.edu/Rfhu8Bp6YKXTqB1CmozglO> (Dwarf)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/Rfhu8Bp6YKXTqB1CmozglO> "Dwarf")
+SubClassOf(<http://webprotege.stanford.edu/Rfhu8Bp6YKXTqB1CmozglO> <http://webprotege.stanford.edu/R9sP0kiNHtp8TYvgaBT0ZIt>)
+
+# Class: <http://webprotege.stanford.edu/RiDuHGMCP0r4JZXmHHUH1T> (Swelte)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RiDuHGMCP0r4JZXmHHUH1T> "Swelte")
+SubClassOf(<http://webprotege.stanford.edu/RiDuHGMCP0r4JZXmHHUH1T> <http://webprotege.stanford.edu/R9sP0kiNHtp8TYvgaBT0ZIt>)
+
+# Class: <http://webprotege.stanford.edu/RlkHlCsjFHavMZcuSbqctc> (Norwegian Forest Cat)
+
+AnnotationAssertion(<http://webprotege.stanford.edu/RDeAGymGUOtCPbN8QA4KBJP> <http://webprotege.stanford.edu/RlkHlCsjFHavMZcuSbqctc> <https://cfa.org/wp-content/uploads/2019/11/nfcProfile.jpg>)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RlkHlCsjFHavMZcuSbqctc> "Norwegian Forest Cat")
+SubClassOf(<http://webprotege.stanford.edu/RlkHlCsjFHavMZcuSbqctc> <http://webprotege.stanford.edu/RCtKI95ZTt6WnTyNqKq7Eyq>)
+SubClassOf(<http://webprotege.stanford.edu/RlkHlCsjFHavMZcuSbqctc> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> <http://webprotege.stanford.edu/R7aRUuHxoQEPkuNVRhuwQhy>))
+SubClassOf(<http://webprotege.stanford.edu/RlkHlCsjFHavMZcuSbqctc> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> <http://webprotege.stanford.edu/R92WxhSD31d3gWdTgkDj5Vp>))
+SubClassOf(<http://webprotege.stanford.edu/RlkHlCsjFHavMZcuSbqctc> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> <http://webprotege.stanford.edu/R7ay7rP5s6BHNmhbeRObT0z>))
+SubClassOf(<http://webprotege.stanford.edu/RlkHlCsjFHavMZcuSbqctc> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RhGIrcBXuiEthAcOUaFNhG> <http://webprotege.stanford.edu/RcMeCwHPahQ6yjHT7waXUr>))
+
+# Class: <http://webprotege.stanford.edu/Rnc1Sr9gezPHoR7zP6inKw> (Easy Going)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/Rnc1Sr9gezPHoR7zP6inKw> "Easy Going")
+SubClassOf(<http://webprotege.stanford.edu/Rnc1Sr9gezPHoR7zP6inKw> <http://webprotege.stanford.edu/RDI9zuFH0jwc2u2QsTNXC96>)
+
+# Class: <http://webprotege.stanford.edu/RpsO8b3GZsuPX4eijVsnNy> (Agile)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RpsO8b3GZsuPX4eijVsnNy> "Agile")
+SubClassOf(<http://webprotege.stanford.edu/RpsO8b3GZsuPX4eijVsnNy> <http://webprotege.stanford.edu/RDI9zuFH0jwc2u2QsTNXC96>)
+
+# Class: <http://webprotege.stanford.edu/Rsfba2LlBqRm473tkX9OTJ> (Semi-Long Hair)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/Rsfba2LlBqRm473tkX9OTJ> "Semi-Long Hair")
+SubClassOf(<http://webprotege.stanford.edu/Rsfba2LlBqRm473tkX9OTJ> <http://webprotege.stanford.edu/R9detm7hMYgMXyc71KvW8S>)
+
+# Class: <http://webprotege.stanford.edu/RsyBsNdAuxRsoY1LjbQD7N> (China)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RsyBsNdAuxRsoY1LjbQD7N> "China")
+SubClassOf(<http://webprotege.stanford.edu/RsyBsNdAuxRsoY1LjbQD7N> <http://webprotege.stanford.edu/RECkKgTWwIP6MlBWgOGape>)
+
+# Class: <http://webprotege.stanford.edu/Rt6r2ZW4kbgEJSS6uVIQH8> (Burmilla)
+
+AnnotationAssertion(<http://webprotege.stanford.edu/RDeAGymGUOtCPbN8QA4KBJP> <http://webprotege.stanford.edu/Rt6r2ZW4kbgEJSS6uVIQH8> <https://cfa.org/wp-content/uploads/2019/11/bmlProfile.jpg>)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/Rt6r2ZW4kbgEJSS6uVIQH8> "Burmilla")
+SubClassOf(<http://webprotege.stanford.edu/Rt6r2ZW4kbgEJSS6uVIQH8> <http://webprotege.stanford.edu/R7SMNOUTyH5lZmqTASSvC2V>)
+SubClassOf(<http://webprotege.stanford.edu/Rt6r2ZW4kbgEJSS6uVIQH8> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> <http://webprotege.stanford.edu/R7hJTb8Lj3UWRzwtW3U7EQS>))
+SubClassOf(<http://webprotege.stanford.edu/Rt6r2ZW4kbgEJSS6uVIQH8> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R78VHqsJAmPh0oHhDHc0tyW> <http://webprotege.stanford.edu/RBIsrRd91B9HzXpGDNjDHsc>))
+SubClassOf(<http://webprotege.stanford.edu/Rt6r2ZW4kbgEJSS6uVIQH8> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RCflbGn2MhPkba2Klxd3sWO> <http://webprotege.stanford.edu/R9dS0u9BQon6TCPEwEsOCxj>))
+SubClassOf(<http://webprotege.stanford.edu/Rt6r2ZW4kbgEJSS6uVIQH8> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RDzCQJvC0ncfLdDGpXK2eGT> <http://webprotege.stanford.edu/RDTImJkJER5DK3JixhzMRvW>))
+SubClassOf(<http://webprotege.stanford.edu/Rt6r2ZW4kbgEJSS6uVIQH8> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RDzCQJvC0ncfLdDGpXK2eGT> <http://webprotege.stanford.edu/RDZTmjOcKW54xDO99vtVipU>))
+SubClassOf(<http://webprotege.stanford.edu/Rt6r2ZW4kbgEJSS6uVIQH8> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RhGIrcBXuiEthAcOUaFNhG> <http://webprotege.stanford.edu/RcMeCwHPahQ6yjHT7waXUr>))
+
+# Class: <http://webprotege.stanford.edu/RtFJSPmHDJ6nqTYcg6e1hB> (Insistent)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RtFJSPmHDJ6nqTYcg6e1hB> "Insistent")
+SubClassOf(<http://webprotege.stanford.edu/RtFJSPmHDJ6nqTYcg6e1hB> <http://webprotege.stanford.edu/RDI9zuFH0jwc2u2QsTNXC96>)
+
+# Class: <http://webprotege.stanford.edu/RugLVB2fY80DDW8Tw9J3dh> (Domestic Cat)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RugLVB2fY80DDW8Tw9J3dh> "Domestic Cat")
+SubClassOf(<http://webprotege.stanford.edu/RugLVB2fY80DDW8Tw9J3dh> <http://webprotege.stanford.edu/RBNv3Xa6YZcMAeHoERjsZYB>)
+
+# Class: <http://webprotege.stanford.edu/RvhjLyoDSWYIn7wYFVg0Hz> (Medium)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RvhjLyoDSWYIn7wYFVg0Hz> "Medium")
+SubClassOf(<http://webprotege.stanford.edu/RvhjLyoDSWYIn7wYFVg0Hz> <http://webprotege.stanford.edu/R9sP0kiNHtp8TYvgaBT0ZIt>)
+
+# Class: <http://webprotege.stanford.edu/RwWjRYmqnF2SnpyGfaB8B2> (Lean)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RwWjRYmqnF2SnpyGfaB8B2> "Lean")
+SubClassOf(<http://webprotege.stanford.edu/RwWjRYmqnF2SnpyGfaB8B2> <http://webprotege.stanford.edu/R9sP0kiNHtp8TYvgaBT0ZIt>)
+
+# Class: <http://webprotege.stanford.edu/Rx4hmffAXjdlEVkPNMTFxb> (Japan)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/Rx4hmffAXjdlEVkPNMTFxb> "Japan")
+SubClassOf(<http://webprotege.stanford.edu/Rx4hmffAXjdlEVkPNMTFxb> <http://webprotege.stanford.edu/RECkKgTWwIP6MlBWgOGape>)
+
+
+############################
+#   Named Individuals
+############################
+
+# Individual: <http://webprotege.stanford.edu/R7A3KO4n7ABycQX2Mqt2jHI> (Male Birman Cat)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R7A3KO4n7ABycQX2Mqt2jHI> "Male Birman Cat")
+ClassAssertion(<http://webprotege.stanford.edu/R7dzF9m4lqFV0OrP7dPYyPv> <http://webprotege.stanford.edu/R7A3KO4n7ABycQX2Mqt2jHI>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG> <http://webprotege.stanford.edu/R7A3KO4n7ABycQX2Mqt2jHI> "20.0"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70> <http://webprotege.stanford.edu/R7A3KO4n7ABycQX2Mqt2jHI> "4.0"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c> <http://webprotege.stanford.edu/R7A3KO4n7ABycQX2Mqt2jHI> "3.2"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW> <http://webprotege.stanford.edu/R7A3KO4n7ABycQX2Mqt2jHI> "white body with dark face"^^xsd:string)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RlbsgKOberIEPaV6Ds5KVb> <http://webprotege.stanford.edu/R7A3KO4n7ABycQX2Mqt2jHI> "Male"^^xsd:string)
+
+# Individual: <http://webprotege.stanford.edu/R7wpmuDVAzoHaoNErvGVbx6> (Male Ragamuffin Kitten)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R7wpmuDVAzoHaoNErvGVbx6> "Male Ragamuffin Kitten")
+ClassAssertion(<http://webprotege.stanford.edu/RbyIFc0PzWtrF8sZwZdrQ6> <http://webprotege.stanford.edu/R7wpmuDVAzoHaoNErvGVbx6>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG> <http://webprotege.stanford.edu/R7wpmuDVAzoHaoNErvGVbx6> "13.0"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70> <http://webprotege.stanford.edu/R7wpmuDVAzoHaoNErvGVbx6> "0.5"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c> <http://webprotege.stanford.edu/R7wpmuDVAzoHaoNErvGVbx6> "1.0"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW> <http://webprotege.stanford.edu/R7wpmuDVAzoHaoNErvGVbx6> "White"^^xsd:string)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RlbsgKOberIEPaV6Ds5KVb> <http://webprotege.stanford.edu/R7wpmuDVAzoHaoNErvGVbx6> "Male"^^xsd:string)
+
+# Individual: <http://webprotege.stanford.edu/R7ySmQE9Zxzk8TnSD1RQDnF> (Male Himalayan Persian Cat)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R7ySmQE9Zxzk8TnSD1RQDnF> "Male Himalayan Persian Cat")
+ClassAssertion(<http://webprotege.stanford.edu/RDTImJkJER5DK3JixhzMRvW> <http://webprotege.stanford.edu/R7ySmQE9Zxzk8TnSD1RQDnF>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG> <http://webprotege.stanford.edu/R7ySmQE9Zxzk8TnSD1RQDnF> "25.0"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70> <http://webprotege.stanford.edu/R7ySmQE9Zxzk8TnSD1RQDnF> "6.0"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c> <http://webprotege.stanford.edu/R7ySmQE9Zxzk8TnSD1RQDnF> "4.5"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW> <http://webprotege.stanford.edu/R7ySmQE9Zxzk8TnSD1RQDnF> "Light cream colour"^^xsd:string)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RlbsgKOberIEPaV6Ds5KVb> <http://webprotege.stanford.edu/R7ySmQE9Zxzk8TnSD1RQDnF> "Male"^^xsd:string)
+
+# Individual: <http://webprotege.stanford.edu/R8FerpZXiLHlrLaVrqMvrV7> (Male European Burmese Cat)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R8FerpZXiLHlrLaVrqMvrV7> "Male European Burmese Cat")
+ClassAssertion(<http://webprotege.stanford.edu/RLEOX4NzaXvk7swvaWuayo> <http://webprotege.stanford.edu/R8FerpZXiLHlrLaVrqMvrV7>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG> <http://webprotege.stanford.edu/R8FerpZXiLHlrLaVrqMvrV7> "25.0"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70> <http://webprotege.stanford.edu/R8FerpZXiLHlrLaVrqMvrV7> "6.0"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c> <http://webprotege.stanford.edu/R8FerpZXiLHlrLaVrqMvrV7> "6.0"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW> <http://webprotege.stanford.edu/R8FerpZXiLHlrLaVrqMvrV7> "Rich Cream Colour"^^xsd:string)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RlbsgKOberIEPaV6Ds5KVb> <http://webprotege.stanford.edu/R8FerpZXiLHlrLaVrqMvrV7> "Male"^^xsd:string)
+
+# Individual: <http://webprotege.stanford.edu/R8OXVzYJ0uQV2CxblgTopwQ> (Female Burmese Kitten)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R8OXVzYJ0uQV2CxblgTopwQ> "Female Burmese Kitten")
+ClassAssertion(<http://webprotege.stanford.edu/RDZTmjOcKW54xDO99vtVipU> <http://webprotege.stanford.edu/R8OXVzYJ0uQV2CxblgTopwQ>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG> <http://webprotege.stanford.edu/R8OXVzYJ0uQV2CxblgTopwQ> "17.7"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70> <http://webprotege.stanford.edu/R8OXVzYJ0uQV2CxblgTopwQ> "1.0"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c> <http://webprotege.stanford.edu/R8OXVzYJ0uQV2CxblgTopwQ> "1.4"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW> <http://webprotege.stanford.edu/R8OXVzYJ0uQV2CxblgTopwQ> "Chocolate Tortoiseshell"^^xsd:string)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RlbsgKOberIEPaV6Ds5KVb> <http://webprotege.stanford.edu/R8OXVzYJ0uQV2CxblgTopwQ> "Female"^^xsd:string)
+
+# Individual: <http://webprotege.stanford.edu/R8WS7KwWioyc0aq0UqB0gF7> (Female Selkirk Rex Kitten)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R8WS7KwWioyc0aq0UqB0gF7> "Female Selkirk Rex Kitten")
+ClassAssertion(<http://webprotege.stanford.edu/R0o3ka8KtnMlgcdP9QcjBp> <http://webprotege.stanford.edu/R8WS7KwWioyc0aq0UqB0gF7>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG> <http://webprotege.stanford.edu/R8WS7KwWioyc0aq0UqB0gF7> "14.0"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70> <http://webprotege.stanford.edu/R8WS7KwWioyc0aq0UqB0gF7> "0.5"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c> <http://webprotege.stanford.edu/R8WS7KwWioyc0aq0UqB0gF7> "2.0"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW> <http://webprotege.stanford.edu/R8WS7KwWioyc0aq0UqB0gF7> "Orange and White"^^xsd:string)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RlbsgKOberIEPaV6Ds5KVb> <http://webprotege.stanford.edu/R8WS7KwWioyc0aq0UqB0gF7> "Female"^^xsd:string)
+
+# Individual: <http://webprotege.stanford.edu/R8ag1oXWlh3aiJOZbaA2tcx> (Male Maine Coon Cat)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R8ag1oXWlh3aiJOZbaA2tcx> "Male Maine Coon Cat")
+ClassAssertion(<http://webprotege.stanford.edu/RBkQsBLdKvddD0dbPJZqKdz> <http://webprotege.stanford.edu/R8ag1oXWlh3aiJOZbaA2tcx>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG> <http://webprotege.stanford.edu/R8ag1oXWlh3aiJOZbaA2tcx> "33.02"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70> <http://webprotege.stanford.edu/R8ag1oXWlh3aiJOZbaA2tcx> "5.0"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c> <http://webprotege.stanford.edu/R8ag1oXWlh3aiJOZbaA2tcx> "6.3"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW> <http://webprotege.stanford.edu/R8ag1oXWlh3aiJOZbaA2tcx> "Cream"^^xsd:string)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RlbsgKOberIEPaV6Ds5KVb> <http://webprotege.stanford.edu/R8ag1oXWlh3aiJOZbaA2tcx> "Male"^^xsd:string)
+
+# Individual: <http://webprotege.stanford.edu/R8gF6ldjFeGEjBHACXjA5lp> (Female Egyptian Mau Cat)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R8gF6ldjFeGEjBHACXjA5lp> "Female Egyptian Mau Cat")
+ClassAssertion(<http://webprotege.stanford.edu/RBmKxLkdBYaBkWdSvST0c5V> <http://webprotege.stanford.edu/R8gF6ldjFeGEjBHACXjA5lp>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG> <http://webprotege.stanford.edu/R8gF6ldjFeGEjBHACXjA5lp> "24.0"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70> <http://webprotege.stanford.edu/R8gF6ldjFeGEjBHACXjA5lp> "3.0"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c> <http://webprotege.stanford.edu/R8gF6ldjFeGEjBHACXjA5lp> "2.7"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW> <http://webprotege.stanford.edu/R8gF6ldjFeGEjBHACXjA5lp> "Bronze"^^xsd:string)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RlbsgKOberIEPaV6Ds5KVb> <http://webprotege.stanford.edu/R8gF6ldjFeGEjBHACXjA5lp> "Female"^^xsd:string)
+
+# Individual: <http://webprotege.stanford.edu/R8ojl8zN94KhfLqlBBelp6A> (Male Bombay Kitten)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R8ojl8zN94KhfLqlBBelp6A> "Male Bombay Kitten")
+ClassAssertion(<http://webprotege.stanford.edu/RCP9qLibYNpN01F00XVfOyx> <http://webprotege.stanford.edu/R8ojl8zN94KhfLqlBBelp6A>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG> <http://webprotege.stanford.edu/R8ojl8zN94KhfLqlBBelp6A> "12.0"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70> <http://webprotege.stanford.edu/R8ojl8zN94KhfLqlBBelp6A> "0.75"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c> <http://webprotege.stanford.edu/R8ojl8zN94KhfLqlBBelp6A> "1.5"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW> <http://webprotege.stanford.edu/R8ojl8zN94KhfLqlBBelp6A> "Glossy Black"^^xsd:string)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RlbsgKOberIEPaV6Ds5KVb> <http://webprotege.stanford.edu/R8ojl8zN94KhfLqlBBelp6A> "Male"^^xsd:string)
+
+# Individual: <http://webprotege.stanford.edu/R8qlcTO2upa5MPwDdJ5iiqR> (Female Cornish Rex Cat)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R8qlcTO2upa5MPwDdJ5iiqR> "Female Cornish Rex Cat"^^xsd:string)
+ClassAssertion(<http://webprotege.stanford.edu/R9gExwAiYggxHJHah6JPOjo> <http://webprotege.stanford.edu/R8qlcTO2upa5MPwDdJ5iiqR>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG> <http://webprotege.stanford.edu/R8qlcTO2upa5MPwDdJ5iiqR> "28.0"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70> <http://webprotege.stanford.edu/R8qlcTO2upa5MPwDdJ5iiqR> "3.0"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c> <http://webprotege.stanford.edu/R8qlcTO2upa5MPwDdJ5iiqR> "2.5"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW> <http://webprotege.stanford.edu/R8qlcTO2upa5MPwDdJ5iiqR> "white and balck"^^xsd:string)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RlbsgKOberIEPaV6Ds5KVb> <http://webprotege.stanford.edu/R8qlcTO2upa5MPwDdJ5iiqR> "Female"^^xsd:string)
+
+# Individual: <http://webprotege.stanford.edu/R8rRTZC4BoLdqrrGoslnhUe> (Male Devon Rex Kitten)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R8rRTZC4BoLdqrrGoslnhUe> "Male Devon Rex Kitten"^^xsd:string)
+ClassAssertion(<http://webprotege.stanford.edu/R8ZlZyrKK5xqwfbZdBrKvxZ> <http://webprotege.stanford.edu/R8rRTZC4BoLdqrrGoslnhUe>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG> <http://webprotege.stanford.edu/R8rRTZC4BoLdqrrGoslnhUe> "12.0"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70> <http://webprotege.stanford.edu/R8rRTZC4BoLdqrrGoslnhUe> "0.4"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c> <http://webprotege.stanford.edu/R8rRTZC4BoLdqrrGoslnhUe> "0.4"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW> <http://webprotege.stanford.edu/R8rRTZC4BoLdqrrGoslnhUe> "black"^^xsd:string)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RlbsgKOberIEPaV6Ds5KVb> <http://webprotege.stanford.edu/R8rRTZC4BoLdqrrGoslnhUe> "Male"^^xsd:string)
+
+# Individual: <http://webprotege.stanford.edu/R95Ol1VPbKictrYaeqw1L9j> (Female Havana Brown Cat)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R95Ol1VPbKictrYaeqw1L9j> "Female Havana Brown Cat")
+ClassAssertion(<http://webprotege.stanford.edu/RDfZ9WynjrX11jo80YG3X9V> <http://webprotege.stanford.edu/R95Ol1VPbKictrYaeqw1L9j>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG> <http://webprotege.stanford.edu/R95Ol1VPbKictrYaeqw1L9j> "20.0"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70> <http://webprotege.stanford.edu/R95Ol1VPbKictrYaeqw1L9j> "5.0"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c> <http://webprotege.stanford.edu/R95Ol1VPbKictrYaeqw1L9j> "2.9"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW> <http://webprotege.stanford.edu/R95Ol1VPbKictrYaeqw1L9j> "Chocolate Brown"^^xsd:string)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RlbsgKOberIEPaV6Ds5KVb> <http://webprotege.stanford.edu/R95Ol1VPbKictrYaeqw1L9j> "Female"^^xsd:string)
+
+# Individual: <http://webprotege.stanford.edu/R9789MSZqWFlV4rGwM7BQFr> (Female Norwegian Forest Kitten)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R9789MSZqWFlV4rGwM7BQFr> "Female Norwegian Forest Kitten"^^xsd:string)
+ClassAssertion(<http://webprotege.stanford.edu/RlkHlCsjFHavMZcuSbqctc> <http://webprotege.stanford.edu/R9789MSZqWFlV4rGwM7BQFr>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG> <http://webprotege.stanford.edu/R9789MSZqWFlV4rGwM7BQFr> "15.4"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70> <http://webprotege.stanford.edu/R9789MSZqWFlV4rGwM7BQFr> "2.0"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c> <http://webprotege.stanford.edu/R9789MSZqWFlV4rGwM7BQFr> "1.53"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW> <http://webprotege.stanford.edu/R9789MSZqWFlV4rGwM7BQFr> "Golden"^^xsd:string)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RlbsgKOberIEPaV6Ds5KVb> <http://webprotege.stanford.edu/R9789MSZqWFlV4rGwM7BQFr> "Female"^^xsd:string)
+
+# Individual: <http://webprotege.stanford.edu/R9GMit3H5kIZw9WtJ0E9Na5> (Female Burmilla Cat)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R9GMit3H5kIZw9WtJ0E9Na5> "Female Burmilla Cat")
+ClassAssertion(<http://webprotege.stanford.edu/Rt6r2ZW4kbgEJSS6uVIQH8> <http://webprotege.stanford.edu/R9GMit3H5kIZw9WtJ0E9Na5>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG> <http://webprotege.stanford.edu/R9GMit3H5kIZw9WtJ0E9Na5> "19.0"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70> <http://webprotege.stanford.edu/R9GMit3H5kIZw9WtJ0E9Na5> "4.0"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c> <http://webprotege.stanford.edu/R9GMit3H5kIZw9WtJ0E9Na5> "3.0"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW> <http://webprotege.stanford.edu/R9GMit3H5kIZw9WtJ0E9Na5> "White"^^xsd:string)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RlbsgKOberIEPaV6Ds5KVb> <http://webprotege.stanford.edu/R9GMit3H5kIZw9WtJ0E9Na5> "Female"^^xsd:string)
+
+# Individual: <http://webprotege.stanford.edu/R9dNLA3NmoFPqDGQFv6ckTV> (Female Japanese Bobtail Kitten)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R9dNLA3NmoFPqDGQFv6ckTV> "Female Japanese Bobtail Kitten"^^xsd:string)
+ClassAssertion(<http://webprotege.stanford.edu/R8HhF1fCW3OZO6zC8NVxpQn> <http://webprotege.stanford.edu/R9dNLA3NmoFPqDGQFv6ckTV>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG> <http://webprotege.stanford.edu/R9dNLA3NmoFPqDGQFv6ckTV> "17.0"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70> <http://webprotege.stanford.edu/R9dNLA3NmoFPqDGQFv6ckTV> "0.4"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c> <http://webprotege.stanford.edu/R9dNLA3NmoFPqDGQFv6ckTV> "1.2"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RlbsgKOberIEPaV6Ds5KVb> <http://webprotege.stanford.edu/R9dNLA3NmoFPqDGQFv6ckTV> "Female"^^xsd:string)
+
+# Individual: <http://webprotege.stanford.edu/R9dqURNZ6ecUd3THHyJToSB> (Female American Shorthair Cat)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R9dqURNZ6ecUd3THHyJToSB> "Female American Shorthair Cat")
+ClassAssertion(<http://webprotege.stanford.edu/R78n3gIdpEnhYFe0rmrRpWX> <http://webprotege.stanford.edu/R9dqURNZ6ecUd3THHyJToSB>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG> <http://webprotege.stanford.edu/R9dqURNZ6ecUd3THHyJToSB> "25.0"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70> <http://webprotege.stanford.edu/R9dqURNZ6ecUd3THHyJToSB> "4.0"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c> <http://webprotege.stanford.edu/R9dqURNZ6ecUd3THHyJToSB> "3.7"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW> <http://webprotege.stanford.edu/R9dqURNZ6ecUd3THHyJToSB> "Tabby Grey"^^xsd:string)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RlbsgKOberIEPaV6Ds5KVb> <http://webprotege.stanford.edu/R9dqURNZ6ecUd3THHyJToSB> "Female"^^xsd:string)
+
+# Individual: <http://webprotege.stanford.edu/R9oFCXfDXFjFiMsuBGiatCx> (Male Turkish Angora Cat)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R9oFCXfDXFjFiMsuBGiatCx> "Male Turkish Angora Cat")
+ClassAssertion(<http://webprotege.stanford.edu/R74tGbDUEBf6nc1jiadU0rD> <http://webprotege.stanford.edu/R9oFCXfDXFjFiMsuBGiatCx>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG> <http://webprotege.stanford.edu/R9oFCXfDXFjFiMsuBGiatCx> "22.0"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70> <http://webprotege.stanford.edu/R9oFCXfDXFjFiMsuBGiatCx> "6.0"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c> <http://webprotege.stanford.edu/R9oFCXfDXFjFiMsuBGiatCx> "4.1"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW> <http://webprotege.stanford.edu/R9oFCXfDXFjFiMsuBGiatCx> "Tabby White"^^xsd:string)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RlbsgKOberIEPaV6Ds5KVb> <http://webprotege.stanford.edu/R9oFCXfDXFjFiMsuBGiatCx> "Male"^^xsd:string)
+
+# Individual: <http://webprotege.stanford.edu/RB7lilf1bV2zEZjIBRIve3x> (Female Singapura Kitten)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RB7lilf1bV2zEZjIBRIve3x> "Female Singapura Kitten"^^xsd:string)
+ClassAssertion(<http://webprotege.stanford.edu/R7LUN6c9MPyvRSY53RSn1Qc> <http://webprotege.stanford.edu/RB7lilf1bV2zEZjIBRIve3x>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG> <http://webprotege.stanford.edu/RB7lilf1bV2zEZjIBRIve3x> "15.0"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70> <http://webprotege.stanford.edu/RB7lilf1bV2zEZjIBRIve3x> "0.8"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c> <http://webprotege.stanford.edu/RB7lilf1bV2zEZjIBRIve3x> "1.0"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW> <http://webprotege.stanford.edu/RB7lilf1bV2zEZjIBRIve3x> "ivory"^^xsd:string)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RlbsgKOberIEPaV6Ds5KVb> <http://webprotege.stanford.edu/RB7lilf1bV2zEZjIBRIve3x> "Female"^^xsd:string)
+
+# Individual: <http://webprotege.stanford.edu/RBVBWpWTiXllH9RVx1FeYyT> (Female LaPerm Cat)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RBVBWpWTiXllH9RVx1FeYyT> "Female LaPerm Cat"^^xsd:string)
+ClassAssertion(<http://webprotege.stanford.edu/R9X2hBrg8QsSyDpeMQOMEIU> <http://webprotege.stanford.edu/RBVBWpWTiXllH9RVx1FeYyT>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG> <http://webprotege.stanford.edu/RBVBWpWTiXllH9RVx1FeYyT> "28.0"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70> <http://webprotege.stanford.edu/RBVBWpWTiXllH9RVx1FeYyT> "4.0"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c> <http://webprotege.stanford.edu/RBVBWpWTiXllH9RVx1FeYyT> "4.6"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW> <http://webprotege.stanford.edu/RBVBWpWTiXllH9RVx1FeYyT> "orange and white"^^xsd:string)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RlbsgKOberIEPaV6Ds5KVb> <http://webprotege.stanford.edu/RBVBWpWTiXllH9RVx1FeYyT> "Female"^^xsd:string)
+
+# Individual: <http://webprotege.stanford.edu/RBlzSGKVupRcel9QBqjhU2u> (Male Lykoi Kitten)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RBlzSGKVupRcel9QBqjhU2u> "Male Lykoi Kitten"^^xsd:string)
+ClassAssertion(<http://webprotege.stanford.edu/RDMTW24zh0A19SI1foCUa5S> <http://webprotege.stanford.edu/RBlzSGKVupRcel9QBqjhU2u>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG> <http://webprotege.stanford.edu/RBlzSGKVupRcel9QBqjhU2u> "20.0"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70> <http://webprotege.stanford.edu/RBlzSGKVupRcel9QBqjhU2u> "0.6"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c> <http://webprotege.stanford.edu/RBlzSGKVupRcel9QBqjhU2u> "0.8"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW> <http://webprotege.stanford.edu/RBlzSGKVupRcel9QBqjhU2u> "black"^^xsd:string)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RlbsgKOberIEPaV6Ds5KVb> <http://webprotege.stanford.edu/RBlzSGKVupRcel9QBqjhU2u> "Male"^^xsd:string)
+
+# Individual: <http://webprotege.stanford.edu/RBoPayDjhqEYWQgIUnbCrug> (Female Scottish Fold Cat)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RBoPayDjhqEYWQgIUnbCrug> "Female Scottish Fold Cat"^^xsd:string)
+ClassAssertion(<http://webprotege.stanford.edu/RDFY9zx2HSXM2XcRKHaOI3Q> <http://webprotege.stanford.edu/RBoPayDjhqEYWQgIUnbCrug>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG> <http://webprotege.stanford.edu/RBoPayDjhqEYWQgIUnbCrug> "23.0"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70> <http://webprotege.stanford.edu/RBoPayDjhqEYWQgIUnbCrug> "5.0"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c> <http://webprotege.stanford.edu/RBoPayDjhqEYWQgIUnbCrug> "4.6"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW> <http://webprotege.stanford.edu/RBoPayDjhqEYWQgIUnbCrug> "lilac"^^xsd:string)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RlbsgKOberIEPaV6Ds5KVb> <http://webprotege.stanford.edu/RBoPayDjhqEYWQgIUnbCrug> "Female"^^xsd:string)
+
+# Individual: <http://webprotege.stanford.edu/RBr6ptz55aOcO2iGgwUG7HO> (Female Ragdoll Cat)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RBr6ptz55aOcO2iGgwUG7HO> "Female Ragdoll Cat")
+ClassAssertion(<http://webprotege.stanford.edu/RDRPLytAYUn2A4Nw46sMxoW> <http://webprotege.stanford.edu/RBr6ptz55aOcO2iGgwUG7HO>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG> <http://webprotege.stanford.edu/RBr6ptz55aOcO2iGgwUG7HO> "25.0"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70> <http://webprotege.stanford.edu/RBr6ptz55aOcO2iGgwUG7HO> "5.0"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c> <http://webprotege.stanford.edu/RBr6ptz55aOcO2iGgwUG7HO> "4.0"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW> <http://webprotege.stanford.edu/RBr6ptz55aOcO2iGgwUG7HO> "White"^^xsd:string)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RlbsgKOberIEPaV6Ds5KVb> <http://webprotege.stanford.edu/RBr6ptz55aOcO2iGgwUG7HO> "Female"^^xsd:string)
+
+# Individual: <http://webprotege.stanford.edu/RBtGdjTYKmFyfE0VtZX1bpp> (Male Ocicat Cat)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RBtGdjTYKmFyfE0VtZX1bpp> "Male Ocicat Cat")
+ClassAssertion(<http://webprotege.stanford.edu/RBu6tNWJSQ3NurPDQ8sIyDo> <http://webprotege.stanford.edu/RBtGdjTYKmFyfE0VtZX1bpp>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG> <http://webprotege.stanford.edu/RBtGdjTYKmFyfE0VtZX1bpp> "28.0"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70> <http://webprotege.stanford.edu/RBtGdjTYKmFyfE0VtZX1bpp> "7.0"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c> <http://webprotege.stanford.edu/RBtGdjTYKmFyfE0VtZX1bpp> "6.5"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW> <http://webprotege.stanford.edu/RBtGdjTYKmFyfE0VtZX1bpp> "Light Brown with Dark Brown spots"^^xsd:string)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RlbsgKOberIEPaV6Ds5KVb> <http://webprotege.stanford.edu/RBtGdjTYKmFyfE0VtZX1bpp> "Male"^^xsd:string)
+
+# Individual: <http://webprotege.stanford.edu/RCTdm9x46Y9R2iXjftI81yK> (Male Siberian Kitten)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RCTdm9x46Y9R2iXjftI81yK> "Male Siberian Kitten"^^xsd:string)
+ClassAssertion(<http://webprotege.stanford.edu/RBTq9A65CW50Tfx5mcJoBaF> <http://webprotege.stanford.edu/RCTdm9x46Y9R2iXjftI81yK>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG> <http://webprotege.stanford.edu/RCTdm9x46Y9R2iXjftI81yK> "10.0"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70> <http://webprotege.stanford.edu/RCTdm9x46Y9R2iXjftI81yK> "1.0"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c> <http://webprotege.stanford.edu/RCTdm9x46Y9R2iXjftI81yK> "1.2"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW> <http://webprotege.stanford.edu/RCTdm9x46Y9R2iXjftI81yK> "White"^^xsd:string)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RlbsgKOberIEPaV6Ds5KVb> <http://webprotege.stanford.edu/RCTdm9x46Y9R2iXjftI81yK> "Male"^^xsd:string)
+
+# Individual: <http://webprotege.stanford.edu/RCXUhragdGmOSebohVTnCld> (Female Turkish Van Cat)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RCXUhragdGmOSebohVTnCld> "Female Turkish Van Cat")
+ClassAssertion(<http://webprotege.stanford.edu/RB1fAs1s2kJ0lnUypg8rdCW> <http://webprotege.stanford.edu/RCXUhragdGmOSebohVTnCld>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG> <http://webprotege.stanford.edu/RCXUhragdGmOSebohVTnCld> "25.0"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70> <http://webprotege.stanford.edu/RCXUhragdGmOSebohVTnCld> "4.0"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c> <http://webprotege.stanford.edu/RCXUhragdGmOSebohVTnCld> "4.4"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW> <http://webprotege.stanford.edu/RCXUhragdGmOSebohVTnCld> "Black with White Spots"^^xsd:string)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RlbsgKOberIEPaV6Ds5KVb> <http://webprotege.stanford.edu/RCXUhragdGmOSebohVTnCld> "Female"^^xsd:string)
+
+# Individual: <http://webprotege.stanford.edu/RCduiysSLR13QFDVvbM7ybJ> (Female Korat Cat)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RCduiysSLR13QFDVvbM7ybJ> "Female Korat Cat"^^xsd:string)
+ClassAssertion(<http://webprotege.stanford.edu/RCC3tIa9vDvXsWCabi5re84> <http://webprotege.stanford.edu/RCduiysSLR13QFDVvbM7ybJ>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG> <http://webprotege.stanford.edu/RCduiysSLR13QFDVvbM7ybJ> "26.7"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70> <http://webprotege.stanford.edu/RCduiysSLR13QFDVvbM7ybJ> "4.0"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c> <http://webprotege.stanford.edu/RCduiysSLR13QFDVvbM7ybJ> "3.7"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW> <http://webprotege.stanford.edu/RCduiysSLR13QFDVvbM7ybJ> "Bluish Silver"^^xsd:string)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RlbsgKOberIEPaV6Ds5KVb> <http://webprotege.stanford.edu/RCduiysSLR13QFDVvbM7ybJ> "Female"^^xsd:string)
+
+# Individual: <http://webprotege.stanford.edu/RCn13vYf8iRbZoNbbp3In4> (Female American Wirehair Kitten)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RCn13vYf8iRbZoNbbp3In4> "Female American Wirehair Kitten"^^xsd:string)
+ClassAssertion(<http://webprotege.stanford.edu/R8KQ4AZpyCcrSDDucxoY9tt> <http://webprotege.stanford.edu/RCn13vYf8iRbZoNbbp3In4>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG> <http://webprotege.stanford.edu/RCn13vYf8iRbZoNbbp3In4> "12.0"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70> <http://webprotege.stanford.edu/RCn13vYf8iRbZoNbbp3In4> "0.5"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c> <http://webprotege.stanford.edu/RCn13vYf8iRbZoNbbp3In4> "0.6"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW> <http://webprotege.stanford.edu/RCn13vYf8iRbZoNbbp3In4> "white and grey"^^xsd:string)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RlbsgKOberIEPaV6Ds5KVb> <http://webprotege.stanford.edu/RCn13vYf8iRbZoNbbp3In4> "Female"^^xsd:string)
+
+# Individual: <http://webprotege.stanford.edu/RCnrsd0jm7bLBDMAH5yEjZU> (Male British Shorthair Cat)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RCnrsd0jm7bLBDMAH5yEjZU> "Male British Shorthair Cat")
+ClassAssertion(<http://webprotege.stanford.edu/RBLnXABJusxz8Ec0BTPYZYk> <http://webprotege.stanford.edu/RCnrsd0jm7bLBDMAH5yEjZU>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG> <http://webprotege.stanford.edu/RCnrsd0jm7bLBDMAH5yEjZU> "34.5"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70> <http://webprotege.stanford.edu/RCnrsd0jm7bLBDMAH5yEjZU> "5.0"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c> <http://webprotege.stanford.edu/RCnrsd0jm7bLBDMAH5yEjZU> "4.7"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW> <http://webprotege.stanford.edu/RCnrsd0jm7bLBDMAH5yEjZU> "Cinnamon Fawn Lilac"^^xsd:string)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RlbsgKOberIEPaV6Ds5KVb> <http://webprotege.stanford.edu/RCnrsd0jm7bLBDMAH5yEjZU> "Male"^^xsd:string)
+
+# Individual: <http://webprotege.stanford.edu/RCrY2aKKr0DOqrakqNcKI4D> (Male American Curl Cat)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RCrY2aKKr0DOqrakqNcKI4D> "Male American Curl Cat"^^xsd:string)
+ClassAssertion(<http://webprotege.stanford.edu/ReemWR6dAFGwiwanQQxHn6> <http://webprotege.stanford.edu/RCrY2aKKr0DOqrakqNcKI4D>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG> <http://webprotege.stanford.edu/RCrY2aKKr0DOqrakqNcKI4D> "24.0"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70> <http://webprotege.stanford.edu/RCrY2aKKr0DOqrakqNcKI4D> "2.4"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c> <http://webprotege.stanford.edu/RCrY2aKKr0DOqrakqNcKI4D> "2.3"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW> <http://webprotege.stanford.edu/RCrY2aKKr0DOqrakqNcKI4D> "white and grey"^^xsd:string)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RlbsgKOberIEPaV6Ds5KVb> <http://webprotege.stanford.edu/RCrY2aKKr0DOqrakqNcKI4D> "Male"^^xsd:string)
+
+# Individual: <http://webprotege.stanford.edu/RD2VZ7zo8dxTt0jVji1BuGc> (Male American Bobtail Cat)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RD2VZ7zo8dxTt0jVji1BuGc> "Male American Bobtail Cat"^^xsd:string)
+ClassAssertion(<http://webprotege.stanford.edu/R8H0kuTKZ31PoHJgzxEaP81> <http://webprotege.stanford.edu/RD2VZ7zo8dxTt0jVji1BuGc>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG> <http://webprotege.stanford.edu/RD2VZ7zo8dxTt0jVji1BuGc> "21.0"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70> <http://webprotege.stanford.edu/RD2VZ7zo8dxTt0jVji1BuGc> "3.0"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c> <http://webprotege.stanford.edu/RD2VZ7zo8dxTt0jVji1BuGc> "3.0"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW> <http://webprotege.stanford.edu/RD2VZ7zo8dxTt0jVji1BuGc> "Grey"^^xsd:string)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RlbsgKOberIEPaV6Ds5KVb> <http://webprotege.stanford.edu/RD2VZ7zo8dxTt0jVji1BuGc> "Male"^^xsd:string)
+
+# Individual: <http://webprotege.stanford.edu/RDcG4w5Y0i8Sji4Iv9NdAn7> (Male Russian Blue Cat)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RDcG4w5Y0i8Sji4Iv9NdAn7> "Male Russian Blue Cat")
+ClassAssertion(<http://webprotege.stanford.edu/RY2KRYsug31PcKQzeB9oUj> <http://webprotege.stanford.edu/RDcG4w5Y0i8Sji4Iv9NdAn7>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG> <http://webprotege.stanford.edu/RDcG4w5Y0i8Sji4Iv9NdAn7> "22.9"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70> <http://webprotege.stanford.edu/RDcG4w5Y0i8Sji4Iv9NdAn7> "5.0"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c> <http://webprotege.stanford.edu/RDcG4w5Y0i8Sji4Iv9NdAn7> "5.2"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW> <http://webprotege.stanford.edu/RDcG4w5Y0i8Sji4Iv9NdAn7> "Bluish Gray"^^xsd:string)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RlbsgKOberIEPaV6Ds5KVb> <http://webprotege.stanford.edu/RDcG4w5Y0i8Sji4Iv9NdAn7> "Male"^^xsd:string)
+
+# Individual: <http://webprotege.stanford.edu/RDqfZM3lwyj8NBbH9Fyz71A> (Male Tonkinese Kitten)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RDqfZM3lwyj8NBbH9Fyz71A> "Male Tonkinese Kitten")
+ClassAssertion(<http://webprotege.stanford.edu/R8iFgx5tbplYj9KQmyDU1LF> <http://webprotege.stanford.edu/RDqfZM3lwyj8NBbH9Fyz71A>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG> <http://webprotege.stanford.edu/RDqfZM3lwyj8NBbH9Fyz71A> "11.0"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70> <http://webprotege.stanford.edu/RDqfZM3lwyj8NBbH9Fyz71A> "0.25"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c> <http://webprotege.stanford.edu/RDqfZM3lwyj8NBbH9Fyz71A> "1.1"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW> <http://webprotege.stanford.edu/RDqfZM3lwyj8NBbH9Fyz71A> "White with Grey shading at limbs"^^xsd:string)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RlbsgKOberIEPaV6Ds5KVb> <http://webprotege.stanford.edu/RDqfZM3lwyj8NBbH9Fyz71A> "Male"^^xsd:string)
+
+# Individual: <http://webprotege.stanford.edu/RHHL0nxUXdLzmELUsadNxw> (Female Manx Kitten)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RHHL0nxUXdLzmELUsadNxw> "Female Manx Kitten"^^xsd:string)
+ClassAssertion(<http://webprotege.stanford.edu/RDAxkWffeiLrvLnYzc81FL> <http://webprotege.stanford.edu/RHHL0nxUXdLzmELUsadNxw>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG> <http://webprotege.stanford.edu/RHHL0nxUXdLzmELUsadNxw> "20.0"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70> <http://webprotege.stanford.edu/RHHL0nxUXdLzmELUsadNxw> "0.9"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c> <http://webprotege.stanford.edu/RHHL0nxUXdLzmELUsadNxw> "1.4"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW> <http://webprotege.stanford.edu/RHHL0nxUXdLzmELUsadNxw> "white, black and orange"^^xsd:string)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RlbsgKOberIEPaV6Ds5KVb> <http://webprotege.stanford.edu/RHHL0nxUXdLzmELUsadNxw> "Female"^^xsd:string)
+
+# Individual: <http://webprotege.stanford.edu/RHNc05vXZlQGkRgBoVX4hS> (Male Bengal Kitten)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RHNc05vXZlQGkRgBoVX4hS> "Male Bengal Kitten")
+ClassAssertion(<http://webprotege.stanford.edu/RCujr9ySNGzufhH2YKTrUSO> <http://webprotege.stanford.edu/RHNc05vXZlQGkRgBoVX4hS>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG> <http://webprotege.stanford.edu/RHNc05vXZlQGkRgBoVX4hS> "10.0"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70> <http://webprotege.stanford.edu/RHNc05vXZlQGkRgBoVX4hS> "0.25"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c> <http://webprotege.stanford.edu/RHNc05vXZlQGkRgBoVX4hS> "1.5"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW> <http://webprotege.stanford.edu/RHNc05vXZlQGkRgBoVX4hS> "Light Brown with Brown spots"^^xsd:string)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RlbsgKOberIEPaV6Ds5KVb> <http://webprotege.stanford.edu/RHNc05vXZlQGkRgBoVX4hS> "Male"^^xsd:string)
+
+# Individual: <http://webprotege.stanford.edu/RLD0Nu1XupwGgTy0MzTEZ8> (Male Abyssinian Kitten)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RLD0Nu1XupwGgTy0MzTEZ8> "Male Abyssinian Kitten"^^xsd:string)
+ClassAssertion(<http://webprotege.stanford.edu/RDOOdCUIo7BBz17KvbpyZmr> <http://webprotege.stanford.edu/RLD0Nu1XupwGgTy0MzTEZ8>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG> <http://webprotege.stanford.edu/RLD0Nu1XupwGgTy0MzTEZ8> "13.0"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70> <http://webprotege.stanford.edu/RLD0Nu1XupwGgTy0MzTEZ8> "1.0"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c> <http://webprotege.stanford.edu/RLD0Nu1XupwGgTy0MzTEZ8> "1.2"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW> <http://webprotege.stanford.edu/RLD0Nu1XupwGgTy0MzTEZ8> "Ruddy"^^xsd:string)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RlbsgKOberIEPaV6Ds5KVb> <http://webprotege.stanford.edu/RLD0Nu1XupwGgTy0MzTEZ8> "Male"^^xsd:string)
+
+# Individual: <http://webprotege.stanford.edu/RLJ1x5Ry1sIFKh7PmV69Ho> (Male Khao Manee Kitten)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RLJ1x5Ry1sIFKh7PmV69Ho> "Male Khao Manee Kitten")
+ClassAssertion(<http://webprotege.stanford.edu/RWvwFPT7GuiA1rWZDpU83W> <http://webprotege.stanford.edu/RLJ1x5Ry1sIFKh7PmV69Ho>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG> <http://webprotege.stanford.edu/RLJ1x5Ry1sIFKh7PmV69Ho> "16.5"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70> <http://webprotege.stanford.edu/RLJ1x5Ry1sIFKh7PmV69Ho> "1.0"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c> <http://webprotege.stanford.edu/RLJ1x5Ry1sIFKh7PmV69Ho> "1.8"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW> <http://webprotege.stanford.edu/RLJ1x5Ry1sIFKh7PmV69Ho> "White"^^xsd:string)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RlbsgKOberIEPaV6Ds5KVb> <http://webprotege.stanford.edu/RLJ1x5Ry1sIFKh7PmV69Ho> "Male"^^xsd:string)
+
+# Individual: <http://webprotege.stanford.edu/RM0oXrURETdh3D6XJApFZq> (Male Toybob Cat)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RM0oXrURETdh3D6XJApFZq> "Male Toybob Cat"^^xsd:string)
+ClassAssertion(<http://webprotege.stanford.edu/RCXJEQePnG2lgqc6U33kyiG> <http://webprotege.stanford.edu/RM0oXrURETdh3D6XJApFZq>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG> <http://webprotege.stanford.edu/RM0oXrURETdh3D6XJApFZq> "15.0"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70> <http://webprotege.stanford.edu/RM0oXrURETdh3D6XJApFZq> "5.4"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c> <http://webprotege.stanford.edu/RM0oXrURETdh3D6XJApFZq> "1.1"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW> <http://webprotege.stanford.edu/RM0oXrURETdh3D6XJApFZq> "brown and grey"^^xsd:string)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RlbsgKOberIEPaV6Ds5KVb> <http://webprotege.stanford.edu/RM0oXrURETdh3D6XJApFZq> "Male"^^xsd:string)
+
+# Individual: <http://webprotege.stanford.edu/RT1cLPJzAeYEyJk9zqbypP> (Male Chartreux Cat)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RT1cLPJzAeYEyJk9zqbypP> "Male Chartreux Cat")
+ClassAssertion(<http://webprotege.stanford.edu/RCkzgvU7WWg6bcLHiyEnB90> <http://webprotege.stanford.edu/RT1cLPJzAeYEyJk9zqbypP>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG> <http://webprotege.stanford.edu/RT1cLPJzAeYEyJk9zqbypP> "26.0"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70> <http://webprotege.stanford.edu/RT1cLPJzAeYEyJk9zqbypP> "4.0"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c> <http://webprotege.stanford.edu/RT1cLPJzAeYEyJk9zqbypP> "5.5"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW> <http://webprotege.stanford.edu/RT1cLPJzAeYEyJk9zqbypP> "Bluish Gray"^^xsd:string)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RlbsgKOberIEPaV6Ds5KVb> <http://webprotege.stanford.edu/RT1cLPJzAeYEyJk9zqbypP> "Male"^^xsd:string)
+
+# Individual: <http://webprotege.stanford.edu/RTq2Pp888qYPTYwJHxJ5VL> (Female Somali Kitten)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RTq2Pp888qYPTYwJHxJ5VL> "Female Somali Kitten"^^xsd:string)
+ClassAssertion(<http://webprotege.stanford.edu/R9xcQt4KBCmuhI77fg3WP1> <http://webprotege.stanford.edu/RTq2Pp888qYPTYwJHxJ5VL>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG> <http://webprotege.stanford.edu/RTq2Pp888qYPTYwJHxJ5VL> "13.0"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70> <http://webprotege.stanford.edu/RTq2Pp888qYPTYwJHxJ5VL> "0.3"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c> <http://webprotege.stanford.edu/RTq2Pp888qYPTYwJHxJ5VL> "0.3"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW> <http://webprotege.stanford.edu/RTq2Pp888qYPTYwJHxJ5VL> "sorrel (red)"^^xsd:string)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RlbsgKOberIEPaV6Ds5KVb> <http://webprotege.stanford.edu/RTq2Pp888qYPTYwJHxJ5VL> "Female"^^xsd:string)
+
+# Individual: <http://webprotege.stanford.edu/RfnPMFzAenZNtd3qF0skoI> (Male Exotic Cat)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RfnPMFzAenZNtd3qF0skoI> "Male Exotic Cat")
+ClassAssertion(<http://webprotege.stanford.edu/R80cfWP1G95crRfJeDyrYIU> <http://webprotege.stanford.edu/RfnPMFzAenZNtd3qF0skoI>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG> <http://webprotege.stanford.edu/RfnPMFzAenZNtd3qF0skoI> "26.0"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70> <http://webprotege.stanford.edu/RfnPMFzAenZNtd3qF0skoI> "7.0"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c> <http://webprotege.stanford.edu/RfnPMFzAenZNtd3qF0skoI> "5.2"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW> <http://webprotege.stanford.edu/RfnPMFzAenZNtd3qF0skoI> "Orange with stripes"^^xsd:string)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RlbsgKOberIEPaV6Ds5KVb> <http://webprotege.stanford.edu/RfnPMFzAenZNtd3qF0skoI> "Male"^^xsd:string)
+
+# Individual: <http://webprotege.stanford.edu/RgQco90XMIdMptDAXAHb8b> (Female Siamese Cat)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RgQco90XMIdMptDAXAHb8b> "Female Siamese Cat"^^xsd:string)
+ClassAssertion(<http://webprotege.stanford.edu/RC7CxJQEjHju3nGIxdXKu4s> <http://webprotege.stanford.edu/RgQco90XMIdMptDAXAHb8b>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG> <http://webprotege.stanford.edu/RgQco90XMIdMptDAXAHb8b> "30.0"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70> <http://webprotege.stanford.edu/RgQco90XMIdMptDAXAHb8b> "4.0"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c> <http://webprotege.stanford.edu/RgQco90XMIdMptDAXAHb8b> "2.3"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW> <http://webprotege.stanford.edu/RgQco90XMIdMptDAXAHb8b> "white and black"^^xsd:string)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RlbsgKOberIEPaV6Ds5KVb> <http://webprotege.stanford.edu/RgQco90XMIdMptDAXAHb8b> "Female"^^xsd:string)
+
+# Individual: <http://webprotege.stanford.edu/Rptau8MHivP1Wr2JDTovoe> (Female Sphynx Kitten)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/Rptau8MHivP1Wr2JDTovoe> "Female Sphynx Kitten"^^xsd:string)
+ClassAssertion(<http://webprotege.stanford.edu/RDlf3Ui74qgUetAWcmm2c3C> <http://webprotege.stanford.edu/Rptau8MHivP1Wr2JDTovoe>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG> <http://webprotege.stanford.edu/Rptau8MHivP1Wr2JDTovoe> "20.0"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70> <http://webprotege.stanford.edu/Rptau8MHivP1Wr2JDTovoe> "0.9"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c> <http://webprotege.stanford.edu/Rptau8MHivP1Wr2JDTovoe> "1.2"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW> <http://webprotege.stanford.edu/Rptau8MHivP1Wr2JDTovoe> "creamy brown"^^xsd:string)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RlbsgKOberIEPaV6Ds5KVb> <http://webprotege.stanford.edu/Rptau8MHivP1Wr2JDTovoe> "Female"^^xsd:string)
+
+# Individual: <http://webprotege.stanford.edu/Rvrj9o2sFMy9SNTMyVVXBD> (Male Balinese Cat)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/Rvrj9o2sFMy9SNTMyVVXBD> "Male Balinese Cat"^^xsd:string)
+ClassAssertion(<http://webprotege.stanford.edu/RDThoBbdkIyicN500nY18pp> <http://webprotege.stanford.edu/Rvrj9o2sFMy9SNTMyVVXBD>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG> <http://webprotege.stanford.edu/Rvrj9o2sFMy9SNTMyVVXBD> "23.0"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70> <http://webprotege.stanford.edu/Rvrj9o2sFMy9SNTMyVVXBD> "3.0"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c> <http://webprotege.stanford.edu/Rvrj9o2sFMy9SNTMyVVXBD> "2.4"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW> <http://webprotege.stanford.edu/Rvrj9o2sFMy9SNTMyVVXBD> "white"^^xsd:string)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RlbsgKOberIEPaV6Ds5KVb> <http://webprotege.stanford.edu/Rvrj9o2sFMy9SNTMyVVXBD> "Male"^^xsd:string)
+
+# Individual: <http://webprotege.stanford.edu/RwafP7XIVbdDDwSYXSoY17> (Female Colorpoint Shorthair Kitten)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RwafP7XIVbdDDwSYXSoY17> "Female Colorpoint Shorthair Kitten")
+ClassAssertion(<http://webprotege.stanford.edu/Rbbm3Wh2cCUcyKwWRPw2a8> <http://webprotege.stanford.edu/RwafP7XIVbdDDwSYXSoY17>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RBxu12As84trKAAlPNMH8WG> <http://webprotege.stanford.edu/RwafP7XIVbdDDwSYXSoY17> "15.0"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDTogLYCnK2xbcLIheRCZ70> <http://webprotege.stanford.edu/RwafP7XIVbdDDwSYXSoY17> "0.5"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDXeeg4yAd91e603fcnBk6c> <http://webprotege.stanford.edu/RwafP7XIVbdDDwSYXSoY17> "1.5"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDsXhJmXHoM0ab4L5Y6UHJW> <http://webprotege.stanford.edu/RwafP7XIVbdDDwSYXSoY17> "Off-White"^^xsd:string)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RlbsgKOberIEPaV6Ds5KVb> <http://webprotege.stanford.edu/RwafP7XIVbdDDwSYXSoY17> "Male"^^xsd:string)
+
+
+)
